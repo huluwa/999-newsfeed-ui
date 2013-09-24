@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:orientation="vertical"
+    android:background="@drawable/twitter_tweets_bg">
+     
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">       
+        
+                     <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="fill_parent"     
+                     android:layout_gravity="left"       
+                     android:orientation="vertical">      
+	                    <ImageView android:id="@+id/tweet_img_ui"
+	                    android:layout_width="50dip"
+	                    android:layout_height="50dip"                
+	                    android:layout_gravity="left"
+	                    android:paddingLeft="5dip"
+	                    android:layout_alignParentLeft="true"
+	                    android:background="#00000000"/>
+	                </LinearLayout>
+	                
+                    <LinearLayout
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"     
+                     android:layout_gravity="right"       
+                     android:orientation="vertical">    
+		             <Button
+		                android:id="@+id/follow_do"
+		                android:layout_width="wrap_content"
+		                android:layout_height="48dip"
+		                android:paddingRight="5dip"
+		                android:textSize="13dip"
+		                style="?android:attr/buttonStyleSmall"
+		                android:layout_gravity="right"
+		                android:textColor="@color/twitter_btn_text_color"
+		                android:layout_centerVertical="true" />
+		           </LinearLayout>
+   
+     </LinearLayout>
+     <View
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:layout_weight="1" />
+            
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">    
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"     
+                        android:layout_gravity="left"       
+                        android:orientation="vertical">         
+                            
+		                 <TextView android:id="@+id/tweet_user_name"
+		                 android:layout_width="wrap_content"
+		                 android:layout_height="wrap_content"
+		                 android:gravity="left"              
+		                 android:paddingLeft="5dip"                       
+                         android:linksClickable="false"
+                         android:layout_weight="1"
+                         android:textAppearance="@style/sns_username"
+		                 android:layout_alignParentLeft="true"/>
+		             </LinearLayout>
+		             
+		             <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"    
+                        android:layout_gravity="right"           
+                        android:orientation="vertical">     
+			                 <TextView android:id="@+id/tweet_publish_time"
+			                 android:layout_width="wrap_content"
+			                 android:layout_height="fill_parent"
+			                 android:layout_gravity="right"
+		                     android:linksClickable="false"
+                             android:layout_weight="1" 
+                             android:textAppearance="@style/sns_time"   
+			                 android:layout_alignParentRight="true"/>
+			         </LinearLayout>	                             
+    </LinearLayout>
+      
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_weight="1"/>
+                      
+
+            
+   <TextView android:id="@+id/tweet_publish_text"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="left"
+             android:paddingLeft="5dip"                      
+             android:linksClickable="true"
+             android:autoLink="all"             
+             android:textAppearance="@style/sns_text"/>
+   
+   <ListView android:id="@+id/twitter_info_list"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/divider" 
+        android:paddingTop="10dip"
+        android:paddingLeft="5dip" 
+        android:listSelector="@drawable/list_selector_background"
+        android:cacheColorHint="#00000000" />
+        
+</LinearLayout>
+                

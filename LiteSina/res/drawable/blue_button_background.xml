@@ -1,0 +1,35 @@
+<!-- 
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_window_focused="false"
+        android:drawable="@drawable/button_blue_normal" />
+
+    <item android:state_focused="true" android:state_pressed="true"
+        android:drawable="@drawable/button_blue_hl" />
+    <item android:state_focused="false" android:state_pressed="true"
+        android:drawable="@drawable/button_blue_hl" />
+    <item android:state_selected="true"
+        android:drawable="@drawable/button_blue_normal" />
+
+    <item android:state_focused="true"
+        android:drawable="@drawable/button_blue_normal" />
+
+</selector>
+ -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_window_focused="false"
+        android:drawable="@drawable/twitter_btn_normal" />
+
+    <item android:state_focused="true" android:state_pressed="true"
+        android:drawable="@drawable/twitter_btn_pressed" />
+    <item android:state_focused="false" android:state_pressed="true"
+        android:drawable="@drawable/twitter_btn_pressed" />
+    <item android:state_selected="true"
+        android:drawable="@drawable/twitter_btn_normal" />
+
+    <item android:state_focused="true"
+        android:drawable="@drawable/twitter_btn_normal" />
+
+</selector>

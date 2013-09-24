@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="5dip"
+    android:paddingRight="7dip"
+    android:paddingTop="3dip">
+    
+    <TextView android:id="@+id/facebook_publish_time"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="left"                                                                               
+             android:linksClickable="false"
+             android:textAppearance="@style/sns_time"
+             android:paddingTop="3px"
+             android:layout_weight="1"/>
+                    
+   <TextView android:id="@+id/facebook_publish_text"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="left"        
+              android:layout_below="@+id/facebook_publish_time"            
+              android:linksClickable="false"
+              android:paddingTop="3px"
+              android:textAppearance="@style/sns_text"
+              android:autoLink="all"
+              android:layout_weight="1"/>                    
+
+</RelativeLayout>

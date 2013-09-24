@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"               
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:background="@color/facebook_backgroud">
+        
+<include layout="@layout/facebook_header_fast">
+</include>
+     
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+    android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+    android:scrollbarStyle="outsideOverlay"
+    android:background="@color/facebook_backgroud">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+       <!-- cmnew_setting_help -->
+           <TextView android:id="@+id/contact_lable"
+            style="@style/cmnew_setting_help"
+            android:text="@string/cmnew_setting_help_label_text"/>
+
+       <TextView android:id="@+id/contact_email_lable"
+            style="@style/account_label"
+            android:text="@string/facebook_set_contact_email"
+            android:layout_below="@id/contact_lable" />
+
+       <EditText android:id="@+id/contact_email"
+            style="@style/account_field"
+            android:paddingLeft = "20px"
+            android:autoText="false"
+            android:capitalize="none"
+            android:layout_below="@id/contact_email_lable"/>
+
+        <!-- cell -->
+        <TextView android:id="@+id/contact_cell_lable"
+            style="@style/account_label"
+            android:text="@string/contact_cell_lable_text"
+            android:layout_below="@id/contact_email" />
+
+        <EditText android:id="@+id/contact_cell"
+            style="@style/account_field"
+            android:paddingLeft = "20px"
+            android:autoText="false"                   
+            android:layout_below="@id/contact_cell_lable"/>
+            
+        <!-- other -->
+        <TextView android:id="@+id/contact_other_lable"
+            style="@style/account_label"
+            android:text="@string/contact_other_lable_text"
+            android:layout_below="@id/contact_cell" />
+
+        <EditText android:id="@+id/contact_other"
+            style="@style/account_field"
+            android:autoText="false"
+            android:paddingLeft = "20px"
+            android:capitalize="none"            
+            android:layout_below="@id/contact_other_lable"/>
+
+         <!-- status get contact from web -->
+         <TextView
+			android:id="@+id/facebook_get_contact"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/contact_other"
+			android:layout_alignParentLeft="true"
+			style="@style/account_label"/>
+        <!-- Setup button -->
+        <Button android:id="@+id/contact_setup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dip"
+            android:paddingRight="4dip"
+            android:text="@string/facebook_contact_set"
+            android:textSize="20dip"
+            android:background="@drawable/blue_button_background"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/contact_other" />
+     </RelativeLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 
+    <PreferenceCategory
+        android:title="@string/pref_twitter_category">
+        
+                <EditTextPreference 
+                android:key="key_twitter_accout"                
+                android:singleLine="true"
+                 android:visibility="gone" />
+         
+           
+                <EditTextPreference
+                android:key="key_twitter_uid"                
+                android:singleLine="true" />
+                                  
+                <EditTextPreference
+                android:key="key_twitter_pwd"                
+                android:singleLine="true" 
+                android:inputType="textPassword"/>  
+                  
+           
+    </PreferenceCategory>
+      -->   
+    <PreferenceCategory
+        android:title="@string/pref_twitter_specific_category">
+               <!--  
+                <EditTextPreference
+                android:key="key_twitter_view_count"                
+                android:singleLine="true" 
+                android:inputType="phone"/>
+                -->
+                <EditTextPreference
+                android:key="key_follow_view_count"                
+                android:singleLine="true"
+                android:inputType="phone" />                
+                
+                <EditTextPreference
+                android:key="key_tweet_view_timeout"                
+                android:singleLine="true" 
+                android:inputType="phone"/>
+                
+                <EditTextPreference
+                android:key="key_trend_view_timeout"                
+                android:singleLine="true"
+                android:inputType="phone" />
+    </PreferenceCategory>               
+      <PreferenceCategory  android:title="@string/pref_adv_setting">
+      <!-- 
+           <CheckBoxPreference android:key="key_twitter_show_on_homescreen"             
+                android:singleLine="true" />
+                -->
+           <CheckBoxPreference android:key="key_twitter_use_https_connection"             
+                android:singleLine="true" />  
+           <CheckBoxPreference android:key="key_twitter_upload_photo_size"             
+                android:singleLine="true" />       
+                
+           <CheckBoxPreference android:key="key_twitter_load_photo_auto"             
+                android:singleLine="true" />           
+    </PreferenceCategory>
+    
+    
+    
+</PreferenceScreen>

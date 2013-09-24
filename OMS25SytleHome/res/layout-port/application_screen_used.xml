@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/name"
+    android:layout_width="@dimen/allapps_cell_width"
+    android:layout_height="@dimen/allapps_cell_height"
+    
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingBottom="0dp"
+    android:paddingTop="@dimen/allapps_text_paddingTop" 
+    android:drawablePadding="@dimen/allapps_text_drawablePadding" 
+    android:background="@drawable/application_selector"
+    android:textColor="#FFFFFF"
+    android:textSize="13dip"
+    android:maxLines="2"
+    android:gravity="top|center_horizontal" />
+    
+    <!--  android:background="@drawable/application_selector" -->
+    
+    <!--  android:layout_height="@dimen/allapps_cell_height" -->

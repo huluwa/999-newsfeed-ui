@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/twitter_tweets_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  
+    android:keepScreenOn="false"
+    android:background="#ffffff">
+    <!--
+    android:background="@drawable/twitter_tweets_bg" 
+     -->
+     
+     <include layout="@layout/twitter_action"/>
+    
+    <LinearLayout
+	    android:id="@+id/twitter_trend_search_span"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="top"
+	    android:visibility="gone">
+	      <Button
+                android:id="@+id/search_do"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:gravity="center_vertical"
+                android:nextFocusRight="@+id/embedded_text_editor"
+                style="?android:attr/buttonStyleSmall"  
+                android:background="@drawable/cmcc_search_button_2_nor"             
+                android:layout_centerVertical="true" 
+                android:visibility="gone"/>
+                	      
+	           <EditText
+	               android:id="@+id/embedded_text_editor"
+	               android:layout_width="fill_parent"	    
+	               android:layout_height="wrap_content"     
+	               android:autoText="true"	     
+	               android:focusable="true"    
+	               android:focusableInTouchMode="true"   
+	               android:hint="@string/edit_text_hint"
+	               android:capitalize="sentences"
+                   android:maxLines="1"
+                   android:singleLine="true"
+                   android:paddingLeft = "50dp"
+                   android:imeOptions="actionSend"
+                   android:imeActionLabel="@string/twitter_message_title_update"                   
+                   android:background = "@drawable/searchbar_old"
+                   android:drawableRight="@drawable/search"
+                   android:drawablePadding="10dp"
+                   android:scrollHorizontally="true"/>
+                      
+    </LinearLayout>
+    <LinearLayout 
+            android:id="@+id/twitter_info_span"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_gravity = "center_vertical"
+            android:background="@drawable/slide_bar"
+            android:visibility="gone">
+            <TextView android:id="@+id/twitter_info"
+                android:textSize = "18dip"
+                android:layout_gravity = "center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+    </LinearLayout> 
+    <!-- Tweets update info span -->
+    <LinearLayout
+	    android:id="@+id/twitter_compose_span"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:paddingTop="10dp"	
+	    android:paddingLeft="10dp"        
+	    android:visibility="gone">   
+	    <LinearLayout     
+            android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:paddingTop="3dp"
+	        android:gravity = "bottom">
+		      <LinearLayout
+		       android:id="@+id/pre_next_controller"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:layout_weight="1.0"
+		       android:gravity = "bottom"       
+		       android:orientation="horizontal">
+		          <EditText
+		               android:id="@+id/twitter_tweet_message_editor"
+		               android:layout_width="fill_parent"       
+		               android:layout_height="wrap_content"
+		               android:minHeight="50dp"   
+		               android:autoText="true"                 
+		               android:capitalize="sentences"
+		               android:maxLines="10"
+		               android:textColor="#000000"
+		               android:nextFocusRight="@+id/status_update"
+		               android:layout_gravity="center_vertical"/>       
+		       </LinearLayout>  
+		      <Button android:id="@+id/status_update"
+		             android:layout_width="90dp"
+		             android:layout_height="50dp"
+		             android:textSize="16dp"
+		             android:textColor="#000000"
+		             android:background="@drawable/twitter_button_background"     
+		             android:layout_alignParentRight="true"   
+		             android:text="@string/twitter_message_title_update"    
+		             android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+        <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+		        <TextView
+		          android:id="@+id/tweets_message_text_counter"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+		          android:textColor="#000000" 
+		          android:textStyle="bold"
+		          android:paddingTop="5dp"
+		          android:textSize="20dp"
+		          android:layout_alignParentLeft="true"     
+		          android:text="@string/twitter_default_count"
+		          android:layout_gravity="center_vertical|left"/>
+          
+                <Button android:id="@+id/up_top"
+                  android:layout_width="wrap_content"
+                  android:layout_marginLeft="80dp"
+                  android:layout_height="wrap_content"                  
+                  android:layout_gravity="center_vertical"
+                  style="?android:attr/buttonStyleSmall"
+                  android:background="@drawable/ic_media_previous"
+                  android:layout_toLeftOf="@id/tweets_message_text_counter"
+                  >
+                </Button>
+                <!-- android:background="@drawable/ic_media_previous"-->  
+                
+                <Button android:id="@+id/up_bottom"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/ic_media_next"
+                  style="?android:attr/buttonStyleSmall"      
+                  android:layout_marginLeft="40dp"     
+                  android:layout_gravity="center_vertical"
+                  android:layout_toLeftOf="@id/up_top">
+                </Button>
+       </LinearLayout>
+    </LinearLayout>
+    
+   <ListView android:id="@+id/twitter_tweets_list"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"  
+        android:layout_weight="1"
+        android:divider="@drawable/divider" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:listSelector="@drawable/twitter_selector_background_pressed"
+        android:cacheColorHint="#00000000" />
+         <!-- android:background="@drawable/list_selector_background_twitter" -->
+        <!-- 
+    <LinearLayout
+        android:id="@+id/twitter_compose_span"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:layout_gravity="bottom"
+        android:visibility="gone">    
+              <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:addStatesFromChildren="true">                   
+		              <EditText
+		              android:id="@+id/twitter_tweet_message_editor"
+		              android:layout_width="fill_parent"       
+		              android:layout_height="wrap_content"     
+		              android:autoText="true"                 
+		              android:capitalize="sentences"
+		              android:imeOptions="actionSend"
+		              android:maxLines="10"
+		              android:textColor="#000000"
+		              android:nextFocusRight="@+id/status_update"
+		              android:scrollHorizontally="false"/>
+                      <TextView
+                       android:id="@+id/tweets_message_text_counter"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/textcounter" 
+                       android:textSize="9sp"
+                       android:paddingRight="5sp"
+                       android:layout_alignParentRight="true"
+                       android:layout_alignParentTop="true"
+                        />
+              </RelativeLayout>
+              <Button android:id="@+id/status_update"
+                  android:layout_width="55dip"
+                  android:layout_height="48dip"
+                  android:textSize="13dip"
+                  style="?android:attr/buttonStyleSmall"
+                  android:layout_gravity="right"
+                  android:nextFocusLeft="@+id/embedded_text_editor"
+                  android:visibility="gone"
+          />                      
+   </LinearLayout>
+   -->
+</LinearLayout>

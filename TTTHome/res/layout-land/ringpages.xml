@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.tormas.home.RotateTexturesView
+        android:id="@+id/glrenderview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:nextFocusDown="@+id/glrenderview"
+        android:nextFocusUp="@+id/glrenderview"
+        android:nextFocusLeft="@+id/add_page"
+        android:nextFocusRight="@+id/setDefaultPage"
+        android:focusable="true"
+        />
+
+    <RelativeLayout
+    	android:id="@+id/buttons_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+		<TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="@dimen/button_bar_height"
+        	android:layout_alignParentTop="true"
+        	android:layout_centerHorizontal="true"
+        	android:textSize="18sp"
+        	android:textColor="#000000"
+        	android:gravity="center"/>
+
+
+		<TextView
+        	android:id="@+id/cur_page"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:textSize="18sp"
+        	android:textColor="#000000"
+        	android:gravity="center"
+        	android:background="@drawable/number_back"/>
+
+
+		    <!-- android:textSize="@dimen/default_page_text_size" -->
+
+    	<ImageView
+        	android:id="@+id/add_page"
+        	android:layout_width="@dimen/button_bar_width"
+        	android:layout_height="@dimen/button_bar_height"
+        	android:layout_alignParentRight="true"
+        	android:layout_alignParentTop="true"        	
+        	android:src="@drawable/cmcc_switch_add"  
+        	android:background="@drawable/bottom_button_right_background"
+        	android:focusable="true"
+        	android:clickable="true"
+        	android:nextFocusLeft="@+id/glrenderview"
+			android:onClick="addPage"  />
+
+        <ImageView
+        	android:id="@+id/remove_page"
+        	android:layout_width="@dimen/button_bar_width"
+        	android:layout_height="@dimen/button_bar_height"
+        	android:layout_alignParentBottom="true"
+        	android:layout_alignParentRight="true"  
+        	android:src="@drawable/cmcc_switch_delete"  
+        	android:background="@drawable/bottom_button_left_background"
+        	android:focusable="true"
+        	android:clickable="true" 
+        	android:nextFocusLeft="@+id/glrenderview"
+			android:onClick="removePage"/>
+
+		<com.tormas.home.DefautPageTextView
+        	android:id="@+id/setDefaultPage"
+        	android:layout_width="@dimen/button_bar_width"
+        	android:layout_height="@dimen/button_bar_height"
+        	android:layout_alignParentRight="true"
+        	android:layout_centerVertical="true"        	
+        	android:gravity="center"
+        	android:textSize="@dimen/defaultpage_textSize"
+        	android:background="@drawable/cmcc_home_bottom_call_background"
+        	android:focusable="true"
+        	android:clickable="true"
+        	android:ellipsize="end"
+            android:maxLines="1"
+        	android:nextFocusLeft="@+id/glrenderview"
+		    android:onClick="CurPage"/>
+    </RelativeLayout>
+</merge>
+

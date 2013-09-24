@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"        
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingRight="7dip"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip">       
+        	      
+       <ImageView android:id="@+id/tweet_img_ui"
+             android:layout_width="50dip"
+             android:layout_height="50dip"
+             android:layout_alignParentTop="true"
+             android:layout_alignParentLeft="true"/>
+                 
+        <TextView android:id="@+id/tweet_user_name"
+              android:gravity="top"                    
+              android:layout_width="wrap_content"
+              android:layout_alignParentTop="true"
+              android:layout_height="wrap_content"    
+              android:layout_toRightOf="@+id/tweet_img_ui"
+              android:paddingLeft="5dp"                        
+              android:linksClickable="false"
+              android:textAppearance="@style/sns_big_username_blue"
+              android:autoLink="all" 
+              android:layout_weight="1"/>        
+		<TextView android:id="@+id/tweet_publish_text"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"              
+              android:layout_below="@+id/tweet_user_name"
+              android:layout_toRightOf="@+id/tweet_img_ui"
+              android:linksClickable="false"
+              android:paddingLeft="5dp"              
+              android:autoLink="all"
+              android:textAppearance="@style/sns_notify_text"  
+              android:layout_weight="1"/>   
+              
+        <TextView android:id="@+id/tweet_publish_time"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"                  
+              android:linksClickable="false"
+              android:textAppearance="@style/sns_time"  
+              android:layout_weight="1"
+              android:paddingTop="1dp"
+              android:layout_toRightOf="@+id/tweet_img_ui"
+              android:paddingLeft="5dp"
+              android:layout_below="@+id/tweet_publish_text"/>  
+              
+                	      
+       <ImageView android:id="@+id/tweet_img_pic_ui"
+             android:layout_width="13dip"
+             android:layout_height="11dip"
+             android:layout_alignParentTop="true"
+             android:layout_alignParentRight="true"
+             android:paddingRight="5dp"   
+             android:visibility="gone"/>
+             
+       <RelativeLayout  
+             android:id="@+id/comments"
+             android:layout_width="fill_parent"
+             android:paddingLeft="5dip"
+             android:paddingTop="10dip"
+             android:paddingBottom="5dip"
+             android:layout_toRightOf="@+id/tweet_img_ui"
+             android:layout_below="@+id/tweet_publish_time"
+             android:layout_height="wrap_content">  
+            
+             <TextView android:id="@+id/facebook_stream_comments"
+             android:layout_width="110dip"
+             android:layout_height="wrap_content"
+             android:textSize="16dip"             
+             android:textColor="@color/stream_comments"                         
+             android:layout_gravity="left"
+             android:gravity="left"             
+             android:background="#00000000"
+             android:drawableLeft="@drawable/ic_comment"
+             android:nextFocusRight="@+id/facebook_stream_like"/>
+             <!-- android:text="@string/sns_add_comment" -->
+             
+             <View  android:id="@+id/facebook_comment_sp"
+                    android:layout_width="5dp"
+                    android:layout_toRightOf="@+id/facebook_stream_comments"
+                    android:layout_height="wrap_content"/>
+                    
+             <TextView android:id="@+id/facebook_stream_like" 
+             android:layout_width="90dip"
+             android:layout_height="wrap_content"             
+             android:background="#00000000"
+             android:textColor="@color/stream_comments"  
+             android:textSize="16dip"             
+             android:gravity="left"
+             android:text="@string/sns_like"
+             android:layout_toRightOf="@+id/facebook_comment_sp"             
+             android:drawableLeft="@drawable/ic_like"             
+             android:layout_alignParentTop="true"/>  
+             
+           <View  android:id="@+id/facebook_comment_sp2"
+                    android:layout_width="5dp"
+                    android:layout_toRightOf="@+id/facebook_stream_like"
+                    android:layout_height="wrap_content"/>
+                    
+             <ImageView android:id="@+id/facebook_photo_fetch"
+             android:layout_width="90dip"
+             android:layout_height="wrap_content"             
+             android:textSize="16dip"                                      
+             android:layout_gravity="left"
+             android:textColor="@color/stream_comments"
+             android:background="#00000000"
+             android:drawableLeft="@drawable/pic" 
+             android:textStyle="bold"
+             android:layout_toRightOf="@+id/facebook_comment_sp2"/>           
+          </RelativeLayout>
+          
+          <ImageView android:id="@+id/tweet_pic_res"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@+id/tweet_img_ui"
+             android:layout_below="@+id/comments"   
+             android:layout_gravity="center_horizontal"          
+             android:visibility="gone"/>
+</RelativeLayout>   

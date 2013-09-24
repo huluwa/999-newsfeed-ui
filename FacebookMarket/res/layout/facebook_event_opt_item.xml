@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"        
+        android:layout_height="fill_parent"
+        android:paddingLeft="15px">              
+    <TextView android:id="@+id/facebook_opt_name"
+                 android:layout_width="wrap_content"
+                 android:layout_height="fill_parent"           
+                 android:gravity="center_vertical"  
+                 android:layout_gravity="center_vertical"                                                     
+                 android:linksClickable="false"
+                 android:textAppearance="@style/sns_text_blue"/>
+     <TextView android:id="@+id/facebook_opt_name2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="fill_parent" 
+                 android:gravity="center_vertical"
+                 android:layout_gravity="center_vertical"
+                 android:paddingRight="10dip"
+                 android:layout_toLeftOf="@+id/event_img"                                         
+                 android:linksClickable="false"
+                 android:textAppearance="@style/sns_username_blue"/>    
+    <RelativeLayout 
+        android:id="@+id/event_img"
+        android:layout_width="wrap_content"        
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"  
+        android:gravity="center_vertical">           
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"         
+	        android:background="@drawable/facebook_fold"/>
+   </RelativeLayout>
+    
+</RelativeLayout>

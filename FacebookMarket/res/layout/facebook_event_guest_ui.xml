@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/facebook_backgroud">
+      
+    <include layout="@layout/facebook_header">
+    </include>
+    
+    <LinearLayout
+            android:gravity="left"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:background="#6D84B4">
+            <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="@string/view_guest_list"
+                    android:layout_marginTop="10px"
+                    android:paddingLeft="5px"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical">
+            </TextView>
+    </LinearLayout>
+    <LinearLayout
+         android:id="@+id/facebook_guest_tab"
+         android:layout_width="fill_parent"
+         android:layout_height="50dip"
+         android:paddingBottom="5px"
+         android:background="@color/facebook_light_grey"
+         android:orientation="horizontal">  
+            <Button  android:id="@+id/facebook_guest_attending"
+                  android:text="@string/facebook_guest_attending"  
+                  android:textSize="14px"
+                  android:textStyle="bold"
+                  android:layout_width="wrap_content"
+                  android:layout_height="30dip"
+                  android:focusable="true"  
+                  android:focusableInTouchMode="true"              
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:layout_gravity="center_vertical"/>
+            <Button  android:id="@+id/facebook_guest_unsure"
+                  android:text="@string/facebook_guest_unsure"  
+                  android:textSize="14px"
+                  android:textStyle="bold"
+                  android:layout_width="wrap_content"
+                  android:layout_height="30dip" 
+                  android:focusable="true"  
+                  android:focusableInTouchMode="true"           
+                  android:paddingLeft="3px"       
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:layout_gravity="center_vertical"/>
+            <Button  android:id="@+id/facebook_guest_decline"
+                  android:text="@string/facebook_guest_decline"
+                  android:textSize="14px"
+                  android:textStyle="bold"
+                  android:layout_width="wrap_content"
+                  android:layout_height="30dip" 
+                  android:focusable="true"  
+                  android:focusableInTouchMode="true"               
+                  android:layout_weight="1" 
+                  android:paddingLeft="3px"
+                  android:gravity="center"
+                  android:layout_gravity="center_horizontal"/>  
+            <Button  android:id="@+id/facebook_guest_not_reply"
+		            android:text="@string/facebook_guest_not_reply"
+		            android:textSize="14px"
+		            android:textStyle="bold"
+		            android:layout_width="wrap_content"
+		            android:layout_height="30dip" 
+		            android:focusable="true"  
+		            android:focusableInTouchMode="true"               
+		            android:layout_weight="1" 
+		            android:paddingLeft="3px"
+		            android:gravity="center"
+                    android:layout_gravity="center_vertical"/>                      
+   </LinearLayout>  
+          
+    <LinearLayout 
+            android:id="@+id/facebook_info_span"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_gravity = "center_vertical"
+            android:background="#FFFFFFFF"
+            android:visibility="gone">
+            <TextView android:id="@+id/facebook_info"
+                android:textSize = "18dip"
+                android:layout_gravity = "center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                 /> 
+   </LinearLayout> 
+  
+    <ListView android:id="@+id/facebook_event_guest_list"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:layout_weight="1"
+        android:paddingTop="4px"
+        android:divider="@drawable/divider" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@drawable/list_selector_background"
+        android:cacheColorHint="#00000000" />
+        
+</LinearLayout>

@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8"?><resources>
+<string name="cmnew_setting_help_label_text">Contactgegevens van Faceboek instellen</string>
+
+
+<string name="media_upload">Facebook</string>
+<string name="nitification_format">%1$s ongelezen meldingen</string>
+
+
+<string name="pref_facebook_perm_settings">Instellingen</string>
+<string name="pref_facebook_notification_setting">Meldingsinstellingen</string>
+<string name="pref_facebook_notification_general_setting">Algemene instellingen</string>
+<string name="pref_facebook_notification_vibrate">Trillen</string>
+<string name="pref_facebook_notification_vibrate_desc">Trillen bij binnenkomende meldingen</string>
+
+<string name="pref_facebook_notification_led">Telefoonled</string>
+<string name="pref_facebook_notification_led_desc">Led knipperen bij binnenkomende meldingen</string>
+<string name="pref_facebook_notification_enable">Meldingen</string>
+
+<string name="pref_facebook_notification_msg_enable">Berichten</string>
+<string name="pref_facebook_notification_poke_enable">Porren</string>
+<string name="pref_facebook_notification_request_enable">Vriendverzoeken</string>
+<string name="pref_facebook_notification_event_enable">Uitnodigingen voor evenementen</string>
+<string name="pref_facebook_notification_group_enable">Uitnodigingen voor groepen</string>
+
+<string name="pref_facebook_category">Facebook-account</string>
+
+<string name="social_setting_screen">Sociale instellingen</string>
+<string name="contact_sync_hello">Venster Contactsynchronisatie</string>
+
+<string name="facebook_loing_ui">Facebook aanmelding</string>
+<string name="facebook_loing_ui_webview">Aanmeldweergave</string>
+
+
+<string name="menu_title_note_create">Nieuwe notities</string>
+
+<string name="context_status_reply">Beantwoorden</string>
+<string name="context_status_forward">Doorsturen</string>
+<string name="context_status_retweet">Retweet</string>
+<string name="context_status_favorite">Toevoegen aan favorieten</string>
+<string name="context_status_direct">Bericht verzenden</string>
+
+<string name="context_select_all">Alles selecteren</string>
+<string name="context_unselect_all">Niets selecteren</string>
+<string name="context_status_delete">Verwijderen</string>
+<string name="sns_delete">Verwijderen</string>
+<string name="sns_delete_all">Alle snelkoppelingen verwijderen</string>
+
+<string name="context_compose_message">Direct bericht</string>
+
+
+
+<string name="context_pre_page">Vorige pagina</string>
+<string name="context_next_page">Volgende pagina</string>
+
+<string name="context_message_new">Nieuw bericht</string>
+<string name="context_message_delete">Bericht verwijderen</string>
+<string name="facebook_wall_loading">Prikbord wordt geladen</string>
+<string name="facebook_event_loading">Evenementen worden geladen</string>
+<string name="facebook_wall_title">Verzenden</string>
+<string name="facebook_walltowall_title">Verzenden naar Facebook</string>
+<string name="facebook_status_update_title">Delen</string>
+
+<string name="pref_facebook_perm_assign">Uitgebreide toestemming toekennen</string>
+<string name="pref_facebook_perm_assign_desc">Als een Facebook-gebruiker geen uitgebreide toestemming heeft, wordt gevraagd toestemming te verlenen.</string>
+<string name="pref_facebook_ext_permission_assign">Geavanceerde instellingen</string>
+<string name="pref_facebook_ext_permission">Uitgebreide toestemming</string>
+<string name="pref_facebook_ext_permission_desc">Uitgebreide toestemming instellen</string>
+
+<string name="facebook_account_tile_poke">Porren</string>
+<string name="facebook_WALL_POST_title">Prikbord</string>
+<string name="facebook_group_detail">Meedoen</string>
+<string name="facebook_group_decline">Afwijzen</string>
+<string name="facebook_friends_loading">Vrienden worden geladen</string>
+<string name="facebook_pages_loading">Pagina\'s worden geladen</string>
+<string name="facebook_upcomingbd_friends_loading">Aanstaande verjaardagen worden geladen</string>
+<string name="pref_facebook_view_category">Weergave-instellingen weergeven</string>
+<string name="pref_facebook_view_category_summary">Synchronisatie-intervallen instellen</string>
+<string name="pref_facebook_other_setting">Andere instellingen</string>
+
+<string name="facebook_mailbox_loading">Berichten worden geladen </string>
+<string name="facebook_mailbox_inbox_loading">Ontvangen berichten worden geladen </string>
+<string name="facebook_mailbox_sent_loading">Verzonden berichten worden geladen</string>
+<string name="facebook_mailbox_update_loading">Updateberichten worden geladen </string>
+<string name="facebook_mail_detail">Gesprek</string>
+<string name="facebook_mail_one_detail">Bericht</string>
+<string name="facebook_mail_detail_reply">Beantwoorden</string>
+<string name="facebook_phonebook_loading">Telefoonboek wordt geladen</string>
+<string name="facebook_user_select">Vrienden kiezen</string>
+<string name="facebook_mail_send">Verzenden</string>
+<string name="facebook_phonebook_nomore">Niet nog eens</string>
+<string name="facebook_status_loading">Status wordt geladen</string>
+<string name="facebook_main_stream_screen">Nieuwsfeed</string>
+<string name="facebook_main_send">Verzenden</string>
+<string name="facebook_stream_you_like">Dit vind ik leuk.</string>
+
+<string name="facebook_contact_sync">Facebook-contact synchroniseren</string>
+<string name="facebook_event_sync">Facebook-evenement synchroniseren</string>
+<string name="facebook_location_hint">Waar ben je nu?</string>
+<string name="facebook_location_stop">Annuleren</string>
+<string name="facebook_location_start">Locatie opvragen</string>
+<string name="facebook_media_upload">Bijvoegen</string>
+
+<string name="test_isFacebookUser">is een Facebook-gebruiker</string>
+<string name="test_gloabalcontactsync">Contact synchroniseren</string>
+<string name="test_gloabaleventsync">Evenement synchroniseren</string>
+<string name="test_addEvent">Evenement toevoegen</string>
+<string name="test_taskstatus_str">Taak bijhouden</string>
+
+<string name="no_event_info">Geen evenementgegevens beschikbaar</string>
+<string name="facebook_status_update_compose">Waar denk je aan?</string>
+<string name="facebook_wall_to_wall_compose">Schrijf hier iets...</string>
+<string name="facebook_location_update_title">Locatie delen</string>
+<string name="facebook_comments_update_title">Reacties</string>
+
+<string name="facebook_phonebook_title">Telefoonboek</string>
+<string name="facebook_inbox_title">Postvak in</string>
+<string name="facebook_messages_title">Berichten</string>
+<string name="facebook_sent_title">Verzonden</string>
+<string name="facebook_update_title">Update</string>
+<string name="facebook_updates_title">Updates</string>
+<string name="pref_adv_setting">Geavanceerde instellingen</string>
+<string name="pref_extras_reset_default">Opnieuw instellen</string>
+<string name="pref_extras_reset_default_dlg_title">Standaardinstellingen herstellen</string>
+<string name="pref_extras_reset_default_summary">Alle gegevens wissen en de standaardinstellingen herstellen</string>
+<string name="pref_extras_reset_default_dlg">Waarschuwing:  alle gegevens worden verwijderd en de standaardinstellingen worden hersteld</string>
+<string name="facebook_event_title">Synchroniseren met agenda</string>
+<string name="facebook_event_title_bar">Evenementen</string>
+<string name="facebook_photo_upload">Delen</string>
+<string name="facebook_wall_share">Delen</string>
+<string name="facebook_photo_upload_compose">Waar denk je aan?</string>
+<string name="facebook_setting_sign_in">Aanmelden</string>
+<string name="facebook_find_friends_loading">Vrienden zoeken</string>
+<string name="facebook_set_contact_email">E-mail</string>
+<string name="contact_cell_lable_text">Mobiele telefoon</string>
+<string name="contact_other_lable_text">Andere telefoon</string>
+<string name="facebook_contact_set">Contact updaten</string>
+<string name="facebook_set_contact_title">Contact instellen</string>
+
+<string name="to_button_lable">Aan:</string>
+<string name="facebook_requests_loading">Verzoeken worden geladen</string>
+<string name="facebook_find_friends">Vrienden zoeken</string>
+
+<string name="sns_task_management"/>
+<string name="sns_finished_task_title">Alle taken zijn voltooid</string>
+<string name="sns_running_task_title">Alle taken zijn bezig</string>
+<string name="sns_failed_task_title">Alle taken zijn mislukt</string>
+<string name="sns_pendding_task_title">Alle taken zijn in behandeling</string>
+<string name="task_cancel_all">Alle taken annuleren</string>
+
+
+<string name="widget_facebook_name">Facebook-meldingen</string>
+
+<string name="title_show_on_homescreen">Weergeven op beginscherm</string>
+
+<string name="pref_facebook_sync_setting">Facebook synchronisatie-instellingen</string>
+<string name="title_show_use_logo">Mijn profielfoto delen</string>
+<string name="title_show_use_email">Mijn e-mailadres delen</string>
+<string name="title_show_use_birthday">Mijn verjaardag delen</string>
+<string name="title_show_use_phonenumber">Mijn telefoonnummer delen</string>
+<string name="summary_show_use_logo">Profielfoto synchroniseren als contactfoto</string>
+<string name="summary_show_use_email">E-mail uit Facebook synchroniseren met contactgegevens</string>
+<string name="summary_show_use_birthday">Verjaardag uit Facebook synchroniseren met contactgegevens</string>
+<string name="summary_show_use_phonenumber">Telefoonnummer uit Facebook synchroniseren met contactgegevens</string>
+
+<string name="facebook_phonebook_sync_to_contact">Telefoonboek van Facebok wordt naar Contacten opgeslagen...</string>
+<string name="context_open_link_in_browser">Koppeling in browser openen</string>
+<string name="title_copy_to_email">Kopi褰en in e-mail</string>
+<string name="title_copy_new_msg_to_sms">Nieuwe mail in bericht kopi褰en</string>
+
+<string name="context_menu_insert_img">Foto selecteren</string>
+<string name="context_menu_select_video">Video selecteren</string>
+<string name="context_menu_select_link">Koppeling selecteren</string>
+<string name="context_menu_capture_photo">Foto maken</string>
+<string name="menu_title_location_update">Locatie-update</string>
+<string name="menu_title_location">Locatie</string>
+<string name="menu_title_friend_birthday">Verjaardag van vrienden</string>
+<string name="menu_title_add_facebook_event">Facebook-evenement toevoegen</string>
+<string name="menu_title_sync_event">Synchroniseren met agenda</string>
+<string name="menu_title_stop">Stoppen</string>
+<string name="menu_title_task_view">Taken</string>
+<string name="menu_title_login">Aanmelden</string>
+<string name="menu_title_settings">Instellingen</string>
+<string name="menu_title_about">Over</string>
+<string name="menu_title_save_drafts">Opslaan in concepten</string>
+<string name="menu_title_page_info">Pagina-info</string>
+<string name="menu_title_pre_page">Vorige pagina</string>
+<string name="menu_title_next_page">Volgende pagina</string>
+<string name="menu_title_ext_perm">Uitgebreide toestemming</string>
+<string name="menu_title_lookup_contact">Contact opzoeken</string>
+<string name="menu_title_sync_to_contact">Synchroniseren met contact</string>
+<string name="menu_title_sync_addressbook">Adresboek synchroniseren</string>
+
+<string name="menu_title_logout">Afmelden</string>
+<string name="menu_title_request_location">Locatie opvragen</string>
+<string name="menu_title_refresh">Vernieuwen</string>
+<string name="menu_title_my_status_update">Statusupdate</string>
+<string name="menu_title_mailbox_inbox">Berichten</string>
+<string name="menu_title_mailbox_sent">Verzonden</string>
+<string name="menu_title_mailbox_update">Update</string>
+
+<string name="menu_title_pages">Pagina\'s</string>
+
+
+<string name="facebook_friends_home_title">Facebook-vrienden</string>
+<string name="facebook_search_friends">gebruikersnaam</string>
+<string name="facebook_search_page">paginanaam</string>
+<string name="menu_title_my_friends">Mijn vrienden</string>
+<string name="menu_title_friends">Vrienden</string>
+<string name="menu_title_my_account">Profiel</string>
+<string name="menu_title_page">Pagina</string>
+<string name="menu_title_pokes">Porren</string>
+<string name="menu_title_new_mail">Een bericht bericht verzenden</string>
+<string name="menu_title_friend_group">Vriendengroep</string>
+<string name="menu_title_notifications">Meldingen</string>
+<string name="menu_title_phonebook">Telefoonboek</string>
+<string name="menu_title_status_update">Status updaten</string>
+<string name="menu_title_stream_publish">Status updaten</string>
+<string name="menu_title_set_contact">Contact instellen</string>
+<string name="menu_title_find_friends">Vrienden zoeken</string>
+<string name="menu_title_event">Evenementen</string>
+<string name="menu_title_news_feed">Nieuwsfeed</string>
+<string name="menu_title_tweets">Tweets</string>
+
+
+<string name="menu_title_select_all">Alles selecteren</string>
+<string name="menu_title_unselect_all">Niets selecteren</string>
+<string name="menu_facebook_title_reply">Beantwoorden</string>
+<string name="menu_facebook_title_forward">Doorsturen</string>
+<string name="menu_facebook_title_post_to_wall">Op prikbord plaatsen</string>
+<string name="menu_facebook_title_add_as_friend">Als vriend toevoegen</string>
+
+<string name="facebook_add_as_friend_successfully">Toegevoegd als vriend</string>
+<string name="facebook_add_as_friend_failed">Vriend toevoegen is mislukt</string>
+
+<string name="menu_facebook_title_email">E-mail</string>
+<string name="menu_facebook_title_call">Bellen</string>
+<string name="menu_facebook_title_phonebook">Telefoonboekgegevens weergeven</string>
+<string name="menu_facebook_title_copy">Kopi褰en</string>
+<string name="menu_facebook_title_phone">Bellen</string>
+<string name="menu_facebook_title_sync_to_contact">Synchroniseren met contact</string>
+<string name="menu_facebook_title_request_phone_number">Telefoonnummer vragen</string>
+<string name="menu_title_send_notification">Melding verzenden</string>
+<string name="facebook_send_notification_title">Melding verzenden</string>
+
+
+<string name="title_sync_birthday_event">Verjaardag synchroniseren</string>
+<string name="summary_sync_birthday_event">Verjaardag synchroniseren met agenda</string>
+<string name="pref_sns_proxy_category">Proxy-instellingen(test)</string>
+<string name="facebook_not_login_prompt">Meld je aan bij Facebook</string>
+<string name="facenook_perm_setting">Uitgebreide toestemming van Facebook</string>
+<string name="facebook_login_fail">Aanmelden is mislukt</string>
+<string name="facebook_login_retry">Wil je opnieuw aanmelden?</string>
+<string name="sns_ok">OK</string>
+<string name="sns_cancel">Annuleren</string>
+<string name="pref_proxy_setting">Proxy-instellingen</string>
+<string name="pref_sns_proxy_title">Proxygegevens</string>
+<string name="pref_sns_proxy_summary">Proxy instellen voor toegang tot Facebook en Twitter</string>
+<string name="title_use_https_connections">Beveiliging: gebruik https</string>
+
+<string name="context_status_copy">Kopi褰en</string>
+<string name="title_upload_photo_size">Fotoformaat voor camerafoto\'s</string>
+<string name="sns_about_info">\tMet Sociale netwerken hebt u toegang tot Facebook en Twitter.\n\tZorg dat u uitgebreide toestemming instelt om updates, koppelingen, foto\'s, enz. te kunnen delen.</string>
+<string name="close_about">Sluiten</string>
+<string name="about_title">Over</string>
+<string name="notification_request">Verzoeken</string>
+<string name="menu_title_photos">Foto\'s</string>
+<string name="uncomplete_user_pwd">Voltooi het invoeren van gebruikersnaam en wachtwoord.</string>
+<string name="wrong_username_pwd">Het netwerk is momenteel niet beschikbaar of de combinatie van gebruikersnaam en wachtwoord is onbekend.  Controleer de gegevens en probeer het opnieuw.</string>
+<string name="right_username_pwd">Geldige gebruikersnaam en wachtwoord</string>
+
+<string name="sns_allow_summary">Ingeschakeld</string>
+<string name="sns_forbiden_summary">Uitgeschakeld</string>
+<string name="sns_active_summary">Actief</string>
+<string name="sns_inactive_summary">Inactief</string>
+<string name="sns_uploadphoto_original_summary">Origineel</string>
+<string name="sns_uploadphoto_compressed_summary">Gecomprimeerd</string>
+
+<string name="facebook_password_title">Wachtwoord</string>
+<string name="facebook_email_title">E-mail</string>
+<string name="facebook_allways_enable_title">Facebook-dienst inschakelen</string>
+<string name="facebook_allways_enable__desc">Facebook-dienst via andere toepassingen activeren</string>
+<string name="facebook_permanent_session_enable_title">Permanente sessie gebruiken</string>
+
+<string name="facebook_stream_timeout_title">Nieuwsfeeds (min 120s)</string>
+<string name="facebook_contact_update_period_title">Telefoonboek synchroniseren (dagen)</string>
+<string name="facebook_friend_update_period_title">Vrienden synchroniseren (dagen)</string>
+<string name="facebook_mail_update_period_title">Controleren op e-mail (uur)</string>
+<string name="facebook_phonebook_sync_period_title">Adresboek synchroniseren (dagen)</string>
+<string name="facebook_pokes_loading">Porren laden...</string>
+<string name="menu_facebook_title_poke_back">Terugporren</string>
+
+
+
+<string name="facebook_getting_contact">Contactgegevens op internet verkrijgen...</string>
+<string name="facebook_getting_contact_suc">Contactgegevens worden verkregen</string>
+<string name="no_news_feed_hint">Er zijn geen nieuwsfeeds beschikbaar.\nDruk op  \&quot;Vernieuwen\&quot; om de laatste nieuwsfeed op te halen.</string>
+<string name="no_wall_hint">Geen prikbordberichten beschikbaar.\nDruk op \&quot;Vernieuwen\&quot; om de nieuwste prikbordberichten op te halen.</string>
+<string name="no_trends_hint">Ophalen van trends is mislukt.\nDruk op \&quot;Vernieuwen\&quot; om de nieuwste 10 trends op te halen.</string>
+
+<string name="event_cancel_no_privilege">U hebt geen toestemming dit evenement te annuleren</string>
+<string name="event_cancel_successfully">Het evenement is geannuleerd</string>
+<string name="event_cancel_failed">Annuleren van het evenement is mislukt</string>
+<string name="menu_title_clear_cache">Cache wissen</string>
+<string name="facebook_clear_cache_successfully">Wissen van cachegegevens is gelukt</string>
+<string name="facebook_clear_cache_failed">Wissen van cachegegevens is mislukt</string>
+<string name="facebook_remove_comment_successfully">Update is gelukt</string>
+<string name="facebook_remove_comment_failed">Verwijderen van reactie is mislukt</string>
+<string name="facebook_remove_comment_title">Reacties worden verwijderd</string>
+<string name="facebook_add_comment_title">Reacties worden toegevoegd</string>
+<string name="facebook_send_mail_title">Bericht wordt verzonden</string>
+
+
+
+<string name="min">minuten geleden</string>
+<string name="sec">secondes geleden</string>
+<string name="day">dagen geleden op %1$s</string>
+<string name="hour">uur geleden op %1$s</string>
+
+<string name="facebook_main_notes">Notities</string>
+<string name="facebook_main_notification_screen">Meldingen</string>
+<string name="facebook_notes_title">Nieuwe notities</string>
+<string name="facebook_notes_new">Notitie schrijven</string>
+<string name="facebook_notes_edit">Notitie opslaan</string>
+<string name="facebook_notes_loading">Notities worden geladen</string>
+<string name="no_notes_hint">Er zijn geen nieuwe notities</string>
+<string name="facebook_notification_loading">Meldingen worden geladen</string>
+<string name="fail_create_notes">Maken van notities is mislukt</string>
+<string name="menu_facebook_title_open_browser">Openen in browser</string>
+<string name="facebook_menu_wall_title">Prikbord</string>
+
+<string name="facebook_album_spinner_prompt">Kies een album</string>
+<string name="facebook_new_album">Nieuw</string>
+<string name="facebook_new_album_hint">Nieuwe albumnaam</string>
+
+
+
+
+
+
+
+<string name="facebook_menu_photo_title">Foto\'s</string>
+<string name="facebook_tab_photo">Foto\'s</string>
+<string name="facebook_tab_wall">Prikbord</string>
+<string name="facebook_tab_info">Informatie</string>
+
+
+
+
+<string name="facebook_status_title">Status</string>
+<string name="facebook_update_status_title">Status updaten</string>
+<string name="facebook_add_photo_title">Foto delen</string>
+<string name="facebook_login_ok">Aanmelden</string>
+<string name="facebook_login_cancel">Annuleren</string>
+<string name="facebook_login_sign_up">Lid worden</string>
+<string name="facebook_signup_url">http://m.facebook.com/r.php</string>
+
+<string name="facebook_no_facebook_account">Heb je nog geen account?</string>
+<string name="facebook_login_pwd_label">Wachtwoord</string>
+<string name="facebook_login_email_label">E-mail</string>
+<string name="facebook_email_address">E-mail</string>
+<string name="facebook_password">Wachtwoord</string>
+<string name="facebook_hint_username">Gebruikersnaam</string>
+<string name="facebook_hint_phone">Telefoonnummer</string>
+
+<string name="sns_eventsync_toast_msg">Gebeurtenissen op de achtergrond synchroniseren</string>
+<string name="sns_lookupall_toast_msg">Telefoonboek van Facebook op de achtergrond met Contacten synchroniseren</string>
+<string name="facebook_accounticonsize_title">Formaat van profielpictogram</string>
+<string name="facebook_accounticonsize_summary">Alleen voor Facebook-account</string>
+<string name="facebook_accounticonsize_dialogtitle">Formaat van Facebook-profielpictogram</string>
+
+<string name="facebook_poke_success">Porren is gelukt</string>
+<string name="facebook_poke_failed">Porren is mislukt</string>
+<string name="facebook_invalid_session">Ongeldige sessie. Controleer de gebruikersnaam en wachtwoord en meld je nogmaals aan.</string>
+<string name="twitter_delete_favorite_msg">Verwijderen...\nEven geduld.</string>
+<string name="sns_finished_msg">Voltooid</string>
+<string name="sns_share_failed">Delen is mislukt</string>
+<string name="sns_share_success">Delen is gelukt</string>
+<string name="sns_post_failed">Plaatsen is mislukt</string>
+<string name="facebook_save_wall_message">Prikbordbericht is opgeslagen in een concept</string>
+<string name="sns_update_succeed">Update is gelukt</string>
+<string name="sns_update_failed"> Update is mislukt</string>
+<string name="sns_operate_succeed">Update is gelukt</string>
+<string name="sns_operate_failed">Update is mislukt</string>
+<string name="facebook_phonebook_in_saving">Bezig met opslaan, even geduld.</string>
+<string name="sns_not_login_message">Je bent niet aangemeld</string>
+<string name="facebook_no_valid_session">Dit is geen geldige sessie</string>
+<string name="sns_send_message_failed">Verzenden van het bericht is mislukt</string>
+<string name="sns_login_succeed">Aanmelden is gelukt</string>
+<string name="facebook_get_permanent_session_failed">Openen van de sessie is mislukt. \nControleer of gebruikersnaam en wachtwoord correct zijn.</string>
+<string name="facebook_get_accesstoken_failed">Geen toegang gekregen tot Facebook.\nControleer de netwerkverbinding.</string>
+<string name="sns_network_unavailable">Netwerk niet beschikbaar</string>
+<string name="facebook_login_failed_message">Aanmelden is mislukt, druk op \&quot;aanmelden\&quot; om het nogmaals te proberen.</string>
+<string name="facebook_lookup_waitting">Verwerken...\neven geduld</string>
+<string name="facebook_add_comments_failed">Toevoegen van reacties is mislukt</string>
+<string name="facebook_send_notification_failed">Verzenden van melding is mislukt</string>
+<string name="sns_finished_delete_message">Verwijderd.</string>
+<string name="sns_page_more">Meer...</string>
+<string name="sns_page_pre">Vor...</string>
+<string name="sns_user_name">Gebruikersnaam</string>
+<string name="sns_proxy_port">Proxyserverpoort</string>
+<string name="sns_proxy_host">Proxyserver host-url</string>
+<string name="sns_enable_proxy">Proxy inschakelen</string>
+<string name="facebook_upload_img_title">Afbeelding uploaden naar Facebook</string>
+<string name="facebook_upload_img_prompt_msg">Weet u zeker dat u de afbeelding wilt uploaden zonder een beschrijving?</string>
+<string name="sns_error_message">Foutmelding</string>
+<string name="facebook_sync_contact_title">Facebook-contacten worden gesynchroniseerd</string>
+<string name="sns_revoke">Herroepen...</string>
+<string name="facebook_check_permission_title">Controleren...</string>
+<string name="facebook_exit_login_suc">Aanmelden afsluiten</string>
+<string name="facebook_exit_login_msg">Weet je zeker dat je wilt afsluiten?</string>
+<string name="facebook_request_accesstoken_title">Laden...</string>
+<string name="facebook_getsession_title">Sessie openen...</string>
+<string name="facebook_getsession_wait_message">Sessie wordt geopend, even geduld...</string>
+<string name="facebook_getsession_successed">Aanmelden gelukt</string>
+<string name="facebook_request_token_title">Laden...</string>
+<string name="sns_liking">Vind ik leuk...</string>
+<string name="sns_remove_like">Vind ik niet leuk...</string>
+<string name="facebook_poking_title">Porren...</string>
+<string name="facebook_groups_title">Groepen</string>
+<string name="facebook_logout_title">Afmelden uit Facebook</string>
+<string name="facebook_logout_message">Weet je zeker dat je wilt afmelden?</string>
+<string name="facebook_location_setting_title">Er is geen locatieaanbieder ingeschakeld...</string>
+<string name="facebook_permission_message">Om deze functie te gebruiken, moet je de toestemming %1$s inschakelen.\n\n Klik op \&quot;OK\&quot; om toestemming toe te kennen of op Annuleren om te sluiten.</string>
+
+<string name="facebook_setting_location_message">Locatiestatus is nodig voor deze functie.  \n\n Klik op \&quot;OK\&quot; om naar \&quot;Instellingen\&quot; te gaan om deze functie in te schakelen.  Of druk op \&quot;Annuleren\&quot; om af te sluiten.\n\n Start de toepassing opnieuw om nadat de instellingen zijn gewijzigd.</string>
+<string name="facebook_request_location">Locatie opvragen...</string>
+<string name="facebook_location_link_map">Kaart koppelen</string>
+<string name="facebook_location_stop_request">Verzoek geannuleerd…</string>
+<string name="sns_sending">Verzenden...</string>
+<string name="facebook_event_hosted_by">Gehost door:</string>
+<string name="facebook_event_type">Type:</string>
+<string name="facebook_event_where">Waar:</string>
+<string name="facebook_event_when">Wanneer:</string>
+
+<string name="facebook_event_start">Starttijd:</string>
+<string name="facebook_event_end">Eindtijd:</string>
+<string name="facebook_event_location">Locatie:</string>
+<string name="facebook_event_host">Host:</string>
+
+<string name="facebook_event_from">Van</string>
+<string name="facebook_event_to">Aan</string>
+<string name="sns_message_text">Bericht</string>
+<string name="sns_friends_request">Vriendverzoeken</string>
+<string name="sns_no_new_message">Geen nieuwe berichten</string>
+<string name="sns_no_pending_friend_request">Geen vriendverzoeken in behandeling</string>
+<string name="sns_new_pokes">Nieuwe porren</string>
+<string name="sns_no_pending_pokes">Geen porren in behandeling</string>
+<string name="sns_new_shares">Nieuw gedeeld</string>
+<string name="sns_no_new_shares">Geen nieuws gedeeld</string>
+<string name="sns_no_pending_group_invites">Geen groepuitnodigingen in behandeling</string>
+<string name="sns_events_invites">Uitnodigingen voor evenementen</string>
+<string name="sns_no_pending_event_invites">Geen evenementuitnodigingen in behandeling</string>
+<string name="sns_no_cell">Geen mobiel</string>
+<string name="sns_no_phone">Geen telefoon</string>
+<string name="sns_no_email">Geen e-mail</string>
+<string name="sns_retrieving">Ophalen...</string>
+<string name="sns_size">Grootte:</string>
+<string name="sns_like">Vind ik leuk</string>
+<string name="sns_unlike">Vind ik niet leuk</string>
+<string name="sns_add_comment">Reactie</string>
+<string name="photo_your_comments">Schrijf iets...</string>
+
+<string name="facebook_fail_to_get_session">Aanmelden is mislukt, suggesties:\n1. Controleer of e-mailadres en wachtwoord correct zijn.\n2. Zorg dat er een internetverbinding is (ook WiFi).\n3. Controleer of datum en tijd correct is ingesteld op de telefoon.</string>
+<string name="facebook_make_session_permanent">Sessie permanent maken...</string>
+<string name="facebook_make_session_permanent_suc">Sessie is permanent gemaakt...</string>
+<string name="twitter_get_last_trends">Nieuwste 10 trends worden verkregen</string>
+<string name="sns_ignore">Negeren</string>
+<string name="sns_confirm">Bevestigen</string>
+<string name="facebook_friends_request_model">Er zijn %1$s vriendverzoeken</string>
+<string name="facebook_friends_request_model_signal">Er is %1$s vriendverzoek</string>
+<string name="facebook_friends_request_model_no">Er is geen vriendverzoek</string>
+<string name="facebook_revoke_ext_permission_model">Toestemming herroepen</string>
+<string name="facebook_revoke_permission_conform_mes">Weet je zeker dat je de toestemming %1$s wilt herroepen?</string>
+<string name="sns_group_invites">Uitnodigingen voor groepen</string>
+<string name="menu_facebook_title_wall_to_wall">Prikbordconversatie</string>
+<string name="context_to_user_account_string">Ga naar @gebruiker</string>
+<string name="context_to_search_string">Zoek #trefwoord</string>
+<string name="update_contact_notes">Gedatet op %1$s via Facebook</string>
+<string name="edit_text_hint">Zoeken</string>
+<string name="sync_address_book">Adresboek synchroniseren</string>
+<string name="assign_extend_permission">Uitgebreide toestemming(en) toekennen</string>
+<string name="sync_address_book_desc">De contacten en hun gegevens worden regelmatig gesynchroniseerd met Facebook en de Contacten in het telefoonboek van de mobiele telefoon</string>
+
+<string name="is_allways_prompt_dialog">Synchronisatievenster altijd weergeven</string>
+<string name="is_allways_prompt_permission_dialog">Dialoogvenster altijd weergeven</string>
+<string name="hint_no_permission">Je hebt geen %1$s toestemming. Ken de toestemming(en) toe.</string>
+
+<string name="prompt_user_sync_string">De Facebook-toestemming synchroniseert contactgegevens tussen het telefoonboek van Facebook en de contacten op de telefoon.\n\nDruk op %1$s om verder te gaan of op %2$s om te annuleren.</string>
+<string name="prompt_user_sync_title">Adresboek wordt gesynchroniseerd</string>
+<string name="allow_prompt_dialog">Altijd vragen voordat het adresboek wordt gesynchroniseerd</string>
+<string name="donnot_prompt_dialog">Niet vragen als het adresboek wordt gesynchroniseerd</string>
+<string name="facebook_lookupcontact_failed">Opzoeken van contact is mislukt</string>
+<string name="menu_title_go_to_facebook">Ga naar Facebook</string>
+<string name="twitter_find_people">Personen zoeken</string>
+<string name="pref_clear_facebook_image_cache_title">Afbeeldingen in cache wissen</string>
+<string name="pref_clear_facebook_image_cache_summary">Alle afbeeldingen in cache wissen</string>
+<string name="pref_clear_facebook_image_cache_dlg">Alle Facebook-afbeeldingen in de cache worden gewist</string>
+<string name="pref_clear_facebook_image_cache_dlg_title">Afbeeldingen in cache wissen</string>
+<string name="stoping_string">Bezig met annuleren…</string>
+<string name="loading_string">Laden...</string>
+
+<string name="pref_news_feed_teimout_value">De waarde moet hoger zijn dan 120</string>
+<string name="pref_twitter_count_value">De waarde moet lager zijn dan 20</string>
+<string name="pref_twitter_timeout_value">De waarde moet hoger zijn dan 60</string>
+<string name="load_older_msg">Oudere reacties...</string>
+<string name="load_more_msg">Meer laden...</string>
+<string name="search_friends">Vrienden</string>
+<string name="search_everyone">Iedereen</string>
+
+<string name="update_location_succeed">Uploaden naar Facebook is gelukt</string>
+<string name="update_location_fail">Uploaden naar Facebook is mislukt</string>
+<string name="notes_title">titel</string>
+<string name="notes_content">nieuwe notities...</string>
+<string name="my_albums">Mijn albums</string>
+<string name="albums_format">%1$s\'s albums</string>
+<string name="albums_format_nocache">Albums van je vriend</string>
+<string name="album_number_format">%1$s albums</string>
+<string name="photo_number_format">%1$s foto\'s</string>
+<string name="sns_photo_comments">Reacties</string>
+<string name="facebook_upcoming_event">Aanstaande evenementen</string>
+<string name="facebook_past_event">Vorige evenementen</string>
+<string name="facebook_event_this_week">Deze week</string>
+<string name="facebook_event_this_month">Deze maand</string>
+<string name="facebook_event_others">Andere</string>
+<string name="facebook_event_rsvp_suc">RSVP %1$s gelukt</string>
+<string name="facebook_event_rsvp_fail">RSVP %1$s mislukt</string>
+
+
+
+<string name="facebook_friend_birthday">Verjaardagen</string>
+<string name="facebook_guest_attending">Aanwezig</string>
+<string name="facebook_guest_unsure">Misschien</string>
+<string name="facebook_guest_decline">Afwijzen</string>
+<string name="facebook_guest_not_reply">Niet beantwoord</string>
+<string name="hint_album_name">Albumnaam</string>
+<string name="hint_album_location">Locatie</string>
+<string name="hint_album_desc">Beschrijving</string>
+<string name="hint_album_update">Update album</string>
+<string name="hint_album_cancel">Annuleren</string>
+<string name="album_hint_privacy">Privacy: Wie kan dit zien?</string>
+<string name="album_edit_info">Album bewerken</string>
+<string name="album_edit_desc">Bewerk de informatie hieronder</string>
+<string name="photo_hint_save">Wijzigingen opslaan</string>
+<string name="photo_hint_caption_comments">Bijschrift schrijven...</string>
+<string name="photo_hint_comments">Schrijf iets...</string>
+<string name="album_context_menu_edit">Album bewerken</string>
+
+<string name="album_delete_desc">Weet je zeker dat je het geselecteerde album %1$s wilt verwijderen?</string>
+<string name="photo_delete_desc">Weet je zeker dat je de geselecteerde foto %1$s wilt verwijderen?</string>
+<string name="sns_add_short_cut">Snelkoppeling toevoegen</string>
+
+<string name="mail_update_date_fromat">gedatet op %1$s</string>
+<string name="hint_no_group">Geen beschikbare groepen, of het ophalen van groepen is mislukt.</string>
+<string name="no_subject">Geen onderwerp</string>
+
+<string-array name="share_orientation_list">
+        <item>Iedereen</item>
+        <item>Mijn netwerk en vrienden</item>
+        <item>Vrienden van vrienden</item>
+        <item>Alleen vrienden</item>
+</string-array>
+
+<string name="no_result_search_hint">De zoekopdracht-%1$s-heeft geen tweets opgeleverd.</string>
+<string name="fail_search_hint">Zoekopdracht mislukt</string>
+<string name="notification_format">%1$s nieuwe melding%2$s</string>
+<string name="facebook_notification_list_title">Vernieuwingsinterval</string>
+<string name="facebook_notification_summary">Vernieuwingsinterval</string>
+
+<string name="select_link_title">Koppelingen selecteren</string>
+<string name="loading_notes">Notities laden...</string>
+<string name="loading_event">Evenementen laden...</string>
+
+
+<string name="loading_attending_guest">RSVP-gegevens laden...</string>
+<string name="loading_unsure_guest">RSVP-gegevens laden...</string>
+<string name="loading_declined_guest">RSVP-gegevens laden...</string>
+<string name="loading_not_replied_guest">RSVP-gegevens laden...</string>
+<string name="album_go">Terug naar Album</string>
+<string name="album_list_go">Terug naar Foto\'s</string>
+<string name="context_short_cut_delete">Snelkoppeling verwijderen</string>
+<string name="verify_account_hint">Aanmelden...</string>
+<string name="verify_account_suc_hint">Sessie is geopend...</string>
+
+ <string name="wallpaper">Achtergrond wordt ingesteld, even geduld\u2026</string>
+ <string name="wallpaper_title">Achtergrond instellen</string>
+ <string name="selected_album">Dit album</string>
+ <string name="mail_receivers">Tussen %1$s en %2$s</string>
+ <string name="mail_receivers_just_you">Tussen %1$s</string>
+ <string name="fail_get_latest_phonebook">Ophalen van het nieuwste telefoonboek van de Facebook-server is mislukt</string>
+ <string name="getting_phonebook_from_server">De gegevens worden van de Facebook-server geladen, even geduld...</string>
+ <string name="getting_friendship_from_server">De gegevens worden van de Facebook-server geladen, even geduld...</string>
+ <string name="getting_page_from_server">De gegevens worden van de Facebook-server geladen, even geduld...</string>
+ 
+ <string name="fail_get_latest_friendship">Kan geen gegevens van de Facebook-server ophalen</string>
+ <string name="fail_get_latest_page">Kan geen gegevens van de Facebook-server ophalen</string>
+ <string name="go_touch_website">Ga naar website</string>
+ <string name="menu_title_stream_filter">Filterlijst</string>
+ <string name="menu_title_poke">Porren</string>
+ <string name="facebook_post_wall">Gegevens delen</string>
+ <string name="facebook_post_wall_waiting">Even geduld...</string>
+ <string name="view_guest_list">Gastenlijst weergeven</string>
+ <string name="pref_facebook_help_setting">Help</string> 
+ <string name="pref_facebook_help_tips_setting">Hulptips</string> 
+ <string name="pref_facebook_help_tips_summary_setting">Hoe open ik Facebook sneller\? Hoe kan ik mijn telefoonboek van Facebook synchroniseren met het adresboek van mijn telefoon\? ...</string>
+ 
+ <string name="search_phonebook_hint">Telefoonboek doorzoeken</string>
+ <string name="phonebook_call">Bel:</string>
+ <string name="phonebook_mail">Mail:</string> 
+ <string name="phonebook_message">Bericht:</string>
+ <string name="phone_action">Telefoonnummer</string>
+ <string name="facebook_main_menu">Menu</string>
+ 
+ 
+
+<string name="facebook_event_des_title_str">Beschrijving:</string>
+<string name="facebook_event_no_desc">Geen beschrijving</string>
+
+<string name="group_update_title">Update:</string>
+<string name="group_type_title">Type:</string>
+<string name="group_sub_title">Subtype:</string>
+<string name="group_des_title">Beschrijving:</string>
+<string name="facebook_album_title">Album</string>
+<string name="sns_setting_numeric_checking">Ongeldige waarde</string>
+<string name="pref_show_title_bar">Titelbalk weergeven</string>
+<string name="pref_show_title_bar_desc">Uitschakelen om de titelbalk onzichtbaar te maken.</string>
+<string name="menu_title_select_done">Selecteren</string>
+<string name="menu_title_event_switch">Weergave schakelen</string>
+<string name="hint_keyword_subject_body">Trefwoord</string>
+<string name="facebook_detail_note_title">Notitie</string>
+<string name="menu_note_edit">Notitie bewerken</string>
+<string name="menu_title_trends">Trends</string>
+
+<string name="facebook_changing_caption">Bijschrift wordt gewijzigd</string>
+<string name="facebook_save_change">Wijziging wordt opgeslagen</string>
+<string name="getting_info_from_server">De gegevens worden van de Facebook-server geladen, even geduld...</string>
+<string name="session_expired">Facebook-session is verlopen, meld je opnieuw aan.</string>
+<string name="facebook_dlg_save_note">Notitie wordt opgeslagen</string>
+<string name="facebook_find_people_prompt">Voer een geldige zoekopdracht in</string>
+<string name="facebook_set_contact_prompt">Voer geldige contactgegevens in</string>
+<string name="facebook_dlg_set_contact">Contactgegevens instellen</string>
+<string name="facebook_toast_event_rsvp">verandert de gebeurtenis-rsvp-status, even geduld</string>
+<string name="facebook_is_processing">wordt verwerkt, even geduld</string>
+<string name="facebook_dlg_find_people">Vriend wordt gezocht</string>
+<string name="facebook_dlg_uploading">Bezig met uploaden</string>
+<string name="facebook_dlg_post">Materiaal wordt geplaatst</string>
+<string name="pref_clear_fbinfo_title">Facebook-contact wissen</string>
+<string name="pref_clear_fbinfo_summary">Facebook-contactgegevens wissen uit adresboek</string>
+<string name="pref_clear_fbinfo_dlg">Alle Facebook-contactgegevens gesynchroniseerd van Facebook worden uit het adresboek verwijderd</string>
+<string name="pref_clear_fbinfo_dlg_title">Facebook-contact wissen</string>
+
+<string name="sns_like_stream_sig">Vind ik leuk</string>
+<string name="sns_like_stream_multi">Vind ik leuk</string>
+<string name="sns_add_comment_stream_sig">Reactie</string>
+<string name="sns_add_comment_stream_multi">Reacties</string>
+<string name="facebook_comment_btn_txt">Reactie</string>
+<string name="facebook_time_tracte_min">ongeveer een minuut geleden</string>
+<string name="facebook_time_tracte_hour">ongeveer een uur geleden</string>
+<string name="facebook_time_tracte_td">Vandaag om </string>
+<string name="facebook_time_tracte_yd">Gisteren om</string>
+<string name="facebook_time_tracte_at">om</string>
+<string name="facebook_event_load_fail">laden van gebeurtenis mislukt</string>
+<string name="facebook_recent_visit_page_title">Recent bezochte gebruikers</string>
+<string name="facebook_poke_dialog_title">%1$s\ porren?</string>
+<string name="facebook_poke_dialog_msg">Je staat op het punt %1$s te porren.</string>
+<string name="facebook_event_rsvp_prefix">RSVP:</string>
+<string name="facebook_event_rsvp_respond">Reageren</string>
+<string name="facebook_event_rsvp_change">WIJZIGEN</string>
+<string name="facebook_event_host_item">Hostmaker: %1$s</string>
+<string name="facebook_event_guest_item">Gasten</string>
+<string name="facebook_db_max_size">5</string>
+<string name="facebook_find_friend_no_result">Geen zoekresultaat</string>
+
+</resources>

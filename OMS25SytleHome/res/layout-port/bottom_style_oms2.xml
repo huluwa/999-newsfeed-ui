@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:launcher="http://schemas.android.com/apk/res/com.borqs.omshome25"
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/button_bar_height"
+		android:layout_gravity="bottom"
+		android:tag="bottom_style_oms2"
+		>
+		
+		    <com.borqs.omshome25.HandleView
+		        android:id="@+id/all_apps_button"
+		        android:layout_width="@dimen/button_bar_left_width"
+		        android:layout_height="fill_parent"
+				android:layout_gravity="bottom|left"
+		        android:focusable="true"
+		        android:clickable="true"
+		        android:background="@drawable/cmcc_launcher_bottom_icon_softkey_left_normal"
+		        launcher:direction="horizontal"/>
+		
+		    <com.borqs.omshome25.PageIndicatorView
+		        android:id="@+id/page_manager_iv"
+		        android:layout_width="@dimen/button_bar_right_width"
+		        android:layout_height="@dimen/button_bar_height"
+		        android:layout_alignParentRight="true"
+		        android:background="@drawable/cmcc_launcher_bottom_icon_background_right_normal"
+		        android:focusable="true"
+		        android:clickable="true" />
+
+		    <ImageView
+		        android:id="@+id/start_call_iv"
+		        android:layout_width="@dimen/button_bar_center_width"
+		        android:layout_height="@dimen/button_bar_height"
+				android:layout_toRightOf="@id/all_apps_button"
+		        android:background="@drawable/cmcc_launcher_bottom_icon_call_normal"
+		        android:focusable="true"
+		        android:clickable="true"/>
+		        
+		    <com.borqs.omshome25.IndicatorWithMissCallNumberView
+		        android:id="@+id/misscall_count_iv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"		        
+		        android:layout_marginLeft="@dimen/misscall_marginLeft"
+		        android:visibility="gone"/>
+		        
+    </RelativeLayout>

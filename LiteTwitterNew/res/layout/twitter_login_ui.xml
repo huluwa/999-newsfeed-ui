@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:scrollbars="none"
+    android:background="@drawable/twitter_signin_bg">
+    
+     <include layout="@layout/twitter_action"/>    
+    
+      <LinearLayout      
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"      
+      android:orientation="vertical"
+      android:paddingTop="100px"
+      android:paddingLeft="20px"
+      android:paddingRight="20px">
+       <EditText
+         android:id="@+id/twitter_login_email"
+         android:layout_width="fill_parent"       
+         android:layout_height="55dip"   
+         android:autoText="true"                 
+         android:capitalize="none"
+         android:singleLine="true"
+         android:textColor="#000000"
+         android:background="@drawable/editbox_background"
+         android:inputType="textEmailAddress"                 
+         android:scrollHorizontally="true"/>
+     </LinearLayout>    
+
+         
+    <LinearLayout      
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"      
+      android:orientation="vertical"
+      android:paddingTop="10px"
+      android:paddingLeft="20px"
+      android:paddingRight="20px"
+      android:paddingBottom="10px">                
+        <EditText
+	        android:id="@+id/twitter_login_pwd"
+	        android:layout_width="fill_parent"       
+	        android:layout_height="55dip"    
+	        android:autoText="true"                 
+	        android:capitalize="none"
+	        android:singleLine="true"        
+	        android:textColor="#000000"
+	        android:inputType="textPassword"         
+	        android:background="@drawable/editbox_background" 
+	        android:scrollHorizontally="true"/>
+	        
+	        <View android:layout_width="fill_parent"
+                  android:layout_height="20dip">
+	        </View>
+	        
+           <Button  android:id="@+id/twitter_login_ok_button"
+	       android:text="@string/twitter_login_ok"  
+	       android:layout_width="110dip"
+	       android:layout_height="48dip"
+	       android:focusable="true"  
+	       android:focusableInTouchMode="true"
+	       android:gravity="center"
+	       android:textSize="16sp"
+	       android:background="@drawable/twitter_button_background"/> 
+      
+     </LinearLayout>
+      
+ 
+                     
+     <TextView
+       android:id="@+id/twitter_sign_up_view"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/twitter_sign_up_view_txt"  
+       android:paddingLeft="20px"
+       android:textSize="16sp"
+       android:textColor="#3b5998"
+       android:textStyle="bold"
+       android:layout_gravity="center_vertical"/> 
+    <ScrollView     
+       android:id="@+id/twitter_info_span"
+       android:orientation="vertical"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"  
+       android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+       android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+       android:scrollbarStyle="outsideOverlay"
+       android:paddingLeft="20px"    
+       android:scrollbars="none">
+       <TextView android:id="@+id/twitter_info"          
+          android:paddingTop="5dip"
+          android:textColor="#3B5998"
+          android:textSize="18sp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+    </ScrollView>           
+</LinearLayout>           

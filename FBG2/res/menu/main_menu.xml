@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        
+        <item android:title="Setting" 
+            android:id="@+id/sns_setting" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        
+        <item android:title="Get Status(debug)" 
+            android:id="@+id/twitter_line" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>  
+        
+</menu>

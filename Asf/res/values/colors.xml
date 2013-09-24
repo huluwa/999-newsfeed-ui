@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, Google Inc.
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+--><resources>
+    <color name="textcounter">#ff33b54a</color>
+    <color name="time">#CCCCCC</color>
+    
+    <color name="twitter_btn_text_color">#3b5998</color>
+	<drawable name="empty">#00000000</drawable>
+    <color name="transparent">#00000000</color>
+<!-- 
+    <drawable name="stat_notify_sync_noanim">@drawable/stat_notify_sync_anim0</drawable>
+    <drawable name="stat_sys_download_done">@drawable/stat_sys_download_anim0</drawable>
+    <drawable name="stat_sys_upload_done">@drawable/stat_sys_upload_anim0</drawable>
+    <drawable name="dialog_frame">@drawable/panel_background</drawable>
+    <drawable name="alert_dark_frame">@drawable/popup_full_dark</drawable>
+    <drawable name="alert_light_frame">@drawable/popup_full_bright</drawable>
+    <drawable name="menu_frame">@drawable/menu_background</drawable>
+    <drawable name="menu_full_frame">@drawable/menu_background_fill_parent_width</drawable>
+    <drawable name="editbox_dropdown_dark_frame">@drawable/editbox_dropdown_background_dark</drawable>
+    <drawable name="editbox_dropdown_light_frame">@drawable/editbox_dropdown_background</drawable>
+ -->
+    <!-- For date picker widget -->
+    <!-- For settings framework -->
+    <!-- For security permissions -->  
+    <!-- For list item -->
+    
+    
+    
+    
+    <!-- For AddressPad --> 
+    
+<drawable name="widget_background">#00000000</drawable>
+<color name="stream_comments">#3B5998</color>
+<color name="stream_source">#ff0579CB</color>
+<color name="sns_link">#ff0579CB</color>
+<color name="facebook_backgroud">#ffffffff</color>
+<color name="unread">#fffbe2</color>
+<color name="blue_button_normal">#50699c</color>
+<color name="light_blue">#6D84B4</color>
+<color name="facebook_grey">#cccccc</color>
+<color name="facebook_light_grey">#f7f7f7</color>
+<color name="inboxunread">#e2e7f3</color>
+
+ <!-- For AddressPad -->
+    <drawable name="default_address_pad_title_color">#FF82858B</drawable>
+    <drawable name="default_address_pad_text_color">#FF000000</drawable>
+    <drawable name="default_address_pad_selected_text_color">#FFFFFFFF</drawable>
+
+</resources>

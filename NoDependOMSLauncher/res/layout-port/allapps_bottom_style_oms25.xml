@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:launcher="http://schemas.android.com/apk/res/com.android.omshome"
+	android:id="@+id/all_apps_bottom_layout" 
+	android:layout_width="fill_parent"
+	android:layout_height="51dp" 
+	android:layout_alignParentBottom="true">
+
+	<ImageView android:id="@+id/all_apps_screen_home"
+		android:tag="all_apps_screen_home"
+		android:layout_width="77dp"
+		android:layout_height="49dp" 
+		android:layout_gravity="bottom|left"
+		android:paddingTop="8dp" 
+		android:focusable="true" 
+		android:clickable="true"
+		android:layout_marginTop="2dp" 
+		android:background="@drawable/bottom_left_btn_bg"
+		android:src="@drawable/home_button_normal" />
+
+	<ImageView android:id="@+id/all_apps_call"
+		android:layout_width="166dp" 
+		android:layout_height="49dp"
+		android:paddingTop="4dp" 
+		android:background="@drawable/bottom_center_btn_bg"
+		android:src="@drawable/cmcc_home_bottom_icon_call"
+		android:layout_marginLeft="77dp" 
+		android:focusable="true"
+		android:layout_marginTop="2dp" 
+		android:clickable="true" />
+
+	<com.android.omshome.PageIndicatorView
+		android:id="@+id/all_apps_page_indicator" 
+		android:layout_width="77dp"
+		android:layout_height="49dp" 
+		android:layout_alignParentRight="true"
+		android:background="@drawable/bottom_right_btn_bg" 
+		android:src="@drawable/ic_shortcut_btn_normal"
+		android:focusable="true" 
+		android:layout_marginTop="2dp"
+		android:paddingTop="6dp" 
+		android:clickable="true" />
+
+	<com.android.omshome.IndicatorWithMissCallNumberView
+		android:id="@+id/all_apps_misscall_count_iv" 
+		android:layout_width="24dp"
+		android:layout_height="24dp" 
+		android:layout_marginLeft="130dp"
+		android:layout_marginTop="13dp" 
+		android:visibility="gone" />
+
+	<com.android.omshome.PageIndicatorLineStyleView
+		android:id="@+id/all_apps_page_line_indicator" 
+		android:layout_width="0dp"
+		android:layout_height="6dp" 
+		android:background="@drawable/page_indicator" />
+</RelativeLayout>
+      

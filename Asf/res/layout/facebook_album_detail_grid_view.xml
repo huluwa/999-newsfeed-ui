@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="88.0dip"
+        android:layout_height="88.0dip">
+        <ImageView
+                android:id="@+id/ablum_image"     
+                android:layout_width="88.0dip"
+                android:layout_height="88.0dip"                
+                android:scaleType="centerCrop"
+                android:paddingLeft="1dip"
+                android:paddingTop="2dip"
+                android:paddingRight="1dip"
+                android:paddingBottom="2dip"           
+                android:cropToPadding="true">
+        </ImageView>
+</LinearLayout>

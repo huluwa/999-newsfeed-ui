@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_app_name">Search Bar</string>
+    <string name="search_hit">Search</string>
+    <string name="radio_btn_local">Device</string>
+    <string name="radio_btn_web">Web</string>
+    <string name="radio_btn_social">Social Search</string>
+</resources>

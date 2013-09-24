@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<com.borqs.omshome25.DragLayer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.borqs.omshome25"
+
+    android:id="@+id/drag_layer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+        
+    <include layout="@layout/all_apps_3d" />
+   
+    <com.borqs.omshome25.Workspace
+        android:id="@+id/workspace"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        launcher:defaultScreen="1" />
+        
+    <RelativeLayout 
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/button_bar_height"
+		android:layout_gravity="bottom"
+		>
+		
+		    <com.borqs.omshome25.HandleView
+		        android:id="@+id/all_apps_button"
+		        android:layout_width="@dimen/button_bar_width"
+		        android:layout_height="fill_parent"
+				android:layout_gravity="bottom|left"
+		        android:focusable="true"
+		        android:clickable="true"
+		        android:background="@drawable/bottom_button_left_background"
+		        launcher:direction="horizontal"/>
+		
+		    <com.borqs.omshome25.PageIndicatorView
+		        android:id="@+id/page_manager_iv"   
+		        android:layout_width="@dimen/button_bar_width"
+		        android:layout_height="@dimen/button_bar_height"
+		        android:onClick="startPageManager"
+		        android:layout_alignParentRight="true"
+		        android:background="@drawable/bottom_button_right_background"
+		        android:focusable="true"
+		        android:clickable="true" />
+
+		    <ImageView
+		        android:id="@+id/start_call_iv"
+		        android:layout_width="@dimen/button_bar_width"
+		        android:layout_height="@dimen/button_bar_height"
+				android:layout_toRightOf="@id/all_apps_button"		     
+		        android:onClick="startCall"
+		        android:focusable="true"
+		        android:clickable="true"/>
+		        <!--    android:background="@drawable/bottom_button_call_normal_background" -->
+		        
+		    <com.borqs.omshome25.IndicatorWithMissCallNumberView
+		        android:id="@+id/misscall_count_iv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/cmcc_home_bottom_misscall_icon"
+		        android:layout_marginLeft="@dimen/misscall_marginLeft"
+		        android:visibility="gone"/>		      
+		        
+    </RelativeLayout>
+    
+    <com.borqs.omshome25.DeleteZone
+        android:id="@+id/delete_zone"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_bar_height"
+        android:layout_gravity="bottom|center_horizontal"
+
+        android:scaleType="center"
+        android:visibility="invisible"
+        launcher:direction="horizontal"/>
+<!--         android:src="@drawable/delete_zone_selector"-->
+        
+</com.borqs.omshome25.DragLayer>

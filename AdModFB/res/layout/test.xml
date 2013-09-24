@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  
+  <EditText android:id="@+id/text" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content"/>
+      
+   <Button android:id="@+id/start_sync" 
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:text="@string/test_isFacebookUser"/>
+       
+   <Button android:id="@+id/test_sync_contact" 
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:text="@string/test_gloabalcontactsync"/>
+       
+   <Button android:id="@+id/add_event" 
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:text="@string/test_addEvent"/>
+       
+   <Button android:id="@+id/test_sync_event" 
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:text="@string/test_gloabaleventsync"/>
+       
+    <Button android:id="@+id/test_taskstatus" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:text="@string/test_taskstatus_str"/>
+       
+       
+       
+  
+</LinearLayout>

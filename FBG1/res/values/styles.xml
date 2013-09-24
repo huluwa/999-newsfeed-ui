@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <style name="WidgetBackground">
+        <item name="android:background">@drawable/widget_bg</item>
+    </style>
+    <style name="account_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:paddingRight">4dip</item>
+        <item name="android:layout_marginTop">6dip</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ff1c40a4</item>
+    </style>
+
+    <style name="account_field">
+    	<item name="android:singleLine">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">56dip</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@color/facebook_light_grey</item>
+    </style>
+    
+    <!-- For cmcc push mail -->
+    <style name="cmnew_setting_help">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:paddingBottom">4dip</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:paddingRight">4dip</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#ff1c40a4</item>
+    </style>  
+    
+    <!-- sns username style -->
+    <style name="sns_username">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#333333</item>
+    </style>   
+    <style name="sns_username_blue">
+        <item name="android:textSize">11dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#3B5998</item>
+    </style>     
+    <!-- sns username style -->
+    <style name="sns_big_username">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#333333</item>
+    </style> 
+    
+    <style name="sns_big_username_blue">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#3B5998</item>
+    </style>  
+    
+    <style name="sns_text_blue">
+        <item name="android:textSize">14dip</item>        
+        <item name="android:textColor">#3B5998</item>
+    </style>   
+    
+     <!-- sns time style -->
+    <style name="sns_time">
+        <item name="android:textSize">14px</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#6D84B4</item>
+    </style>  
+    
+    <style name="sns_event_time">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#333333</item>
+    </style> 
+    <style name="sns_event_time_bold">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+    <style name="sns_event_copy">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+     <style name="sns_event_sec_copy">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#555555</item>
+    </style>
+    
+    <style name="sns_time_bd">
+        <item name="android:textSize">18px</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#6D84B4</item>
+    </style>  
+    
+    <style name="sns_event_title">
+        <item name="android:textSize">16dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+    </style>  
+    
+     <!-- sns username style -->
+    <style name="sns_text">
+        <item name="android:textSize">14dip</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:textColor">#333333</item>
+        <item name="android:textColorLink">#3B5998</item>
+    </style>
+    <style name="sns_notify_text">
+        <item name="android:textSize">14dip</item>        
+        <item name="android:textColor">#333333</item>
+        <item name="android:textColorLink">#ff0579CB</item>
+    </style>
+    
+    <style name="facebook_message">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textColorLink">#ff0579CB</item>
+    </style>  
+    
+    <style name="sns_text_second_copy">
+        <item name="android:textSize">14dip</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:textColor">#555555</item>
+        <item name="android:textColorLink">#3B5998</item>
+    </style>   
+    <style name="sns_mail_text">
+        <item name="android:textSize">14dip</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:textColor">#333333</item>
+        <item name="android:textColorLink">#3B5998</item>
+    </style> 
+     
+    
+    <style name="sns_link">    
+        <item name="android:textSize">14dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#3B5998</item>
+    </style>
+    
+    <style name="sns_link_sec_copy">    
+        <item name="android:textSize">14dip</item>        
+        <item name="android:textColor">#555555</item>
+        <item name="android:textColorLink">#3B5998</item>
+    </style>
+    
+    <style name="sns_load_old">    
+        <item name="android:textSize">14dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#3B5998</item>
+        <item name="android:background">#ffffffff</item>
+    </style>
+</resources>

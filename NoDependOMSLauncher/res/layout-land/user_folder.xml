@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<com.android.omshome.UserFolder xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+ <RelativeLayout  
+      android:id="@+id/folder_close_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/folder_layout_close_edit"
+		android:orientation="horizontal">      
+    <Button
+        android:id="@+id/folder_close"
+    	android:background="@drawable/box_launcher_top"
+        android:gravity="left|center_vertical"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+   	<TextView
+    	android:id="@+id/folder_name_show"
+        android:gravity="left|center_vertical"
+        android:textSize="14sp"
+        android:textColor="#404040"
+        android:textStyle="bold"
+        android:layout_width="@dimen/folder_name_show_width"
+    	android:layout_height="@dimen/folder_name_show_height"
+    	android:layout_alignParentBottom="true"
+    	android:layout_marginLeft="20dp"
+   	/> 
+	  <ImageView 
+	        android:id="@+id/close_folder" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:scaleType="center"
+	        android:layout_alignRight="@id/folder_close"
+	        android:layout_alignParentBottom="true"
+	        android:focusable="true"
+	        android:clickable="true"
+	         />      
+	    
+      <ImageView 
+	        android:id="@+id/folder_rename" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:scaleType="center"
+	        android:layout_gravity="center_vertical|right"
+	        android:focusable="true"
+	        android:clickable="true" 
+	        android:layout_toLeftOf="@id/close_folder"
+	       />
+ </RelativeLayout>
+    <GridView
+        android:id="@id/folder_content"
+        android:layout_width="fill_parent"
+    	android:layout_height="0dip"
+    	android:layout_weight="1"
+            
+        android:cacheColorHint="#ff333333"
+        android:background="@drawable/box_launcher_bottom"
+
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideInset"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@drawable/grid_selector"
+
+        android:verticalSpacing="10dip"
+        android:numColumns="5" />
+
+</com.android.omshome.UserFolder>

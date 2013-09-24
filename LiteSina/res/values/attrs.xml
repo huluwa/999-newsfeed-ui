@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <declare-styleable name="AddressPad">
+    	<attr name="titleTextColor" format="color"/>
+    	<attr name="titleText" format="reference|string"/>
+    	<attr name="addressBackground" format="reference|color"/>
+    	<attr name="selectedAddressBackground" format="reference|color"/>
+    	<attr name="auxiliaryButton" format="reference"/>
+    	<attr name="auxiliaryButtonSelected" format="reference"/>
+    	<attr name="auxiliaryButtonVisible" format="boolean"/>
+    	<attr name="addresspadCursorVisible" format="boolean"/>
+    	<attr name="keepWhitespace" format="boolean"/>
+    	<attr name="allowDuplicated" format="boolean"/>
+    	<attr name="multiSelection" format="boolean"/>
+    	<attr name="inputSeparator" format="string"/>
+	    <attr name="keepFullMode"            format="boolean"/>
+        <attr name="showContextMenuOnClick"  format="boolean"/>
+        <attr name="enableLongClickDeletion" format="boolean"/>
+        <attr name="textAppearanceListItemOne" format="reference" />
+        <attr name="textAppearanceListItemTwo" format="reference" />
+         <attr name="listPreferredItemHeight" format="dimension" />
+    </declare-styleable>    
+	<!-- AddressPadMini -->
+    <declare-styleable name="AddressPadMini">
+        <!-- Separator, Default is ',' -->
+        <attr name="separator"  format="string"/>
+        <!-- Competion threshold, Default is 2 -->
+        <attr name="threshold"  format="integer|reference"/>
+        <!-- Address button backgroud -->
+        <attr name="addressBg"  format="reference|color"/>
+        <!-- Address button click backgroud -->
+        <attr name="selectedAddressBg" format="reference|color"/>
+        <!-- Address text color -->
+        <attr name="addressTextColor" format="reference|color"/>
+        <!-- Selected address text color -->
+        <attr name="selectedAddressTextColor" format="reference|color"/>
+        <!-- Cache size of duplication checking -->
+        <attr name="cacheSize"  format="integer|reference"/>
+        <!-- Expand when addresses more than specify count -->
+        <attr name="expandAt"   format="integer|reference"/>
+        <!-- Expand specify number of addresses on each click --> 
+        <attr name="expandStep" format="integer|reference"/>
+        <!-- Inner decorator type -->
+        <attr name="decoratorType">
+            <enum name="mail"       value="0"/>
+            <enum name="phone_mail" value="1"/>
+        </attr>
+        <!-- Read only mode -->
+        <attr name="readOnly" format="boolean"/>
+        <!-- Single line hint style -->
+        <attr name="singleLineHintStyle">
+            <enum name="text"       value="0"/>
+            <enum name="button"     value="1"/>
+        </attr>
+    <!-- =============================== -->
+    <!-- App package class attributes -->
+    <!-- =============================== -->
+    <eat-comment />
+    </declare-styleable>
+</resources>
+

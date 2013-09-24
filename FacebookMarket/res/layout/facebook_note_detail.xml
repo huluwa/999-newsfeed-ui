@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/facebook_backgroud">
+    <include layout="@layout/facebook_header">
+    </include>  
+    
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb">
+	    <RelativeLayout 
+	        android:layout_width="fill_parent"        
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical"
+	        android:paddingLeft="5dip"
+	        android:paddingRight="7dip"
+	        android:paddingTop="3dip">         
+	       <ImageView android:id="@+id/note_user_img_ui"
+	             android:layout_width="50dip"
+	             android:layout_height="50dip"                
+	             android:layout_gravity="top"
+	             android:layout_alignParentLeft="true"                  
+	             android:background="#00000000"/>
+	                 
+	        <TextView android:id="@+id/note_user_name"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"    
+	              android:layout_toRightOf="@+id/note_user_img_ui"
+	              android:paddingLeft="5px"
+	              android:paddingTop="3px"                             
+	              android:linksClickable="false"
+	              android:textAppearance="@style/sns_big_username_blue"  
+	              android:layout_weight="1"/>
+	                 
+	        <TextView android:id="@+id/note_publish_time"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_gravity="right"              
+	              android:linksClickable="false"
+	              android:textAppearance="@style/sns_time"  
+	              android:layout_weight="1"
+	              android:paddingTop="3px"
+	              android:layout_toRightOf="@+id/note_user_img_ui"
+	              android:paddingLeft="5px"
+	              android:layout_below="@+id/note_user_name"/>
+	                 
+	        <TextView android:id="@+id/note_publish_title"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"              
+	              android:layout_below="@+id/note_publish_time"
+	              android:layout_toRightOf="@+id/note_user_img_ui"    
+	              android:gravity="center_vertical"                                   
+	              android:linksClickable="false"
+	              android:paddingLeft="5px"
+	              android:paddingTop="3px"              
+	              android:textAppearance="@style/sns_text"  
+	              android:layout_weight="1"/>  
+	        <TextView android:id="@+id/note_publish_content"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"              
+	              android:layout_below="@+id/note_publish_title"
+	              android:layout_toRightOf="@+id/note_user_img_ui"    
+	              android:gravity="center_vertical"                                   
+	              android:linksClickable="true"
+	              android:autoLink="web"
+	              android:paddingLeft="5px"
+	              android:paddingTop="6px"              
+	              android:textAppearance="@style/sns_mail_text"  
+	              android:layout_weight="1"/>     
+	       </RelativeLayout>  
+       </ScrollView> 
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:background="#ffffff">
+     
+    <include layout="@layout/facebook_header">
+    </include>
+    
+     
+   <RelativeLayout    
+        android:id="@+id/container" 
+        android:layout_width="fill_parent"
+        android:layout_below="@id/facebook_header_id"
+        android:layout_above="@+id/facebook_bottom_span"      
+        android:layout_height="wrap_content">
+	    <com.msocial.nofree.ui.AllAppsScreen
+	        android:id="@+id/workspace"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"        
+	        android:layout_alignParentBottom="true">
+	   </com.msocial.nofree.ui.AllAppsScreen>
+   </RelativeLayout>
+   
+   <LinearLayout
+      android:id="@id/facebook_bottom_span"               
+      android:layout_width="fill_parent"          
+      android:layout_height="40dip"
+      android:gravity="center_horizontal|center_vertical"
+      android:orientation="vertical"          
+      android:background="@color/facebook_light_grey"      
+      android:layout_gravity="bottom"        
+      android:layout_alignParentBottom="true">    
+                <Button android:id="@+id/facebook_current_pos"
+                 android:focusable="false"
+                 android:layout_width="100dp"
+                 android:layout_height="20dp"                     
+                 android:layout_gravity="center_horizontal|center_vertical"
+                 android:background="@drawable/profile_on">
+                 </Button>                   
+   </LinearLayout>
+   
+</RelativeLayout>

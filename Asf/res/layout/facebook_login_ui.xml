@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:scrollbars="none"
+    android:background="@color/facebook_backgroud">
+    <!-- 
+    <include layout="@layout/facebook_header">
+    </include>
+    -->     
+    
+    <LinearLayout     
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:scrollbars="none"
+    android:background="@drawable/facebook_background">
+    
+      <LinearLayout      
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"      
+      android:visibility="gone">
+      <LinearLayout      
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"      
+      android:orientation="vertical"
+      android:paddingLeft="10px"
+      android:paddingTop="10px"
+      android:paddingRight="10px">
+	      <TextView
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="@string/facebook_login_email_label"    
+	      android:textSize="18sp"
+	      android:layout_alignParentLeft="true"
+	      android:layout_alignParentTop="true"
+	      android:visibility="gone"/>
+	     
+	      <EditText
+	     android:id="@+id/facebook_login_email"
+	     android:layout_width="fill_parent"       
+	     android:layout_height="55dip"   
+	     android:autoText="true"                 
+	     android:capitalize="none"
+	     android:singleLine="true"
+	     android:textColor="#000000"
+	     android:background="@drawable/editbox_background"
+	     android:inputType="textEmailAddress"                 
+	     android:scrollHorizontally="true"/>
+	 </LinearLayout>    
+
+         
+    <LinearLayout      
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"      
+      android:orientation="vertical"
+      android:paddingTop="10px"
+      android:paddingBottom="10px"
+      android:paddingLeft="10px"
+      android:paddingRight="10px">
+	      <TextView
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="@string/facebook_login_pwd_label"                      
+	     android:textSize="18sp"
+	     android:layout_alignParentLeft="true"
+	     android:layout_alignParentTop="true"
+	     android:visibility="gone"/>
+	                         
+	    <EditText
+	    android:id="@+id/facebook_login_pwd"
+	    android:layout_width="fill_parent"       
+	    android:layout_height="55dip"    
+	    android:autoText="true"                 
+	    android:capitalize="none"
+	    android:singleLine="true"         
+	    android:textColor="#000000"
+	    android:inputType="textPassword"         
+	    android:background="@drawable/editbox_background" 
+	    android:scrollHorizontally="true"/>
+	  
+	 </LinearLayout>
+     <!-- 
+     <View android:layout_width="fill_parent"
+       android:background="@drawable/divider"   
+       android:paddingLeft="20px"    
+       android:paddingRight="20px"
+       android:layout_height="2dip"/>
+      -->
+          
+     <LinearLayout
+	  android:id="@+id/facebook_tab_span"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"	  
+	  android:paddingBottom="5dip"
+	  android:paddingTop="10dip"
+	  android:paddingLeft="10px"
+	  android:paddingRight="10px"
+	  android:orientation="vertical">
+	    
+	   <CheckBox android:id="@+id/checkbox_sync_phonebook"                    
+        android:layout_height="wrap_content" 
+        android:text="@string/sync_address_book"       
+        android:textColor="#3B5998" 
+        android:layout_width="wrap_content"
+        android:visibility="gone"/>                
+                
+        <Button  android:id="@+id/facebook_login_ok_button"
+        android:text="@string/facebook_login_ok"  
+        android:layout_width="110dip"
+        android:layout_height="48dip"        
+        android:focusable="true"  
+        android:focusableInTouchMode="true"
+        android:background="@drawable/blue_button_background"
+        android:layout_gravity="left"/>	
+    </LinearLayout>   
+    
+    <!-- 
+    <View android:layout_width="fill_parent"
+          android:background="@drawable/divider"
+          android:paddingLeft="20px"
+          android:paddingRight="20px"
+          android:layout_height="2dip"/>
+     -->
+              
+    <LinearLayout
+      android:id="@+id/facebook_tab_span_1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"    
+      android:paddingBottom="10dip"
+      android:paddingTop="10dip"
+      android:paddingLeft="10px"
+      android:paddingRight="10px"
+      android:orientation="horizontal">
+        
+        <Button  android:id="@+id/facebook_login_sign_up_button"
+        android:text="@string/facebook_login_sign_up"        
+        android:layout_width="110dip"        
+        android:layout_height="48dip"                   
+        android:layout_alignParentLeft="true"        
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/sign_button_background"/>       
+           
+                        
+       <TextView
+         android:id="@+id/facebook_login_sign_up_hint"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/facebook_no_facebook_account"    
+         android:textSize="16sp"
+         android:textColor="#333333"         
+         android:paddingLeft="10px"
+         android:layout_gravity="center_vertical"/>
+    </LinearLayout>   
+    </LinearLayout>
+   
+         
+    <ScrollView     
+       android:id="@+id/facebook_info_span"
+	   android:orientation="vertical"
+	   android:layout_width="fill_parent"
+	   android:layout_height="fill_parent"	   
+	   android:paddingLeft="10px" 
+	   android:paddingRight="10px"	   
+	   android:scrollbars="none">
+       <TextView android:id="@+id/facebook_info" 
+          android:textColor="#3B5998"
+          android:textSize="20sp"
+          android:layout_gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+    </ScrollView>           
+</LinearLayout>    
+</LinearLayout>       

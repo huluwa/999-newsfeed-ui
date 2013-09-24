@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <RelativeLayout  
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/all_apps_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+		android:orientation="horizontal"
+		android:background="@drawable/cmcc_allapps_title_bg"
+		android:paddingRight="51dp"
+		>
+		   <TextView
+			        android:id="@+id/all_apps_category_name"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"		        		 				        
+			        android:focusable="false"
+			        android:gravity="center"
+			        android:text="@string/category_all"
+			        android:textSize="20dp"
+			        android:textStyle="bold"
+			        android:textColor="#000"
+			        android:clickable="false"/>      
+			        
+		   <TextView
+		        android:id="@+id/all_apps_category"		
+		        android:layout_width="100dp"
+		        android:layout_height="fill_parent"
+		        android:focusable="true"
+		        android:clickable="true"
+		        android:paddingLeft="10dp"
+		        android:gravity="center"
+		        android:drawableLeft="@drawable/ic_allapps_category_btn"
+		        android:nextFocusDown="@id/all_apps_view"
+		        android:visibility="gone"
+		        />
+		    
+	       <ImageView 
+		        android:id="@+id/all_apps_edit" 
+		        android:layout_width="40dp" 
+		        android:layout_height="40dp" 
+		        android:layout_marginRight="8dp"		
+		        android:layout_alignParentRight="true" 
+		        android:scaleType="fitXY"
+		        android:layout_gravity="center_vertical|right" 
+		        android:focusable="true"
+		        android:clickable="true" 
+		        android:visibility="gone"/>
+   </RelativeLayout>

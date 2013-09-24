@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+    android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+    android:fillViewport="true"
+    android:background="@color/facebook_backgroud">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    <include layout="@layout/facebook_header">
+        </include>
+      
+	     <LinearLayout
+	            android:id="@+id/facebook_mail_receiver_span"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="5px"
+	            android:paddingTop="10px"
+                android:paddingRight="5px"
+                android:paddingBottom="10px"
+	            android:background = "@color/facebook_light_grey"
+	            android:orientation="horizontal"
+	            android:visibility="gone">
+	            <LinearLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1.0"
+	                android:orientation="horizontal">      
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="60dip"
+	                    android:textSize="20sp"
+	                    android:layout_gravity="top"
+	                    android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+	                    android:textColor="#000000"
+	                    android:text = "@string/to_button_lable">
+	                </TextView>
+	                
+	                 <com.msocial.facebook.AddressPad
+                             android:id="@+id/facebook_mail_receiver_editor"
+                             android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             titleText=""
+                             android:textSize="24sp"
+                             android:textColor="#000000"
+                             inputSeparator=","
+                             keepWhitespace="true"
+                             android:background = "@drawable/editbox_background"
+                             keepFullMode = "true"                    
+                             auxiliaryButtonVisible="false"
+                             listPreferredItemHeight="30dip"
+                             android:nextFocusRight="@+id/facebook_wall_receivers_button">
+                             </com.msocial.facebook.AddressPad>
+                    </LinearLayout>
+	                                    	                                    
+	                <Button android:id="@+id/facebook_mail_receivers_button"
+	                android:layout_width="30dip"
+	                android:layout_height="30dip"	                
+	                android:layout_gravity="bottom"
+	                style="?android:attr/buttonStyleSmall"
+	                android:background="@drawable/tobtn_style"/>
+	        </LinearLayout>
+	   
+	   <LinearLayout
+	        android:id="@+id/facebook_mail_subject_span"
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="5px"
+            android:paddingRight="5px"
+            android:paddingTop="10px"
+	        android:visibility="gone">        
+	               <EditText
+	                   android:id="@+id/facebook_mail_subject"
+	                   android:layout_width="fill_parent"
+	                   android:autoText="true"  
+	                   android:layout_height="55dip"                 
+	                   android:capitalize="sentences"
+	                   android:singleLine="true"
+	                   android:maxLines="1"
+	                   android:textColor="#000000"
+	                   android:background="@drawable/editbox_background"
+	                   android:nextFocusRight="@+id/facebook_mail_editor"
+	                   android:scrollHorizontally="false"                   
+	                />    
+	   </LinearLayout>
+	   
+	   <LinearLayout
+	        android:id="@+id/facebook_compose_span"
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="5px"
+	        android:paddingRight="5px"
+	        android:paddingTop="10px"
+	        android:layout_gravity="top">    
+	              <RelativeLayout
+	                android:layout_width="0dip"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1.0"
+	                android:addStatesFromChildren="true">                   
+	                   <EditText
+	                   android:id="@+id/facebook_mail_editor"
+	                   android:layout_width="fill_parent"       
+	                   android:layout_height="wrap_content"     
+	                   android:autoText="true"    
+	                   android:scrollHorizontally="false"             
+	                   android:capitalize="sentences"
+	                   android:maxLines="10"
+	                   android:minLines="4"
+	                   android:textColor="#000000"
+	                   android:background="@drawable/editbox_background"
+	                   android:gravity="top"/>
+	                   
+	                   <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textColor="#ffff00"
+	                    android:textSize="9sp"
+	                    android:layout_alignParentRight="true"
+	                    android:layout_alignParentTop="true"
+	                     />
+	              </RelativeLayout>             
+	   </LinearLayout>
+	   
+	   <LinearLayout
+                  android:id="@+id/facebook_tab_span"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"    
+                  android:paddingBottom="5dip"
+                  android:paddingTop="10dip"
+                  android:paddingLeft="5px"
+                  android:paddingRight="5px"
+                  android:orientation="vertical">     
+                    <Button  android:id="@+id/facebook_mail_send_button"
+                    android:text="@string/twitter_compose_screen"  
+                    android:layout_width="110dip"
+                    android:layout_height="48dip"        
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/blue_button_background"
+                    android:layout_gravity="left"/> 
+       </LinearLayout>  
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.msocial.freefb"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/facebook_backgroud">
+    
+    <include layout="@layout/facebook_header">
+    </include>
+     
+    <ProgressBar android:id="@+id/progress_horizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:visibility="gone"/>    
+        
+    <LinearLayout
+    android:id="@+id/facebook_compose_span"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    
+    android:gravity = "top"
+    android:background="@drawable/facebook_background">   
+       <LinearLayout
+       android:id="@+id/pre_next_controller"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_weight="1.0"
+       android:paddingTop="5px"
+       android:paddingBottom="5px"
+       android:layout_gravity="center_vertical"       
+       android:orientation="horizontal">
+       <EditText
+                android:id="@+id/facebook_wall_message_editor"
+                android:layout_width="fill_parent"       
+                android:layout_height="wrap_content"
+                android:minHeight="53dip"      
+                android:autoText="true"                 
+                android:capitalize="sentences"
+                android:maxLines="10"
+                android:textColor="#000000"
+                android:hint="@string/facebook_status_update_compose"
+                android:nextFocusRight="@+id/wall_post"
+                android:background="@drawable/editbox_background"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+        <Button android:id="@+id/wall_post"
+           android:layout_width="65dip"
+           android:layout_height="48dip" 
+           android:textSize="16dip"       
+           android:layout_alignParentRight="true"  
+           android:background="@drawable/blue_button_background"
+           android:text="@string/facebook_wall_share"     
+           android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    
+   <LinearLayout 
+            android:id="@+id/facebook_info_span"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_gravity = "center_vertical"
+            android:background="@drawable/slide_bar"
+            android:visibility="gone">
+            <TextView android:id="@+id/facebook_info"                
+                android:textSize = "18dip"
+                android:layout_gravity = "center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" /> 
+   </LinearLayout> 
+   
+   <LinearLayout
+        android:id="@+id/facebook_search_span"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:visibility="gone">       
+               <EditText android:id="@+id/embedded_text_editor"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingLeft = "50px"
+                 android:background = "@drawable/searchbar"
+                 android:drawableRight="@drawable/search"
+                     android:drawablePadding="10px"/>            
+    </LinearLayout>
+    
+    <com.msocial.freefb.ui.view.CustomListView android:id="@+id/facebook_stream_list"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:layout_weight="1"
+        android:divider="@drawable/divider" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:paddingBottom="10px"
+        android:paddingTop="5px"
+        android:listSelector="@drawable/list_selector_background"
+        android:cacheColorHint="#00000000"/>
+    
+    <LinearLayout
+       android:id="@+id/facebook_newsfeed_bottom_span"
+       android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="55dip"        
+       android:layout_gravity="bottom"
+       android:visibility="gone">   
+             
+         <Button
+         android:id="@+id/facebook_newsfeed_bottom_region"
+         android:layout_width="fill_parent"          
+         android:drawablePadding="5dip"
+         android:layout_height="fill_parent"
+         android:layout_gravity="center_horizontal"/>           
+  </LinearLayout>
+  
+     <!-- Place an AdMob ad at the bottom of the screen. -->
+   <!-- It has white text on a black background. -->
+   <!-- The description of the surrounding context is 'Android game'. -->
+   <!--
+   <com.admob.android.ads.AdView  
+     android:id="@+id/ad" 
+     android:visibility="gone"
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     app:backgroundColor="#000000"
+     app:primaryTextColor="#FFFFFF"
+     app:secondaryTextColor="#CCCCCC"
+     app:keywords="Android game"
+   />
+   --> 
+</LinearLayout>

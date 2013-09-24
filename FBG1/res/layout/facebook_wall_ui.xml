@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:background="@color/facebook_backgroud">
+        
+    <include layout="@layout/facebook_header">
+    </include>
+    
+    <ProgressBar android:id="@+id/progress_horizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:visibility="gone"/>    
+    
+     <LinearLayout 
+            android:id="@+id/facebook_info_span"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_gravity = "center_vertical"
+            android:background="@drawable/slide_bar"
+            android:visibility="gone">
+            <TextView android:id="@+id/facebook_info"
+                android:textSize = "18dip"
+                android:layout_gravity = "center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" /> 
+   </LinearLayout> 
+   
+   <RelativeLayout android:id="@+id/facebook_profile_span"
+        android:layout_width="fill_parent"        
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5px"
+        android:paddingRight="7px"
+        android:paddingTop="3px"
+        android:visibility="gone">        
+	      
+       <ImageView android:id="@+id/facebook_img_ui"
+             android:layout_width="50dip"
+             android:layout_height="50dip"                
+             android:layout_gravity="center_vertical"
+             android:layout_alignParentLeft="true"	                
+             android:background="#00000000"/>
+                 
+        <TextView android:id="@+id/facebook_username"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"    
+              android:layout_toRightOf="@+id/facebook_img_ui"
+              android:paddingLeft="5px"   
+              android:textAppearance="@style/sns_username"                          
+              android:linksClickable="false"
+              android:layout_weight="1"/>
+                 
+      <TextView android:id="@+id/facebook_status_text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"              
+              android:layout_below="@+id/facebook_username"
+              android:layout_toRightOf="@+id/facebook_img_ui"    
+              android:gravity="center_vertical"		              	              
+              android:linksClickable="false"
+              android:paddingTop="3px"
+              android:paddingLeft="5px"
+              android:maxLines="1"
+              android:textAppearance="@style/sns_text"     
+              android:layout_weight="1"/>
+      <TextView android:id="@+id/facebook_time"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="right"              
+              android:linksClickable="false"
+              android:layout_weight="1"
+              android:textAppearance="@style/sns_time"     
+              android:layout_toRightOf="@+id/facebook_img_ui"
+              android:paddingLeft="5px"
+              android:paddingTop="3px"
+              android:layout_below="@+id/facebook_status_text"/>     
+   </RelativeLayout>   
+   <LinearLayout
+    android:id="@+id/facebook_compose_span"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    
+    android:gravity = "bottom"    
+    android:visibility="gone">   
+    <LinearLayout
+       android:id="@+id/pre_next_controller"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_weight="1.0"
+       android:gravity = "bottom"       
+       android:orientation="horizontal">
+       <EditText
+                android:id="@+id/facebook_wall_message_editor"
+                android:layout_width="fill_parent"       
+                android:layout_height="wrap_content"     
+                android:autoText="true"                 
+                android:capitalize="sentences"
+                android:maxLines="10"
+                android:textColor="#000000"
+                android:nextFocusRight="@+id/wall_post"
+                android:scrollHorizontally="true"/>
+	    </LinearLayout>
+	    <Button android:id="@+id/wall_post"
+	       android:layout_width="65dip"
+	       android:layout_height="48dip"
+	       android:textSize="16dip"       
+	       android:layout_alignParentRight="true"       
+	       android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    
+       
+   <ListView android:id="@+id/facebook_wall_list"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:layout_weight="1"
+        android:divider="@drawable/divider" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@drawable/list_selector_background"
+        android:cacheColorHint="#00000000" />
+            
+    <LinearLayout
+       android:id="@+id/facebook_msg_bottom_span"
+       android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="55dip"        
+       android:layout_gravity="bottom"
+       android:visibility="gone">   
+             
+         <Button
+         android:id="@+id/facebook_msg_bottom_region"
+         android:layout_width="fill_parent"          
+         android:drawablePadding="5dip"
+         android:layout_height="fill_parent"
+         android:layout_gravity="center_horizontal"/>           
+  </LinearLayout>
+  
+</LinearLayout>

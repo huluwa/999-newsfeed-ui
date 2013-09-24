@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.ast.free"
+     android:id="@+id/facebook_header_id"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"     
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_gravity="bottom"
+     android:background="#3B5998">     
+     
+     <!-- 
+     <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="fill_parent"     
+     android:layout_height="wrap_content"
+     android:visibility="visible"
+     android:id="@+id/header_title_layout">       
+        <com.admob.android.ads.AdView  
+             android:id="@+id/ad1"     
+             android:layout_width="fill_parent" 
+             android:layout_height="45dip"
+             android:layout_alignParentTop="true"
+             app:backgroundColor="#000000"
+             app:primaryTextColor="#FFFFFF"
+             app:secondaryTextColor="#CCCCCC"
+             app:refreshInterval="30"
+             android:background="@drawable/header"/>
+         
+         <ImageView android:id="@+id/tweet_img_ui"
+         android:layout_width="fill_parent"
+         android:layout_height="45dip"                
+         android:layout_gravity="center_horizontal"                       
+         android:background="@drawable/header"/>
+          <View  
+          android:layout_width="fill_parent"
+          android:layout_height="2px"             
+          android:background="@drawable/divider_dark"              
+          android:layout_weight="1"
+          android:paddingBottom="8dip"/>    
+     </LinearLayout>
+      -->
+     
+    <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="fill_parent"     
+     android:layout_height="45dip"
+     android:visibility="visible"
+     android:id="@+id/header_no_title_layout">    
+     
+	    <RelativeLayout
+	     android:orientation="vertical"
+	     android:layout_width="fill_parent"     
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentTop="true"
+	     android:background="#3B5998">         
+	     
+	         <!--   
+	         <com.admob.android.ads.AdView  
+             android:id="@+id/ad2"     
+             android:layout_width="fill_parent" 
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             app:backgroundColor="#000000"
+             app:primaryTextColor="#FFFFFF"
+             app:secondaryTextColor="#CCCCCC"             
+             app:refreshInterval="30"
+             android:background="@drawable/header"/>
+             -->   
+	         <!--     
+	         <ImageView 
+	         android:layout_width="fill_parent"
+	         android:layout_height="45dip"                
+	         android:layout_gravity="center_horizontal"                       
+	         android:background="@drawable/header_left"/>
+	          -->               
+	         
+	         <TextView android:id="@+id/header_title"
+	         android:layout_width="wrap_content"
+	         android:layout_height="45dip"    
+	         android:gravity="center_vertical"
+	         android:layout_alignParentRight="true"    
+		     android:paddingRight="8dip"/>
+	         
+	         <ProgressBar android:id="@+id/header_progressbar"
+		        style="?android:attr/progressBarStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:max="100"
+		        android:visibility="gone"
+		        android:layout_alignParentRight="true"
+		        android:paddingRight="8dip"
+		        android:paddingTop="15dip"/>    
+		        
+		      
+	         <!-- ImageView android:id="@+id/tweet_img_ui"
+	         android:layout_width="fill_parent"
+	         android:layout_height="45dip"                
+	         android:layout_gravity="center_horizontal"                       
+	         android:background="@drawable/header"/-->    
+	          
+	    </RelativeLayout>
+    <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="fill_parent"     
+     android:layout_height="2px"
+     android:background="@drawable/divider_dark"/>  
+    </LinearLayout>
+ </LinearLayout>

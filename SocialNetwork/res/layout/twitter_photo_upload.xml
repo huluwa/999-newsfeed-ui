@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"      
+        android:layout_height="fill_parent"
+        android:background="@drawable/twitter_tweets_bg">     
+        <include layout="@layout/twitter_action"/>
+       <LinearLayout
+            android:id="@+id/facebook_compose_span"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content">    
+                  <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:addStatesFromChildren="true"
+                    android:paddingTop="10dip"
+                    android:paddingBottom="10dip"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip">                   
+                       <EditText
+                       android:id="@+id/facebook_status_message_editor"
+                       android:layout_width="fill_parent"       
+                       android:layout_height="wrap_content"  
+                       android:autoText="true"                 
+                       android:capitalize="sentences"
+                       android:layout_centerHorizontal="true"
+                       android:maxLines="10"
+                       android:minLines="2"       
+                       android:textColor="#000000"                            
+                       android:scrollHorizontally="false"
+                       android:background="@drawable/editbox_background"/>
+                       <TextView
+                        android:id="@+id/facebook_status_text_counter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textcounter" 
+                        android:textSize="9sp"
+                        android:layout_toRightOf="@+id/facebook_status_message_editor"
+                        android:layout_alignParentTop="true"
+                         />
+                  </RelativeLayout>                            
+       </LinearLayout>
+       
+       <!-- 
+       <LinearLayout
+                  android:id="@+id/facebook_tab_span"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"    
+                  android:paddingBottom="5dip"
+                  android:paddingTop="10dip"          
+                  android:paddingLeft="10px"        
+                  android:orientation="horizontal">     
+                    <Button  android:id="@+id/facebook_share_button"
+                    android:text="@string/facebook_status_update_title"  
+                    android:layout_width="110dip"
+                    android:layout_height="48dip"        
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/blue_button_background"
+                    android:layout_gravity="left"/> 
+       </LinearLayout>
+       -->
+        
+       <ListView android:id="@+id/facebook_update_content_list"
+                android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+                android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+            android:layout_weight="1"
+            android:divider="@drawable/divider" 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:listSelector="@drawable/list_selector_background"
+            android:cacheColorHint="#00000000"/>   
+                 
+</LinearLayout>
+

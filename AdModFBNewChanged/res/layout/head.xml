@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >  
+  
+    <LinearLayout  
+        android:id="@+id/head_contentLayout"  
+        android:layout_width="fill_parent"  
+        android:layout_height="60dip"  
+        android:gravity="center"
+        android:orientation="horizontal">  
+  
+        <RelativeLayout  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" >  
+  
+            <ImageView  
+                android:id="@+id/head_arrowImageView"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_gravity="center"  
+                android:src="@drawable/z_arrow_down" />  
+  
+              <ProgressBar   
+		        android:id="@+id/head_progressBar"
+		        android:layout_width="32dp"   
+		        android:layout_height="32dp"
+	     	    android:layout_marginRight="4dp"
+		        android:layout_marginTop="7dp"
+		        style="?android:attr/progressBarStyle"
+		        android:progress="50"
+		        android:layout_gravity="center_vertical"
+		        android:max="100"
+		        android:layout_toLeftOf="@+id/head_action_right"
+		        android:visibility="gone"/> 
+        </RelativeLayout>  
+  
+        <LinearLayout  
+            android:id="@id/head_action_right"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:gravity="center_horizontal"  
+            android:orientation="vertical"
+            android:paddingLeft="20dip" >  
+  
+            <TextView  
+                android:id="@+id/head_tipsTextView"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:text="@string/stream_head_refresh" 
+                android:textColor="#b2b2b2"  
+                android:textSize="16sp" />  
+  
+            <TextView  
+                android:id="@+id/head_lastUpdatedTextView"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:textAppearance="@style/sns_time"/>  
+              
+        </LinearLayout>  
+    </LinearLayout>  
+  
+  
+</LinearLayout>  

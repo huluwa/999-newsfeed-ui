@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/facebook_backgroud">
+    
+   <include layout="@layout/facebook_header">
+   </include>
+   
+   <!-- for lookup -->
+   <LinearLayout
+        android:id="@+id/facebook_lookup_span"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="10px"
+        android:visibility="gone">
+       
+	        <EditText android:id="@+id/embedded_lookup_text_editor"
+	         android:layout_width="fill_parent"       
+	         android:layout_height="wrap_content"     
+	         android:autoText="true"                 
+	         android:capitalize="none"
+	         android:singleLine="true"
+	         android:textColor="#000000"
+	         android:minHeight="55dip"  
+             android:background="@drawable/editbox_background"
+	         android:inputType="textEmailAddress"  
+	         android:hint="@string/facebook_email_address"               
+	         android:scrollHorizontally="true"/>
+	         
+	                                    
+	        <EditText
+	        android:id="@+id/embedded_lookup_phone_editor"
+	        android:layout_width="fill_parent"       
+	        android:layout_height="wrap_content"     
+	        android:autoText="true"                 
+	        android:capitalize="none"
+	        android:singleLine="true"         
+	        android:textColor="#000000"	     
+            android:paddingTop="10px"         
+            android:minHeight="55dip"  
+            android:background="@drawable/editbox_background"
+	        android:hint="@string/facebook_hint_phone"          
+	        android:inputType="phone"          
+	        android:scrollHorizontally="true"/>
+	         
+                                       
+           <EditText
+            android:id="@+id/embedded_lookup_name_editor"
+            android:layout_width="fill_parent"       
+            android:layout_height="wrap_content"     
+            android:autoText="true"
+            android:singleLine="true"        
+            android:hint="@string/facebook_hint_username" 
+            android:textColor="#000000"
+            android:inputType="textPersonName"            
+            android:paddingTop="10px"
+            android:paddingBottom="20px"        
+            android:minHeight="55dip"  
+            android:background="@drawable/editbox_background"           
+            android:scrollHorizontally="true"/>
+            
+             
+	       <Button  android:id="@+id/facebook_search_button"
+	        android:text="@string/facebook_find_friends"  
+	        android:layout_width="140dip"
+	        android:layout_height="48dip"        
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"              
+	        android:layout_weight="1"
+	        android:background="@drawable/blue_button_background"
+	        android:layout_gravity="right"/>
+     </LinearLayout>     
+    
+      
+     <LinearLayout
+        android:id="@+id/facebook_search_span"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:visibility="gone">
+          <Button
+                android:id="@+id/search_do"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:gravity="center_vertical"
+                android:nextFocusRight="@+id/embedded_text_editor"   
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/search"
+                android:layout_centerVertical="true" 
+                android:visibility="gone"/>
+                 
+               <EditText android:id="@+id/embedded_text_editor"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingLeft = "50px"
+                 android:singleLine="true"
+                 android:maxLines="1"
+                 android:background = "@drawable/searchbar"
+                 android:drawableRight="@drawable/search"
+                 android:drawablePadding="10px"/>             
+    </LinearLayout>
+   
+
+    
+    <ListView android:id="@+id/facebook_wall_list"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"  
+        android:layout_weight="1"
+        android:divider="@drawable/divider" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@drawable/list_selector_background"
+        android:cacheColorHint="#00000000" />
+        
+   
+</LinearLayout>

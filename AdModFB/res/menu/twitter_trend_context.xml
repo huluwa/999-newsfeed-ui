@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item  android:id="@+id/context_open_in_browser" 
+        android:enabled="true" 
+        android:visible="true" android:title="@string/menu_title_open_in_browser">
+</item>
+</menu>

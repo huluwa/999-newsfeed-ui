@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"        
+        android:background="@color/facebook_backgroud">
+        <include layout="@layout/facebook_header">
+        </include>
+        
+        <View
+              android:layout_width="fill_parent"
+              android:layout_height="5.0dip"
+              android:layout_marginTop="-7.0dip">
+        </View>
+        
+        <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:addStatesFromChildren="true">
+                
+                <!--
+                <ScrollView android:id="@+id/photo_span"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0">   
+                -->
+                 
+                <LinearLayout  android:id="@+id/photo_span"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:layout_centerInParent="true"
+	               android:gravity="fill"
+	               android:layout_weight="1.0">
+			        <com.msocial.nofree.ui.view.ImageViewTouchBase
+			                android:id="@+id/photo_image"     
+			                android:layout_width="fill_parent"		                		                
+			                android:layout_height="fill_parent"
+			                android:scaleType="centerCrop">
+			        </com.msocial.nofree.ui.view.ImageViewTouchBase>
+                </LinearLayout>
+                <!-- 
+                </ScrollView>
+                -->
+                <Button
+                android:id="@+id/left_button"
+                android:focusable="false"
+                android:layout_width="35dip"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="4.0dip"             
+                android:background="@drawable/left_button"
+                android:layout_weight="0.5"
+                android:layout_alignParentLeft="true"                
+                android:layout_alignParentBottom="true">
+                </Button>
+                
+                <TextView
+                  android:id="@+id/nav_text"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_vertical"
+                  android:layout_alignParentBottom="true"
+                  android:layout_centerInParent="true"
+                  android:textAppearance="@style/sns_link"
+                  >
+                  
+                </TextView>
+                
+                <Button
+                android:id="@+id/comments_button"
+                android:focusable="false"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="4.0dip"             
+                android:background="@drawable/ic_photo_comment"
+                android:layout_weight="0.5"
+                android:textSize="14sp"
+                android:layout_alignParentRight="true"                
+                android:layout_alignParentTop="true">
+                </Button>
+                
+                <Button
+                android:id="@+id/share_button_photo"
+                android:focusable="false"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20.0dip"             
+                android:background="@drawable/share_button"
+                android:layout_weight="0.5"
+                android:textSize="14sp"
+                android:layout_alignParentLeft="true"                
+                android:layout_alignParentTop="true">
+                </Button>
+                
+                 <Button
+                  android:id="@+id/setas_button_photo"
+                  android:layout_width="40dip"
+                  android:layout_height="40dip"
+                  android:gravity="center_vertical"
+                  android:layout_alignParentTop="true"
+                  android:layout_centerInParent="true"
+                  android:background="@drawable/setas_button"
+                  android:visibility="gone"/>
+                  
+                <RelativeLayout android:id="@+id/right_button_span"
+	                 android:focusable="false"
+	                 android:layout_width="fill_parent"
+	                 android:layout_height="wrap_content"                            
+	                 android:layout_marginRight="5.0dip"
+	                 android:paddingBottom = "60dip"
+	                 android:gravity="center_horizontal"
+	                 android:layout_centerInParent="true">
+                                    
+                    <Button android:id="@+id/zoom_small"
+                     android:focusable="false"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"                
+                     android:layout_marginRight="5.0dip"                 
+                     android:background="@drawable/btn_minus"
+                     android:layout_weight="0.5"
+                     android:layout_alignParentLeft="true"
+                     android:layout_alignParentBottom="true">
+                     </Button>
+                     <Button android:id="@+id/zoom_big"
+                     android:focusable="false"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"                
+                     android:layout_marginRight="5.0dip"                 
+                     android:background="@drawable/btn_plus"
+                     android:layout_weight="0.5"
+                     android:layout_toRightOf="@+id/zoom_small"
+                     android:layout_centerInParent="true"
+                     android:layout_alignParentBottom="true">
+                     </Button> 
+                </RelativeLayout>
+                
+                 <Button android:id="@+id/right_button"
+                 android:focusable="false"
+                 android:layout_width="35dip"
+                 android:layout_height="40dip"
+                 android:gravity="center_vertical"                
+                 android:layout_marginRight="5.0dip"                 
+                 android:background="@drawable/right_button"
+                 android:layout_weight="0.5"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentBottom="true">
+                 </Button>
+                 
+        </RelativeLayout>
+              
+        <LinearLayout
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:id="@+id/photo_comments_layout"
+                android:background="#cccccc"
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"                
+                >
+                <EditText
+                        android:gravity="top"
+                        android:id="@+id/photo_comments"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4.0dip"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_marginRight="6.0dip"
+                        android:hint="@string/photo_hint_comments"
+                        android:maxLines="4"
+                        android:minLines="2"
+                        android:textColor="#000000">
+                </EditText>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/photo_action_region"
+                        android:background="@drawable/bottom_bar"
+                        android:paddingTop="2.0dip"
+                        android:visibility="visible"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <Button
+                                android:id="@+id/photo_save"
+                                android:focusable="false"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2.0dip"
+                                android:layout_marginTop="2.0dip"
+                                android:layout_marginRight="5.0dip"
+                                android:layout_marginBottom="3.0dip"
+                                android:text="@string/photo_hint_save"
+                                android:background="@drawable/blue_button_background"
+                                android:layout_weight="0.5"
+                                >
+                        </Button>
+                        <Button
+                                android:id="@+id/photo_cancel"
+                                android:focusable="false"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5.0dip"
+                                android:layout_marginTop="2.0dip"
+                                android:layout_marginRight="2.0dip"
+                                android:layout_marginBottom="3.0dip"
+                                android:text="@string/hint_album_cancel"
+                                android:background="@drawable/blue_button_background"
+                                android:layout_weight="0.5"
+                                >
+                        </Button>
+                </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

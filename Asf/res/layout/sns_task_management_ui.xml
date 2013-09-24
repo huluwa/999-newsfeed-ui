@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+    android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+    android:scrollbarStyle="outsideOverlay"
+    android:layout_height="wrap_content">
+    
+   <LinearLayout 
+       android:layout_width="fill_parent" 
+       android:orientation="vertical" 
+       android:layout_height="fill_parent">
+    
+    
+        <Button android:id="@+id/cancel_all_task_button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_gravity="center"/>
+        
+       <TextView
+       android:id="@+id/sns_failed_task_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/textcounter"   
+       android:textSize="20sp"/>
+       
+       <ListView android:id="@+id/sns_failed_task_list"
+        android:layout_weight="1"
+        android:divider="@drawable/divider" 
+        android:layout_width="fill_parent"
+        android:layout_height="80dip"
+        android:listSelector="@drawable/list_selector_background"
+        android:cacheColorHint="#00000000" />
+   
+       <TextView
+       android:id="@+id/sns_running_task_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/textcounter"   
+       android:textSize="20sp"/>
+   
+        <ListView android:id="@+id/sns_running_task_list"
+        android:layout_weight="1"
+        android:divider="@drawable/divider" 
+        android:layout_width="fill_parent"
+        android:layout_height="80dip" />
+     
+       <TextView
+       android:id="@+id/sns_pendding_task_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/textcounter"   
+       android:textSize="20sp"/>
+          
+        <ListView android:id="@+id/sns_pendding_task_list"
+        android:layout_weight="1"
+        android:divider="@drawable/divider" 
+        android:layout_width="fill_parent"
+        android:layout_height="80dip" />
+     
+     
+       <TextView
+       android:id="@+id/sns_finished_task_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/textcounter"   
+       android:textSize="20sp"/>
+          
+        <ListView android:id="@+id/sns_finished_task_list"
+        android:layout_weight="1"
+        android:divider="@drawable/divider" 
+        android:layout_width="fill_parent"
+        android:layout_height="80dip" />        
+	</LinearLayout>	                          
+</ScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory  android:title="@string/pref_facebook_category">
+        <EditTextPreference android:key="key_facebook_accout"                
+                            android:singleLine="true" />                
+        <EditTextPreference
+                android:key="key_facebook_pwd"                
+                android:singleLine="true" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory  android:title="@string/pref_twitter_category">
+        <EditTextPreference android:key="key_twitter_accout"                
+                            android:singleLine="true" />                
+        <EditTextPreference
+                android:key="key_twitter_pwd"                
+                android:singleLine="true" />
+    </PreferenceCategory>
+    
+</PreferenceScreen>

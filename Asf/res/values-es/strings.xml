@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+<string name="cmnew_setting_help_label_text">Establecer información de contacto de Facebook</string>
+
+<string name="twitter_main_screen">Twitter</string>
+<string name="media_upload">Facebook</string>
+<string name="nitification_format">%1$s notificaciones sin leer </string>
+
+
+<string name="pref_facebook_perm_settings">Configuración</string>
+<string name="pref_facebook_notification_setting">Configuración de las notificaciones</string>
+<string name="pref_facebook_notification_general_setting">Configuración general</string>
+<string name="pref_facebook_notification_vibrate">Vibrar</string>
+<string name="pref_facebook_notification_vibrate_desc">Vibrar las notificaciones entrantes</string>
+
+<string name="pref_facebook_notification_led">Telefóno LED</string>
+<string name="pref_facebook_notification_led_desc">Flash LED en las notificaciones entrantes</string>
+<string name="pref_facebook_notification_enable">Notificaciones</string>
+
+<string name="pref_facebook_notification_msg_enable">Mensajes</string>
+<string name="pref_facebook_notification_poke_enable">Toques</string>
+<string name="pref_facebook_notification_request_enable">Solicitudes de amistad</string>
+<string name="pref_facebook_notification_event_enable">Invitaciones del evento</string>
+<string name="pref_facebook_notification_group_enable">Invitaciones del grupo</string>
+
+<string name="pref_facebook_category">Cuenta de Facebook</string>
+<string name="pref_twitter_category">Cuenta Twitter</string>
+<string name="twitter_setting_screen">Configuraciones de Twitter</string>
+
+<string name="social_setting_screen">Cofiguraciones social</string>
+<string name="contact_sync_hello">La pantalla de sintronizar los contactos</string>
+<string name="twitter_tweet_screen">Tweets</string>
+<string name="twitter_tweets_loading">Cargando tweets</string>
+<string name="twitter_tweet_detail_screen">Detalles de tweet</string>
+<string name="facebook_loing_ui">Entrar sesión de facebook</string>
+<string name="facebook_loing_ui_webview">Entrar la vista</string>
+
+<string name="twitter_user_detail_screen">Detalles de usuario</string>
+<string name="twitter_trend_loading">Cargando tendencias</string>
+<string name="twitter_trend_search">Buscar tendencia</string>
+<string name="menu_title_note_create">Nota nuvea</string>
+<string name="twitter_compose_screen">Enviar</string>
+<string name="context_status_reply">Responder</string>
+<string name="context_status_forward">Reenviar</string>
+<string name="context_status_retweet">Retweet</string>
+<string name="context_status_favorite">Añadir a favoritos</string>
+<string name="context_status_direct">Enviar un mensaje</string>
+<string name="pref_twitter_specific_category">Configuración de Twitter</string>
+<string name="twitter_message_send_option">Enviar</string>
+<string name="twitter_message_inbox_option">Buzón</string>
+<string name="context_status_unfavorite">Sin favorito</string>
+<string name="twitter_favor_title">Sin favorito</string>
+<string name="twitter_favor_title_unfavor">Eliminar</string>
+<string name="context_select_all">Seleccionar todos</string>
+<string name="context_unselect_all">Cancelar la selección de todos</string>
+<string name="context_status_delete">Eliminar</string>
+<string name="sns_delete">Eliminar</string>
+<string name="sns_delete_all">Remover todos cortados</string>
+<string name="context_follow_following">Siguiendo</string>
+<string name="context_folloer_stop_following">Dejar de seguir</string>
+<string name="twitter_follower_loading">Seguidor</string>
+<string name="twitter_following_loading">Siguiendo</string>
+<string name="twitter_user_detail_from_following">Siguiendo</string>
+<string name="recent_tweets">Tweets reciente</string>
+<string name="context_following_followers">Seguidor </string>
+<string name="context_following_search">Buscar @</string>
+<string name="following_detail_stop_button">Dejar de seguir</string>
+<string name="following_detail_stop_button_add">Seguir</string>
+<string name="context_follower_following">Siguiendo</string>
+<string name="context_compose_message">Mensaje directo</string>
+
+
+<string name="twitter_myaccount_activity">Perfil</string>
+<string name="context_pre_page">Página anterior</string>
+<string name="context_next_page">Página siguiente</string>
+
+<string name="Tweets_Title_direct_message">Mensaje directo</string>
+<string name="twitter_message_loading">Cargando mensajes</string>
+<string name="context_message_new">Mensaje nuevo</string>
+<string name="context_message_delete">Eliminar el mensaje</string>
+<string name="facebook_wall_loading">Cargando muro</string>
+<string name="facebook_event_loading">Cargando eventos</string>
+<string name="facebook_wall_title">Enviar</string>
+<string name="facebook_walltowall_title">Enviar a facebook</string>
+<string name="facebook_status_update_title">Compartir</string>
+
+<string name="pref_facebook_perm_assign">Asignar el permiso extendido</string>
+<string name="pref_facebook_perm_assign_desc">Si el usuario de Facebook no tiene los permisos extendidos, serán provocados a asignar el permiso.</string>
+<string name="pref_facebook_ext_permission_assign">Configuraciones avanzados</string>
+<string name="pref_facebook_ext_permission">Permisos extendidos</string>
+<string name="pref_facebook_ext_permission_desc">Establacer permisos extendidos</string>
+
+<string name="facebook_account_tile_poke">Dar un toque</string>
+<string name="facebook_WALL_POST_title">Publicar en el muro</string>
+<string name="facebook_group_detail">Participar en</string>
+<string name="facebook_group_decline">Rechazar</string>
+<string name="facebook_friends_loading">Cargando amigos</string>
+<string name="facebook_pages_loading">Cargando pagínas</string>
+<string name="facebook_upcomingbd_friends_loading">Cargando cumpleaños próximos</string>
+<string name="pref_facebook_view_category">Ver configuración de pantalla</string>
+<string name="pref_facebook_view_category_summary">Establecer intervalos de sincronización</string>
+<string name="pref_facebook_other_setting">Otras configuraciones</string>
+
+<string name="facebook_mailbox_loading">Crgando mensajes</string>
+<string name="facebook_mailbox_inbox_loading">Cargando mensajes del buzón</string>
+<string name="facebook_mailbox_sent_loading">Cargando mensajes enviaods</string>
+<string name="facebook_mailbox_update_loading">Cargando de mensajes actulizados</string>
+<string name="facebook_mail_detail">Conversación</string>
+<string name="facebook_mail_one_detail">Mensaje</string>
+<string name="facebook_mail_detail_reply">Responder</string>
+<string name="facebook_phonebook_loading">Cargando la lista de teléfono</string>
+<string name="facebook_user_select">Elegir amigos (as)</string>
+<string name="facebook_mail_send">Enviar</string>
+<string name="facebook_phonebook_nomore">No más</string>
+<string name="facebook_status_loading">Cargando estados</string>
+<string name="facebook_main_stream_screen">últimas noticias</string>
+<string name="facebook_main_send">Enviar</string>
+<string name="facebook_stream_you_like">Me gusta esto.</string>
+
+<string name="facebook_contact_sync">Sintronizar los contactos de Facebook</string>
+<string name="facebook_event_sync">Sintronizar evento de Faceook</string>
+<string name="facebook_location_hint">¿ Dónde estás ?</string>
+<string name="facebook_location_stop">Cancelar</string>
+<string name="facebook_location_start">Pedir ubicación</string>
+<string name="facebook_media_upload">Adjuntar</string>
+
+<string name="test_isFacebookUser">es un usuario de Facebook</string>
+<string name="test_gloabalcontactsync">Sintronizar el contacto</string>
+<string name="test_gloabaleventsync">Sintronizar evento</string>
+<string name="test_addEvent">Añadir evento</string>
+<string name="test_taskstatus_str">Controlar tarea</string>
+
+<string name="no_event_info">No información de evento es disponible</string>
+<string name="facebook_status_update_compose">¿Qué estás pensando ?</string>
+<string name="facebook_wall_to_wall_compose">Escriba algo aquí…</string>
+<string name="facebook_location_update_title">Compartir lugares</string>
+<string name="facebook_comments_update_title">Comentarios</string>
+
+<string name="facebook_phonebook_title">Directorio de teléfono</string>
+<string name="facebook_inbox_title">Buzón</string>
+<string name="facebook_messages_title">Mensajes</string>
+<string name="facebook_sent_title">Enviar</string>
+<string name="facebook_update_title">Actualizar</string>
+<string name="facebook_updates_title">Actualizaciones</string>
+<string name="pref_adv_setting">Configuraciones avanzadas</string>
+<string name="pref_extras_reset_default">Reestablecer</string>
+<string name="pref_extras_reset_default_dlg_title">Reestablecer a borrador</string>
+<string name="pref_extras_reset_default_summary">Limpiar todos datos y restaurar configuraciones de default</string>
+<string name="pref_extras_reset_default_dlg">Alarma: todas informaciones serán eliminadas y configuraciones de default serán reguardadas</string>
+<string name="facebook_event_title">Sintronizar calendario</string>
+<string name="facebook_event_title_bar">Eventos</string>
+<string name="facebook_photo_upload">Compartir</string>
+<string name="facebook_wall_share">Compartir</string>
+<string name="facebook_photo_upload_compose">¿Qué estás pensando ?</string>
+<string name="facebook_setting_sign_in">Registrar</string>
+<string name="facebook_find_friends_loading">Buscando amigos</string>
+<string name="facebook_set_contact_email">Correo electrónico</string>
+<string name="contact_cell_lable_text">Móvil</string>
+<string name="contact_other_lable_text">Otro teléfono</string>
+<string name="facebook_contact_set">Actualizar contacto</string>
+<string name="facebook_set_contact_title">Establecer contacto</string>
+
+<string name="to_button_lable">Para:</string>
+<string name="twitter_main_title">Tweets</string>
+<string name="twitter_tweets_title">Tweets</string>
+<string name="twitter_search_title">Responder</string>
+<string name="twitter_message_fail_send_all">No se pudo enviar el mensaje a todos los recibidos</string>
+<string name="twitter_message_fail_update_status">No se pudo actualizar el estado</string>
+<string name="twitter_message_title_send">Enviar</string>
+<string name="twitter_message_title_reply">Responder</string>
+<string name="twitter_message_title_direct_message">Mensaje directo</string>
+<string name="twitter_message_title_update">Actualizar</string>
+<string name="twitter_message_title_forward">Reenviar</string>
+<string name="twitter_message_title_retweet">Retweet</string>
+<string name="facebook_requests_loading">Cargando solicitudes</string>
+<string name="facebook_find_friends">Buscar amigos</string>
+
+<string name="sns_task_management"/>
+<string name="sns_finished_task_title">Todas las tareas completadas</string>
+<string name="sns_running_task_title">Todas las tareas en proceso</string>
+<string name="sns_failed_task_title">Todas tareas han fracasado</string>
+<string name="sns_pendding_task_title">Todas tareas están pendientes</string>
+<string name="task_cancel_all">Cancelar todas tareas</string>
+
+<string name="twitter_dlg_tweet_search">Buscando…</string>
+<string name="twitter_dlg_send_msg">Enviando mensages…</string>
+<string name="twitter_dlg_update_status">Activando los estados…</string>
+<string name="twitter_dlg_load_trend">Cargando tendencias…</string>
+<string name="twitter_dlg_load_tweets">Cargando tweets…</string>
+<string name="twitter_dlg_add_favor">Añadiendo a favoritos…</string>
+<string name="twitter_dlg_destory_favor">Removiendo desde favoritos…</string>
+<string name="twitter_dlg_add_following">Añadiendo a lo siguiente…</string>
+<string name="twitter_dlg_destory_follow">Removiendo los siguientes…</string>
+<string name="twitter_dlg_retweet">Retweeting…</string>
+<string name="widget_facebook_name">Notificaciones de Facebook</string>
+<string name="widget_twitter_name">Twitter trends</string>
+<string name="title_show_on_homescreen">Mostrar en la pantalla principal</string>
+<string name="widget_twitter_status_update_name">Estados de Twitter</string>
+<string name="pref_facebook_sync_setting">Sintronización de configurar Facebook</string>
+<string name="title_show_use_logo">Compartir mi foto en las que aparezco</string>
+<string name="title_show_use_email">Compartir la dirección de mi correo eléctronico</string>
+<string name="title_show_use_birthday">Compartir mi cumpleaños</string>
+<string name="title_show_use_phonenumber">Compartir mi número de telefono</string>
+<string name="summary_show_use_logo">Sintronizar imagen de perfil como foto de contracto</string>
+<string name="summary_show_use_email">Sintronizar correo eléctronico a informaciones de contactos</string>
+<string name="summary_show_use_birthday">Sintronizar cumpleaños de Facebook a infomaciones de contactos</string>
+<string name="summary_show_use_phonenumber">Sintronizar los números de teléfono de Facebook a info de Contacto</string>
+
+<string name="facebook_phonebook_sync_to_contact">Guardando lista de facebook a contactos</string>
+<string name="context_open_link_in_browser">Abrir enlace en nevigador</string>
+<string name="title_copy_to_email">Copiar a correo eléctronico</string>
+<string name="title_copy_new_msg_to_sms">Copiar un correo a mensaje</string>
+<string name="twitter_pic_upload_title">Cargar las fotos a TwitPic</string>
+<string name="context_menu_insert_img">Selecionar las photos</string>
+<string name="context_menu_select_video">Selecionar vídeo</string>
+<string name="context_menu_select_link">Elegir enlace</string>
+<string name="context_menu_capture_photo">Capturar una photo</string>
+<string name="menu_title_location_update">Actualizar ubicación</string>
+<string name="menu_title_location">Ubicación</string>
+<string name="menu_title_friend_birthday">Cumpleaños de amigos(gas)</string>
+<string name="menu_title_add_facebook_event">Añadir evento de Facebook</string>
+<string name="menu_title_sync_event">Sintronizar a calendario</string>
+<string name="menu_title_stop">Parar</string>
+<string name="menu_title_task_view">Tareas</string>
+<string name="menu_title_login">Entrar</string>
+<string name="menu_title_settings">Configuraciones</string>
+<string name="menu_title_about">Sobre</string>
+<string name="menu_title_save_drafts">Guardar a borrador</string>
+<string name="menu_title_page_info">Página de informacines</string>
+<string name="menu_title_pre_page">pagína anterior </string>
+<string name="menu_title_next_page">pagína siguiente </string>
+<string name="menu_title_ext_perm">Permiso extendiente</string>
+<string name="menu_title_lookup_contact">Buscar contactos</string>
+<string name="menu_title_sync_to_contact">Sintronizar  contactos</string>
+<string name="menu_title_sync_addressbook">Sintronizar la guía de dirección</string>
+
+<string name="menu_title_logout">Salir</string>
+<string name="menu_title_request_location">Pedir ubicación</string>
+<string name="menu_title_refresh">Renovar</string>
+<string name="menu_title_my_status_update">Actualización de los estados</string>
+<string name="menu_title_mailbox_inbox">Mensajes</string>
+<string name="menu_title_mailbox_sent">Enviar</string>
+<string name="menu_title_mailbox_update">Actualizar</string>
+
+<string name="menu_title_pages">Pagínas</string>
+
+
+<string name="facebook_friends_home_title">Amigos de facebook</string>
+<string name="facebook_search_friends">nombre de usuario</string>
+<string name="facebook_search_page">nombre de página</string>
+<string name="menu_title_my_friends">Mis amigos</string>
+<string name="menu_title_friends">Amigos</string>
+<string name="menu_title_my_account">Perfil</string>
+<string name="menu_title_page">Página</string>
+<string name="menu_title_pokes">Toques</string>
+<string name="menu_title_new_mail">Enviar un mensaje</string>
+<string name="menu_title_friend_group">Grupos de amigos</string>
+<string name="menu_title_notifications">Notificaciones</string>
+<string name="menu_title_phonebook">Agenda</string>
+<string name="menu_title_status_update">Actualización del estado</string>
+<string name="menu_title_stream_publish">Actualización del estado</string>
+<string name="menu_title_set_contact">Establecer contactos</string>
+<string name="menu_title_find_friends">Buscar amigos</string>
+<string name="menu_title_event">Eventos</string>
+<string name="menu_title_news_feed">Últimas noticias</string>
+<string name="menu_title_tweets">Tweets</string>
+<string name="menu_twitter_title_messages">Mensaje</string>
+<string name="menu_twitter_title_my_account">Mi cuenta</string>
+<string name="menu_twitter_title_favorites">Favoritos</string>
+<string name="menu_twitter_title_search">Buscar</string>
+<string name="menu_twitter_title_search_me">Buscarme</string>
+<string name="menu_twitter_title_following">Siguiente</string>
+<string name="menu_twitter_title_follower">Seguidores</string>
+<string name="menu_twitter_title_upload_photo">Cargar fotos</string>
+<string name="menu_title_open_in_browser">Abrir en navegador</string>
+<string name="menu_twitter_title_add_to_favor">Añadir a favoritos</string>
+<string name="menu_twitter_title_unfavorites">No favorito</string>
+<string name="menu_twitter_title_follow">Seguir</string>
+<string name="menu_twitter_title_unfollow">Sin seguir</string>
+<string name="menu_twitter_title_friend_line">Línea de amigos</string>
+<string name="menu_twitter_title_user_line">Usuario</string>
+
+<string name="menu_title_select_all">Seleccionar todo</string>
+<string name="menu_title_unselect_all">Eliminar todos</string>
+<string name="menu_facebook_title_reply">Responder</string>
+<string name="menu_facebook_title_forward">Reenviar</string>
+<string name="menu_facebook_title_post_to_wall">Publicar a muro</string>
+<string name="menu_facebook_title_add_as_friend">Añadir como amigo (a)</string>
+
+<string name="facebook_add_as_friend_successfully">Añadido como amigo(a) de éxito</string>
+<string name="facebook_add_as_friend_failed">Fracasar a añadir como amigos</string>
+
+<string name="menu_facebook_title_email">Correo electrónico</string>
+<string name="menu_facebook_title_call">Llamada</string>
+<string name="menu_facebook_title_phonebook">Ver los detalles de directorios telefonicos</string>
+<string name="menu_facebook_title_copy">Copiar</string>
+<string name="menu_facebook_title_phone">Llamar</string>
+<string name="menu_facebook_title_sync_to_contact">Sintronizar a contactos</string>
+<string name="menu_facebook_title_request_phone_number">Solicitar número de telefono</string>
+<string name="menu_title_send_notification">Enviar notificación</string>
+<string name="facebook_send_notification_title">Enviar notificación</string>
+
+<string name="twitter_wait_task_prompt">Un momento, por favor…</string>
+<string name="title_sync_birthday_event">Sintronizar evento de cumpleaños</string>
+<string name="summary_sync_birthday_event">Sintronizar evento de cumpleaños a calendario</string>
+<string name="pref_sns_proxy_category">Configuraciones (prueba) de Proxy</string>
+<string name="facebook_not_login_prompt">Entrar a Facebook, por favor.</string>
+<string name="facenook_perm_setting">Permisos extendidos de Facebook</string>
+<string name="facebook_login_fail">Fracasar a registrar</string>
+<string name="facebook_login_retry">¿ Quieres entrar de nuevo ?</string>
+<string name="sns_ok">Vale</string>
+<string name="sns_cancel">Cancelar</string>
+<string name="pref_proxy_setting">Configuraciones de Proxy</string>
+<string name="pref_sns_proxy_title">Información de Proxy</string>
+<string name="pref_sns_proxy_summary">Configurar proxy a accedir a facebook y Tweet</string>
+<string name="title_use_https_connections">Securidad usar https</string>
+<string name="media_twitter_upload">TwitPic</string>
+<string name="context_status_copy">Copiar</string>
+<string name="title_upload_photo_size">Tamaño de foto hecha por cámara</string>
+<string name="sns_about_info">\tEl red social permitirá acceder a Facebook y Tweet. \n\tPara compartir actualizaciones, enlaces, fotos, etc., Asegura a configurar y extender permisos.</string>
+<string name="close_about">Cerrar</string>
+<string name="about_title">Sobre</string>
+<string name="notification_request">Solicitudes</string>
+<string name="menu_title_photos">Fotos</string>
+<string name="uncomplete_user_pwd">Termina entrar el nombre de usuario y contraseña, por favor.</string>
+<string name="wrong_username_pwd">Es posible que el red no es funcionable en este momento, o no se encuentran el usuario o/ contraseña. Verifca tu información y prueba otra vez.</string>
+<string name="right_username_pwd">Usuario y contraseña valida</string>
+<string name="twitter_password_title">Contraseña</string>
+<string name="twitter_userid_title">ID de usuario</string>
+<string name="twitter_view_count_title">Tweet view count (max 20)</string>
+<string name="twitter_follow_viewcount_title">Follow view count (max 20)</string>
+<string name="twitter_tweet_view_timeout_title">Intervalo de Tweet (min 60s)</string>
+<string name="twitter_trend_view_timeout_title">Intervalo de tendencia (min 60s)</string>
+<string name="sns_allow_summary">Disponible</string>
+<string name="sns_forbiden_summary">Incapáz</string>
+<string name="sns_active_summary">Activar</string>
+<string name="sns_inactive_summary">Inactivar</string>
+<string name="sns_uploadphoto_original_summary">Original</string>
+<string name="sns_uploadphoto_compressed_summary">Comprimido</string>
+<string name="twitter_verify_account_title">Registrando…</string>
+<string name="twitter_verify_account_wait_msg">Un momento, por favor…</string>
+<string name="twitter_load_search_message">Cargando informaciones de usuario. Un momento, por favor…</string>
+<string name="facebook_password_title">Contraseña</string>
+<string name="facebook_email_title">Correo electrónico</string>
+<string name="facebook_allways_enable_title">Activar el servicio de Facebook</string>
+<string name="facebook_allways_enable__desc">Activando el servicio de Facebook desde otras aplicaciones.</string>
+<string name="facebook_permanent_session_enable_title">Usar sesión permanente</string>
+
+<string name="facebook_stream_timeout_title">Notificaciones nuevas (min120)</string>
+<string name="facebook_contact_update_period_title">Sintronizar directorios de teléfono (días)</string>
+<string name="facebook_friend_update_period_title">Sinronizar amigos (as) (horas)</string>
+<string name="facebook_mail_update_period_title">Verificación de cerro (horas)</string>
+<string name="facebook_phonebook_sync_period_title">Sinntronización de la libreta de dirección (día)</string>
+<string name="facebook_pokes_loading">Cargando toques…</string>
+<string name="menu_facebook_title_poke_back">Devolver el toque</string>
+
+
+
+<string name="facebook_getting_contact">Obteniendo información de contactos desde su red…</string>
+<string name="facebook_getting_contact_suc">Obteniendo información de contactos</string>
+<string name="no_news_feed_hint">No nodificaciones nuevas disponisbles.\nPulsar \"Renovar"\" a obtener las últimoas notificaciones nuevas.</string>
+<string name="no_wall_hint">No mensages disponible de muro. \nPulsar \"Renuevar\"  obtener los últimos mensajes de muro.</string>
+<string name="no_trends_hint">Fracasado a obtener tendencias.\nPulsar \"Reiniciar\" obtener las últimas 10 tendencias.</string>
+
+<string name="event_cancel_no_privilege">No tienes permiso de cancelar este evento</string>
+<string name="event_cancel_successfully">Cancelar el evento de éxito</string>
+<string name="event_cancel_failed">Fracasado a concelar evento</string>
+<string name="menu_title_clear_cache">Limpiar cache</string>
+<string name="facebook_clear_cache_successfully">Limpiar info de cache de éxito</string>
+<string name="facebook_clear_cache_failed">Fracasado a limpiar</string>
+<string name="facebook_remove_comment_successfully">Actualizar de éxito</string>
+<string name="facebook_remove_comment_failed">Fracasar a remover comentarios</string>
+<string name="facebook_remove_comment_title">Removiendo cometarios</string>
+<string name="facebook_add_comment_title">Añadir comentarios</string>
+<string name="facebook_send_mail_title">Enviando mensage</string>
+
+
+
+<string name="min">hace minutos</string>
+<string name="sec">hace segundos</string>
+<string name="day">hace días en %1$s</string>
+<string name="hour">hace horas en %1$s</string>
+
+<string name="facebook_main_notes">Notas</string>
+<string name="facebook_main_notification_screen">Notificaciones</string>
+<string name="facebook_notes_title">Nota nueva</string>
+<string name="facebook_notes_new">Crear nota</string>
+<string name="facebook_notes_edit">Guardar nota</string>
+<string name="facebook_notes_loading">Cargando notas</string>
+<string name="no_notes_hint">No tienes notas</string>
+<string name="facebook_notification_loading">Cargando notificaciones</string>
+<string name="fail_create_notes">Fracasado a crear notas</string>
+<string name="menu_facebook_title_open_browser">Abrir navegador</string>
+<string name="facebook_menu_wall_title">Muro</string>
+
+<string name="facebook_album_spinner_prompt">Elegir un álbum</string>
+<string name="facebook_new_album">Nuevo(a)</string>
+<string name="facebook_new_album_hint">Nuevo nombre de álbum</string>
+
+
+
+
+
+
+
+<string name="facebook_menu_photo_title">Fotos</string>
+<string name="facebook_tab_photo">Fotos</string>
+<string name="facebook_tab_wall">Muro</string>
+<string name="facebook_tab_info">Información</string>
+
+
+
+
+<string name="facebook_status_title">Estados</string>
+<string name="facebook_update_status_title">Actualizar estados</string>
+<string name="facebook_add_photo_title">Compartir fotos</string>
+<string name="facebook_login_ok">Entrar</string>
+<string name="facebook_login_cancel">Cancelar</string>
+<string name="facebook_login_sign_up">Regístrate</string>
+<string name="facebook_signup_url">http://m.facebook.com/r.php</string>
+
+<string name="facebook_no_facebook_account">¿No tinenes la cuenta ?</string>
+<string name="facebook_login_pwd_label">Contraseña</string>
+<string name="facebook_login_email_label">Correo electrónico</string>
+<string name="facebook_email_address">Correo electrónico</string>
+<string name="facebook_password">Contraseña</string>
+<string name="facebook_hint_username">Nombre de usuario</string>
+<string name="facebook_hint_phone">Número de telefono</string>
+
+<string name="sns_eventsync_toast_msg">Sintronizando los eventos de fondo</string>
+<string name="sns_lookupall_toast_msg">Sintronizando directorio de teléfono con contactos de fondo.</string>
+<string name="facebook_accounticonsize_title">Tamaño de icono</string>
+<string name="facebook_accounticonsize_summary">Disponible a cuentas de facebook</string>
+<string name="facebook_accounticonsize_dialogtitle">El tamaño de perfil en Facebook</string>
+
+<string name="facebook_poke_success">Dar un toque de éxito</string>
+<string name="facebook_poke_failed">Toquefracasado</string>
+<string name="facebook_invalid_session">Sesión invalida. Verifica tu nombre de usuario y contraseña y entrar.</string>
+<string name="twitter_delete_favorite_msg">Eliminando...\nUn momento, por favor.</string>
+<string name="sns_finished_msg">Terminado</string>
+<string name="sns_share_failed">Fracasado a compartir</string>
+<string name="sns_share_success">Compartido de éxito</string>
+<string name="sns_post_failed">Fracasado a publicar</string>
+<string name="facebook_save_wall_message">Guardado el mensaje de muro a</string>
+<string name="sns_update_succeed">Actualizar de éxito</string>
+<string name="sns_update_failed">Fracasado a actualizar</string>
+<string name="sns_operate_succeed">Actualizar de éxito</string>
+<string name="sns_operate_failed">Fracasado a actualizar</string>
+<string name="facebook_phonebook_in_saving">Guardando, un momento, por favor</string>
+<string name="sns_not_login_message">No estás entrado.</string>
+<string name="facebook_no_valid_session">No es sesión válida</string>
+<string name="sns_send_message_failed">Fracasado a enviar mensaje</string>
+<string name="sns_login_succeed">Registrar de éxito</string>
+<string name="facebook_get_permanent_session_failed">Fracasado a abrir sesión. \nVerificar si tu nombre de usuario y contraseña son correctos.</string>
+<string name="facebook_get_accesstoken_failed">Fracasado a acceder a Facebook. \nVerificar tu conexión de red, por favor.</string>
+<string name="sns_network_unavailable">Red indisponible</string>
+<string name="facebook_login_failed_message">Fracasado a entrar, pulsar \"entrar\" a probar otra vez.</string>
+<string name="facebook_lookup_waitting">Procediendo… \nUn momento, por favor.</string>
+<string name="facebook_add_comments_failed">Fracasado a añadir comentarios</string>
+<string name="facebook_send_notification_failed">Fracasado a enviar notificación</string>
+<string name="sns_finished_delete_message">Eliminado.</string>
+<string name="sns_page_more">Más…</string>
+<string name="sns_page_pre">Pre…</string>
+<string name="sns_user_name">Nombre de usuario</string>
+<string name="sns_proxy_port">Puerto de Proxy servidor</string>
+<string name="sns_proxy_host">El servidor de proxy host URL</string>
+<string name="sns_enable_proxy">Activar proxy</string>
+<string name="facebook_upload_img_title">Cargar imagén a Facebook</string>
+<string name="facebook_upload_img_prompt_msg">¿ Estás seguro(a) de cargar un imágen sin descripción ?	</string>
+<string name="sns_error_message">Error de mensage</string>
+<string name="facebook_sync_contact_title">Sintronizando los contactos de Facebook</string>
+<string name="sns_revoke">Revocando…</string>
+<string name="facebook_check_permission_title">Verificando…</string>
+<string name="facebook_exit_login_suc">Salir de preceso de entrar</string>
+<string name="facebook_exit_login_msg">¿ Estás seguro(a) de salir ?</string>
+<string name="facebook_request_accesstoken_title">Cargando…</string>
+<string name="facebook_getsession_title">Abriendo sesión…</string>
+<string name="facebook_getsession_wait_message">Abriendo sesión. Un momento, por favor…</string>
+<string name="facebook_getsession_successed">Entrar de éxito</string>
+<string name="facebook_request_token_title">Cargando…</string>
+<string name="sns_liking">Conectando…</string>
+<string name="sns_remove_like">Remover como…</string>
+<string name="facebook_poking_title">Haciendo toque…</string>
+<string name="facebook_groups_title">Grupos</string>
+<string name="facebook_logout_title">Salir de Facebook</string>
+<string name="facebook_logout_message">¿ Estás seguro(a) de salir ?</string>
+<string name="facebook_location_setting_title">No hay función disponible de ubicación…</string>
+<string name="facebook_permission_message">Para usar esta función, tienes que encender %1$s permiso.\n\n Hacer click \"OK\" a asignar permiso, o cancelar para salir</string>
+
+<string name="facebook_setting_location_message">Estados de ubicación son necesarios para esta función. \n\n Clic \"Ok\" ir a \"Configuraciones\" to activar esta función.  O pulsar \"Cancelar\" a salir. \n\nReiniciar la solicitud después de cambiar configuraciones, por favor.</string>
+<string name="facebook_request_location">Pidiendo ubicación...</string>
+<string name="facebook_location_link_map">Mapa de enlace</string>
+<string name="facebook_location_stop_request">Requisito cancelado…</string>
+<string name="sns_sending">Enviando...</string>
+<string name="facebook_event_hosted_by">Invitado por:</string>
+<string name="facebook_event_type">Tipo</string>
+<string name="facebook_event_where">Dónde:</string>
+<string name="facebook_event_when">Cuándo:</string>
+
+<string name="facebook_event_start">Tiempo de empiemza:</string>
+<string name="facebook_event_end">Tiempo de termina:</string>
+<string name="facebook_event_location">Locación:</string>
+<string name="facebook_event_host">Invitar:</string>
+
+<string name="facebook_event_from">Desde</string>
+<string name="facebook_event_to">A</string>
+<string name="sns_message_text">Mensaje</string>
+<string name="sns_friends_request">Solicitudes de amistad</string>
+<string name="sns_no_new_message">No mensages nuevos</string>
+<string name="sns_no_pending_friend_request">No requisitos pendientes de amigos</string>
+<string name="sns_new_pokes">Toques nuevos</string>
+<string name="sns_no_pending_pokes">No toques pendientes</string>
+<string name="sns_new_shares">Compartimientos nuevos</string>
+<string name="sns_no_new_shares">No compartimientos nuevos</string>
+<string name="sns_no_pending_group_invites">No invitaciones pendiente de grupo</string>
+<string name="sns_events_invites">Invitar evento</string>
+<string name="sns_no_pending_event_invites">No invitaciones pendientes de evento</string>
+<string name="sns_no_cell">No móvil</string>
+<string name="sns_no_phone">No llamdas</string>
+<string name="sns_no_email">No correo</string>
+<string name="sns_retrieving">Recuperando...</string>
+<string name="sns_size">Tamaño:</string>
+<string name="sns_like">Gusto</string>
+<string name="sns_unlike">Disgusto</string>
+<string name="sns_add_comment">Comentario</string>
+<string name="photo_your_comments">Escribir algo...</string>
+
+<string name="facebook_fail_to_get_session">Fracasdo a entrar, sugenrencias:\n1, Verificar que tu correo eléctronico y contraseñas son correctos, por favor.\n2, Asegurar que el dato de red está conectado. (includido WiFi).\n3, Verificar que las configuraciones de fecha y tiempo de tu móvil son correctos.</string>
+<string name="facebook_make_session_permanent">Haciendo sesión permanente...</string>
+<string name="facebook_make_session_permanent_suc">Hacer sesión permanente de éxito...</string>
+<string name="twitter_get_last_trends">Obteniendo los 10 tendencias últimas</string>
+<string name="sns_ignore">Ignorar</string>
+<string name="sns_confirm">Confirmar</string>
+<string name="facebook_friends_request_model">Tienes %1$s solicitud de amigos</string>
+<string name="facebook_friends_request_model_signal">Tienes %1$s solicitud de amigos</string>
+<string name="facebook_friends_request_model_no">No tienes solicitud de amigo.</string>
+<string name="facebook_revoke_ext_permission_model">Revocar permiso</string>
+<string name="facebook_revoke_permission_conform_mes">¿ Estás seguro (a) de revocar %1$s permiso ?</string>
+<string name="sns_group_invites">Invitaciones de grupo</string>
+<string name="menu_facebook_title_wall_to_wall">Mensage de muro a muro</string>
+<string name="context_to_user_account_string">Ir a @usuario</string>
+<string name="context_to_search_string">Buscar #palabra clave</string>
+<string name="update_contact_notes">Actualizado en %1$s desde Facebook</string>
+<string name="edit_text_hint">Buscar</string>
+<string name="sync_address_book">Sintronizar dirección</string>
+<string name="assign_extend_permission">Asignar permisos extendidos</string>
+<string name="sync_address_book_desc">Periódicamente, tus contactos y sus informaciones sintronizarán entre Facebook y la guía telefónica de tu móvil</string>
+
+<string name="is_allways_prompt_dialog">Siempre mostrar diálogos sintronizando</string>
+<string name="is_allways_prompt_permission_dialog">Siempre mostrar diálogos</string>
+<string name="hint_no_permission">No tienes  %1$s permiso. Asignar el permiso, por favor.</string>
+
+<string name="prompt_user_sync_string">El aplicación de Facebook sintronizará las informaciones de contactos entre la guía de teléfono y contactos en tu móvil.  \n\nPulsar %1$s a continuar. Pulsar %2$s a cancelar.</string>
+<string name="prompt_user_sync_title">Sintronizando el guía de dirección</string>
+<string name="allow_prompt_dialog">Siempre provacar antes de sintronizar la libreta de direcciones</string>
+<string name="donnot_prompt_dialog">No interrumpe cuando sintroniza el guía de dirección</string>
+<string name="facebook_lookupcontact_failed">Fracasado a encontrar contacto</string>
+<string name="menu_title_go_to_facebook">Ir a Facebook</string>
+<string name="twitter_find_people">Encontrar personas</string>
+<string name="pref_clear_facebook_image_cache_title">Eliminar todas imagenes.</string>
+<string name="pref_clear_facebook_image_cache_summary">Eliminar todas imagenes hechas</string>
+<string name="pref_clear_facebook_image_cache_dlg">Todos imagenes cachado de Facebook serán limpiardos.</string>
+<string name="pref_clear_facebook_image_cache_dlg_title">Limpiando los imagenes cached</string>
+<string name="stoping_string">Eliminando…</string>
+<string name="loading_string">Cargando…</string>
+
+<string name="pref_news_feed_teimout_value">El valor debería más de 120</string>
+<string name="pref_twitter_count_value">El valor debería menos de 20</string>
+<string name="pref_twitter_timeout_value">El valor debería mas de 60</string>
+<string name="load_older_msg">Pedido publicar...</string>
+<string name="load_more_msg">Cargar más...</string>
+<string name="search_friends">Amigos(as)</string>
+<string name="search_everyone">Cada uno(una)</string>
+
+<string name="update_location_succeed">Activado a Facebook de éxito</string>
+<string name="update_location_fail">Fracasado a cargar a Facebook</string>
+<string name="notes_title">título</string>
+<string name="notes_content">notas nuevas...</string>
+<string name="my_albums">Mis álbumes</string>
+<string name="albums_format">%1$s\'s álbumes</string>
+<string name="albums_format_nocache">Álbumes de tus amigos\'s</string>
+<string name="album_number_format">%1$s álbumes</string>
+<string name="photo_number_format">%1$s Fotos</string>
+<string name="sns_photo_comments">Comentarios</string>
+<string name="facebook_upcoming_event">Los próximos eventos</string>
+<string name="facebook_past_event">Eventos pasados</string>
+<string name="facebook_event_this_week">Esta semana</string>
+<string name="facebook_event_this_month">Este mes</string>
+<string name="facebook_event_others">Otros</string>
+<string name="facebook_event_rsvp_suc">RSVP %1$s de éxito</string>
+<string name="facebook_event_rsvp_fail">Fracasado a RSVP %1$s</string>
+
+
+
+<string name="facebook_friend_birthday">Cumpleaños</string>
+<string name="facebook_guest_attending">Asistiendo</string>
+<string name="facebook_guest_unsure">Quizáz</string>
+<string name="facebook_guest_decline">Rechazar</string>
+<string name="facebook_guest_not_reply">No respondido</string>
+<string name="hint_album_name">Nombre de álbum	</string>
+<string name="hint_album_location">Locación</string>
+<string name="hint_album_desc">Descripción</string>
+<string name="hint_album_update">Actualizar álbum</string>
+<string name="hint_album_cancel">Cancelar</string>
+<string name="album_hint_privacy">Privacidad ¿ Quién puede ver esto ?</string>
+<string name="album_edit_info">Editar álbum</string>
+<string name="album_edit_desc">Editar información debajo</string>
+<string name="photo_hint_save">Guardar los cambios</string>
+<string name="photo_hint_caption_comments">Escribir capción...</string>
+<string name="photo_hint_comments">Escribir algo...</string>
+<string name="album_context_menu_edit">Editar álbum</string>
+
+<string name="album_delete_desc">¿ Estás seguro(a) de eliminar los álbumes seleccionados %1$s?</string>
+<string name="photo_delete_desc">¿ Estás seguro(a) de eliminar las fotos seleccionadas %1$s?</string>
+<string name="sns_add_short_cut">Añadir cortado</string>
+
+<string name="mail_update_date_fromat">actualizado en %1$s</string>
+<string name="hint_no_group">No grupos disponibles o fracasado a obtener grupos</string>
+<string name="no_subject">Sin título</string>
+
+<string-array name="share_orientation_list">
+        <item>Todos</item>
+        <item>Mi red  y amigos</item>
+        <item>Amigos de amigos</item>
+        <item>Sólo para amigos</item>
+</string-array>
+
+<string name="no_result_search_hint">Tu busca-%1$s- no emparejó a ninguno tweets.</string>
+<string name="fail_search_hint">Busca fracasada</string>
+<string name="notification_format">%1$s notificación nueva %2$s</string>
+<string name="facebook_notification_list_title">Renovar intervalo</string>
+<string name="facebook_notification_summary">Renovar intervalo</string>
+
+<string name="select_link_title">Elegir enlaces</string>
+<string name="loading_notes">Cargando notas...</string>
+<string name="loading_event">Cargando eventos...</string>
+
+
+<string name="loading_attending_guest">Cargando informaciones de RSVP...</string>
+<string name="loading_unsure_guest">Cargando informaciones de RSVP...</string>
+<string name="loading_declined_guest">Cargando informaciones de RSVP...</string>
+<string name="loading_not_replied_guest">Cargando informaciones de RSVP...</string>
+<string name="album_go">Volver al álbum</string>
+<string name="album_list_go">Volver a las fotos</string>
+<string name="context_short_cut_delete">Remover a cortado</string>
+<string name="verify_account_hint">Entrando...</string>
+<string name="verify_account_suc_hint">Abierto sesión de éxito...</string>
+
+ <string name="wallpaper">Configurar papel de muro, un momento for favor</string>
+ <string name="wallpaper_title">Hacer fondo</string>
+ <string name="selected_album">Este álbum</string>
+ <string name="mail_receivers">Entre %1$s y %2$s</string>
+ <string name="mail_receivers_just_you">Entre %1$s</string>
+ <string name="fail_get_latest_phonebook">Fracasado de obtener el último directorio de teléfono desde servidor de Facebook</string>
+ <string name="getting_phonebook_from_server">Cargando datos desde servidor de Facebook. Un momento, por favor...</string>
+ <string name="getting_friendship_from_server">Cargando datos desde servidor de Facebook. Un momento, por favor.</string>
+ <string name="getting_page_from_server">Cargando datos desde servidor de Facebook. Un momento, por favor.</string>
+ 
+ <string name="fail_get_latest_friendship">Incapáz de recuperar informaciones desde el servidor de Facebook</string>
+ <string name="fail_get_latest_page">Incapáz de recuperar informaciones desde el servidor de Facebook</string>
+ <string name="go_touch_website">Ir a</string>
+ <string name="menu_title_stream_filter">Filtrar listas</string>
+ <string name="menu_title_poke">Dar un toque</string>
+ <string name="facebook_post_wall">compartir</string>
+ <string name="facebook_post_wall_waiting">Un moment, por favor...</string>
+ <string name="view_guest_list">Ver la lista de invatdos</string>
+ <string name="pref_facebook_help_setting">Ayudar</string> 
+ <string name="pref_facebook_help_tips_setting">Consejo de ayuda</string> 
+ <string name="pref_facebook_help_tips_summary_setting">¿ Cómo accedio a Facebook más rápido\? ¿ Cómo puedo sintronizar la lista de número de teléfono con la de mi móvil \?...</string>
+ 
+ <string name="search_phonebook_hint">Buscar</string>
+ <string name="phonebook_call">Llmada:</string>
+ <string name="phonebook_mail">Correo:</string> 
+ <string name="phonebook_message">Mensage:</string>
+ <string name="phone_action">Número de telefono</string>
+ <string name="facebook_main_menu">Menú</string>
+ <string name="retweet_success">Retweet de éxito</string>
+ <string name="retweet_failed">Fracasar a Retweet</string>
+ 
+<string name="twitter_login_email_hint">Nombre de usuario o correo electrónico</string>
+<string name="twitter_login_pwd_hint">Contraseña</string>
+<string name="twitter_login_ok">Registrar</string>
+<string name="facebook_event_des_title_str">Descripción</string>
+<string name="facebook_event_no_desc">No descripción</string>
+<string name="twitter_sign_up_view_txt">Crear una cuenta</string>
+<string name="twitter_signup_url">http://twitter.com</string>
+<string name="twitter_logout_menu_title">Salir de Twitter</string>
+<string name="twitter_logout_title">Salir de Tweet</string>
+<string name="twitter_compose_tweet_hint">¿ Qué está pasando ?</string>
+<string name="twitter_default_count">140</string>
+<string name="twitter_option_reply">Responder</string>
+<string name="twitter_option_retweet">Retweet</string>
+<string name="twitter_option_send_dm">Envitar mensaje directo</string>
+<string name="twitter_option_add_favorite">Añadir a favoritos</string>
+<string name="twitter_option_un_favorite">No favorito</string>
+<string name="twitter_option_title">Ociones de tweet</string>
+<string name="twitter_to_detail">Detalles de tweet</string>
+<string name="group_update_title">Actualizar:</string>
+<string name="group_type_title">Típo:</string>
+<string name="group_sub_title">Sub título:</string>
+<string name="group_des_title">Descripción:</string>
+<string name="facebook_album_title">Álbum</string>
+<string name="sns_setting_numeric_checking">Valor inválido</string>
+<string name="pref_show_title_bar">Mostrar pestaña de título</string>
+<string name="pref_show_title_bar_desc">Apagar para hacer la pestaña de título invisible</string>
+<string name="menu_title_select_done">Elegir</string>
+<string name="menu_title_event_switch">Cambiar vista</string>
+<string name="hint_keyword_subject_body">Clave</string>
+<string name="facebook_detail_note_title">Nota</string>
+<string name="menu_note_edit">Edita notas</string>
+<string name="menu_title_trends">Tendencias</string>
+<string name="twitter_send_status">Cargando estado</string>
+<string name="facebook_changing_caption">Cambiando capción</string>
+<string name="facebook_save_change">Gurdando los cambios</string>
+<string name="getting_info_from_server">Cargando los datos desde servidor de facebook. Un momento, por favor…</string>
+<string name="session_expired">Sesión expirada de Facebook. Entrar, por favor.</string>
+<string name="facebook_dlg_save_note">Notas de guardo</string>
+<string name="facebook_find_people_prompt">Entra las palabras válidas de busca</string>
+<string name="facebook_set_contact_prompt">Entra info validas de contactos, por favor</string>
+<string name="facebook_dlg_set_contact">Estableciendo los infos de contactos</string>
+<string name="facebook_toast_event_rsvp">¿ está cambiando estado de rsvp evento ? Un momento, por favor.</string>
+<string name="facebook_is_processing">esta procediendo, un momento por favor.</string>
+<string name="facebook_dlg_find_people">Buscando amigos</string>
+<string name="facebook_dlg_uploading">Cargando</string>
+<string name="facebook_dlg_post">Publicando contenido</string>
+<string name="pref_clear_fbinfo_title">Limpiando los contactos de Facebook</string>
+<string name="pref_clear_fbinfo_summary">Limpiando informaciones de contactos desde lista de direción</string>
+<string name="pref_clear_fbinfo_dlg">Todas informaciones sintronizadas de Facebook serán removidas desde la guía de direcciones.</string>
+<string name="pref_clear_fbinfo_dlg_title">Limpiar los contactos de Facebook</string>
+
+<string name="sns_like_stream_sig">Gusto</string>
+<string name="sns_like_stream_multi">Gustos</string>
+<string name="sns_add_comment_stream_sig">Comentar</string>
+<string name="sns_add_comment_stream_multi">Comentarios</string>
+<string name="facebook_comment_btn_txt">Comentar</string>
+<string name="facebook_time_tracte_min">hace unos minutos</string>
+<string name="facebook_time_tracte_hour">hace una hora</string>
+<string name="facebook_time_tracte_td">Hoy en</string>
+<string name="facebook_time_tracte_yd">Ayer en</string>
+<string name="facebook_time_tracte_at">en</string>
+<string name="facebook_event_load_fail">fracasar a cargar evento</string>
+<string name="facebook_recent_visit_page_title">Usuarios visitados reciente.</string>
+<string name="facebook_poke_dialog_title">¿ Dar un toque%1$s\?</string>
+<string name="facebook_poke_dialog_msg">¿ Estás a punto de dar un toque %1$s.</string>
+<string name="facebook_event_rsvp_prefix">RSVP</string>
+<string name="facebook_event_rsvp_respond">Responder</string>
+<string name="facebook_event_rsvp_change">Cambiar</string>
+<string name="facebook_event_host_item">Creador de invitación :%1$s</string>
+<string name="facebook_event_guest_item">Invitados</string>
+<string name="facebook_db_max_size">5</string>
+<string name="facebook_find_friend_no_result">Ningún resultado se encuentra</string>
+<string name="tweets_notify_setting_title">Tweets notifican configuración</string>
+<string name="tweets_notify_setting_summary">Tweets notifican configuración</string>
+<string name="dell_logo">para móvil de Dell</string>
+</resources>

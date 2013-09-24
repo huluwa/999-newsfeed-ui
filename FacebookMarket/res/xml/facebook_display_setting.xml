@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory  android:title="@string/pref_facebook_view_category">
+        <!-- 
+        <EditTextPreference  android:key="key_facebook_friend_count"
+                             android:singleLine="false"
+                             android:inputType="phone" />   
+         -->                 
+        <EditTextPreference android:key="key_facebook_stream_timeout"
+                            android:inputType="phone"/>
+                            
+        <EditTextPreference android:key="key_facebook_contact_update_period"
+                            android:inputType="phone" />
+                            
+         <EditTextPreference android:key="key_facebook_friend_update_period"
+                            android:inputType="phone" />                   
+       
+        <EditTextPreference android:key="key_facebook_mail_update_period"
+                            android:inputType="phone" />
+         <EditTextPreference android:key="key_facebook_phonebook_sync_period"
+                            android:inputType="phone" />
+         <!--                    
+        <ListPreference     android:key="key_facebook_accounticonsize_list"
+                            android:title="@string/facebook_accounticonsize_title"
+                            android:summary="@string/facebook_accounticonsize_summary"
+                            android:entries="@array/entries_list_preference"
+                            android:defaultValue="0"
+                            android:entryValues="@array/entryvalues_list_preference"
+                            android:dialogTitle="@string/facebook_accounticonsize_dialogtitle" />
+          -->
+                
+    </PreferenceCategory>
+</PreferenceScreen>
+    

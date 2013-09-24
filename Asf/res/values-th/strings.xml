@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+<string name="cmnew_setting_help_label_text">ตั้งค่าข้อมูลการติดต่อ Facebook</string>
+
+<string name="twitter_main_screen">Twitter</string>
+<string name="media_upload">Facebook</string>
+<string name="nitification_format">%1$s การแจ้งเตือนที่ยังไม่ได้อ่าน</string>
+
+
+<string name="pref_facebook_perm_settings">การตั้งค่า</string>
+<string name="pref_facebook_notification_setting">การตั้งค่าการแจ้งเตือน</string>
+<string name="pref_facebook_notification_general_setting">การตั้งค่าทั่วไป</string>
+<string name="pref_facebook_notification_vibrate">สั่น</string>
+<string name="pref_facebook_notification_vibrate_desc">สั่นเมื่อการแจ้งเตือนเข้ามา</string>
+
+<string name="pref_facebook_notification_led">จอ LED บนโทรศัพท์</string>
+<string name="pref_facebook_notification_led_desc">ไฟกระพริบบนจอ LED เมื่อการแจ้งเตือนเข้ามา</string>
+<string name="pref_facebook_notification_enable">การแจ้งเตือน</string>
+
+<string name="pref_facebook_notification_msg_enable">ข้อความ</string>
+<string name="pref_facebook_notification_poke_enable">โป๊ก (Poke)</string>
+<string name="pref_facebook_notification_request_enable">คำขอเป็นเพื่อน</string>
+<string name="pref_facebook_notification_event_enable">เชิญกิจกรรม</string>
+<string name="pref_facebook_notification_group_enable">เชิญกลุ่ม</string>
+
+<string name="pref_facebook_category">บัญชี Facebook</string>
+<string name="pref_twitter_category">บัญชี Twitter</string>
+<string name="twitter_setting_screen">การตั้งค่า Twitter</string>
+
+<string name="social_setting_screen">การตั้งค่าสังคม </string>
+<string name="contact_sync_hello">หน้าจอซิงค์การติดต่อ</string>
+<string name="twitter_tweet_screen">ทวีตส์</string>
+<string name="twitter_tweets_loading">กำลังโหลดทวีตส์</string>
+<string name="twitter_tweet_detail_screen">รายละเอียดทวีต</string>
+<string name="facebook_loing_ui">เข้าสู่ระบบ Facebook</string>
+<string name="facebook_loing_ui_webview">มุมมองการเข้าสู่ระบบ</string>
+
+<string name="twitter_user_detail_screen">รายละเอียดผู้ใช้</string>
+<string name="twitter_trend_loading">กำลังโหลดเทรนด์</string>
+<string name="twitter_trend_search">การค้นหาเทรนด์</string>
+<string name="menu_title_note_create">บันทึกใหม่</string>
+<string name="twitter_compose_screen">ส่ง</string>
+<string name="context_status_reply">ตอบกลับ</string>
+<string name="context_status_forward">ส่งต่อ</string>
+<string name="context_status_retweet">รีทวีต</string>
+<string name="context_status_favorite">เพิ่มเข้ารายการโปรด</string>
+<string name="context_status_direct">ส่งข้อความ</string>
+<string name="pref_twitter_specific_category">การตั้งค่า Twitter</string>
+<string name="twitter_message_send_option">ส่งแล้ว</string>
+<string name="twitter_message_inbox_option">ถาดเข้า</string>
+<string name="context_status_unfavorite">ยกเลิกรายการโปรด</string>
+<string name="twitter_favor_title">ยกเลิกรายการโปรด</string>
+<string name="twitter_favor_title_unfavor">ลบ</string>
+<string name="context_select_all">เลือกทั้งหมด</string>
+<string name="context_unselect_all">ไม่เลือกทั้งหมด</string>
+<string name="context_status_delete">ลบ</string>
+<string name="sns_delete">ลบ</string>
+<string name="sns_delete_all">ลบทางลัดทั้งหมด</string>
+<string name="context_follow_following">กำลังติดตาม</string>
+<string name="context_folloer_stop_following">หยุด</string>
+<string name="twitter_follower_loading">ผู้ติดตาม</string>
+<string name="twitter_following_loading">กำลังติดตาม</string>
+<string name="twitter_user_detail_from_following">กำลังติดตาม</string>
+<string name="recent_tweets">ทวีตล่าสุด</string>
+<string name="context_following_followers">ผู้ติดตาม</string>
+<string name="context_following_search">ค้นหา @</string>
+<string name="following_detail_stop_button">หยุดการติดตาม</string>
+<string name="following_detail_stop_button_add">ติดตาม</string>
+<string name="context_follower_following">กำลังติดตาม</string>
+<string name="context_compose_message">ข้อความตรง</string>
+
+
+<string name="twitter_myaccount_activity">ข้อมูลส่วนตัว</string>
+<string name="context_pre_page">หน้าก่อนหน้า</string>
+<string name="context_next_page">หน้าถัดไป</string>
+
+<string name="Tweets_Title_direct_message">ข้อความตรง</string>
+<string name="twitter_message_loading">กำลังโหลดข้อความ</string>
+<string name="context_message_new">ข้อความใหม่</string>
+<string name="context_message_delete">ลบข้อความ</string>
+<string name="facebook_wall_loading">กำลังโหลดผนังกั้น</string>
+<string name="facebook_event_loading">กำลังโหลดกิจกรรม</string>
+<string name="facebook_wall_title">ส่ง</string>
+<string name="facebook_walltowall_title">ส่งไปที่ Facebook</string>
+<string name="facebook_status_update_title">แบ่งปัน</string>
+
+<string name="pref_facebook_perm_assign">กำหนดการขยายสิทธิ์</string>
+<string name="pref_facebook_perm_assign_desc">ถ้าผู้ใช้ Facebook ไม่มีการขยายสิทธิ์ จะมีการแจ้งให้กำหนดสิทธิ์ </string>
+<string name="pref_facebook_ext_permission_assign">การตั้งค่าขั้นสูง</string>
+<string name="pref_facebook_ext_permission">การขยายสิทธิ์</string>
+<string name="pref_facebook_ext_permission_desc">ตั้งค่าการขยายสิทธิ์</string>
+
+<string name="facebook_account_tile_poke">โป๊ก (Poke)</string>
+<string name="facebook_WALL_POST_title">โพสต์ผนังกั้น</string>
+<string name="facebook_group_detail">เข้าร่วมใน</string>
+<string name="facebook_group_decline">ปฏิเสธ</string>
+<string name="facebook_friends_loading">กำลังโหลดเพื่อน</string>
+<string name="facebook_pages_loading">กำลังโหลดหน้า</string>
+<string name="facebook_upcomingbd_friends_loading">กำลังโหลดวันเกิดที่กำลังจะมีขึ้น</string>
+<string name="pref_facebook_view_category">ดูการตั้งค่าหน้าจอภาพ</string>
+<string name="pref_facebook_view_category_summary">กำหนดช่วงการซินโครไนซ์</string>
+<string name="pref_facebook_other_setting">การตั้งค่าอื่นๆ</string>
+
+<string name="facebook_mailbox_loading">กำลังโหลดข้อความ </string>
+<string name="facebook_mailbox_inbox_loading">กำลังโหลดข้อความถาดเข้า </string>
+<string name="facebook_mailbox_sent_loading">กำลังโหลดข้อความที่ส่งแล้ว</string>
+<string name="facebook_mailbox_update_loading">กำลังโหลดข้อความอัพเดต </string>
+<string name="facebook_mail_detail">การสนทนา</string>
+<string name="facebook_mail_one_detail">ข้อความ</string>
+<string name="facebook_mail_detail_reply">ตอบกลับ</string>
+<string name="facebook_phonebook_loading">กำลังโหลดสมุดโทรศัพท์</string>
+<string name="facebook_user_select">เลือกเพื่อน</string>
+<string name="facebook_mail_send">ส่ง</string>
+<string name="facebook_phonebook_nomore">ไม่มีเพิ่มเติม</string>
+<string name="facebook_status_loading">กำลังโหลดสถานะ</string>
+<string name="facebook_main_stream_screen">ฟีดข่าว</string>
+<string name="facebook_main_send">ส่ง</string>
+<string name="facebook_stream_you_like">ฉันชอบสิ่งนี้</string>
+
+<string name="facebook_contact_sync">ซิงค์การติดต่อ Facebook</string>
+<string name="facebook_event_sync">ซิงค์กิจกรรม Facebook</string>
+<string name="facebook_location_hint">ขณะนี้คุณอยู่ที่ไหน?</string>
+<string name="facebook_location_stop">ยกเลิก</string>
+<string name="facebook_location_start">ขอตำแหน่ง</string>
+<string name="facebook_media_upload">แนบ</string>
+
+<string name="test_isFacebookUser">เป็นผู้ใช้ Facebook</string>
+<string name="test_gloabalcontactsync">ซิงค์การติดต่อ</string>
+<string name="test_gloabaleventsync">ซิงค์กิจกรรม</string>
+<string name="test_addEvent">เพิ่มกิจกรรม</string>
+<string name="test_taskstatus_str">ติดตามงาน</string>
+
+<string name="no_event_info">ไม่มีข้อมูลกิจกรรมไว้ให้</string>
+<string name="facebook_status_update_compose">ความในใจของคุณคืออะไร?</string>
+<string name="facebook_wall_to_wall_compose">เขียนบางอย่างที่นี่...</string>
+<string name="facebook_location_update_title">แบ่งปันตำแหน่ง</string>
+<string name="facebook_comments_update_title">ข้อคิดเห็น</string>
+
+<string name="facebook_phonebook_title">สมุดโทรศัพท์</string>
+<string name="facebook_inbox_title">ถาดเข้า</string>
+<string name="facebook_messages_title">ข้อความ</string>
+<string name="facebook_sent_title">ส่งแล้ว</string>
+<string name="facebook_update_title">อัพเดต</string>
+<string name="facebook_updates_title">ข้อมูลอัพเดต</string>
+<string name="pref_adv_setting">การตั้งค่าขั้นสูง</string>
+<string name="pref_extras_reset_default">รีเซ็ต</string>
+<string name="pref_extras_reset_default_dlg_title">รีเซ็ตเป็นค่าเริ่มต้น</string>
+<string name="pref_extras_reset_default_summary">ล้างข้อมูลทั้งหมดและเรียกคืนการตั้งค่าเริ่มต้น</string>
+<string name="pref_extras_reset_default_dlg">คำเตือน:  ข้อมูลทั้งหมดจะถูกลบและการตั้งค่าเริ่มต้นจะถูกเรียกคืน</string>
+<string name="facebook_event_title">ซิงค์ไปที่ปฏิทิน</string>
+<string name="facebook_event_title_bar">กิจกรรม</string>
+<string name="facebook_photo_upload">แบ่งปัน</string>
+<string name="facebook_wall_share">แบ่งปัน</string>
+<string name="facebook_photo_upload_compose">ความในใจของคุณคืออะไร?</string>
+<string name="facebook_setting_sign_in">ลงชื่อเข้าใช้</string>
+<string name="facebook_find_friends_loading">กำลังค้นหาเพื่อน</string>
+<string name="facebook_set_contact_email">อีเมล</string>
+<string name="contact_cell_lable_text">โทรศัพท์มือถือ</string>
+<string name="contact_other_lable_text">โทรศัพท์อื่นๆ</string>
+<string name="facebook_contact_set">อัพเดตการติดต่อ</string>
+<string name="facebook_set_contact_title">ตั้งค่าการติดต่อ</string>
+
+<string name="to_button_lable">ถึง:</string>
+<string name="twitter_main_title">ทวีตส์</string>
+<string name="twitter_tweets_title">ทวีตส์</string>
+<string name="twitter_search_title">รีเฟรช</string>
+<string name="twitter_message_fail_send_all">ไม่สามารถส่งข้อมูลไปยังผู้รับทุกคน</string>
+<string name="twitter_message_fail_update_status">ไม่สามารถอัพเดตสถานะ</string>
+<string name="twitter_message_title_send">ส่ง</string>
+<string name="twitter_message_title_reply">ตอบกลับ</string>
+<string name="twitter_message_title_direct_message">ข้อความตรง</string>
+<string name="twitter_message_title_update">อัพเดต</string>
+<string name="twitter_message_title_forward">ส่งต่อ</string>
+<string name="twitter_message_title_retweet">รีทวีต</string>
+<string name="facebook_requests_loading">กำลังโหลดคำขอ</string>
+<string name="facebook_find_friends">ค้นหาเพื่อน</string>
+
+<string name="sns_task_management"/>
+<string name="sns_finished_task_title">งานทั้งหมดเสร็จสมบูรณ์</string>
+<string name="sns_running_task_title">งานทั้งหมดอยู่ในขั้นตอนการดำเนินการ</string>
+<string name="sns_failed_task_title">งานทั้งหมดได้ล้มเหลว</string>
+<string name="sns_pendding_task_title">งานทั้งหมดรอการดำเนินการอยู่</string>
+<string name="task_cancel_all">ยกเลิกงานทั้งหมด</string>
+
+<string name="twitter_dlg_tweet_search">กำลังค้นหา...</string>
+<string name="twitter_dlg_send_msg">กำลังส่งข้อความ...</string>
+<string name="twitter_dlg_update_status">กำลังอัพเดตสถานะ...</string>
+<string name="twitter_dlg_load_trend">กำลังโหลดเทรนด์...</string>
+<string name="twitter_dlg_load_tweets">กำลังโหลดทวีตส์...</string>
+<string name="twitter_dlg_add_favor">กำลังเพิ่มเข้ารายการโปรด...</string>
+<string name="twitter_dlg_destory_favor">กำลังลบออกจากรายการโปรด...</string>
+<string name="twitter_dlg_add_following">การเพิ่มเข้าการติดตาม...</string>
+<string name="twitter_dlg_destory_follow">กำลังลบการติดตาม...</string>
+<string name="twitter_dlg_retweet">การรีทวีต...</string>
+<string name="widget_facebook_name">การแจ้งเตือน Facebook</string>
+<string name="widget_twitter_name">เทรนด์ของ Twitter </string>
+<string name="title_show_on_homescreen">แสดงบนหน้าจอหลัก</string>
+<string name="widget_twitter_status_update_name">สถานะ Twitter</string>
+<string name="pref_facebook_sync_setting">การตั้งค่าซิงค์ Facebook</string>
+<string name="title_show_use_logo">แบ่งปันภาพถ่ายข้อมูลส่วนตัวของฉัน</string>
+<string name="title_show_use_email">แบ่งปันที่อยู่อีเมลของฉัน</string>
+<string name="title_show_use_birthday">แบ่งปันวันเกิดของฉัน</string>
+<string name="title_show_use_phonenumber">แบ่งปันเบอร์โทรศัพท์ของฉัน</string>
+<string name="summary_show_use_logo">ซิงค์ภาพข้อมูลส่วนตัวเป็นรูปถ่ายการติดต่อ</string>
+<string name="summary_show_use_email">ซิงค์อีเมลทาง Facebook ไปที่ข้อมูลการติดต่อ (Contact)</string>
+<string name="summary_show_use_birthday">ซิงค์วันเกิดทาง Facebook ไปที่ข้อมูลการติดต่อ (Contact)</string>
+<string name="summary_show_use_phonenumber">ซิงค์เบอร์โทรศัพท์ทาง Facebook ไปที่ข้อมูลการติดต่อ (Contact)</string>
+
+<string name="facebook_phonebook_sync_to_contact">กำลังบันทึกสมุดโทรศัพท์ทาง Facebook ไปที่รายชื่อการติดต่อ (Contacts)...</string>
+<string name="context_open_link_in_browser">เปิดลิงก์ในเบราว์เซอร์</string>
+<string name="title_copy_to_email">คัดลอกไปยังอีเมล</string>
+<string name="title_copy_new_msg_to_sms">คัดลอกจดหมายใหม่ไปที่ข้อความ</string>
+<string name="twitter_pic_upload_title">อัพโหลดรูปภาพไปที่ TwitPic</string>
+<string name="context_menu_insert_img">เลือกรูปถ่าย</string>
+<string name="context_menu_select_video">เลือกวิดีโอ</string>
+<string name="context_menu_select_link">เลือกลิงก์</string>
+<string name="context_menu_capture_photo">จับรูปถ่าย</string>
+<string name="menu_title_location_update">อัพเดตตำแหน่ง</string>
+<string name="menu_title_location">ตำแหน่ง</string>
+<string name="menu_title_friend_birthday">วันเกิดเพื่อน</string>
+<string name="menu_title_add_facebook_event">เพิ่มกิจกรรมเข้า Facebook</string>
+<string name="menu_title_sync_event">ซิงค์ไปที่ปฏิทิน</string>
+<string name="menu_title_stop">หยุด</string>
+<string name="menu_title_task_view">งาน</string>
+<string name="menu_title_login">เข้าสู่ระบบ</string>
+<string name="menu_title_settings">การตั้งค่า</string>
+<string name="menu_title_about">เกี่ยวกับ</string>
+<string name="menu_title_save_drafts">บันทึกไปที่ดราฟท์</string>
+<string name="menu_title_page_info">ข้อมูลหน้า</string>
+<string name="menu_title_pre_page">หน้าก่อนหน้า</string>
+<string name="menu_title_next_page">หน้าถัดไป</string>
+<string name="menu_title_ext_perm">การขยายสิทธิ์</string>
+<string name="menu_title_lookup_contact">ค้นหาการติดต่อ</string>
+<string name="menu_title_sync_to_contact">ซิงค์ไปที่การติดต่อ</string>
+<string name="menu_title_sync_addressbook">ซิงค์สมุดรายชื่อ</string>
+
+<string name="menu_title_logout">ออกจากระบบ</string>
+<string name="menu_title_request_location">ขอตำแหน่ง</string>
+<string name="menu_title_refresh">รีเฟรช</string>
+<string name="menu_title_my_status_update">อัพเดตสถานะ</string>
+<string name="menu_title_mailbox_inbox">ข้อความ</string>
+<string name="menu_title_mailbox_sent">ส่งแล้ว</string>
+<string name="menu_title_mailbox_update">ิอัพเดต</string>
+
+<string name="menu_title_pages">หน้า</string>
+
+
+<string name="facebook_friends_home_title">เพื่อนทาง Facebook</string>
+<string name="facebook_search_friends">ชื่อผู้ใช้</string>
+<string name="facebook_search_page">ชื่อหน้า</string>
+<string name="menu_title_my_friends">เพื่อนของฉัน</string>
+<string name="menu_title_friends">เพื่อน</string>
+<string name="menu_title_my_account">ข้อมูลส่วนตัว</string>
+<string name="menu_title_page">หน้า</string>
+<string name="menu_title_pokes">โป๊ก (Poke)</string>
+<string name="menu_title_new_mail">ส่งข้อความ</string>
+<string name="menu_title_friend_group">กลุ่มเพื่อน</string>
+<string name="menu_title_notifications">การแจ้งเตือน</string>
+<string name="menu_title_phonebook">สมุดโทรศัพท์</string>
+<string name="menu_title_status_update">อัพเดตสถานะ</string>
+<string name="menu_title_stream_publish">อัพเดตสถานะ</string>
+<string name="menu_title_set_contact">ตั้งค่าการติดต่อ</string>
+<string name="menu_title_find_friends">ค้นหาเพื่อน</string>
+<string name="menu_title_event">กิจกรรม</string>
+<string name="menu_title_news_feed">ฟีดข่าว</string>
+<string name="menu_title_tweets">ทวีต</string>
+<string name="menu_twitter_title_messages">ข้อความ</string>
+<string name="menu_twitter_title_my_account">บัญชีของฉัน</string>
+<string name="menu_twitter_title_favorites">รายการโปรด</string>
+<string name="menu_twitter_title_search">ค้นหา</string>
+<string name="menu_twitter_title_search_me">้ค้นหาฉัน</string>
+<string name="menu_twitter_title_following">การติดตาม</string>
+<string name="menu_twitter_title_follower">ผู้ติดตาม</string>
+<string name="menu_twitter_title_upload_photo">อัพโหลดรูปภาพ</string>
+<string name="menu_title_open_in_browser">เปิดในเบราว์เซอร์</string>
+<string name="menu_twitter_title_add_to_favor">เพิ่มไปที่รายการโปรด</string>
+<string name="menu_twitter_title_unfavorites">ยกเลิกรายการโปรด</string>
+<string name="menu_twitter_title_follow">ติดตาม</string>
+<string name="menu_twitter_title_unfollow">ไม่ติดตาม</string>
+<string name="menu_twitter_title_friend_line">สายเพื่อน</string>
+<string name="menu_twitter_title_user_line">สายผู้ใช้</string>
+
+<string name="menu_title_select_all">เลือกทั้งหมด</string>
+<string name="menu_title_unselect_all">ยกเลิกการเลือกทั้งหมด</string>
+<string name="menu_facebook_title_reply">ตอบกลับ</string>
+<string name="menu_facebook_title_forward">ส่งต่อ</string>
+<string name="menu_facebook_title_post_to_wall">โพสต์ไปที่ผนังกั้น</string>
+<string name="menu_facebook_title_add_as_friend">เพิ่มเป็นเพื่อน</string>
+
+<string name="facebook_add_as_friend_successfully">เพิ่มเป็นเพื่อนได้สำเร็จ</string>
+<string name="facebook_add_as_friend_failed">ไม่สามารถเพิ่มเป็นเพื่อนได้</string>
+
+<string name="menu_facebook_title_email">อีเมล</string>
+<string name="menu_facebook_title_call">การโทรออก</string>
+<string name="menu_facebook_title_phonebook">ดูรายละเอียดสมุดโทรศัพท์</string>
+<string name="menu_facebook_title_copy">คัดลอก</string>
+<string name="menu_facebook_title_phone">การโทรออก</string>
+<string name="menu_facebook_title_sync_to_contact">ซิงค์ไปที่การติดต่อ (Contact)</string>
+<string name="menu_facebook_title_request_phone_number">ขอเบอร์โทรศัพท์</string>
+<string name="menu_title_send_notification">ส่งการแจ้งเตือน</string>
+<string name="facebook_send_notification_title">ส่งการแจ้งเตือน</string>
+
+<string name="twitter_wait_task_prompt">โปรดรอ...</string>
+<string name="title_sync_birthday_event">ซิงค์กิจกรรมวันเกิด</string>
+<string name="summary_sync_birthday_event">ซิงค์กิจกรรมวันเกิดไปที่ปฏิทิน</string>
+<string name="pref_sns_proxy_category">การตั้งค่าพร๊อกซี่ (ทดสอบ)</string>
+<string name="facebook_not_login_prompt">กรุณาเข้าสู่ระบบใน Facebook</string>
+<string name="facenook_perm_setting">การขยายสิทธิ์ทาง Facebook</string>
+<string name="facebook_login_fail">ไม่สามารถลงชื่อเข้าใช้</string>
+<string name="facebook_login_retry">คุณต้องการเข้าสู่ระบบอีกครั้งหรือไม่?</string>
+<string name="sns_ok">ตกลง</string>
+<string name="sns_cancel">ยกเลิก</string>
+<string name="pref_proxy_setting">การตั้งค่าพร๊อกซี่</string>
+<string name="pref_sns_proxy_title">ข้อมูลพร๊อกซี่</string>
+<string name="pref_sns_proxy_summary">ตั้งค่าพร๊อกซี่เพื่อเข้าถึง Facebook และ Twitter</string>
+<string name="title_use_https_connections">ความปลอดภัย: ใช้ https</string>
+<string name="media_twitter_upload">TwitPic</string>
+<string name="context_status_copy">คัดลอก</string>
+<string name="title_upload_photo_size">กล้องบันทึกขนาดรูปภาพ</string>
+<string name="sns_about_info">\tเครือข่ายสังคมจะช่วยให้สามารถเข้าถึง Facebook และ Twitter\n\tในการแบ่งปันข้อมูลอัพเดต ลิงก์ รูปภาพ ฯลฯ โปรดตรวจสอบการตั้งค่าการขยายสิทธิ์</string>
+<string name="close_about">ปิด</string>
+<string name="about_title">เกี่ยวกับ</string>
+<string name="notification_request">คำขอ</string>
+<string name="menu_title_photos">รูปภาพ</string>
+<string name="uncomplete_user_pwd">กรุณาสิ้นสุดการป้อนชื่อผู้ใช้และรหัสผ่าน</string>
+<string name="wrong_username_pwd">ทั้งไม่สามารถใช้งานเครือข่ายได้ในขณะนี้หรือไม่พบการผสานกันของชื่อผู้ใช้/รหัสผ่าน  กรุณาตรวจสอบข้อมูลของคุณและลองใหม่อีกครั้ง</string>
+<string name="right_username_pwd">ผู้ใช้และรหัสผ่านที่ถูกต้อง</string>
+<string name="twitter_password_title">รหัสผ่าน</string>
+<string name="twitter_userid_title">รหัสผู้ใช้</string>
+<string name="twitter_view_count_title">นับการดูทวีต (สูงสุด 20)</string>
+<string name="twitter_follow_viewcount_title">ติดตามนับการดู (สูงสุด 20)</string>
+<string name="twitter_tweet_view_timeout_title">ช่วงทวีต (ขั้นต่ำ 60 วิ)</string>
+<string name="twitter_trend_view_timeout_title">ช่วงเทรนด์ (ขั้นต่ำ 60 วิ)</string>
+<string name="sns_allow_summary">เปิดใช้งาน</string>
+<string name="sns_forbiden_summary">ปิดใช้งาน</string>
+<string name="sns_active_summary">ใช้งานอยู่</string>
+<string name="sns_inactive_summary">ไม่ใช้งาน</string>
+<string name="sns_uploadphoto_original_summary">ต้นฉบับ</string>
+<string name="sns_uploadphoto_compressed_summary">การบีบอัด</string>
+<string name="twitter_verify_account_title">กำลังลงชื่อเข้าใช้...</string>
+<string name="twitter_verify_account_wait_msg">โปรดรอ...</string>
+<string name="twitter_load_search_message">กำลังโหลดข้อมูลผู้ใช้ โปรดรอ...</string>
+<string name="facebook_password_title">รหัสผ่าน</string>
+<string name="facebook_email_title">อีเมล</string>
+<string name="facebook_allways_enable_title">เปิดใช้บริการทาง Facebook</string>
+<string name="facebook_allways_enable__desc">การเปิดใช้บริการ Facebook จากแิิอพพลิเคชันอื่นๆ</string>
+<string name="facebook_permanent_session_enable_title">ใช้เซสชั่นถาวร</string>
+
+<string name="facebook_stream_timeout_title">ฟีดข่าว (ขั้นต่ำ 120 วิ)</string>
+<string name="facebook_contact_update_period_title">ซิงค์สมุดโทรศัพท์ (วัน)</string>
+<string name="facebook_friend_update_period_title">ซิงค์เพื่อน (วัน)</string>
+<string name="facebook_mail_update_period_title">เช็คจดหมาย (ชั่วโมง)</string>
+<string name="facebook_phonebook_sync_period_title">ซิงค์สมุดรายชื่อ (วัน)</string>
+<string name="facebook_pokes_loading">กำลังโหลดโป๊ก...</string>
+<string name="menu_facebook_title_poke_back">ย้อนกลับโป๊ก</string>
+
+
+
+<string name="facebook_getting_contact">การขอข้อมูลการติดต่อจากทางอินเทอร์เน็ต...</string>
+<string name="facebook_getting_contact_suc">การรับข้อมูลการติดต่อ</string>
+<string name="no_news_feed_hint">ไม่มีฟีดข่าว\nกด \&quot;รีเฟรช\&quot; เพื่อขอฟีดข่าวล่าสุด</string>
+<string name="no_wall_hint">ไม่มีข้อความพื้นให้ใช้งานได้\nกด \&quot;รีเฟรช\&quot; เพื่อขอข้อมูลผนังกั้นล่าสุด</string>
+<string name="no_trends_hint">ไม่สามารถขอเทรนด์ได้\nกด \&quot;รีเฟรช\&quot; เพื่อขอ 10 เทรนด์ล่าสุด</string>
+
+<string name="event_cancel_no_privilege">คุณไม่ได้รับอนุญาตให้ยกเลิกกิจกรรมนี้</string>
+<string name="event_cancel_successfully">ยกเลิกกิจกรรมนี้ได้สำเร็จ</string>
+<string name="event_cancel_failed">ไม่สามารถยกเลิกกิจกรรม</string>
+<string name="menu_title_clear_cache">ล้างแคช</string>
+<string name="facebook_clear_cache_successfully">ล้างข้อมูลที่เก็บไว้ในแคชได้สำเร็จ</string>
+<string name="facebook_clear_cache_failed">ไม่สามารถล้างข้อมูลที่เก็บไว้ในแคช</string>
+<string name="facebook_remove_comment_successfully">อัพเดตสำเร็จ</string>
+<string name="facebook_remove_comment_failed">ไม่สามารถลบข้อคิดเห็น</string>
+<string name="facebook_remove_comment_title">กำลังลบข้อคิดเห็น</string>
+<string name="facebook_add_comment_title">กำลังเพิ่มข้อคิดเห็น</string>
+<string name="facebook_send_mail_title">กำลังส่งข้อความ</string>
+
+
+
+<string name="min">นาทีที่แล้ว</string>
+<string name="sec">วินาทีที่แล้ว</string>
+<string name="day">วันที่แล้วที่ %1$s</string>
+<string name="hour">ชั่วโมงที่แล้วที่ %1$s</string>
+
+<string name="facebook_main_notes">บันทึก</string>
+<string name="facebook_main_notification_screen">การแจ้งเตือน</string>
+<string name="facebook_notes_title">บันทึกใหม่</string>
+<string name="facebook_notes_new">สร้างบันทึก</string>
+<string name="facebook_notes_edit">บันทึกหมายเหตุ</string>
+<string name="facebook_notes_loading">การโหลดบันทึก</string>
+<string name="no_notes_hint">คุณไม่มีบันทึก</string>
+<string name="facebook_notification_loading">กำลังโหลดการแจ้งเตือน</string>
+<string name="fail_create_notes">ไม่สามารถสร้างบันทึก</string>
+<string name="menu_facebook_title_open_browser">เปิดในเบราว์เซอร์</string>
+<string name="facebook_menu_wall_title">ผนังกั้น</string>
+
+<string name="facebook_album_spinner_prompt">เลือกอัลบั้ม</string>
+<string name="facebook_new_album">ใหม่</string>
+<string name="facebook_new_album_hint">ชื่ออัลบั้มใหม่</string>
+
+
+
+
+
+
+
+<string name="facebook_menu_photo_title">รูปภาพ</string>
+<string name="facebook_tab_photo">รูปภาพ</string>
+<string name="facebook_tab_wall">ผนัง</string>
+<string name="facebook_tab_info">ข้อมูล</string>
+
+
+
+
+<string name="facebook_status_title">สถานะ</string>
+<string name="facebook_update_status_title">อัพเดตสถานะ</string>
+<string name="facebook_add_photo_title">แบ่งปันรูปภาพ</string>
+<string name="facebook_login_ok">เข้าสู่ระบบ</string>
+<string name="facebook_login_cancel">ยกเลิก</string>
+<string name="facebook_login_sign_up">ลงทะเบียน</string>
+<string name="facebook_signup_url">http://m.facebook.com/r.php</string>
+
+<string name="facebook_no_facebook_account">ไม่มีบัญชีหรือ?</string>
+<string name="facebook_login_pwd_label">รหัสผ่าน</string>
+<string name="facebook_login_email_label">อีเมล</string>
+<string name="facebook_email_address">อีเมล</string>
+<string name="facebook_password">รหัสผ่าน</string>
+<string name="facebook_hint_username">ชื่อผู้ใช้</string>
+<string name="facebook_hint_phone">เบอร์โทรศัพท์</string>
+
+<string name="sns_eventsync_toast_msg">การซิงค์กิจกรรมในพื้นหลัง</string>
+<string name="sns_lookupall_toast_msg">กำลังซิงค์สมุดโทรศัพท์ทาง Facebook กับรายชื่อการติดต่อในพื้นหลัง</string>
+<string name="facebook_accounticonsize_title">ขนาดไอคอนข้อมูลส่วนตัว</string>
+<string name="facebook_accounticonsize_summary">สำหรับบัญชี Facebook เท่านั้น</string>
+<string name="facebook_accounticonsize_dialogtitle">ขนาดภาพข้อมูลส่วนตัวทาง Facebook</string>
+
+<string name="facebook_poke_success">โป๊กสำเร็จ</string>
+<string name="facebook_poke_failed">โป๊กล้มเหลว</string>
+<string name="facebook_invalid_session">เซสชั่นไม่ถูกต้อง โปรดตรวจสอบชื่อผู้ใช้และรหัสผ่านของคุณและเข้าระบบอีกครั้ง</string>
+<string name="twitter_delete_favorite_msg">กำลังลบ...\nโปรดรอ</string>
+<string name="sns_finished_msg">เสร็จสิ้น</string>
+<string name="sns_share_failed">ไม่สามารถแบ่งปัน</string>
+<string name="sns_share_success">แบ่งปันได้สำเร็จ</string>
+<string name="sns_post_failed">ไม่สามารถโพสต์</string>
+<string name="facebook_save_wall_message">ข้อความผนังที่บันทึกไปที่ดร๊าฟท์ได้สำเร็จ</string>
+<string name="sns_update_succeed">อัพเดตสำเร็จ</string>
+<string name="sns_update_failed"> ไม่สามารถอัพเดต</string>
+<string name="sns_operate_succeed">อัพเดตสำเร็จ</string>
+<string name="sns_operate_failed">ไม่สามารถอัพเดต</string>
+<string name="facebook_phonebook_in_saving">กำลังบันทึก โปรดรอ</string>
+<string name="sns_not_login_message">คุณไม่ได้เข้าสู่ระบบ</string>
+<string name="facebook_no_valid_session">ไม่ใช่เซสชั่นที่ถูกต้อง</string>
+<string name="sns_send_message_failed">ไม่สามารถส่งข้อความ</string>
+<string name="sns_login_succeed">เข้าระบบได้สำเร็จ</string>
+<string name="facebook_get_permanent_session_failed">ไม่สามารถเปิดเซสชั่น \nกรุณายืนยันว่าชื่อผู้ใช้และรหัสผ่านของคุณนั้นถูกต้อง</string>
+<string name="facebook_get_accesstoken_failed">ไม่สามารถเข้าถึง Facebook\nกรุณาตรวจสอบการเชื่อมต่อเครือข่ายของคุณ</string>
+<string name="sns_network_unavailable">เครือข่ายไม่เปิดใช้งาน</string>
+<string name="facebook_login_failed_message">ไม่สามารถเข้าสู่ระบบได้ กด \&quot;เข้าสู่ระบบ\&quot; เพื่อลองใหม่อีกครั้ง</string>
+<string name="facebook_lookup_waitting">กำลังประมวลผล...\nโปรดรอ</string>
+<string name="facebook_add_comments_failed">ไม่สามารถเพิ่มข้อคิดเห็น</string>
+<string name="facebook_send_notification_failed">ไม่สามารถส่งการแจ้งเตือน</string>
+<string name="sns_finished_delete_message">ลบแล้ว</string>
+<string name="sns_page_more">เพิ่มเติม...</string>
+<string name="sns_page_pre">ก่อนหน้า...</string>
+<string name="sns_user_name">ชื่อผู้ใช้</string>
+<string name="sns_proxy_port">พอร์ทเซิร์ฟเวอร์พร๊อกซี่</string>
+<string name="sns_proxy_host">url โฮสต์เซิร์ฟเวอร์พร๊อกซี่</string>
+<string name="sns_enable_proxy">เปิดใช้งานพร๊อกซี่</string>
+<string name="facebook_upload_img_title">อัพโหลดภาพไปที่ Facebook</string>
+<string name="facebook_upload_img_prompt_msg">คุณแน่ใจหรือไม่ว่าคุณต้องการอัพโหลดภาพนี้โดยไม่มีคำอธิบายลักษณะ?</string>
+<string name="sns_error_message">ข้อความผิดพลาด</string>
+<string name="facebook_sync_contact_title">กำลังซิงค์รายชื่อการติดต่อทาง Facebook</string>
+<string name="sns_revoke">กำลังเพิกถอน...</string>
+<string name="facebook_check_permission_title">กำลังตรวจสอบ...</string>
+<string name="facebook_exit_login_suc">ออกจากขั้นตอนการเข้าสู่ระบบ</string>
+<string name="facebook_exit_login_msg">คุณแน่ใจหรือไม่ว่าคุณต้องการออก?</string>
+<string name="facebook_request_accesstoken_title">กำลังโหลด...</string>
+<string name="facebook_getsession_title">กำลังเปิดเซสชั่น...</string>
+<string name="facebook_getsession_wait_message">กำลังเปิดเซสชั่น โปรดรอ...</string>
+<string name="facebook_getsession_successed">เข้าสู่ระบบสำเร็จ</string>
+<string name="facebook_request_token_title">กำลังโหลด..</string>
+<string name="sns_liking">กำลังชื่นชอบ...</string>
+<string name="sns_remove_like">ลบที่ชื่นชอบ...</string>
+<string name="facebook_poking_title">กำลังโป๊ก...</string>
+<string name="facebook_groups_title">กลุ่ม</string>
+<string name="facebook_logout_title">ออกจากระบบ Facebook</string>
+<string name="facebook_logout_message">คุณแน่ใจหรือไม่ว่าคุณต้องการออกจากระบบ?</string>
+<string name="facebook_location_setting_title">ผู้ให้บริการตำแหน่งไม่เปิดใช้งาน...</string>
+<string name="facebook_permission_message">เพื่อใช้งานฟังก์ชันนี้ คุณต้องเปิดสิทธิ์ %1$s \n\n คลิก \&quot;ตกลง\&quot; เพื่อกำหนดสิทธิ์หรือยกเลิกเพื่อออกจากระบบ</string>
+
+<string name="facebook_setting_location_message">ต้องระบุสถานะตำแหน่งในคุณลักษณะนี้  \n\n คลิก\&quot;ตกลง\&quot; เพื่อไปที่ \&quot;การตั้งค่า\&quot; เพื่อเปิดใช้คุณลักษณะนี้  หรือกด\&quot;ยกเลิก\&quot; เพื่อออก\n\n โปรดรีสตาร์ทแอพพลิเคชันนี้ใหม่หลังจากที่คุณเปลี่ยนการตั้งค่าของคุณ</string>
+<string name="facebook_request_location">กำลังขอตำแหน่ง...</string>
+<string name="facebook_location_link_map">ลิงก์แผนที่</string>
+<string name="facebook_location_stop_request">คำขอถูกยกเลิก&#xA1;K</string>
+<string name="sns_sending">กำลังส่ง...</string>
+<string name="facebook_event_hosted_by">โฮสต์โดย:</string>
+<string name="facebook_event_type">ชนิด:</string>
+<string name="facebook_event_where">สถานที่:</string>
+<string name="facebook_event_when">เวลา:</string>
+
+<string name="facebook_event_start">เวลาเริ่มต้น:</string>
+<string name="facebook_event_end">เวลาสิ้นสุด:</string>
+<string name="facebook_event_location">ตำแหน่ง:</string>
+<string name="facebook_event_host">โฮสต์:</string>
+
+<string name="facebook_event_from">จาก</string>
+<string name="facebook_event_to">ถึง</string>
+<string name="sns_message_text">ข้อความ</string>
+<string name="sns_friends_request">คำขอเพื่อน</string>
+<string name="sns_no_new_message">ไม่มีข้อความใหม่</string>
+<string name="sns_no_pending_friend_request">ไม่มีการรออนุมัติคำขอเพื่อน</string>
+<string name="sns_new_pokes">โป๊กใหม่</string>
+<string name="sns_no_pending_pokes">ไม่มีการรออนุมัติโป๊ก</string>
+<string name="sns_new_shares">หุ้นส่วนใหม่</string>
+<string name="sns_no_new_shares">ไม่มีหุ้นส่วนใหม่</string>
+<string name="sns_no_pending_group_invites">ไม่มีการรออนุมัติการเชิญชวนกลุ่ม</string>
+<string name="sns_events_invites">การเชิญชวนกิจกรรม</string>
+<string name="sns_no_pending_event_invites">No pending event invites</string>
+<string name="sns_no_cell">ไม่มีโทรศัพท์มือถือ</string>
+<string name="sns_no_phone">ไม่มีโทรศัพท์</string>
+<string name="sns_no_email">ไม่มีอีเมล</string>
+<string name="sns_retrieving">กำลังเีรียกคืน...</string>
+<string name="sns_size">ขนาด:</string>
+<string name="sns_like">ชอบ</string>
+<string name="sns_unlike">ไม่ชอบ</string>
+<string name="sns_add_comment">ข้อคิดเห็น</string>
+<string name="photo_your_comments">เขียนบางอย่าง...</string>
+
+<string name="facebook_fail_to_get_session">ไม่สามารถเข้าสู่ระบบ ข้อเสนอแนะ:\n1 กรุณาตรวจสอบดูว่าที่อยู่อีเมลและรหัสผ่านของคุณนั้นถูกต้อง\n2 ตรวจสอบให้แน่ใจว่าคุณมีการเชื่อมต่อข้อมูลทางอินเทอร์เน็ต (รวมทั้ง WiFi)\n3 ตรวจสอบโทรศัพท์ของคุณว่ามีการตั้งค่าวันที่และเวลาที่ถูกต้อง</string>
+<string name="facebook_make_session_permanent">การสร้างเซสชั่นถาวร...</string>
+<string name="facebook_make_session_permanent_suc">สร้างเซสชั่นถาวรได้สำเร็จ...</string>
+<string name="twitter_get_last_trends">กำลังขอรับ 10 เทรนด์ล่าสุด</string>
+<string name="sns_ignore">ละเว้น</string>
+<string name="sns_confirm">ยืนยัน</string>
+<string name="facebook_friends_request_model">คุณมีคำขอของเพื่อน %1$s</string>
+<string name="facebook_friends_request_model_signal">คุณมีคำขอของเพื่อน %1$s</string>
+<string name="facebook_friends_request_model_no">คุณไม่มีคำขอของเพื่อน</string>
+<string name="facebook_revoke_ext_permission_model">เพิกถอนการอนุญาต</string>
+<string name="facebook_revoke_permission_conform_mes">คุณแน่ใจหรือไม่ว่าคุณต้องการเพิกถอนการอนุญาต %1$s?</string>
+<string name="sns_group_invites">การเชิญชวนกลุ่ม</string>
+<string name="menu_facebook_title_wall_to_wall">ข้อความ Wall-To-Wall</string>
+<string name="context_to_user_account_string">ไปที่ @user</string>
+<string name="context_to_search_string">ค้นหา #คำหลัก</string>
+<string name="update_contact_notes">อัพเดตที่ %1$s จาก Facebook</string>
+<string name="edit_text_hint">ค้นหา</string>
+<string name="sync_address_book">ซินโครไนซ์สมุดรายชื่อ</string>
+<string name="assign_extend_permission">กำหนดการขยายสิทธิ์</string>
+<string name="sync_address_book_desc">รายชื่อและข้อมูลผู้ติดต่อของคุณจะซิงค์กันระหว่าง Facebook กับรายชื่อผู้ติดต่อในสมุดโทรศัพท์บนมือถือของคุณเป็นระยะๆ</string>
+
+<string name="is_allways_prompt_dialog">แสดงการโต้ตอบการซิงค์เสมอ</string>
+<string name="is_allways_prompt_permission_dialog">แสดงการโต้ตอบเสมอ</string>
+<string name="hint_no_permission">คุณไม่มีสิทธิ์ %1$s กรุณากำหนดสิทธิ์</string>
+
+<string name="prompt_user_sync_string">แอพพลิเคชันของ Facebook จะซิงค์ข้อมูลรายชื่อผู้ติดต่อระหว่างสมุดโทรศัพท์ทาง Facebook กับรายชื่อผู้ติดต่อบนโทรศัพท์ของคุณ\n\nกด %1$s เพื่อดำเนินการต่อ กด %2$s เพื่อยกเลิก</string>
+<string name="prompt_user_sync_title">กำลังซินโครไนซ์สมุดรายชื่อ</string>
+<string name="allow_prompt_dialog">ถามก่อนการซินโครไนซ์สมุดรายชื่อเสมอ</string>
+<string name="donnot_prompt_dialog">ไม่ถามขณะกำลังซินโครไนซ์สมุดรายชื่อ</string>
+<string name="facebook_lookupcontact_failed">ไม่สามารถค้นหารายชื่อผู้ติดต่อ</string>
+<string name="menu_title_go_to_facebook">ไปที่ Facebook</string>
+<string name="twitter_find_people">ค้นหาบุคคล</string>
+<string name="pref_clear_facebook_image_cache_title">ล้างภาพที่เก็บไว้ในแคช</string>
+<string name="pref_clear_facebook_image_cache_summary">ล้างภาพที่เก็บไว้ในแคชทั้งหมด</string>
+<string name="pref_clear_facebook_image_cache_dlg">ภาพ Facebook ทั้งหมดที่เก็บไว้ในแคชจะถูกล้าง</string>
+<string name="pref_clear_facebook_image_cache_dlg_title">ล้างภาพที่เก็บไว้ในแคช</string>
+<string name="stoping_string">กำลังยกเลิก&#xA1;K</string>
+<string name="loading_string">กำลังโหลด...</string>
+
+<string name="pref_news_feed_teimout_value">ค่านี้ควรมากกว่า 120</string>
+<string name="pref_twitter_count_value">ค่านี้ควรน้อยกว่า 20</string>
+<string name="pref_twitter_timeout_value">ค่านี้ควรมากกว่า 60</string>
+<string name="load_older_msg">โพสต์ที่เก่ากว่า...</string>
+<string name="load_more_msg">โหลดเพิ่มเติม...</string>
+<string name="search_friends">เพื่อน</string>
+<string name="search_everyone">ทุกคน</string>
+
+<string name="update_location_succeed">อัพโหลดไปที่ Facebook ได้สำเร็จ</string>
+<string name="update_location_fail">ไม่สามารถอัพโหลดไปที่ Facebook</string>
+<string name="notes_title">ชื่อเรื่อง</string>
+<string name="notes_content">บันทึกใหม่...</string>
+<string name="my_albums">อัลบั้มของฉัน</string>
+<string name="albums_format">อัลบั้มของ %1$s\</string>
+<string name="albums_format_nocache">อัลบั้มของเพื่อนของคุณ</string>
+<string name="album_number_format">อัลบั้ม %1$s</string>
+<string name="photo_number_format">รูปภาพ %1$s </string>
+<string name="sns_photo_comments">ข้อคิดเห็น</string>
+<string name="facebook_upcoming_event">กิจกรรมที่กำลังจะมีขึ้น</string>
+<string name="facebook_past_event">กิจกรรมในอดีต</string>
+<string name="facebook_event_this_week">สัปดาห์นี้</string>
+<string name="facebook_event_this_month">เดือนนี้</string>
+<string name="facebook_event_others">อื่นๆ</string>
+<string name="facebook_event_rsvp_suc">RSVP %1$s สำเร็จ</string>
+<string name="facebook_event_rsvp_fail">ไม่สามารถไปที่ RSVP %1$s</string>
+
+
+
+<string name="facebook_friend_birthday">วันเกิด</string>
+<string name="facebook_guest_attending">กำัลังเข้าร่วม</string>
+<string name="facebook_guest_unsure">บางที</string>
+<string name="facebook_guest_decline">ปฏิเสธ</string>
+<string name="facebook_guest_not_reply">ไม่ตอบกลับ</string>
+<string name="hint_album_name">ชื่ออัลบั้ม</string>
+<string name="hint_album_location">ตำแหน่ง</string>
+<string name="hint_album_desc">คำอธิบายลักษณะ</string>
+<string name="hint_album_update">อัพเดตอัลบั้ม</string>
+<string name="hint_album_cancel">ยกเลิก</string>
+<string name="album_hint_privacy">ข้อมูลส่วนบุคคล: ใครสามารถดูข้อมูลนี้ได้?</string>
+<string name="album_edit_info">แก้ไขอัลบั้ม</string>
+<string name="album_edit_desc">แก้ไขข้อมูลด้านล่าง</string>
+<string name="photo_hint_save">บันทึกการเปลี่ยนแปลง</string>
+<string name="photo_hint_caption_comments">เขียนคำอธิบายภาพ...</string>
+<string name="photo_hint_comments">เขียนบางอย่าง...</string>
+<string name="album_context_menu_edit">แก้ไขอัลบั้ม</string>
+
+<string name="album_delete_desc">คุณแน่ใจหรือไม่ว่าคุณต้องการที่จะลบอัลบั้ม %1$s ที่เลือก?</string>
+<string name="photo_delete_desc">คุณแน่ใจหรือไม่ว่าคุณต้องการที่จะลบรูปภาพ %1$s ที่เลือก?</string>
+<string name="sns_add_short_cut">เพิ่มทางลัด</string>
+
+<string name="mail_update_date_fromat">อัพเดตที่ %1$s</string>
+<string name="hint_no_group">ไม่มีกลุ่ม หรือไม่สามารถขอกลุ่ม</string>
+<string name="no_subject">ไม่มีหัวเรื่อง</string>
+
+<string-array name="share_orientation_list">
+        <item>ทุกคน</item>
+        <item>เครือข่ายและเพื่อนของฉัน</item>
+        <item>เพื่อนของเพื่อน</item>
+        <item>เฉพาะเพื่อนเท่านั้น</item>
+</string-array>
+
+<string name="no_result_search_hint">การค้นหาของคุณ -%1$s-ไม่ตรงกับทวีตใดๆ </string>
+<string name="fail_search_hint">การค้นหาล้มเหลว</string>
+<string name="notification_format">%1$s การแจ้งเตือนใหม่%2$s</string>
+<string name="facebook_notification_list_title">ช่วงรีเฟรช</string>
+<string name="facebook_notification_summary">ช่วงรีเฟรช</string>
+
+<string name="select_link_title">เลือกลิงก์</string>
+<string name="loading_notes">กำลังโหลดบันทึก...</string>
+<string name="loading_event">กำลังโหลดกิจกรรม...</string>
+
+
+<string name="loading_attending_guest">กำลังโหลดข้อมูล RSVP...</string>
+<string name="loading_unsure_guest">กำลังโหลดกิจกรรม...</string>
+<string name="loading_declined_guest">กำลังโหลดกิจกรรม...</string>
+<string name="loading_not_replied_guest">กำลังโหลดกิจกรรม...</string>
+<string name="album_go">ย้อนกลับไปที่อัลบั้ม</string>
+<string name="album_list_go">ย้อนกลับไปที่รูปภาพ</string>
+<string name="context_short_cut_delete">ลบทางลัด</string>
+<string name="verify_account_hint">กำลังลงชื่อเข้าใช้...</string>
+<string name="verify_account_suc_hint">เปิดเซสชั่นสำเร็จ...</string>
+
+ <string name="wallpaper">กำลังตั้งค่าภาพพื้นหลัง โปรดรอ\u2026</string>
+ <string name="wallpaper_title">ตั้งค่าภาพพื้นหลัง</string>
+ <string name="selected_album">อัลบั้มนี้</string>
+ <string name="mail_receivers">ระหว่าง %1$s ถึง %2$s</string>
+ <string name="mail_receivers_just_you">ระหว่าง %1$s</string>
+ <string name="fail_get_latest_phonebook">ไม่สามารถขอรับสมุดโทรศัพท์ล่าสุดจากเซิร์ฟเวอร์ Facebook</string>
+ <string name="getting_phonebook_from_server">กำลังโหลดข้อมูลจากเซิร์ฟเวอร์ Facebook โปรดรอ...</string>
+ <string name="getting_friendship_from_server">กำลังโหลดข้อมูลจากเซิร์ฟเวอร์ Facebook โปรดรอ...</string>
+ <string name="getting_page_from_server">กำลังโหลดข้อมูลจากเซิร์ฟเวอร์ Facebook โปรดรอ...</string>
+ 
+ <string name="fail_get_latest_friendship">ไม่สามารถเรียกข้อมูลจากเซิร์ฟเวอร์ Facebook</string>
+ <string name="fail_get_latest_page">ไม่สามารถเรียกข้อมูลจากเซิร์ฟเวอร์ Facebook</string>
+ <string name="go_touch_website">ไปที่เว็บไซต์</string>
+ <string name="menu_title_stream_filter">รายการตัวกรอง</string>
+ <string name="menu_title_poke">โป๊ก (Poke)</string>
+ <string name="facebook_post_wall">กำลังแบ่งปันเนื้อหา</string>
+ <string name="facebook_post_wall_waiting">โปรดรอ...</string>
+ <string name="view_guest_list">ดูรายชื่อแขกผู้เข้าชม</string>
+ <string name="pref_facebook_help_setting">ความช่วยเหลือ</string> 
+ <string name="pref_facebook_help_tips_setting">เคล็ดลับความช่วยเหลือ</string> 
+ <string name="pref_facebook_help_tips_summary_setting">วิธีเข้าถึง Facebook ได้รวดเร็วยิ่งขึ้นทำอย่างไร\? วิธีซินโครไนซืสมุดโทรศัพท์ทาง Facebook ของฉันกับสมุดรายชื่อในโทรศัพท์ของฉันทำอย่างไร? ...</string>
+ 
+ <string name="search_phonebook_hint">ค้นหาสมุดโทรศัพท์</string>
+ <string name="phonebook_call">การโทรออก:</string>
+ <string name="phonebook_mail">จดหมาย:</string> 
+ <string name="phonebook_message">ข้อความ:</string>
+ <string name="phone_action">เบอร์โทรศัพท์</string>
+ <string name="facebook_main_menu">เมนู</string>
+ <string name="retweet_success">รีทวีตสำเร็จ</string>
+ <string name="retweet_failed">ไม่สามารถรีทวีต</string>
+ 
+<string name="twitter_login_email_hint">ชื่อผู้ใช้หรืออีเมล</string>
+<string name="twitter_login_pwd_hint">รหัสผ่าน</string>
+<string name="twitter_login_ok">ลงชื่อเข้าใช้</string>
+<string name="facebook_event_des_title_str">คำอธิบายลักษณะ:</string>
+<string name="facebook_event_no_desc">ไม่มีคำอธิบายลักษณะ</string>
+<string name="twitter_sign_up_view_txt">สร้างบัญชี</string>
+<string name="twitter_signup_url">http://twitter.com</string>
+<string name="twitter_logout_menu_title">ออกจากระบบ</string>
+<string name="twitter_logout_title">ออกจากระบบของ Twitter</string>
+<string name="twitter_compose_tweet_hint">เกิดอะไรขึ้น?</string>
+<string name="twitter_default_count">140</string>
+<string name="twitter_option_reply">ตอบกลับ</string>
+<string name="twitter_option_retweet">รีทวีต</string>
+<string name="twitter_option_send_dm">ส่งข้อความตรง</string>
+<string name="twitter_option_add_favorite">เพิ่มไปที่รายการโปรด</string>
+<string name="twitter_option_un_favorite">ยกเลิกรายการโปรด</string>
+<string name="twitter_option_title">ตัวเลือกทวีต</string>
+<string name="twitter_to_detail">รายละเอียดทวีต</string>
+<string name="group_update_title">อัพเดต:</string>
+<string name="group_type_title">ชนิด:</string>
+<string name="group_sub_title">ชนิดย่อย:</string>
+<string name="group_des_title">คำอธิบายลักษณะ:</string>
+<string name="facebook_album_title">อัลบั้ม</string>
+<string name="sns_setting_numeric_checking">ค่าไม่ถูกต้อง</string>
+<string name="pref_show_title_bar">แสดงแถบชื่อเรื่อง</string>
+<string name="pref_show_title_bar_desc">ปิดเพื่อทำให้แถบชื่อเรื่องไม่สามารถมองเห็นได้</string>
+<string name="menu_title_select_done">เลือก</string>
+<string name="menu_title_event_switch">สลับมุมมอง</string>
+<string name="hint_keyword_subject_body">คำหลัก</string>
+<string name="facebook_detail_note_title">บันทึก</string>
+<string name="menu_note_edit">แก้ไขบันทึก</string>
+<string name="menu_title_trends">เทรนด์</string>
+<string name="twitter_send_status">กำลังอัพเดตสถานะ</string>
+<string name="facebook_changing_caption">กำลังเปลี่ยนคำอธิบายภาพ</string>
+<string name="facebook_save_change">กำลังบันทึกการเปลี่ยนแปลง</string>
+<string name="getting_info_from_server">กำลังโหลดข้อมูลจากเซิร์ฟเวอร์ Facebook โปรดรอ...</string>
+<string name="session_expired">เซสชั่น Facebook หมดอายุแล้ว โปรดเข้าสู่ระบบ</string>
+<string name="facebook_dlg_save_note">กำลังบันทึกหมายเหตุ</string>
+<string name="facebook_find_people_prompt">กรุณาป้อนสตริงการค้นหาที่ถูกต้อง</string>
+<string name="facebook_set_contact_prompt">กรุณาป้อนข้อมูลการติดต่อที่ถูกต้อง</string>
+<string name="facebook_dlg_set_contact">กำลังตั้งค่าข้อมูลการติดต่อ</string>
+<string name="facebook_toast_event_rsvp">กำลังเปลี่ยนสถานะ rsvp ของกิจกรรม โปรดรอ</string>
+<string name="facebook_is_processing">กำลังดำเนินการ โปรดรอ</string>
+<string name="facebook_dlg_find_people">กำลังค้นหาเพื่อน</string>
+<string name="facebook_dlg_uploading">กำลังอัพโหลด</string>
+<string name="facebook_dlg_post">กำลังโพสต์เนื้อหา</string>
+<string name="pref_clear_fbinfo_title">ล้างรายชื่อผู้ติดต่อทาง Facebook</string>
+<string name="pref_clear_fbinfo_summary">ล้างข้อมูลรายชื่อผู้ติดต่อทาง Facebook จากสมุดรายชื่อ</string>
+<string name="pref_clear_fbinfo_dlg">ข้อมูลการติดต่อทั้งหมดทาง Facebook ที่ซิงค์มาจาก facebook จะถูกลบออกจากสมุดรายชื่อ</string>
+<string name="pref_clear_fbinfo_dlg_title">ล้างรายชื่อผู้ติดต่อทาง Facebook</string>
+
+<string name="sns_like_stream_sig">ชื่นชอบ</string>
+<string name="sns_like_stream_multi">ชื่นชอบ</string>
+<string name="sns_add_comment_stream_sig">ข้อคิดเห็น</string>
+<string name="sns_add_comment_stream_multi">ข้อคิดเห็น</string>
+<string name="facebook_comment_btn_txt">ข้อคิดเห็น</string>
+<string name="facebook_time_tracte_min">ประมาณหนึ่งนาทีที่แล้ว</string>
+<string name="facebook_time_tracte_hour">ประมาณหนึ่งชั่วโมงที่แล้ว</string>
+<string name="facebook_time_tracte_td">วันนี้ที่เวลา </string>
+<string name="facebook_time_tracte_yd">เมื่อวานนี้ที่เวลา</string>
+<string name="facebook_time_tracte_at">ที่เวลา</string>
+<string name="facebook_event_load_fail">ไม่สามารถโหลดกิจกรรม</string>
+<string name="facebook_recent_visit_page_title">ผู้ใช้ที่เข้าชมล่าสุด</string>
+<string name="facebook_poke_dialog_title">โป๊ก %1$s\?</string>
+<string name="facebook_poke_dialog_msg">คุณกำลังจะโป๊ก %1$s</string>
+<string name="facebook_event_rsvp_prefix">RSVP:</string>
+<string name="facebook_event_rsvp_respond">ตอบ</string>
+<string name="facebook_event_rsvp_change">เปลี่ยนแปลง</string>
+<string name="facebook_event_host_item">ผู้สร้างโฮส: %1$s</string>
+<string name="facebook_event_guest_item">แขกผู้เข้าชม</string>
+<string name="facebook_db_max_size">5</string>
+<string name="facebook_find_friend_no_result">ไม่พบผลลัพธ์</string>
+<string name="tweets_notify_setting_title">ทวีตแจ้งการตั้งค่า</string>
+<string name="tweets_notify_setting_summary">ทวีตแจ้งการตั้งค่า</string>
+<string name="dell_logo">สำหรับมือถือ Dell</string>
+</resources>

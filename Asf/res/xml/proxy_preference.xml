@@ -1,0 +1,19 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">  
+    <PreferenceCategory  android:title="@string/pref_sns_proxy_category">
+       <CheckBoxPreference
+                android:key="key_sns_proxy_enable"
+                android:singleLine="true" />
+        <EditTextPreference android:key="key_sns_proxy_host"                
+                            android:singleLine="true"
+                            android:inputType="textEmailAddress"/>
+        <EditTextPreference android:key="key_sns_proxy_port"                
+                            android:singleLine="true" 
+                            android:inputType="phone"/>
+                            
+        <EditTextPreference android:key="key_sns_proxy_username"                
+                            android:singleLine="true"/>                            
+        <EditTextPreference android:key="key_sns_proxy_pwd"                
+                            android:singleLine="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_width="fill_parent"        
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5px"
+        android:paddingRight="7px"
+        android:paddingTop="1px"
+        android:paddingBottom="1px">
+        
+     <TextView   android:id="@+id/facebook_event_time"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="left"                        
+                   android:linksClickable="false"
+                   android:layout_weight="1"
+                   android:textAppearance="@style/sns_event_title"
+                   android:layout_alignParentLeft="true"
+                   android:layout_alignParentTop="true"/>
+    <LinearLayout 
+        android:layout_width="fill_parent"        
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10px"
+        android:paddingBottom="10px">   
+           <RelativeLayout
+               android:layout_width="50dip"
+               android:layout_height="50dip"
+               android:layout_gravity="center_vertical"
+               android:gravity="center_vertical">
+	            <ImageView android:id="@+id/facebook_event_img_ui"
+	                       android:layout_width="50dip"
+	                       android:layout_height="50dip"                
+	                       android:layout_gravity="center_vertical" 
+	                       android:layout_centerVertical="true"
+	                       android:background="#00000000"/> 
+	             <TextView android:id="@+id/facebook_event_date"
+				           android:layout_width="50dip"
+				           android:layout_height="50dip"
+				           android:gravity="center_vertical"  
+				           android:layout_centerVertical="true"                   
+				           android:linksClickable="false"
+				           android:textAppearance="@style/sns_event_time_bold"  
+				           android:layout_weight="1"/>  
+				           
+	         </RelativeLayout>
+	         
+		     <LinearLayout 
+		        android:layout_width="wrap_content"        
+		        android:layout_height="wrap_content"
+		        android:paddingLeft="10px"
+		        android:layout_gravity="center_vertical"
+		        android:orientation="vertical">   
+	            <TextView android:id="@+id/facebook_event_name"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content" 
+	                 android:gravity="center_vertical"
+	                 android:layout_gravity="center_vertical"                                                        
+	                 android:linksClickable="false"
+	                 android:textAppearance="@style/sns_big_username_blue"
+	                 android:layout_weight="1"/>
+	    
+	            <TextView android:id="@+id/facebook_event_when_detail"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"      
+	                 android:gravity="center_vertical"       
+	                 android:layout_gravity="center_vertical"                                              
+	                 android:linksClickable="false"
+	                 android:textAppearance="@style/sns_event_time"
+	                 android:layout_weight="1"/>  
+        </LinearLayout>
+    </LinearLayout>      
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+    
+    <include layout="@layout/twitter_action"/>
+    
+      <LinearLayout android:id="@+id/profile_span"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+        
+	     <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dip"
+	        android:orientation="horizontal">
+	          <ImageView android:id="@+id/following_img_ui"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="fill_parent"                
+	                    android:gravity="center_vertical"
+	                    android:layout_alignParentLeft="true"                   
+	                    android:background="#00000000"/>
+	                    
+	         <TextView android:id="@+id/following_username"
+	                      android:layout_width="wrap_content"
+	                      android:layout_height="fill_parent"    
+	                      android:layout_toRightOf="@+id/following_img_ui"            
+	                      android:gravity="center_vertical"
+	                      android:paddingLeft="10dip"                            
+                          android:linksClickable="false"
+                          android:layout_weight="1"
+                           android:textAppearance="@style/sns_big_username"            
+	                      />            
+	    </LinearLayout>
+	    
+	    <TextView android:id="@+id/following_desc"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="left"
+                          android:paddingLeft="5dip"                                                                               
+                          android:linksClickable="false"
+                          android:textAppearance="@style/sns_text"
+                          android:layout_weight="1"
+                          />            
+	    
+	    <Button     android:id="@+id/folowing_undo"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"                
+	                android:layout_gravity="center"
+	                style="?android:attr/buttonStyleSmall"
+	                android:textColor="@color/twitter_btn_text_color"
+	                android:layout_centerHorizontal="true" />
+	                
+	                
+	    <TextView android:id="@+id/following_detail_recent_tweets"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="fill_parent"    
+	                 android:layout_toRightOf="@+id/tweet_img_ui"            
+	                 android:gravity="left"            
+	                 android:paddingTop="5dip"
+	                 android:paddingBottom="5dip"        
+	                 android:textStyle="bold"
+	                 android:textColor="#FF000000"
+	                 android:shadowColor="#FFFFFFFF"
+	                 android:shadowDy="1.0"
+	                 android:shadowRadius="1.0"              
+	    />    
+   </LinearLayout>    
+   
+   
+    <LinearLayout
+	    android:id="@+id/userline_search_span"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="5dip"
+	    android:visibility="gone">
+	      <Button
+                android:id="@+id/userline_search_do"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:nextFocusRight="@+id/userline_embedded_text_editor"
+                style="?android:attr/buttonStyleSmall"  
+                android:background="@drawable/cmcc_search_button_2_nor"             
+                android:layout_centerVertical="true" />
+                	      
+	           <EditText
+	               android:id="@+id/userline_embedded_text_editor"
+	               android:layout_width="fill_parent"	    
+	               android:layout_height="wrap_content" 
+	               android:paddingLeft="5dip"
+	               android:paddingRight="5dip"    
+	               android:autoText="true"	               
+	               android:capitalize="sentences"
+	               android:layout_gravity="center_vertical"
+                   android:maxLines="1"
+                   android:singleLine="true"
+                   android:textColor="#000000"
+                   android:scrollHorizontally="true"/>
+                      
+    </LinearLayout>
+    
+   <ListView android:id="@+id/twitter_recent_tweets_list"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:layout_weight="1"
+        android:divider="@drawable/divider" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:listSelector="@drawable/list_selector_background"
+        android:cacheColorHint="#00000000"/>
+</LinearLayout>

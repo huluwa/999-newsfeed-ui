@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/allapps_cell_width"
+    android:layout_height="@dimen/allapps_cell_height">   
+    
+    <TextView
+    android:id="@+id/name"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/allapps_text_paddingTop" 
+    android:drawablePadding="@dimen/allapps_text_drawablePadding" 
+    android:paddingBottom="0dp"
+    android:background="@drawable/application_selector"
+    
+    android:textSize="13dp"
+    android:textColor="#FFF"
+    android:maxLines="2"
+    android:gravity="top|center_horizontal"/>
+    
+    <ImageView 
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/cmcc_icon_dela"/>
+    
+ </RelativeLayout>

@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- CheckBoxPreference
+                android:key="key_delete_default_enable"    
+                android:title="@string/pref_delete_default_page_enable"
+                /--> 
+                  
+   <PreferenceCategory  android:title="@string/setting_home_screen">    
+     <!-- ListPreference  android:key="key_home_page_list"
+                      android:title="@string/setting_default_screen"
+                      android:summary="@string/setting_default_screen_summary"
+                      android:entries="@array/entries_page_list_preference"
+                      android:defaultValue="2"
+                      android:entryValues="@array/entries_value_page_list_preference"
+                      android:dialogTitle="@string/setting_default_screen" /-->
+   
+     <ListPreference  android:key="key_dock_style"
+                      android:title="@string/setting_home_dock_style"
+                      android:summary="@string/setting_home_dock_style_summary"
+                      android:entries="@array/entries_setting_home_dock_style"
+                      android:defaultValue="0"
+                      android:entryValues="@array/entries_value_setting_home_dock_style"
+                      android:dialogTitle="@string/setting_home_dock_style" />
+
+     <ListPreference  android:key="key_allapps_view_style"
+                      android:title="@string/setting_allapps_view_style"
+                      android:summary="@string/setting_allapps_view_style_summary"
+                      android:entries="@array/entries_setting_allapps_view_style"
+                      android:defaultValue="0"
+                      android:entryValues="@array/entries_value_setting_allapps_view_style"
+                      android:dialogTitle="@string/setting_allapps_view_style" />
+
+     <ListPreference  android:key="key_pagemanager_view_style"
+                      android:title="@string/setting_pagemanager_view_style"
+                      android:summary="@string/setting_pagemanager_view_style_summary"
+                      android:entries="@array/entries_setting_pagemanager_view_style"
+                      android:defaultValue="0"
+                      android:entryValues="@array/entries_value_setting_pagemanager_view_style"
+                      android:dialogTitle="@string/setting_pagemanager_view_style" />
+                      
+    <!-- CheckBoxPreference
+                android:key="key_2d_3d_exchange"    
+                android:title="@string/pref_2d_enable"
+                /-->            
+    </PreferenceCategory>
+    
+</PreferenceScreen>

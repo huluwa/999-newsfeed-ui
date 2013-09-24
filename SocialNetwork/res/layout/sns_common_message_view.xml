@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"        
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dip"
+        android:paddingRight="7dip"
+        android:paddingTop="3dip">
+        
+	      
+       <ImageView android:id="@+id/tweet_img_ui"
+             android:layout_width="50dip"
+             android:layout_height="50dip"                
+             android:layout_gravity="center_vertical"
+             android:layout_alignParentLeft="true"	                
+             android:background="#00000000"/>
+                 
+        <TextView android:id="@+id/tweet_user_name"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"  
+              android:paddingLeft="10dip"  
+              android:layout_toRightOf="@+id/tweet_img_ui"                         
+              android:linksClickable="false"
+              android:textAppearance="@style/sns_link"
+              android:layout_weight="1"/>
+                 
+        <TextView android:id="@+id/tweet_publish_time"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:paddingLeft="10dip"
+              android:layout_gravity="right"              
+              android:linksClickable="false"
+              android:textAppearance="@style/sns_time"
+              android:layout_weight="1" 
+              android:layout_below="@+id/tweet_user_name"
+              android:layout_toRightOf="@+id/tweet_img_ui"/>
+                 
+		<TextView android:id="@+id/tweet_publish_text"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"  
+              android:paddingLeft="10dip"            
+              android:layout_below="@+id/tweet_publish_time"
+              android:layout_toRightOf="@+id/tweet_img_ui"    
+              android:gravity="center_vertical"		              	              
+              android:linksClickable="false"
+               android:textAppearance="@style/sns_text"
+              android:layout_weight="1"/>     
+</RelativeLayout>   

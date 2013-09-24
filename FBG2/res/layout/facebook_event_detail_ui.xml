@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/facebook_backgroud">   
+        <include layout="@layout/facebook_header">
+        </include>
+        <LinearLayout 
+               android:id="@+id/facebook_event_title"
+               android:layout_width="fill_parent"
+               android:paddingLeft="10px"
+               android:paddingBottom="10px"
+               android:paddingTop="10px"
+               android:orientation="horizontal"
+               android:layout_height="wrap_content">
+               <ImageView android:id="@+id/facebook_event_img_ui"
+                    android:layout_width="70px"
+                    android:layout_height="70px"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_vertical"  
+                    android:background="#00000000"/>
+                
+                 <LinearLayout 
+	                android:layout_width="wrap_content"        
+	                android:layout_height="wrap_content"
+	                android:paddingLeft="10px"
+	                android:layout_gravity="center_vertical"
+	                android:orientation="vertical">    
+	               <TextView android:id="@+id/facebook_event_name"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:textAppearance="@style/sns_big_username_blue"
+	                       android:layout_gravity="center_vertical"
+	                       android:gravity="center_vertical"
+	                       android:layout_weight="1"/>
+	                <TextView android:id="@+id/facebook_event_time"
+			               android:layout_width="wrap_content"
+			               android:layout_height="wrap_content"
+			               android:layout_gravity="center_vertical"
+			               android:gravity="center_vertical"
+			               android:textAppearance="@style/sns_event_time"
+			               android:layout_weight="1"/>
+		       </LinearLayout>
+        </LinearLayout >
+        
+        <View android:layout_width="fill_parent"
+              android:background="@drawable/divider"
+              android:layout_height="2dip"/> 
+               
+        <LinearLayout  
+               android:id="@+id/facebook_event_host"
+               android:layout_width="fill_parent"
+               android:layout_marginTop="10px"
+               android:paddingLeft="15px"
+               android:orientation="horizontal"
+               android:layout_height="wrap_content"
+               android:visibility="gone">  
+              <TextView android:id="@+id/facebook_event_host_title"
+                   android:text="@string/facebook_event_host"
+                   android:layout_width="120px"
+                   android:singleLine="true"
+                   android:layout_height="fill_parent"
+                   android:gravity="center_vertical"
+                   android:textAppearance="@style/sns_event_sec_copy"/> 
+                   
+               <TextView android:id="@+id/facebook_event_host_detail"
+                       android:layout_width="wrap_content"
+                       android:layout_height="fill_parent"
+                       android:textAppearance="@style/sns_event_copy"
+                       android:gravity="left|center_vertical"
+                       android:paddingLeft="5px"/>
+        </LinearLayout >
+             
+        <LinearLayout  
+               android:id="@+id/facebook_event_type"
+               android:layout_width="fill_parent"
+               android:paddingLeft="15px"
+               android:orientation="horizontal"
+               android:layout_height="wrap_content">     
+                   <TextView android:id="@+id/facebook_event_type_title"
+                   android:text="@string/facebook_event_type"
+                   android:layout_width="120px"
+                   android:singleLine="true"
+                   android:layout_height="fill_parent"                                                   
+                   android:gravity="center_vertical"
+                   android:textAppearance="@style/sns_event_sec_copy"/>
+                                      
+                   <TextView android:id="@+id/facebook_event_type_detail"
+                   android:layout_width="wrap_content"
+                   android:layout_height="fill_parent" 
+                   android:textAppearance="@style/sns_event_copy"                   
+                   android:gravity="left|center_vertical"                   
+                   android:paddingLeft="5px"/>             
+        </LinearLayout >  
+        
+        <LinearLayout  
+               android:id="@+id/facebook_event_start"
+               android:layout_width="fill_parent"
+               android:paddingLeft="15px"
+               android:orientation="horizontal"
+               android:layout_height="wrap_content">     
+                   <TextView android:id="@+id/facebook_event_start_title"
+                   android:layout_width="120px"
+                   android:singleLine="true"
+                   android:layout_height="fill_parent"
+                   android:text="@string/facebook_event_start"
+                   android:textAppearance="@style/sns_event_sec_copy"/> 
+                   
+                   <TextView android:id="@+id/facebook_event_start_detail"
+                   android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"
+                   android:textAppearance="@style/sns_event_copy"                   
+                   android:gravity="left|center_vertical"
+                   android:paddingLeft="5px"/>             
+        </LinearLayout >    
+        <LinearLayout  
+               android:id="@+id/facebook_event_end"
+               android:layout_width="fill_parent"
+               android:paddingLeft="15px"
+               android:orientation="horizontal"
+               android:layout_height="wrap_content">     
+                   <TextView android:id="@+id/facebook_event_end_title"
+                   android:layout_width="120px"
+                   android:singleLine="true"                   
+                   android:layout_height="fill_parent"
+                   android:text="@string/facebook_event_end"
+                   android:textAppearance="@style/sns_event_sec_copy"/> 
+                   
+                   <TextView android:id="@+id/facebook_event_end_detail"
+                   android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"
+                   android:textAppearance="@style/sns_event_copy"                   
+                   android:gravity="left|center_vertical"
+                   android:paddingLeft="5px"/>             
+        </LinearLayout >       
+        <LinearLayout  
+               android:id="@+id/facebook_event_location"
+               android:layout_width="fill_parent"
+               android:paddingLeft="15px"
+               android:orientation="horizontal"
+               android:layout_height="wrap_content">     
+                   <TextView android:id="@+id/facebook_event_location_title"
+                   android:layout_width="120px"
+                   android:singleLine="true"
+                   android:layout_height="fill_parent"
+                   android:text="@string/facebook_event_location"
+                   android:textAppearance="@style/sns_event_sec_copy"/> 
+                   
+                   <TextView android:id="@+id/facebook_event_location_detail"
+                   android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"
+                   android:textAppearance="@style/sns_event_copy"                   
+                   android:gravity="left|center_vertical"
+                   android:paddingLeft="5px"/>             
+        </LinearLayout >   
+        <LinearLayout  
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:orientation="horizontal"> 
+	        <ListView  android:id="@+id/facebook_event_opt"
+	                   android:layout_weight="1"
+	                   android:stackFromBottom="false"
+	                   android:divider="@drawable/divider" 
+	                   android:layout_width="wrap_content"
+	                   android:layout_height="wrap_content"
+	                   android:listSelector="@drawable/list_selector_background"
+	                   android:cacheColorHint="#00000000" />
+        </LinearLayout>
+        
+        <LinearLayout android:layout_width="fill_parent"
+            android:paddingLeft="15px"
+            android:paddingTop="5dip"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+             <TextView android:id="@+id/facebook_event_des_title"
+                       android:layout_width="wrap_content"
+                       android:singleLine="true"
+                       android:layout_height="wrap_content"
+                       android:text="@string/facebook_event_des_title_str"
+                       android:textAppearance="@style/sns_event_title"/> 
+        </LinearLayout>
+        
+        <ScrollView
+            android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+            android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+            android:layout_width="fill_parent"
+            android:paddingLeft="15px"
+            android:paddingTop="5dip"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">           
+	        <LinearLayout
+	               android:layout_width="fill_parent"
+	               android:orientation="horizontal"
+	               android:layout_height="wrap_content">
+                  <TextView android:id="@+id/facebook_event_des_detail"
+	                  android:layout_width="wrap_content"
+	                  android:layout_height="wrap_content"
+	                  android:textAppearance="@style/sns_event_copy"  
+	                  android:layout_below="@+id/facebook_event_des_title"                 
+	                  android:gravity="left|center_vertical"/>       
+	        </LinearLayout>         
+        </ScrollView>
+       
+</LinearLayout>
+
+

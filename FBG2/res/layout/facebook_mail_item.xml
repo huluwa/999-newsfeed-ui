@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"        
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dip"
+        android:paddingRight="7dip"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip">
+        
+	<RelativeLayout 
+	        android:layout_width="fill_parent"        
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">  
+	       <ImageView android:id="@+id/mail_img_ui"
+	             android:layout_width="50dip"
+	             android:layout_height="50dip"                
+	             android:layout_gravity="center_vertical"
+	             android:layout_alignParentLeft="true"	     
+	             android:paddingTop="3px"           
+	             android:background="#00000000"/>
+	                 
+	        <TextView android:id="@+id/mail_user_name"
+	              android:layout_width="wrap_content"
+	              android:layout_height="fill_parent"    
+	              android:layout_toRightOf="@+id/mail_img_ui"
+	              android:textAppearance="@style/sns_username_blue"  
+	              android:paddingLeft="5dip"
+	              android:paddingTop="3px"                       
+	              android:linksClickable="false"
+	              android:layout_weight="1"/>
+	                 
+	        <TextView android:id="@+id/mail_publish_time"
+	              android:layout_width="wrap_content"
+	              android:layout_height="fill_parent"
+	              android:layout_gravity="right"              
+	              android:linksClickable="false"
+	              android:layout_weight="1" 
+	              android:paddingTop="3px"
+	              android:paddingLeft="5px"
+	              android:layout_toRightOf="@+id/mail_img_ui"
+	              android:layout_below="@+id/mail_user_name"
+	              android:textAppearance="@style/sns_time"/>
+	                 
+			<TextView android:id="@+id/mail_publish_subject"
+	              android:layout_width="wrap_content"
+	              android:layout_height="fill_parent"              
+	              android:layout_below="@+id/mail_publish_time"
+	              android:layout_toRightOf="@+id/mail_img_ui"    	              	              
+	              android:linksClickable="false"
+	              android:paddingLeft="5px"
+	              android:layout_weight="1"
+	              android:paddingTop="3px"
+	              android:textAppearance="@style/sns_text_blue"/>     
+	</RelativeLayout>   
+	<RelativeLayout 
+	        android:id="@+id/body_region"
+	        android:layout_width="fill_parent"        
+	        android:layout_height="wrap_content">
+	       <ImageView android:id="@+id/mail_img_read_ornot"
+	             android:layout_width="30dip"
+	             android:layout_height="30dip"                
+	             android:layout_gravity="center_vertical"	             	                              
+	             android:background="#00000000"/>
+	                 
+	        <TextView android:id="@+id/mail_publish_text"
+	              android:layout_width="wrap_content"
+	              android:layout_height="fill_parent"
+	              android:linksClickable="false"
+	              android:paddingLeft="55dip"
+	              android:layout_alignParentTop="true"      
+	              android:layout_weight="1"
+	              android:paddingTop="3px"
+	              android:textAppearance="@style/sns_mail_text"/>     
+	</RelativeLayout>   
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:launcher="http://schemas.android.com/apk/res/com.borqs.omshome25"
+        android:id="@+id/all_apps_bottom_layout"
+        android:layout_width="fill_parent" 
+        android:layout_height="@dimen/button_bar_height"
+		android:layout_alignParentBottom="true" >
+
+	   <ImageView
+		        android:id="@+id/all_apps_screen_home"
+		        android:tag="all_apps_screen_home"
+		        android:focusable="true"
+		        android:clickable="true"
+		        android:layout_width="@dimen/button_bar_left_width"
+		        android:layout_height="fill_parent"
+				android:layout_gravity="bottom|left"
+		        android:background="@drawable/bottom_button_left_background"/>
+		 
+		    <ImageView 
+		        android:id="@+id/all_apps_call"
+		        android:layout_width="@dimen/button_bar_center_width" 
+		        android:layout_height="@dimen/button_bar_height"
+				android:layout_toRightOf="@id/all_apps_screen_home"
+		        android:background="@drawable/bottom_button_call_normal_background"
+		        android:focusable="true"
+		        android:clickable="true"/>
+		        
+		    <com.borqs.omshome25.PageIndicatorView
+		        android:id="@+id/all_apps_page_indicator"
+		        android:layout_width="@dimen/button_bar_right_width"
+		        android:layout_height="@dimen/button_bar_height"
+		        android:layout_alignParentRight="true"
+		        android:background="@drawable/bottom_button_right_background"
+		        android:focusable="true"
+		        android:clickable="true" 
+		        />
+		        
+		   <com.borqs.omshome25.IndicatorWithMissCallNumberView
+		        android:id="@+id/all_apps_misscall_count_iv"
+		        android:layout_width="24dp" 
+		        android:layout_height="24dp"		
+		        android:layout_marginLeft="130dp"
+		        android:layout_marginTop="13dp"
+		        android:visibility="gone"/>
+    </RelativeLayout>

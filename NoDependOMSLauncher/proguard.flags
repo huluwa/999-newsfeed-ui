@@ -1,0 +1,17 @@
+-keep class com.android.omshome.Launcher {
+  public void previousScreen(android.view.View);
+  public void nextScreen(android.view.View);
+  public void launchHotSeat(android.view.View);
+}
+
+-keep class com.android.omshome.AllApps3D$Defines {
+  *;
+}
+
+-keep class com.android.omshome.CellLayout {
+  *;
+}
+
+-keep class com.android.omshome.ClippedImageView {
+  *;
+}

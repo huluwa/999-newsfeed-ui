@@ -1,0 +1,17 @@
+-keep class com.borqs.omshome25.Launcher {
+  public void previousScreen(android.view.View);
+  public void nextScreen(android.view.View);
+  public void launchHotSeat(android.view.View);
+}
+
+-keep class com.borqs.omshome25.AllApps3D$Defines {
+  *;
+}
+
+-keep class com.borqs.omshome25.CellLayout {
+  *;
+}
+
+-keep class com.borqs.omshome25.ClippedImageView {
+  *;
+}

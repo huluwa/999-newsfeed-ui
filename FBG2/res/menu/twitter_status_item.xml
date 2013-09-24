@@ -1,0 +1,76 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+       <item android:title="@string/twitter_search_title" 
+            android:id="@+id/status_refresh" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        <item android:title="@string/menu_title_stop" 
+            android:id="@+id/status_stop" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        <item android:title="@string/twitter_message_title_reply" 
+            android:id="@+id/status_reply" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        <item android:title="@string/twitter_message_title_direct_message" 
+            android:id="@+id/status_direct" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        <item android:title="@string/twitter_message_title_retweet" 
+            android:id="@+id/status_retweet" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        
+        <item android:title="@string/twitter_message_title_forward" 
+            android:id="@+id/status_forward" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        
+        <item android:title="@string/menu_twitter_title_add_to_favor" 
+            android:id="@+id/status_favor_add" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        <item android:title="@string/menu_twitter_title_unfavorites" 
+            android:id="@+id/status_favor_remove" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        
+        <item android:title="@string/menu_twitter_title_follow" 
+            android:id="@+id/status_follow" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        
+        <item android:title="@string/menu_twitter_title_unfollow" 
+            android:id="@+id/status_unfollow" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        
+        <item android:id="@+id/status_goto_hisline" 
+            android:enabled="true" 
+            android:visible="true" android:title="@string/menu_twitter_title_friend_line">
+        </item>        
+        <item android:id="@+id/status_goto_hisownerline" 
+            android:enabled="true" 
+            android:visible="true" android:title="@string/menu_twitter_title_user_line">
+        </item>
+        
+        <item android:id="@+id/menu_following" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_twitter_title_following">
+        </item>     
+        <item android:id="@+id/menu_follower" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_twitter_title_follower">
+        </item>    
+</menu>
+
+

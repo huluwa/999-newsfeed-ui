@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/facebook_backgroud">  
+    <include layout="@layout/facebook_header">
+    </include>
+          
+    <!-- 
+    <LinearLayout
+         android:id="@+id/facebook_event_tab"
+         android:layout_width="fill_parent"
+         android:layout_height="50dip"
+         android:paddingTop="10dip"
+         android:paddingBottom="5dip"
+         android:background="#6D84B4"
+         android:orientation="horizontal">  
+            <Button  android:id="@+id/facebook_tab_upcoming_event"
+                  android:text="@string/facebook_upcoming_event"  
+                  android:textSize="14px"
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:focusable="true"  
+                  android:focusableInTouchMode="true"              
+                  android:layout_weight="0.5"         
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentLeft="true"/>
+            <Button  android:id="@+id/facebook_tab_past_event"
+                  android:text="@string/facebook_past_event"  
+                  android:textSize="14px"
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent" 
+                  android:focusable="true"  
+                  android:focusableInTouchMode="true"           
+                  android:paddingLeft="3px"       
+                  android:layout_weight="0.5"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentRight="true"/>                                    
+   </LinearLayout>  
+ 
+   <Button  android:id="@+id/facebook_tab_friend_birthday"
+                  android:text="@string/facebook_friend_birthday"
+                  android:textSize="14px"
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent" 
+                  android:focusable="true"  
+                  android:focusableInTouchMode="true"               
+                  android:layout_weight="1" 
+                  android:paddingLeft="3px"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentRight="true"
+                  android:visibility="gone"/>
+     -->     
+   <LinearLayout 
+            android:id="@+id/facebook_info_span"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_gravity = "center_vertical"
+            android:background="@drawable/slide_bar"
+            android:visibility="gone">
+            <TextView android:id="@+id/facebook_info"
+                android:textSize = "18dip"
+                android:layout_gravity = "center_vertical"
+                android:layout_width="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_height="fill_parent" /> 
+   </LinearLayout> 
+  
+    <ListView android:id="@+id/facebook_event_list"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:layout_weight="1"
+        android:divider="@drawable/divider" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@drawable/list_selector_background"
+        android:cacheColorHint="#00000000" />
+</LinearLayout>
+

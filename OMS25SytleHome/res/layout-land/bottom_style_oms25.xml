@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:launcher="http://schemas.android.com/apk/res/com.borqs.omshome25"
+        android:id="@+id/bottom_layout"
+        android:layout_width="51dp"
+        android:layout_height="fill_parent"
+		android:layout_gravity="right"
+		android:tag="bottom_style_oms25">
+		
+		    <com.borqs.omshome25.PageIndicatorView
+		        android:id="@+id/page_manager_iv"
+		        android:layout_width="fill_parent"
+		        android:layout_height="@dimen/bottom_right_btn_length"
+		        android:background="@drawable/bottom_right_btn_bg"
+		        android:src="@drawable/ic_shortcut_btn_normal"
+		        android:layout_gravity="top"
+		        android:focusable="true"
+		        android:clickable="true" />
+
+		    <ImageView
+		        android:id="@+id/start_call_iv"
+		        android:layout_width="fill_parent"
+		        android:layout_height="@dimen/bottom_center_btn_length"
+		        android:src="@drawable/cmcc_home_bottom_icon_call"
+		        android:background="@drawable/bottom_center_btn_bg"
+		        android:layout_below="@id/page_manager_iv"
+		        android:focusable="true"
+		        android:clickable="true"/> 
+		        
+		    <com.borqs.omshome25.HandleView
+		        android:id="@+id/all_apps_button"
+		        android:layout_width="fill_parent"
+		        android:layout_height="@dimen/bottom_left_btn_length"
+		        android:background="@drawable/bottom_left_btn_bg"
+		        android:src="@drawable/home_button_normal" 
+		        android:layout_below="@id/start_call_iv"
+		        android:focusable="true"
+		        android:clickable="true"
+		        launcher:direction="vertical"/>
+		  
+		    <com.borqs.omshome25.IndicatorWithMissCallNumberView
+		        android:id="@+id/misscall_count_iv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:visibility="gone"/>		  
+		        
+		   <com.borqs.omshome25.PageIndicatorLineStyleView 
+			   android:id="@+id/page_line_indicator"
+			   android:layout_width="6dp"
+			   android:layout_height="30dp"
+			   android:background="@drawable/page_indicator"/>
+		        
+    </RelativeLayout>

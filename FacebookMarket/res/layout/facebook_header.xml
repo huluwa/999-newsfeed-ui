@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.msocial.nofree"
+     android:id="@+id/facebook_header_id"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"     
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:layout_gravity="top"
+     android:background="#3B5998">     
+     
+    <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="fill_parent"     
+     android:layout_height="46dp"
+     android:visibility="visible"
+     android:id="@+id/header_no_title_layout">    
+     
+	    <RelativeLayout
+	     android:orientation="vertical"
+	     android:layout_width="fill_parent"     
+	     android:layout_height="46dp"
+	     android:layout_alignParentTop="true">        
+	                 
+	         
+	         <TextView android:id="@+id/header_title"
+	         android:layout_width="wrap_content"
+	         android:layout_height="46dp"    
+	         android:gravity="center_vertical"
+	         android:layout_alignParentLeft="true"  
+	         android:textAppearance="?android:attr/textAppearanceMediumInverse"  
+		     android:paddingLeft="8dp"/>
+	         
+	         <ProgressBar android:id="@+id/header_progressbar"
+		        style="?android:attr/progressBarStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:max="100"
+		        android:visibility="gone"
+		        android:layout_alignParentRight="true"
+		        android:paddingRight="8dip"
+		        android:paddingTop="15dip"/>    
+		        
+		      
+	         <!-- ImageView android:id="@+id/tweet_img_ui"
+	         android:layout_width="fill_parent"
+	         android:layout_height="45dip"                
+	         android:layout_gravity="center_horizontal"                       
+	         android:background="@drawable/header"/-->    
+	          
+	    </RelativeLayout>
+    <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="fill_parent"     
+     android:layout_height="2dp"
+     android:layout_alignParentBottom="true"
+     android:background="@drawable/divider_dark"/>   
+    </LinearLayout>
+ </LinearLayout>
+

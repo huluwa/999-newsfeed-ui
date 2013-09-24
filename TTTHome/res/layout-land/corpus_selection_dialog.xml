@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+<!--     android:background="#5000FF00"
+        android:layout_below="@+id/corpus_selector_arrow"-->
+   <LinearLayout
+        android:id="@+id/corpus_selector_frame"
+        android:layout_width="300dp"
+        android:layout_height="245dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="70dp"
+        android:paddingTop="0dip"
+        android:paddingBottom="0dip"
+        android:background="@drawable/corpus_selector_bg" 
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"  
+        android:orientation="vertical"
+        >
+        <!-- android:background="@drawable/corpus_selector_bg" -->
+    
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:gravity="center_horizontal"
+            android:text="@string/select_category_title"/>
+ 
+            <GridView 
+			    android:id="@+id/corpus_grid"
+				android:scrollbars="none"
+			    android:persistentDrawingCache="animation|scrolling"
+			    android:alwaysDrawnWithCache="true"
+			    android:layout_marginTop="5dp"
+			    android:numColumns="3"
+			    android:columnWidth="100dp"
+			    android:stretchMode="spacingWidth"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:listSelector="@drawable/grid_selector"
+			    android:stackFromBottom="false"/>  
+    </LinearLayout> 
+
+<!-- 			    android:drawSelectorOnTop="true"-->   
+    <!-- ImageView
+        android:id="@+id/corpus_selector_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="34dip"
+        android:layout_marginBottom="-8.5dip"
+        android:layout_marginLeft="12dip"
+        android:src="@drawable/corpus_selector_arrow_up"
+        android:visibility="gone"
+        /-->
+ 
+</RelativeLayout>
+
+<!-- RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#50FF0000"
+    >
+
+    <ImageView
+        android:id="@+id/corpus_selector_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="6.5dip"
+        android:src="@drawable/corpus_selector_arrow_up"
+        android:background="#5000FF00"
+        />
+        
+    <LinearLayout
+        android:id="@+id/corpus_selector_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/corpus_selector_arrow"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:background="@drawable/corpus_selector_bg"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dip"
+            android:singleLine="true"
+            android:textColor="@android:color/tertiary_text_light"
+            android:textSize="16dip"
+            android:text="@string/corpus_selection_heading"
+            android:visibility="gone"
+        />
+
+        <GridView
+            android:id="@+id/corpus_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:horizontalSpacing="2dip"
+            android:verticalSpacing="2dip"
+            android:listSelector="@drawable/grid_selector"
+            android:background="#500000FF"
+            />
+
+    </LinearLayout>
+</RelativeLayout-->
+

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.msocial.free"
+      android:versionCode="56" android:versionName="3.11.11">
+    <application android:icon="@drawable/facebookicon" 
+                 android:label="@string/app_name"
+                 >
+        <!-- 
+        <uses-library android:name="admob-sdk-android"/>
+         -->
+
+         <activity 
+            android:name="com.admob.android.ads.AdMobActivity" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="orientation|keyboard|keyboardHidden"/>
+        <!-- Track Market installs from AdMob ads -->
+        <receiver android:name="com.admob.android.ads.analytics.InstallReceiver" android:exported="true">
+           <intent-filter>
+               <action android:name="com.android.vending.INSTALL_REFERRER"/>
+           </intent-filter>
+        </receiver>
+
+        <activity android:name=".ui.FacebookShortCutActivity"
+              android:label="@string/facebook_main_screen"
+              android:icon="@drawable/facebookicon"
+              android:configChanges="orientation|keyboardHidden"
+              android:windowSoftInputMode="stateHidden"
+              android:screenOrientation="sensor">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        <activity-alias android:name=".ui.FacebookShortcutFBFriends"
+            android:targetActivity=".ui.FacebookShortCutActivity"
+            android:label="@string/facebook_main_screen"
+            android:icon="@drawable/facebookicon">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        
+        <activity android:name=".ui.FacebookProfileActivity"
+                 android:label="@string/facebook_main_screen"
+                  android:icon="@drawable/facebookicon"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden"
+                  android:launchMode="singleTask"           
+                  android:clearTaskOnLaunch="true"       
+                  android:configChanges="keyboardHidden">                  
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />                
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> 
+        
+        <activity android:name=".ui.FacebookShareActivity"
+                  android:label="@string/facebook_wall_share"
+                  android:icon="@drawable/ic_btn_actionmenu_share_default"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.FacebookMainActivity"
+                  android:label="@string/facebook_menu_wall_title"
+                  android:icon="@drawable/facebook_wall"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ui.FacebookSearchActivity"
+        android:launchMode="singleTask"
+        android:screenOrientation="sensor"        
+        android:configChanges="keyboardHidden|orientation" >
+        </activity> 
+        
+        <activity android:name=".ui.FacebookStreamActivity"
+                  android:label="@string/facebook_main_stream_screen"
+                  android:icon="@drawable/news_feed"
+                  android:configChanges="orientation|keyboardHidden" 
+                  android:screenOrientation="sensor"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:launchMode="singleTask">            
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>             
+        <activity android:name=".ui.FacebookNotesActivity"
+                  android:label="@string/facebook_main_notes"
+                  android:icon="@drawable/facebook_notes"
+                  android:configChanges="orientation|keyboardHidden" 
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:launchMode="singleTask">            
+            <intent-filter>
+        		<action android:name="android.intent.action.VIEW"></action>
+		     </intent-filter>
+        </activity>    
+        <activity android:name=".ui.FacebookNoteEditActivity"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:screenOrientation="sensor" 
+                  android:windowSoftInputMode="stateHidden">            
+           
+        </activity>   
+        <activity android:name=".ui.FacebookNoteDetailActivity"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:screenOrientation="sensor" 
+                  android:windowSoftInputMode="stateHidden">            
+           
+        </activity>          
+        <activity android:name=".ui.FacebookNotificationManActivity"
+                  android:label="@string/facebook_main_notification_screen"
+                  android:icon="@drawable/notifactions"
+                  android:configChanges="orientation|keyboardHidden" 
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:launchMode="singleTask">            
+            <intent-filter>
+        		<action android:name="android.intent.action.VIEW"></action>
+		     </intent-filter>
+        </activity>
+        
+         <activity android:name=".ui.MediaUploadActivity"
+                   android:icon="@drawable/facebookicon"
+                   android:windowSoftInputMode="stateHidden"                   
+                   android:label="@string/media_upload"
+                   android:screenOrientation="portrait" >    
+           <intent-filter>
+                <action android:name="oms.sns.intent.action.upload" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>           
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />                
+                <data android:mimeType="video/*" />
+                <data android:mimeType="text/plain" />                              
+            </intent-filter>            
+        </activity>
+        <!-- Facebook should have this <data android:mimeType="text/plain" /> -->
+            
+        <activity android:name=".ui.FacebookSettingPreference" 
+                  android:label="@string/menu_title_settings"                  
+                  android:alwaysRetainTaskState="true"
+                  android:icon="@drawable/ic_menu_preferences"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">
+                  <intent-filter>
+                        <action android:name="android.intent.action.VIEW"></action>
+                  </intent-filter>    
+        </activity> 
+        
+        <activity android:name=".ui.FacebookPermSettingPreference" 
+                  android:label="@string/facenook_perm_setting"
+                  android:screenOrientation="sensor" 
+                  android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name=".ui.FacebookViewSettingPreference" >                  
+        </activity>
+        
+        <activity android:name=".ui.ProxySettingPreference" android:label="@string/pref_sns_proxy_title" >                  
+        </activity>      
+        
+        
+        <activity android:name=".ui.SNSPreferenceActivity" android:label="@string/social_setting_screen" >
+        </activity>
+        
+        <activity android:name=".ui.TaskManagementActivity" android:label="@string/sns_task_management" >
+        </activity>
+               
+        <activity android:name=".ui.FacebookSingleMailDetailActivity"
+                  android:screenOrientation="sensor">
+        </activity>
+        <activity android:name=".ui.FacebookMailDetailActivity"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name=".ui.FacebookStatusUpdateActivity"
+                  android:launchMode="singleTask"
+                  android:icon="@drawable/ic_menu_move_up"
+                  android:label="@string/facebook_status_title"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="portrait"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity>
+        <activity android:name=".ui.FacebookAccountActivity"
+                  android:label="@string/menu_title_my_account"
+                  android:icon="@drawable/profile"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden"
+                  android:launchMode="singleTask"
+                  android:configChanges="orientation|keyboardHidden">   
+                 <intent-filter>
+                     <action   android:name="android.intent.action.VIEW" />
+                     <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+                <intent-filter>
+	                <action android:name="android.intent.action.VIEW" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	                <data android:scheme="fb"/>                             
+            </intent-filter>          
+        </activity>
+        <activity android:name=".ui.FacebookMessageActivity"
+                  android:launchMode="singleTask"
+                  android:icon="@drawable/inbox_home_nonew"
+                  android:windowSoftInputMode="stateHidden"
+                  android:label="@string/facebook_inbox_title"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">   
+                  <intent-filter>                
+                    <action android:name="android.intent.action.VIEW" />
+                  </intent-filter>       
+        </activity>        
+        <activity android:name=".ui.FacebookExtPermissionActivity"
+                  android:launchMode="singleTask"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity>       
+        <activity android:name=".ui.FacebookWallPostActivity"
+                  android:launchMode="singleTask"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity> 
+        <activity android:name=".ui.FacebookGroupDetailsActivity"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity>                 
+        <activity android:name=".ui.FacebookGroupActivity"
+                  android:launchMode="singleTask"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity>
+         <activity android:name=".ui.FacebookFriendsBirthdayActivity"
+                  android:icon="@drawable/friends"
+                  android:label="@string/menu_title_friends"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity>        
+        
+        
+        <activity android:name=".ui.FacebookPageActivity"
+                  android:icon="@drawable/pages"
+                  android:label="@string/menu_title_pages"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">     
+                  <intent-filter>                
+                    <action android:name="android.intent.action.VIEW" />
+                  </intent-filter>       
+        </activity>
+        <activity android:name=".ui.FacebookFriendsActivity"
+                  android:icon="@drawable/friends"
+                  android:label="@string/menu_title_friends"                  
+                  android:screenOrientation="sensor"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:configChanges="orientation">     
+                  <intent-filter>                
+                      <action android:name="android.intent.action.VIEW" />        
+                  </intent-filter>       
+        </activity>        
+        <activity android:name=".ui.FacebookNewFriendsActivity"
+                  android:icon="@drawable/friends"
+                  android:label="@string/menu_title_friends"                  
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation"
+                  android:windowSoftInputMode="stateAlwaysHidden">     
+                  <intent-filter>                
+                      <action android:name="android.intent.action.VIEW" />        
+                  </intent-filter>       
+        </activity>
+        
+        <activity-alias android:name=".ui.ShortcutFBFriends"
+            android:targetActivity=".ui.FacebookFriendsActivity"
+            android:label="@string/facebook_friends_home_title"
+            android:icon="@drawable/friendlist">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>      
+        
+        <activity android:name=".ui.FacebookMailActivity"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity>
+        <activity android:name=".ui.FacebookAlbumActivity"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:label="@string/menu_title_photos"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:icon="@drawable/photo">    
+                  <intent-filter>                
+                    <action android:name="android.intent.action.VIEW" />
+                  </intent-filter>      
+        </activity>
+        
+        <activity android:name=".ui.FacebookAlbumViewActivity"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name=".ui.FacebookPhotoCommentsActivity"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:screenOrientation="sensor"
+                  android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".ui.FacebookPhotoCommentsViewActivity"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:screenOrientation="sensor"
+                  android:windowSoftInputMode="stateHidden">
+        </activity>
+        
+        <activity android:name=".ui.FacebookTabActivity"
+                 android:icon="@drawable/friends"
+                  android:label="@string/menu_title_friends"    
+                  android:configChanges="orientation|keyboardHidden"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ui.FacebookPhonebookActivity"
+                  android:launchMode="singleTask"
+                  android:label="@string/menu_title_phonebook"
+                  android:icon="@drawable/phonebook_call"                  
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation">            
+                  <intent-filter>
+                        <action android:name="android.intent.action.VIEW"></action>
+                  </intent-filter>
+        </activity>
+        <activity android:name=".ui.FacebookUserSelectActivity"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity>        
+        <activity android:name=".ui.FacebookFriendsStatusActivity"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">                
+        </activity>
+        
+        <activity android:name=".ui.FacebookPokeActivity"
+                  android:launchMode="singleTask"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity>
+        
+        <activity android:name=".ui.FacebookPhonebookDetailActivity"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">   
+                  <intent-filter>
+                         <action android:name="com.msocial.free.ui.FacebookPhonebookDetailActivity" />
+                         <category android:name="android.intent.category.DEFAULT" />
+                 </intent-filter>      
+        </activity>
+        
+        <activity android:name=".ui.FacebookCommentsActivity"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity>
+                   
+        <activity android:name=".ui.FacebookLocationUpdateActivity"
+                  android:label="@string/menu_title_location" 
+                  android:icon="@drawable/location"  
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">
+                  <intent-filter>
+                      <action android:name="android.intent.action.MAIN" />
+                      <action android:name="android.intent.action.VIEW" />
+                      <category android:name="android.intent.category.LAUNCHER" />
+                  </intent-filter>        
+        </activity>
+        <activity android:name=".ui.FacebookEventActivity"
+                  android:configChanges="orientation|keyboardHidden"   
+                  android:label="@string/menu_title_event" 
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:icon="@drawable/event">
+                  <intent-filter>
+                        <action android:name="android.intent.action.VIEW"></action>
+                  </intent-filter>
+        </activity>
+        
+        <activity android:name=".ui.FacebookEventDetailActivity"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:screenOrientation="sensor" 
+                  android:windowSoftInputMode="stateHidden">
+        </activity>
+        
+        <activity android:name=".ui.FacebookEventGuestActivity"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:screenOrientation="sensor" 
+                  android:windowSoftInputMode="stateHidden">                  
+        </activity>
+        
+        <activity android:name=".ui.FacebookFindFriendsActivity"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity>
+        <activity android:name=".ui.FacebookSetContactActivity"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity>
+        <activity android:name=".ui.FacebookNotificationsActivity"    
+                  android:label="@string/notification_request" 
+                  android:icon="@drawable/notice_summary" 
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"  
+                  android:configChanges="orientation|keyboardHidden">
+                  <intent-filter>                
+                    <action android:name="android.intent.action.VIEW" />
+                  </intent-filter>        
+        </activity>
+        
+        <activity android:name=".ui.FacebookRequestProcessActivity"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity>        
+            
+        <activity android:name=".ui.PromptUserSyncActivity"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@android:style/Theme.Dialog">        
+        </activity> 
+        <activity android:name=".ui.SynchronizeAlertActivity"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@android:style/Theme.Dialog">        
+        </activity> 
+        <activity android:name=".ui.FacebookPermssionDialog"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden"
+                  android:theme="@android:style/Theme.Dialog">        
+        </activity>        
+        <activity android:name=".ui.FacebookSyncActivity" android:label="@string/facebook_loing_ui_webview" >
+        </activity>      
+        <activity android:name=".ui.AboutActivity" 
+                  android:label="@string/menu_title_about" 
+                  android:icon="@drawable/about_forsns"
+                  android:screenOrientation="sensor"
+                  android:launchMode="singleTask">
+        </activity>          
+        <activity android:name=".ui.FacebookLoginActivity" 
+                  android:windowSoftInputMode="stateHidden"
+                  android:label="@string/facebook_loing_ui"
+                  android:screenOrientation="portrait">
+        </activity>		
+        <activity android:name=".ui.Wallpaper"
+                 android:label="@string/wallpaper_title">
+        </activity>
+                
+        <activity android:name=".ui.FacebookLoginWebViewActivity" 
+                  android:label="@string/facebook_loing_ui_webview" 
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">
+        </activity>
+        
+        <activity android:name=".ui.FacebookWallToWallActivity"
+                  android:windowSoftInputMode="stateHidden"
+                  android:screenOrientation="sensor"
+                  android:configChanges="orientation|keyboardHidden">        
+        </activity>
+                       
+       <receiver android:name=".SNSReceiver" >
+           <intent-filter>          <action android:name="oms.action.MASTERRESET" />
+           <action android:name="android.intent.action.BOOT_COMPLETED" />
+           </intent-filter>
+           <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+           </intent-filter>
+           <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+           </intent-filter>           
+       </receiver>
+       
+       
+       <provider android:name=".providers.SocialProvider" android:authorities="com.msocial.free.providers.SocialProvider" android:multiprocess="true" />
+        
+       <service android:name=".service.SNSService">
+            <intent-filter>
+                 <action android:name="com.msocial.free.service.SNSService" />
+                 <action android:name="com.msocial.free.intent.action.ACTION_CHECK_CONTECT"/>
+                 <action android:name="com.msocial.free.intent.action.FACEBOOK_USER"/>
+                 <action android:name="com.msocial.free.intent.action.FACEBOOK_PHONEBOOK"/>
+                 <action android:name="com.msocial.free.intent.action.MAIL_CHECK"/>
+            </intent-filter>       
+       </service>
+       
+        <receiver android:name=".SdCardReceiver">          
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <data android:scheme="file" />
+            </intent-filter>                        
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_KILL_ALL" />
+            </intent-filter>
+        </receiver>
+        
+        <!-- Broadcast Receiver that will process AppWidget updates -->
+        <!--  
+        <receiver android:name=".ui.home.FacebookWidget" 
+                  android:label="@string/widget_facebook_name"
+                  android:icon="@drawable/facebook_title">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/facebook_widget" />
+        </receiver>
+        <receiver android:name=".ui.home.TwitterWidget" 
+                  android:label="@string/widget_twitter_name"
+                  android:icon="@drawable/twitter_title">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/twitter_widget" />
+        </receiver>        
+        <receiver android:name=".ui.home.TwitterStatusWidget" 
+                  android:label="@string/widget_twitter_status_update_name"
+                  android:icon="@drawable/twitter_title">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/twitter_widget_status_update" />
+        </receiver>
+        -->
+        
+       <provider android:name=".providers.SocialProvider" android:authorities="com.msocial.free.providers.SocialProvider" android:multiprocess="true" />
+       <!-- 2009-08-15 add for facebook widget  start -->
+       <!-- 
+       <provider android:name=".widget.provider.WidgetProvider" android:authorities="com.msocial.free.widget.WidgetProvider" android:multiprocess="true" />
+       <service android:name=".widget.WidgetService">
+            <intent-filter>
+                 <action android:name="com.msocial.free.widget.WidgetService" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>       
+       </service> 
+       -->
+       <!-- 2009-08-15 add for facebook widget  end -->
+        
+                <!-- Track Market installs from AdMob ads -->		
+       <!--
+         <receiver android:name="com.admob.android.ads.analytics.InstallReceiver" android:exported="true">
+            <intent-filter> 
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+         </receiver>
+       --> 
+       <!-- The application's publisher ID assigned by AdMob -->
+       <!--
+         <meta-data android:value="a14a8d04aa346f2" android:name="ADMOB_PUBLISHER_ID" />
+         <meta-data android:value="false" android:name="ADMOB_ALLOW_LOCATION_FOR_ADS" />
+      -->
+    </application>    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission> 
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" /> 
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>    
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.WRITE_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"></uses-permission>
+    <uses-permission android:name="android.permission.READ_CALENDAR"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission> 
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />  
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>    
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />    
+    
+    <uses-sdk android:minSdkVersion="3"></uses-sdk>
+    
+</manifest> 

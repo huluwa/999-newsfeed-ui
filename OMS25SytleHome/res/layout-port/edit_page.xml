@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drag_layer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.borqs.omshome25.screenmanager.NewGallery
+        android:id="@+id/glrenderview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:nextFocusDown="@+id/setDefaultPage"
+        android:gravity="top"
+        android:spacing="20px"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/cur_page"
+            android:layout_width="@dimen/cur_page_textview_width"
+            android:layout_height="@dimen/cur_page_textview_height"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dip"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop = "@dimen/current_page_padding_top"
+            android:background="@drawable/number_back"
+        />
+
+        <ImageView
+            android:id="@+id/add_page"
+            android:layout_width="@dimen/button_bar_left_width"
+            android:layout_height="@dimen/button_bar_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"    
+             android:paddingTop="7dp"       
+            android:src="@drawable/cmcc_switch_add"  
+            android:background="@drawable/editpage_bottom_button_left_background"
+            android:focusable="true"
+            android:clickable="true"  />
+<!--             android:background="@drawable/bottom_button_left_background_edit_pages"-->
+        <ImageView
+            android:id="@+id/remove_page"
+            android:layout_width="@dimen/button_bar_right_width"
+            android:layout_height="@dimen/button_bar_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"  
+            android:paddingTop="7dp"
+            android:src="@drawable/cmcc_switch_delete"  
+            android:background="@drawable/editpage_bottom_button_right_background"
+            android:focusable="true"
+            android:clickable="true" 
+            android:onClick="removePage"/>
+<!--             android:background="@drawable/bottom_button_right_background"-->
+        <com.borqs.omshome25.DefautPageTextView
+            android:id="@+id/setDefaultPage"
+            android:layout_width="@dimen/button_bar_center_width"
+            android:layout_height="@dimen/button_bar_height"
+            android:layout_alignParentBottom="true"
+             android:paddingTop="6dp"
+            android:textSize="@dimen/defaultpage_textSize"
+            android:layout_centerHorizontal="true"      
+            android:gravity="center"
+            android:background="@drawable/editpage_bottom_button_center_background"
+            android:focusable="true"/>
+<!--             android:background="@drawable/cmcc_home_bottom_call_background" @drawable/editpage_bottom_button_center_background-->
+            
+    </RelativeLayout>
+</merge>

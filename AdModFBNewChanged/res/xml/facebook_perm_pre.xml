@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android"> 
+     <PreferenceCategory  android:title="@string/pref_facebook_ext_permission_assign">
+            <CheckBoxPreference
+                android:key="key_facebook_perm_assign"    
+                android:title="@string/pref_facebook_perm_assign"            
+                android:summary="@string/pref_facebook_perm_assign_desc"
+                android:singleLine="false" />
+     </PreferenceCategory> 
+     <PreferenceCategory  android:title="@string/pref_facebook_ext_permission">
+            <CheckBoxPreference
+                android:key="key_facebook_email"                
+                android:singleLine="false"
+                android:minLines="4" />                     
+      
+            <CheckBoxPreference
+                android:key="key_facebook_status_update"                
+                android:singleLine="false" />
+                
+             <CheckBoxPreference
+                android:key="key_facebook_photo_upload"                
+                android:singleLine="false" />
+                
+             <CheckBoxPreference
+                android:key="key_facebook_create_event"                
+                android:singleLine="false" />
+                
+              <CheckBoxPreference
+                android:key="key_facebook_video_upload"                
+                android:singleLine="false" />
+                
+              <CheckBoxPreference
+                android:key="key_facebook_share_item"                
+                android:singleLine="false" />
+                
+              <CheckBoxPreference
+                android:key="key_facebook_publish_stream"                
+                android:singleLine="false" /> 
+              
+              <CheckBoxPreference
+                android:key="key_facebook_read_stream"                
+                android:singleLine="false" /> 
+                
+              <CheckBoxPreference
+                android:key="key_facebook_rsvp_event"                
+                android:singleLine="false" />  
+                
+              <CheckBoxPreference
+                android:key="key_facebook_create_note"                
+                android:singleLine="false" />  
+               
+              <CheckBoxPreference
+                android:key="key_facebook_read_mailbox"                
+                android:singleLine="false" />                     
+    </PreferenceCategory>
+</PreferenceScreen>

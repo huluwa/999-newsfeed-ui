@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+         
+      
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"        
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dip"
+        android:paddingRight="7dip"
+        android:paddingTop="3dip"
+        android:paddingBottom="3dip">
+     
+           <ImageView android:id="@+id/friend_img_ui"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"                
+           android:layout_gravity="top"
+           android:layout_alignParentLeft="true"                   
+           android:background="#00000000"/>
+
+            <TextView android:id="@+id/facebook_friend_request_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"    
+            android:layout_toRightOf="@+id/friend_img_ui"            
+            android:layout_gravity="left"
+            android:paddingLeft="10px" 
+            android:paddingTop="3px"                    
+            android:linksClickable="false"
+            android:textAppearance="@style/sns_link"
+            android:layout_weight="1"/>
+                         
+            <Button android:id="@+id/facebook_friend_request_confirm"
+            android:layout_width="100px"
+            android:layout_height="30px"
+            android:background="@color/light_blue"
+            android:gravity="center"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="10px"
+            android:layout_toRightOf="@+id/friend_img_ui"
+            android:layout_below="@+id/facebook_friend_request_user_name"
+            android:textSize="18dip"/>
+                      
+        
+         
+            <Button android:id="@+id/facebook_friend_request_ignore"
+            android:layout_width="100px"
+            android:layout_height="30px"
+            android:layout_toRightOf="@+id/facebook_friend_request_confirm"      
+            android:layout_below="@+id/facebook_friend_request_user_name" 
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="10px"
+            android:gravity="center"       
+            android:textSize="18dip"
+            android:textColor="#000000"
+            android:background="@color/facebook_grey"/>   
+            
+            
+ </RelativeLayout>

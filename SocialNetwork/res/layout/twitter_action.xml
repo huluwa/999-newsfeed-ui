@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/twitter_action_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+		android:orientation="horizontal"
+		android:background="@drawable/oms_actionbar_background"				
+		android:visibility="gone">
+          
+		  <TextView
+			        android:id="@+id/twitter_title"
+			        android:layout_width="wrap_content"
+			        android:layout_height="fill_parent"			        
+			        android:paddingLeft="5dp"	    
+			        android:gravity="center"    		 				        
+			        android:focusable="false"			        
+			        android:text="title"			        			        
+			        android:textColor="#000"			        
+			        android:clickable="false"/> 
+			        
+		  <LinearLayout  
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_alignParentRight="true" 
+				android:orientation="horizontal">
+				
+			  <Button 
+			        android:id="@+id/twitter_action" 
+			        android:layout_width="wrap_content" 
+			        android:layout_height="wrap_content"			    
+			        android:layout_gravity="center_vertical|right"
+			        android:focusable="true"
+			        android:clickable="true"
+			        android:visibility="gone" />      
+			    
+		       <ImageView 
+			        android:id="@+id/twitter_refresh" 
+			        android:layout_width="46dp" 
+			        android:layout_height="46dp"
+			        android:paddingLeft="2dp"
+			        android:scaleType="center"
+			        android:layout_gravity="center_vertical|right"
+			        android:focusable="true"
+			        android:clickable="true"
+			        android:background="@drawable/topbar_btn_refresh"/> 
+			        
+			    <ProgressBar android:id="@+id/header_progressbar"
+			        style="?android:attr/progressBarStyleSmall"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:max="100"
+			        android:visibility="gone"
+			        android:layout_alignParentRight="true"
+			        android:paddingRight="8dip"
+			        android:paddingTop="15dip"/>  
+		        
+	      </LinearLayout>	
+	      <LinearLayout
+		     android:orientation="vertical"
+		     android:layout_width="fill_parent"
+		     android:layout_height="2dp"
+		     android:layout_alignParentBottom="true"
+		     android:background="@drawable/divider_dark">
+		  </LinearLayout>	  
+ </RelativeLayout>

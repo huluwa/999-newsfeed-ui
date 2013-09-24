@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+    android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+    android:scrollbarStyle="outsideOverlay"
+    android:fillViewport="true"
+    android:background="@drawable/twitter_tweets_bg">
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical">
+	    
+	    <include layout="@layout/twitter_action"/>
+	    
+	     <LinearLayout
+	            android:id="@+id/twitter_message_receiver_span"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background = "@color/facebook_light_grey"
+	            android:orientation="horizontal"
+	            android:visibility="gone">
+	            <LinearLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1.0"
+	                android:orientation="horizontal">      
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="60dp"
+	                    android:textSize="19dp"
+	                    android:layout_gravity="top"
+	                    android:text = "@string/to_button_lable">
+	                </TextView>
+	                
+	                        <oms.sns.main.AddressPad
+                             android:id="@+id/twitter_message_receiver_editor"
+                             android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             titleText=""
+                             android:textSize="24sp"
+                             android:textColor="#000000"
+                             inputSeparator=","
+                             keepWhitespace="true"
+                             android:background ="@drawable/editbox_background"
+                             keepFullMode = "true"                    
+                             auxiliaryButtonVisible="false"
+                             listPreferredItemHeight="30dp">
+                             </oms.sns.main.AddressPad>
+	              </LinearLayout>
+	                                    
+	                <Button android:id="@+id/twitter_message_receivers_button"
+	                android:layout_width="30dp"
+	                android:layout_height="30dp"
+	                style="?android:attr/buttonStyleSmall"
+	                android:layout_gravity="bottom"
+	                android:background="@drawable/select"
+	                android:visibility="gone"/>
+	        </LinearLayout>
+	  
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical">        
+	
+	            <LinearLayout
+	                android:orientation="horizontal"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content">
+	
+	                <RelativeLayout
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="1.0"
+	                    android:addStatesFromChildren="true"
+	                   >
+	
+	                    <EditText
+	                        android:id="@+id/twitter_message_editor"
+	                        android:layout_width="fill_parent"
+	                        android:layout_height="wrap_content"
+	                        android:autoText="true"
+	                        android:capitalize="sentences"
+	                        android:nextFocusRight="@+id/chat_send"                            
+	                        android:maxLines="10"
+	                        android:minLines="5"
+	                        android:textColor="#000000"/>
+	
+	                    <TextView
+	                        android:id="@+id/twitter_message_text_counter"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:textColor="#00ff00"
+	                        android:textSize="9sp"
+	                        android:layout_alignParentRight="true"
+	                        android:layout_alignParentTop="true"
+	                    />
+	                </RelativeLayout>                 
+	            </LinearLayout>
+	        </LinearLayout>      
+	</LinearLayout>
+</ScrollView>

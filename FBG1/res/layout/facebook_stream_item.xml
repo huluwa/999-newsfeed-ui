@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"      
+        android:orientation="horizontal"
+        android:paddingLeft="5dip"
+        android:paddingRight="7dip"
+        android:paddingTop="5dip">
+                
+        <ImageView android:id="@+id/facebook_stream_author_logo"
+                  android:layout_width="50dip"
+                  android:layout_height="50dip"                                      
+                  android:layout_gravity="left"
+                  android:layout_alignParentLeft="true"                   
+                  android:background="#00000000"/>
+        <LinearLayout  
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"      
+        android:orientation="vertical">
+   
+             <!-- author region -->
+             <TextView android:id="@+id/facebook_stream_author_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"                   
+              android:layout_gravity="left"
+              android:paddingLeft="5dip"
+              android:textAppearance="@style/sns_text"
+              android:textStyle="bold"
+              android:linksClickable="false"                        
+              android:layout_weight="1"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"/>
+                 
+          <!-- message display -->
+          <TextView android:id="@+id/facebook_stream_message_content"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"                    
+             android:linksClickable="true"
+             android:autoLink="all"
+             android:textAppearance="@style/facebook_message"
+             android:layout_weight="1"	              
+             android:paddingLeft="5dip" />
+             
+            <LinearLayout android:id="@+id/facebook_stream_link_span"  
+             android:layout_width="fill_parent"   
+             android:paddingLeft="5dip"                   
+             android:orientation="horizontal"      
+             android:layout_height="wrap_content"
+             android:visibility="gone">                                       
+	                 <ImageView android:id="@+id/facebook_stream_link_icon"
+	                  android:layout_height="wrap_content"
+	                  android:layout_width="wrap_content"
+	                  android:maxWidth="120dip"	                  	                  
+	                  android:background="#00000000"
+	                  android:layout_alignParentTop="true"/>
+	                  
+	                  <RelativeLayout   
+		              android:layout_width="fill_parent"   
+		              android:paddingLeft="5dip"
+		              android:paddingTop="0dip"         
+		              android:orientation="horizontal"      
+		              android:layout_height="wrap_content"
+		              android:layout_alignParentTop="true">
+			                 <TextView android:id="@+id/facebook_stream_link_title"
+			                  android:layout_width="wrap_content"
+			                  android:layout_height="wrap_content"	                                   
+			                  android:linksClickable="true"			                  
+			                  android:textAppearance="@style/sns_link"
+			                  android:layout_weight="1"/>
+			                  
+			                  <TextView android:id="@+id/facebook_stream_link_content"
+			                  android:layout_width="wrap_content"
+			                  android:layout_height="wrap_content"			                                        
+			                  android:linksClickable="true"
+			                  android:textAppearance="@style/sns_link_sec_copy"                  
+			                  android:layout_below="@+id/facebook_stream_link_title"                  
+			                  android:layout_weight="1"/>
+	                </RelativeLayout>
+           </LinearLayout>         
+             
+             <LinearLayout android:id="@+id/facebook_stream_photo_span"
+             android:layout_width="fill_parent"   
+             android:paddingLeft="5dip"                 
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+                           
+                 <ImageView android:id="@+id/facebook_stream_photo_1"
+                  android:layout_width="80dip"
+                  android:maxWidth="80dip"
+                  android:layout_height="wrap_content"                  
+                  android:layout_gravity="center_vertical"                                   
+                  android:background="#00000000"/>     
+                  
+                 <View android:id="@+id/facebook_stream_photo_sp1"
+                  android:layout_width="2px"
+                  android:layout_height="wrap_content"/>       
+	                   
+                 <ImageView android:id="@+id/facebook_stream_photo_2"
+                  android:layout_width="80dip"
+                  android:maxWidth="80dip"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:background="#00000000"
+                  android:layout_alignParentTop="true"/>      
+                  
+                  <View android:id="@+id/facebook_stream_photo_sp2"
+                  android:layout_width="2px"
+                  android:layout_height="wrap_content"/>
+                 
+                 <ImageView android:id="@+id/facebook_stream_photo_3"
+                  android:layout_width="80dip"
+                  android:maxWidth="80dip"
+                  android:layout_height="wrap_content"        
+                  android:layout_gravity="center_vertical"                              
+                  android:background="#00000000"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentRight="true"/>
+                              
+             </LinearLayout>
+             
+             <TextView android:id="@+id/facebook_stream_photo_title"
+                     android:paddingLeft="5dip" 
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"                    
+                     android:linksClickable="true"
+                     android:textAppearance="@style/sns_link"
+                     android:layout_weight="1"    
+                     android:layout_gravity="left"
+                     android:autoLink="all"
+                     android:layout_alignParentLeft="true"
+                     android:visibility="gone"/>
+             
+             <LinearLayout android:id="@+id/facebook_stream_video_span"
+             android:layout_width="wrap_content"   
+             android:paddingLeft="5dip"          
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:visibility="gone">          
+                 <RelativeLayout
+                     android:layout_width="wrap_content"             
+                     android:layout_height="wrap_content">              
+	                 <ImageView android:id="@+id/facebook_stream_video_icon"
+	                  android:layout_width="wrap_content"
+	                  android:layout_height="wrap_content"      
+	                  android:minHeight="50dip"
+	                  android:maxWidth="80dip"
+	                  android:layout_gravity="left"
+	                  android:layout_alignParentLeft="true"                   
+	                  android:background="#00000000"
+	                  android:visibility="gone"/>
+	                                    
+	                 <ImageView android:id="@+id/facebook_stream_video_indicator"
+	                  android:layout_width="wrap_content"
+	                  android:layout_height="wrap_content"
+	                  android:layout_gravity="center_vertical"                                   
+	                  android:background="@drawable/video"
+	                  android:layout_alignParentLeft="true"
+	                  android:layout_alignParentBottom="true"/>
+                  </RelativeLayout>
+                  
+                 <TextView android:id="@+id/facebook_stream_video_title"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"                       
+                     android:linksClickable="true"
+                     android:textAppearance="@style/sns_link"
+                     android:layout_weight="1" 
+                     android:paddingLeft="2px"
+                     android:autoLink="all"                     
+                     android:visibility="gone"/>
+             </LinearLayout>
+           
+           <TextView android:id="@+id/facebook_stream_message_no_title"
+                   android:paddingLeft="5dip" 
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"                                         
+                   android:linksClickable="true"
+                   android:textAppearance="@style/sns_text"
+                   android:autoLink="all"
+                   android:layout_weight="1"/>
+                   
+           <TextView android:id="@+id/facebook_stream_message_des"
+                   android:paddingLeft="5dip" 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"                                        
+                   android:linksClickable="true"
+                   android:textAppearance="@style/sns_text_second_copy"
+                   android:layout_weight="1"              
+                   android:autoLink="all"                           
+                   android:layout_alignParentLeft="true"/> 
+                   
+            <RelativeLayout
+             android:layout_width="fill_parent"
+             android:paddingTop="8dip"
+             android:layout_height="wrap_content">        
+	             <ImageView android:id="@+id/facebook_stream_icon"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"	             
+	             android:paddingLeft="5px"                                     
+	             android:background="#00000000"/>  
+	                  
+	             <TextView android:id="@+id/facebook_stream_publish_time"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"                                                            
+	             android:linksClickable="false"                 
+	             android:layout_weight="1"    
+	             android:paddingLeft="5dip"              
+	             android:textAppearance="@style/sns_time"
+	             android:layout_toRightOf="@+id/facebook_stream_icon"/>
+             </RelativeLayout>
+                <!--  android:background="#F7F7F7" -->      
+            <RelativeLayout  android:id="@+id/facebook_stream_like_span"
+             android:layout_width="fill_parent"
+             android:paddingLeft="5dip"
+             android:paddingTop="8dip"
+             android:layout_height="wrap_content">     
+                  <ImageView android:id="@+id/facebook_stream_like_image"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/ic_like"               
+                  android:layout_gravity="left"/>      
+             
+                   <TextView android:id="@+id/facebook_stream_like_string"
+                   android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"  
+                   android:paddingLeft="2dip"                 
+                   android:layout_toRightOf="@+id/facebook_stream_like_image"
+                   android:textColor="@color/time"                        
+                   android:linksClickable="false"
+                   android:textAppearance="?android:attr/textAppearanceSmall"
+                   android:layout_weight="1"
+                   android:textSize="12sp"/> 
+          </RelativeLayout>
+          
+          <View  
+             android:layout_width="fill_parent"
+             android:layout_height="2px"  
+             android:layout_weight="1"
+             android:paddingBottom="8dip"/>
+              
+          <!-- android:background="#F7F7F7" -->        
+          <RelativeLayout  android:id="@+id/facebook_stream_comment_span"
+             android:layout_width="fill_parent"
+             android:paddingLeft="5dip"
+             android:paddingTop="8dip"
+             android:visibility="gone"
+             android:layout_height="wrap_content">     
+                  <ImageView android:id="@+id/facebook_stream_comment_image"
+                  android:layout_width="20dip"
+                  android:layout_height="20dip"
+                  android:background="@drawable/ic_comment"    
+                  android:visibility="gone"           
+                  android:layout_gravity="left"/>      
+             
+                   <TextView android:id="@+id/facebook_stream_comment_string"
+                   android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"                   
+                   android:layout_toRightOf="@+id/facebook_stream_comment_image"
+                   android:textColor="@color/time"                        
+                   android:linksClickable="false"
+                   android:textAppearance="?android:attr/textAppearanceSmall"
+                   android:layout_weight="1"
+                   android:textSize="12sp"/> 
+          </RelativeLayout>
+            
+          <RelativeLayout  
+             android:layout_width="fill_parent"
+             android:paddingLeft="5dip"
+             android:paddingTop="10dip"
+             android:paddingBottom="5dip"
+             android:layout_height="wrap_content">  
+            
+             <Button android:id="@+id/facebook_stream_comments"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="16dip"
+             android:textColor="@color/stream_comments"                         
+             android:layout_gravity="left"
+             style="?android:attr/buttonStyleSmall"
+             android:background="#00000000"
+             android:drawableLeft="@drawable/ic_comment"
+             android:nextFocusRight="@+id/facebook_stream_like"/>
+             
+             <View  android:id="@+id/facebook_comment_sp"
+                    android:layout_width="50dip"
+                    android:layout_toRightOf="@+id/facebook_stream_comments"
+                    android:layout_height="wrap_content"/>
+                    
+             <Button android:id="@+id/facebook_stream_like"
+             android:layout_width="150dip"
+             android:layout_height="wrap_content"
+             style="?android:attr/buttonStyleSmall"
+             android:background="#00000000"
+             android:textColor="@color/stream_comments"  
+             android:textSize="16dip"             
+             android:gravity="left"
+             android:layout_toRightOf="@+id/facebook_comment_sp"             
+             android:drawableLeft="@drawable/ic_like"             
+             android:layout_alignParentTop="true"/>
+             
+             <View android:id="@+id/facebook_comments_sep" 
+             android:layout_width="fill_parent"
+             android:layout_height="2px"             
+             android:background="@drawable/divider"
+             android:layout_below="@+id/facebook_stream_comments" 
+             android:layout_weight="1"
+             android:paddingBottom="8dip"/>     
+             
+             <Button android:id="@+id/facebook_comments_details"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"             
+             android:textSize="18dip"                                      
+             android:layout_gravity="left"
+             android:paddingTop="8dip"
+             android:textColor="@color/stream_comments"  
+             style="?android:attr/buttonStyleSmall"
+             android:background="#00000000"
+             android:textStyle="bold"
+             android:layout_below="@+id/facebook_comments_sep"/>             
+          </RelativeLayout>
+      </LinearLayout>     
+</LinearLayout>
+                

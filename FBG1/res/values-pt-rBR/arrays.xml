@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+  <string-array name="entries_list_preference">
+    <item>logo grande</item>
+    <item>logo médio</item>
+    <item>pequeno logo</item>
+  </string-array>
+  <string-array name="entryvalues_list_preference">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+  </string-array>
+  <string-array name="entries_notification_list_preference">
+    <item>24 horas</item>
+    <item>12 horas</item>
+    <item>6 horas</item>
+    <item>1 hora</item>
+    <item>30 Minutos</item>
+    <item>10 Minutos</item>
+  </string-array>
+  <string-array name="entryvalues_notification_list_preference">
+    <item>1440</item>
+    <item>720</item>
+    <item>360</item>
+    <item>60</item>
+    <item>30</item>
+    <item>10</item>
+  </string-array>
+  <string-array name="entries_month">
+    <item>Jan.</item>
+    <item>Fev.</item>
+    <item>Mar.</item>
+    <item>Abr.</item>
+    <item>Mai.</item>
+    <item>Jun.</item>
+    <item>Jul.</item>
+    <item>Ago.</item>
+    <item>Set.</item>
+    <item>Out.</item>
+    <item>Nov.</item>
+    <item>Dez.</item>
+  </string-array>
+  <string-array name="entries_list_rsvp_status">
+    <item>Atendendo</item>
+    <item>Talvez atendendo</item>
+    <item>Não atendendo</item>
+  </string-array>
+  <string-array name="permission_desc_list">
+    <!-- read_stream -->
+    <item>Permite acessar a rede de usuários. Isto inclui todos os posts da rede de usuários. Você precisa ativar uma sessão com o usuário para conseguir esse dado.</item>
+    <!-- publish_stream -->
+    <item>Esta permissão é um superset da atualização de status, upload de foto, upload de vídeo, criar notas e compartilhar permissões de links extendidos. Assim se você não tem alertado os usuários para essas permissões ainda, você precisa somente avisá-los sobre o conteúdo de compartilhamento.</item>
+    <!-- email -->
+    <item>Permite enviar e-mail a seu usuário. Quando o usuário aceita, você pode enviar o e-mail do usuário diretamente para os endereços de e-mail dos usuários do Facebook ou o endereço de e-mail proxied (qualquer endereço que o usuário escolheu para compartilhar com você).</item>
+    <!-- status_update -->
+    <item>Permite atualizar status dos usuários ou de páginas do Facebook.</item>
+    <!-- photo_upload -->
+    <item>Permite incluir foto.</item>
+    <!-- create_event -->
+    <item>Permite criar e modificar eventos para o usuário.</item>
+    <!-- video_upload -->
+    <item>Permite prover o mecanismo para o usuário incluir vídeos para seu perfil</item>
+    <!-- share_item -->
+    <item>Você deve alertar usuários para a permissão do conteúdo de compartilhamento, desde que inclua a habilidade de deixar um usuário compartilhar links.</item>
+    <!-- rsvp_event -->
+    <item>Permite responder a um evento em nome de um usuário.</item>
+    <!-- create_note -->
+    <item>Você deve alertar usuários para a permissão do conteúdo de compartilhamento, desde que inclua a habilidade de deixar um usuário escrever notas.</item>
+    <!-- read_mailbox -->
+    <item>Permite acessar sua caixa de entrada, itens enviados e atualizações</item>
+  </string-array>
+  <string-array name="permission_name_list">
+    <!-- read_stream -->
+    <item>Access a user\'s stream</item>
+    <!-- publish_stream -->
+    <item>Share content</item>
+    <!-- email -->
+    <item>Send email</item>
+    <!-- status_update -->
+    <item>Update status</item>
+    <!-- photo_upload -->
+    <item>Upload photo</item>
+    <!-- create_event -->
+    <item>Create and modify event</item>
+    <!-- video_upload -->
+    <item>Upload video</item>
+    <!-- share_item -->
+    <item>Share links</item>
+    <!-- rsvp_event -->
+    <item>RSVP to an event</item>
+    <!-- create_note -->
+    <item>Create note</item>
+    <!-- read_mailbox -->
+    <item>Access Inbox, Sent, Update</item>
+  </string-array>
+
+  <string-array name="entries_week">
+    <item>Dom. em</item>
+    <item>Seg. em</item>
+    <item>Ter. em</item>
+    <item>Qua. em</item>
+    <item>Qui. em</item>  
+    <item>Sex. em</item>  
+    <item>Sáb. em</item>
+  </string-array>
+</resources>
+

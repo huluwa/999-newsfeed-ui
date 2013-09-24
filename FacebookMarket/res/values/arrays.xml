@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources>
+
+  <declare-styleable name="com.admob.android.ads.AdView">
+     <attr name="backgroundColor" format="color" />
+     <attr name="primaryTextColor" format="color" />
+     <attr name="secondaryTextColor" format="color" />
+     <attr name="keywords" format="string" />
+     <attr name="refreshInterval" format="integer" />      
+  </declare-styleable>
+
+
+    <string-array name="entries_list_preference">
+        <item>Big user logo</item>
+        <item>Middle user logo</item>
+        <item>Small user logo</item>  
+    </string-array>
+    
+    <string-array name="entryvalues_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>  
+    </string-array>
+    
+    <string-array name="entries_notification_list_preference">
+        <item>24 hours</item>
+        <item>12 hours</item>
+        <item>6 hours</item>
+        <item>1 hour</item>
+        <item>30 minutes</item>
+        <item>10 minutes</item>  
+    </string-array>
+    
+    <string-array name="entries_week">
+        <item>Sun at</item>
+        <item>Mon at</item>
+        <item>Tue at</item>
+        <item>Wed at</item>
+        <item>Thu at</item>  
+        <item>Fri at</item>  
+        <item>Sat at</item>
+    </string-array>
+    
+    <string-array name="entryvalues_notification_list_preference">
+        <item>1440</item>
+        <item>720</item>
+        <item>360</item>  
+        <item>60</item>
+        <item>30</item>
+        <item>10</item>  
+    </string-array>
+    
+    <string-array name="entries_month">
+        <item>Jan.</item>
+        <item>Feb.</item>
+        <item>Mar.</item>  
+        <item>Apr.</item>
+        <item>May</item>
+        <item>Jun.</item>
+        <item>Jul.</item>
+        <item>Aug.</item>
+        <item>Sep.</item>
+        <item>Oct.</item>
+        <item>Nov.</item>
+        <item>Dec.</item>
+    </string-array>
+    
+    <string-array name="entries_list_rsvp_status">
+        <item>Attending</item>
+        <item>Maybe Attending</item>
+        <item>Not Attending</item>  
+    </string-array>
+    
+    <string-array name="permission_desc_list">
+        <!-- read_stream -->
+        <item>Allow to access a user\'s stream. This includes all of the posts in a user\'s stream. You need an active session with the user to get this data.</item>
+        <!-- publish_stream -->
+        <item>This permission is a superset of the update status, upload photo, video upload, create note, and share links extended permissions, so if you haven\'t prompted users for those permissions yet, you need only prompt them for share content.</item>        
+        <!-- email -->
+        <item>Allow to send email to its user. When the user accepts, you can send the user email directly to the user\'s primary Facebook email address or the proxied email address (whichever address the user chose to share with you).</item>
+        <!-- status_update -->
+        <item>Allow to update a user\'s or Facebook Page\'s status.</item>
+        <!-- photo_upload -->  
+        <item>Allow to upload photo.</item>
+        <!-- create_event -->    
+        <item>Allow to create and modify events for a user.</item>
+        <!-- video_upload -->
+        <item>Allows to provide the mechanism for a user to upload videos to their profile.</item>
+        <!-- share_item -->
+        <item>You should prompt users for the share content permission instead, since it includes the ability to let a user share links.</item>
+        <!-- rsvp_event -->  
+        <item>Allow to RSVP to an event on behalf of a user.</item>
+        <!-- create_note -->
+        <item>You should prompt users for the share content permission instead, since it includes the ability to let a user write notes.</item>
+        <!-- read_mailbox -->
+        <item>Allow to access your Inbox, Sent, Update.</item>        
+    </string-array>
+    
+    
+    <string-array name="permission_name_list">
+        <!-- read_stream -->
+        <item>Access a user\'s stream</item>
+        <!-- publish_stream -->
+        <item>Share content</item>        
+        <!-- email -->
+        <item>Send email</item>
+        <!-- status_update -->
+        <item>Update status</item>
+        <!-- photo_upload -->  
+        <item>Upload photo</item>
+        <!-- create_event -->    
+        <item>Create and modify event</item>
+        <!-- video_upload -->
+        <item>Upload video</item>
+        <!-- share_item -->
+        <item>Share links</item>
+        <!-- rsvp_event -->  
+        <item>RSVP to an event</item>
+        <!-- create_note -->
+        <item>Create note</item>
+        <!-- read_mailbox -->
+        <item>Access Inbox, Sent, Update</item>        
+    </string-array>    
+    
+</resources>

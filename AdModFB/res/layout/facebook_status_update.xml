@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"	    
+	    android:layout_height="fill_parent"
+	    android:background="@color/facebook_backgroud">
+	           
+	    <include layout="@layout/facebook_header">
+        </include>
+     
+	   <LinearLayout
+	        android:id="@+id/facebook_compose_span"
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:paddingTop="10dip"          
+            android:paddingLeft="5px"
+            android:paddingRight="5px"      
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="top">    
+	              <RelativeLayout
+	                android:layout_width="0dip"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1.0"
+	                android:addStatesFromChildren="true">                   
+	                   <EditText
+	                   android:id="@+id/facebook_status_message_editor"
+	                   android:layout_width="fill_parent"       
+	                   android:layout_height="wrap_content"     
+	                   android:autoText="true"                 
+	                   android:capitalize="sentences"
+	                   android:maxLines="6"
+	                   android:minLines="2"       
+	                   android:textColor="#000000"                            
+	                   android:scrollHorizontally="false"
+	                   android:gravity="top"
+	                   android:background="@drawable/editbox_background"/>
+	                   
+	                   <TextView
+	                    android:id="@+id/facebook_status_text_counter"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textColor="@color/textcounter" 
+	                    android:textSize="9sp"
+	                    android:layout_alignParentRight="true"
+	                    android:layout_alignParentTop="true"
+	                     />
+	              </RelativeLayout>                            
+	   </LinearLayout>
+	   
+	     
+        <LinearLayout
+                  android:id="@+id/facebook_tab_span"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"    
+                  android:paddingBottom="5dip"
+                  android:paddingTop="10dip"          
+                  android:paddingLeft="5px"        
+                  android:orientation="horizontal">     
+                    <Button  android:id="@+id/facebook_share_button"
+                    android:text="@string/facebook_status_update_title"  
+                    android:layout_width="110dip"
+                    android:layout_height="48dip"        
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/blue_button_background"
+                    android:layout_gravity="left"/> 
+       </LinearLayout>  
+	   
+	   <LinearLayout
+	        android:id="@+id/facebook_album_span"
+	        android:orientation="horizontal"	        
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="5px"
+	        android:paddingTop="10px"      
+	        android:paddingRight="5px"
+	        android:paddingBottom="10px"
+	        android:visibility="gone">
+	        <Button 
+	          android:id="@+id/facebook_new_album_button"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:background="@drawable/blue_button_background" />                
+	            
+	        <RelativeLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content">
+	                  <Spinner 
+	                        android:id="@+id/facebook_album_spinner"
+	                        android:layout_width="fill_parent"
+	                        android:layout_height="wrap_content"
+	                        android:drawSelectorOnTop="true"
+	                        android:prompt="@string/facebook_album_spinner_prompt"/>                        
+				       <EditText
+				            android:id="@+id/facebook_album_editor"
+				            android:layout_width="fill_parent"
+				            android:textColor="#000000"     
+				            android:layout_height="55dip"        
+	                        android:layout_below="@+id/facebook_album_spinner"                         
+				            android:scrollHorizontally="true"
+				            android:background="@drawable/editbox_background"
+				            android:visibility="gone"   />		          
+	        </RelativeLayout>        
+	              
+	   </LinearLayout>
+	   
+	   <LinearLayout
+	        android:id="@+id/facebook_upload_span"
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"        
+	        android:layout_gravity="right"
+	        android:paddingLeft="5px"
+	        android:visibility="gone">                   
+	          <Button android:id="@+id/media_upload"
+	             android:layout_width="wrap_content"
+	             android:layout_height="48dip"                  
+	             android:layout_gravity="right"
+	             android:layout_alignParentRight="true"
+	             android:layout_alignParentTop="true"/>
+	   </LinearLayout>
+	   
+	   <LinearLayout
+	        android:id="@+id/facebook_comments_span"
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"        
+	        android:layout_gravity="right"
+	        android:visibility="gone">          
+	         <ListView android:id="@+id/facebook_stream_comments_list"
+                 android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+                 android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+		         android:layout_weight="1"
+		         android:divider="@drawable/divider"
+		         android:layout_width="fill_parent"                   
+		         android:layout_height="wrap_content"
+		         android:listSelector="@drawable/list_selector_background"
+		         android:cacheColorHint="#00000000"/>   
+	   </LinearLayout>
+	         
+	   <ListView android:id="@+id/facebook_update_content_list"
+                android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+                android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+		        android:layout_weight="1"
+		        android:divider="@drawable/divider" 
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" 
+		        android:listSelector="@drawable/list_selector_background"
+		        android:cacheColorHint="#00000000"/>   
+	             
+</LinearLayout>
+

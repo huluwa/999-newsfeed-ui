@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
+    <!-- Do not translate. android:process of this application. -->
+    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
+    
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="application_name">OPhone Home</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">Android Core Apps</string>
+    <!-- Default folder name -->
+    <string name="folder_name">Folder</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_wallpaper">Select wallpaper from</string>
+    <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">Set wallpaper</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">Wallpaper gallery</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
+    <string name="activity_not_found">Application is not installed on your phone.</string>
+    <!-- List item for configuring the current wallpaper -->
+    <string name="configure_wallpaper">Configure</string>
+
+    <!-- Folders -->
+    <skip />
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">Folder name</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">Rename folder</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">OK</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">Cancel</string>
+
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item">Add to Home screen</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">Applications</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all shortcuts -->
+    <string name="group_shortcuts">Shortcuts</string>
+    <!-- Options in "Add to Home" dialog box; Title of the search gadget -->
+    <string name="group_search">Search</string>
+    <!-- Options in "Add to Home" dialog box; Title of the folder gadget -->
+    <string name="group_folder">New folder</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all live folders -->
+    <string name="group_live_folders">Folders</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all widgets/gadgets -->
+    <string name="group_widgets">Widgets</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper-->
+    <string name="group_wallpapers">Wallpapers</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Folder widget-->
+    <string name="add_folder">Folder</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Clock widget-->
+    <string name="add_clock">Clock</string>
+    <!-- Options in "Add to Home" dialog box; Name of the Picture frame widget-->
+    <string name="add_photo_frame">Picture frame</string>
+    <!-- Options in "Add to Home" dialog box; Name of the global search widget-->
+    <string name="add_search">Search</string>
+    <!-- Error message when user has filled a home screen, possibly not used -->
+    <string name="out_of_space">No enough room on this Home screen.</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" created.</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" was removed.</string>
+    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <string name="shortcut_duplicate">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" already exists.</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">Select shortcut</string>
+    <!-- Title of dialog when user is selecting live folder to add to homescreen -->
+    <string name="title_select_live_folder">Select folder</string>
+
+    <!-- All applications label for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_button_label">All applications</string>
+    <!-- Label for button in all applications label to go back home (to the workspace / desktop)
+         for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_home_button_label">Home</string>
+
+    <!-- Menus items: -->
+    <skip />
+    <!-- Verb, menu item used to add an item on the desktop -->
+    <string name="menu_add">Add</string>
+    <!-- Noun, menu item used to set the desktop's wallpaper -->
+    <string name="menu_wallpaper">Wallpaper</string>
+    <!-- Verb, menu item used to initiate global search -->
+    <string name="menu_search">Search</string>
+    <!-- Noun, menu item used to bring down the notifications shade -->
+    <string name="menu_notifications">Notifications</string>
+    <!-- Noun, menu item used to show the gestures settings -->
+    <string name="menu_gestures">Gestures</string>
+    <!-- Noun, menu item used to show the system settings -->
+    <string name="menu_settings">Settings</string>
+
+    <!-- Noun, menu item used to show the choose home dialog -->
+    <string name="menu_home">Switch Home</string>
+    <string name="menu_choose_home">Switch Home</string>
+
+    <string name="menu_switch_to_2D">Switch to 2D</string>
+    <string name="menu_switch_to_3D">Switch to 3D</string>
+    
+    <string name="menu_home_settings">Preference</string>
+    
+    <string name="setting_home_screen">Page Settings</string>
+    <string name="setting_home_dock_style">Dock Style</string>
+    <string name="setting_home_dock_style_summary">Bottom button layout\'s style</string>
+    <string name="setting_home_dock_style_1">OMS</string>
+    <string name="setting_home_dock_style_2">Google</string>
+    
+    <string name="setting_allapps_view_style">All Applications View</string>
+    <string name="setting_allapps_view_style_summary">Set all applications view style</string>
+    <string name="setting_allapps_view_style_2d_land">2D Landscape</string>
+    <string name="setting_allapps_view_style_2d_port">2D Portrait</string>
+    <string name="setting_allapps_view_style_3d">3D View</string>
+    
+    <string name="setting_pagemanager_view_style">Page Manager View</string>
+    <string name="setting_pagemanager_view_style_summary">Set page manager view style</string>
+    <string name="setting_pagemanager_view_style_2d">2D View</string>
+    <string name="setting_pagemanager_view_style_3d">3D View</string>
+        
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Allows an application to add
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">Allows an application to remove
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Allows an application to read the settings and
+        shortcuts in Home.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Allows an application to change the settings and
+        shortcuts in Home.</string>
+
+    <!-- Widgets: -->
+    <skip />    
+
+    <!-- TODO: Determine if this can be removed.
+         This is the hint text shown in the search widget, before text is entered.
+         This translation SHOULD MATCH the string "search_hint" which is found in 
+         GoogleSearch/res/values/strings.xml -->
+    <string name="search_hint">Google Search</string>
+   <!-- Text to show user in place of a gadget when we can't display it properly 
+    <string name="gadget_error_text">Problem loading widget</string> -->
+    <string name="gadget_error_text">Loading widget</string>
+
+    <!-- URL to use when detecting the current default browser. 
+         Attempts to mimic homepage_base in Browser; {CID} should be replaced
+         by the client-id, e.g. "android-google". -->
+    <string name="default_browser_url" translatable="false">
+        http://www.google.com/m?client=ms-{CID}&amp;source=android-home-hotseat</string>
+
+    <!-- web widget strings -->
+    <string name="webwidget_username">Name</string>
+    <string name="webwidget_password">Password</string>
+    <string name="webwidget_action">Sign in</string>
+    <string name="webwidget_sign_in">Sign in</string>
+    <string name="webwidget_cancel">Cancel</string>
+    <string name="webwidget_ok">OK</string>
+    <string name="webwidget_js_dialog_title">JavaScript</string>
+    <string name="acl_access_message">Allow toolbox to access messaging?</string>
+    <string name="acl_access_pim">Allow toolbox to access contacts/calendar?</string>
+    <string name="acl_access_av_control">Allow toolbox to access muti-media?</string>
+    <string name="acl_access_telephony">Allow toolbox to access telephony?</string>
+    <string name="acl_access_device">Allow toolbox to access phone device?</string>
+    <string name="acl_access_account">Allow toolbox to access personal account?</string>
+    <string name="acl_access_filesystem">Allow toolbox to access file system?</string>
+    <string name="acl_access_network">Allow toolbox to access network?</string>
+    <string name="acl_access_application">Allow toolbox to access application?</string>
+    <string name="acl_access_wifi">Allow toolbox to access WiFi?</string>    
+    <string name="acl_access_bt">Allow toolbox to access Bluetooth?</string>
+    <string name="acl_title">Confirm Access</string>
+    <string name="acl_btn_allow">Allow</string>
+    <string name="acl_btn_deny">Deny</string>
+    <string name="acl_access_denied">Access Denied</string>
+    
+    <string name="activity_picker_label">Select activity</string>
+    
+    <string name="snap_screen_nomore">No more</string>
+    <string name="add_screen_max">Reach max screen count</string>
+    <string name="remove_screen_min">At least one screen</string>    
+    <string name="add_one_screen">Add one screen</string>    
+    <string name="remove_one_screen">Remove screen:</string>  
+    <string name="page_format">Home %1$s</string>  
+
+    <string name="remove_screen_title">Delete this screen?</string>
+    <string name="remove_screen_ok">OK</string> 
+    <string name="remove_screen_cancel">Cancel</string> 
+    
+    <string name="setting_title">Home settings</string>
+    <string name="setting_default_screen">Default screen settings</string>
+    <string name="setting_default_screen_summary">Set default show screen</string>
+    
+    <string name="set_default_screen">Set Default</string>
+    <string name="set_default_screen_hint">Set current screen as default screen</string>        
+    
+    <string name="pref_delete_default_page_enable">Allow delete the first 3 screens</string>
+    
+    <string name="pref_2d_enable">Use 2D to explore all applications</string>
+
+    <string name="application_shortcut_title_unknown">Unknown</string>
+    <string name="in_of_space">tap on widget to confirm.</string>
+    
+    <!-- category --> 
+    <string name="menu_app_edit">Edit</string>
+    <string name="menu_category">New Category</string>    
+    <string name="action_bar_test1">Button 1</string>
+    <string name="action_bar_test2">Button 2</string>
+    
+    <string name="category_all">All Apps</string>
+    <string name="category_system">System Apps</string>
+    <string name="category_carrier">CMCC Apps</string>
+    <string name="category_oem">OEM Apps</string>
+    <string name="category_3rd">User Apps</string>
+    <string name="category_recentuse">Recently Used Applications</string>
+    <string name="cate_edit_done">Done</string>   
+    <string name="category_noapp">No %1$s!</string>   
+    <string name="category_shortcut">Quick Launch*</string>
+    <string name="remove_application_shortcut">Remove this shortcut?</string>
+    <string name="remove_application_shortcut_ok">OK</string> 
+    <string name="remove_application_shortcut_cancel">Cancel</string> 
+    
+    <string name="qa_page_manager">Screen Manager</string>
+    <string name="qa_set_shortcuts">Set Quick Launcher</string>
+    
+    <string name="corpus_selection_heading">Search</string>
+    <string name="corpus_label_global">All</string>
+    <string name="app_entertainment">Entertain*</string>
+    <string name="app_information">News*</string>
+    <string name="app_tools">Tools*</string>
+    <string name="app_shortcut">Short cut*</string>
+    <string name="app_game">Games*</string>
+    <string name="click_switch_category_hint">Click here switch category</string>
+    <string name="select_category_title">Applications</string>
+    
+    <string name="noapps">No any application exists.</string>
+
+
+
+    <string name="contact_author">Contact Developer</string>
+    <string name="share_app">Share this app</string>
+    <string name="pref_enable_landscape">Enable landscape</string>
+    <string name="pref_enable_auto_add_screen">Enable auto add screen</string>
+    <string name="pref_enable_show_add_quick">Show "Set quick launch"</string>
+    <string name="will_take_effect_reboot">Need re-launch Home application</string>  
+    <string name="pref_enable_show_hint">Show category hint</string>    
+    <string name="pref_enable_show_colorful_bg">Show colorful bg</string>
+    <string name="pref_enable_show_bg_allapp">Show background</string>    
+    <string name="setting_home_all_app">Application UI Settings</string>
+    <string name="pref_enable_switch_updown">Move vertical switch category</string>
+    <string name="pref_enable_show_top_bar">Show application top bar</string>    
+    <string name="pref_enable_alpha_order">Alphabetically order in drawer</string>    
+    <string name="setting_smothy_setting">Home screen smooth effect</string>
+    <string name="setting_smothy_setting_summary">Select move smooth effect</string>   
+    <string name="pref_enable_always_move_wallpaper">Always move wall paper</string>
+    <string name="pref_enable_always_transparent_bg">Translucent effect</string>
+    <string name="pref_enable_always_move_wallpaper_summary">Low performance</string>   
+
+    
+</resources>

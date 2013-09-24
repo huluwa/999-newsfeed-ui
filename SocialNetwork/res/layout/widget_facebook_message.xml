@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/facebook_widget_id"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/WidgetBackground">
+
+    <TextView
+        android:id="@+id/widget_facebook_message"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dip"
+        android:padding="10dip"        
+        android:gravity="left"        
+        android:textColor="#FF000000"                                           
+        android:linksClickable="false"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_weight="1"
+        android:textSize="18sp"/>
+</LinearLayout>

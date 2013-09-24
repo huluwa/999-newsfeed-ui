@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@color/facebook_backgroud">
+	    <include layout="@layout/facebook_header">
+        </include>
+	    <LinearLayout
+	            android:gravity="left"
+	            android:orientation="vertical"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10.0dip"
+	            android:layout_marginRight="10.0dip"
+	            android:background="#F7F7F7">
+	            <TextView
+	                    android:textSize="16.0sp"
+	                    android:textStyle="bold"
+	                    android:textColor="#3B5998"
+	                    android:id="@+id/album_name_detail"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:maxLines="2"
+	                    >
+	            </TextView>
+	            <TextView
+	                    android:textSize="14.0sp"
+	                    android:textColor="#cccccc"
+	                    android:id="@+id/album_number_detail"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content">
+	            </TextView>
+	    </LinearLayout>
+
+        <GridView
+                android:id="@+id/album_grid"
+                android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+                android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"                
+				android:persistentDrawingCache="animation|scrolling"
+				android:alwaysDrawnWithCache="true"
+				android:drawSelectorOnTop="true"
+				android:listSelector="@drawable/grid_selector_background"
+                android:stretchMode="spacingWidth"
+                android:numColumns="auto_fit"
+                android:columnWidth="@dimen/photo_width"
+                >
+                 
+        </GridView>      
+        
+</LinearLayout>

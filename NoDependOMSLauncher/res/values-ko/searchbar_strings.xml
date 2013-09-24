@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="search_app_name">검색 바</string>
+    <string name="search_hit">검색</string>
+    <string name="radio_btn_local">기기</string>
+    <string name="radio_btn_web">웹</string>
+    <string name="radio_btn_social">인맥 검색</string>
+</resources>

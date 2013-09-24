@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <dimen name="workspace_cell_width">80dp</dimen>
+    <dimen name="workspace_cell_height">100dp</dimen>
+    
+    <dimen name="allapps_cell_width">80dp</dimen>
+    <dimen name="allapps_cell_height">105dp</dimen> 
+    <dimen name="allapps_text_drawablePadding">6dp</dimen> 
+    <dimen name="allapps_text_paddingTop">6dp</dimen>
+    <dimen name="allapps_cell_longAxisStartPadding">12dp</dimen> 
+    
+    <dimen name="button_bar_left_width">200px</dimen>
+    <dimen name="button_bar_center_width">200px</dimen>
+    <dimen name="button_bar_right_width">200px</dimen>
+    
+
+    <!-- for edit page  320*480 statusbar width = 25-->
+    <dimen name="cur_page_textview_width">42dip</dimen>
+    <dimen name="cur_page_textview_height">42dip</dimen>
+    <dimen name="page_edit_image_width">180dip</dimen>
+    <dimen name="page_edit_image_height">240dip</dimen>
+    <dimen name="page_padding_top">107dip</dimen>
+    <dimen name="page_padding_left">0dip</dimen>
+    <dimen name="page_padding_right">0dip</dimen>
+    <dimen name="current_page_padding_top">6dip</dimen>
+    <dimen name="ep_button_bar_height">54dip</dimen>
+    <dimen name="ep_button_bar_width">107dip</dimen>
+    <dimen name="page_edit_image_padding">5dip</dimen>
+    
+    <!-- for all app view -->
+    <dimen name="allapp_icon_size_2d">56dip</dimen>
+    <dimen name="allapp_icon_texture_width_2d">79dip</dimen>
+    <dimen name="allapp_icon_texture_height_2d">100dip</dimen>
+    <dimen name="allapp_bubble_text_Width_2d">79dip</dimen>
+    <dimen name="all_apps_load_bar_marginTop">200dip</dimen>
+    <dimen name="all_apps_load_bar_marginLeft">130dip</dimen>
+    <dimen name="allapp_cell_width">106dip</dimen>
+    <dimen name="icon_texture_width_px">128dip</dimen>
+    <dimen name="icon_texture_height_px">128dip</dimen>
+    <dimen name="all_apps_home_button_width">38dip</dimen>
+    <dimen name="all_apps_home_button_height">34dip</dimen>
+    <dimen name="all_apps_cell_height">100dp</dimen>
+    <dimen name="all_apps_icon_size">64dip</dimen>
+    <dimen name="all_apps_icon_texture_size">15dip</dimen>
+    
+    <dimen name="search_widget_inset">19dip</dimen>
+    <dimen name="gesture_thumbnail_inset">8dip</dimen>
+    <dimen name="gesture_thumbnail_size">64dip</dimen>
+    <dimen name="search_item_height">40dip</dimen>
+    <dimen name="title_texture_width">80dip</dimen>
+    <dimen name="defaultpage_textSize">18dip</dimen>
+    <dimen name="drag_scale">25dip</dimen>
+    
+    <!-- dimens for allapps3d start -->
+    <dimen name="icon_width_px_3d">64px</dimen>
+    <dimen name="icon_texture_width_px_3d">74px</dimen>
+    <dimen name="selection_texture_width_px_3d">94px</dimen>
+    <dimen name="icon_height_px_3d">64px</dimen>
+    <dimen name="icon_texture_height_px_3d">74px</dimen>
+    <dimen name="selection_texture_height_px_3d">94px</dimen>
+    
+    <dimen name="cell_width_3d">120px</dimen> 
+    <dimen name="cell_height_3d">160px</dimen>
+    <dimen name="bordery_yoff">20px</dimen>
+    
+    <dimen name="uniformalloc_0_3d">72px</dimen>
+    <dimen name="uniformalloc_1_3d">72px</dimen>
+    
+    <dimen name="uniformalloc_2_3d">120px</dimen>
+    <dimen name="uniformalloc_3_3d">120px</dimen>
+    <!-- 80dip 454dip -->
+    <dimen name="uniformalloc_6_3d">100px</dimen>
+    <dimen name="uniformalloc_7_3d">680px</dimen>
+    
+    <dimen name="home_btn_width_3d">76px</dimen>
+    <dimen name="home_btn_height_3d">68px</dimen>
+    <dimen name="home_btn_texture_width_3d">128px</dimen>
+    <dimen name="home_btn_texture_height_3d">128px</dimen>
+    <!-- dimens for allapps3d end -->
+</resources>

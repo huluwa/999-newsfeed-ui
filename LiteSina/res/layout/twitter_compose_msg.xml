@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:background="#ffffff">
+	    
+	     <include layout="@layout/twitter_action"/>
+	     	    
+	     <LinearLayout
+	            android:id="@+id/twitter_message_receiver_span"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background = "@color/facebook_light_grey"
+	            android:orientation="horizontal"
+	            android:visibility="gone">
+	           <LinearLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1.0"
+	                android:orientation="horizontal">	                
+                    <com.tormas.litesina.AddressPad
+                     android:id="@+id/twitter_message_receiver_editor"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     titleText=""
+                     android:textSize="24sp"
+                     android:textColor="#000000"
+                     inputSeparator=","
+                     keepWhitespace="true"
+                     android:background ="@drawable/editbox_background"
+                     keepFullMode = "true"                    
+                     auxiliaryButtonVisible="false"
+                     listPreferredItemHeight="30dp"/>                             
+	         </LinearLayout>
+	                                    
+              <Button android:id="@+id/twitter_message_receivers_button"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              style="?android:attr/buttonStyleSmall"
+              android:layout_gravity="center_vertical"              
+              android:background="@drawable/ic_allapp_add_shortcut"
+              android:visibility="gone"/>
+    </LinearLayout>
+	<TextView
+           android:id="@+id/twitter_message_comments"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#000000"                  
+           android:paddingLeft="5dp"
+           android:text="@string/sns_add_comment"/>   
+             
+     <ListView android:id="@+id/twitter_message_list"
+	        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+	        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+	        android:paddingTop="5dip"
+	        android:paddingBottom="10dip"
+	        android:divider="@drawable/divider" 
+	        android:layout_weight="1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" 
+	        android:listSelector="@drawable/list_selector_background"        
+	        android:cacheColorHint="#FFFFFFFF"/>        
+        
+   <LinearLayout
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:id="@+id/twitter_compose_span"
+            android:background="#cccccc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+                
+	            <EditText
+                 android:gravity="top"
+                 android:id="@+id/twitter_message_editor"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="4.0dip"
+                 android:layout_marginTop="4.0dip"
+                 android:layout_marginRight="6.0dip"
+                 android:hint="@string/photo_hint_comments"
+                 android:maxLines="4"
+                 android:minLines="2"
+                 android:textColor="#000000">
+                </EditText>
+	            <TextView
+                  android:id="@+id/twitter_message_text_counter"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#000000"
+                  android:textSize="9sp"
+                  android:paddingLeft="5dp"
+                  android:layout_alignParentRight="true"
+                  android:layout_alignParentTop="true"/>
+	            
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/photo_action_region"
+                        android:background="@drawable/bottom_bar"
+                        android:paddingTop="2.0dip"
+                        android:visibility="visible"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/photo_your_comments">
+                        <Button
+                                android:id="@+id/twitter_mail_send_button"
+                                android:focusable="false"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2.0dip"
+                                android:layout_marginTop="2.0dip"
+                                android:layout_marginRight="5.0dip"
+                                android:layout_marginBottom="3.0dip"
+                                android:text="@string/facebook_mail_detail_reply"
+                                android:background="@drawable/twitter_button_background"
+                                android:layout_weight="0.5"
+                                >
+                        </Button>
+                        <Button
+                                android:id="@+id/twitter_mail_reply_cancel"
+                                android:focusable="false"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5.0dip"
+                                android:layout_marginTop="2.0dip"
+                                android:layout_marginRight="2.0dip"
+                                android:layout_marginBottom="3.0dip"
+                                android:text="@string/sns_cancel"
+                                android:background="@drawable/twitter_button_background"
+                                android:layout_weight="0.5">
+                        </Button>
+                </LinearLayout>
+        </LinearLayout>	       
+</LinearLayout>
+

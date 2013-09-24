@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/oms.sns.facebook"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/facebook_backgroud">
+    <include layout="@layout/facebook_header">
+    </include>
+    
+     <ProgressBar android:id="@+id/progress_horizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:visibility="gone"/>    
+        
+    <LinearLayout
+        android:id="@+id/facebook_search_span"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:visibility="gone">
+               <EditText android:id="@+id/embedded_text_editor"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingLeft = "50dip"
+                 android:singleLine="true"
+                 android:maxLines="1"                 
+                 android:background = "@drawable/searchbar"
+                 android:drawableRight="@drawable/search"
+                 android:drawablePadding="10px"/>
+    </LinearLayout> 
+    
+    <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="50dip"
+         android:paddingTop="5dip"
+         android:paddingBottom="5dip"
+         android:paddingLeft="5dip"
+         android:paddingRight="5dip"
+         android:orientation="horizontal"
+         android:background="#FFFFFF">  
+            <Button  android:id="@+id/facebook_tab_wall_button"
+                  android:text="@string/menu_title_friends"
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:focusable="true"  
+                  android:focusableInTouchMode="true"              
+                  android:layout_weight="1"         
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentLeft="true"/>           
+            <Button  android:id="@+id/facebook_tab_photo_button"
+                  android:text="@string/menu_title_pages"
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent" 
+                  android:focusable="true"  
+                  android:focusableInTouchMode="true"               
+                  android:layout_weight="1" 
+                  android:paddingLeft="3dip"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentRight="true"/>                        
+   </LinearLayout>  
+   
+   <LinearLayout        
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">
+                <TextView android:id="@+id/current_postion"
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content"                
+                 android:layout_weight="1"
+                 android:background="@color/facebook_grey"
+                 android:textSize = "20sp"
+                 android:textColor= "#000000"
+                 android:textStyle= "bold"
+                 android:paddingLeft="10dip"
+                 android:scrollHorizontally="true"
+                 android:layout_centerVertical="true"/>        
+    </LinearLayout>
+                
+    <ListView android:id="@+id/facebook_user_list"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:layout_weight="1"
+        android:divider="@drawable/divider" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:paddingTop="5dip"
+        android:paddingBottom="10dip"
+        android:listSelector="@drawable/list_selector_background"
+        android:cacheColorHint="#00000000"/>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+   <LinearLayout 
+        android:id="@+id/all_apps_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="0dp"
+        android:layout_height="40dip"
+		android:orientation="horizontal"
+		android:background="#02264b">
+		
+		<Button
+		        android:id="@+id/all_apps_done"		        
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp"				
+				android:layout_gravity="center_vertical"
+		        android:focusable="true"
+		        android:clickable="true"		        
+		        android:text="@string/cate_edit_done"/>
+		        
+	    <TextView
+		        android:id="@+id/all_apps_category_name"
+		        android:layout_width="150dp"
+		        android:layout_height="wrap_content"		        		
+		        android:gravity="center_horizontal|center_vertical"				        
+		        android:focusable="false"		        
+		        android:layout_gravity="center_horizontal|center_vertical"		        
+		        android:text="@string/category_all"
+		        android:clickable="false"/>
+		   
+      
+        <ImageView
+		        android:id="@+id/all_apps_edit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"		        
+		        android:layout_gravity="center_vertical"
+		        android:background="@drawable/top_button_right_background"		        
+		        android:focusable="true"
+		        android:clickable="true"/>
+		        
+	    <ImageView
+		        android:id="@+id/all_apps_delete"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"		        
+		        android:layout_gravity="center_vertical"
+		        android:background="@drawable/top_button_right_delete_background"		        
+		        android:focusable="true"
+		        android:clickable="true"/>
+   </LinearLayout>
+      
+    <GridView android:id="@+id/all_apps_2d_grid"
+        android:tag="all_apps_2d_grid"
+        android:layout_marginTop="40dp"
+        android:scrollbars="none"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@drawable/grid_selector"
+        android:verticalSpacing="10dip"
+        android:numColumns="4"
+        android:fadingEdgeLength="40dip"
+        android:cacheColorHint="#FF000000"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"           
+        android:nextFocusUp="@null"
+        android:nextFocusLeft="@null"
+        android:nextFocusRight="@null"/>
+        	   	   
+</RelativeLayout>

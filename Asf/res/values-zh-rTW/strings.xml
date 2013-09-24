@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+<string name="privacy_declaration">我們依照Facebook的要求尊重使用者個隱私權，詳細的內容請參考http://www.facebook.com/policy.php</string>
+
+<string name="hello">Hello World, SocialViewActivity</string>
+<string name="app_name">FriendYo</string>
+<string name="facebook_main_screen">FriendYo</string>
+
+<string name="cmnew_setting_help_label_text">設定 Facebook 聯絡資料</string>
+
+	<string name="not_target_device">本軟體現在不是在指定機型上執行，只能做為demo用途。
+		\n指定型號為Penguin。
+		\n本軟體由象星科技有限公司製作。
+		\n若有任何疑問請聯繫: service@astrotek.com.tw
+		\n網址: http://www.astrotek.com.tw
+		\n電話: +886-02-86478618</string>
+
+<string name="twitter_main_screen">Twitter</string>
+<string name="media_upload">Facebook</string>
+<string name="nitification_format">%1$s 尚未讀取的通知</string>
+
+
+<string name="pref_facebook_perm_settings">設定 </string>
+<string name="pref_facebook_notification_setting">通知設定</string>
+<string name="pref_facebook_notification_general_setting">一般設定</string>
+<string name="pref_facebook_notification_vibrate">啟動震動</string>
+<string name="pref_facebook_notification_vibrate_desc">有新的通知即啟動手機震動</string>
+
+<string name="pref_facebook_notification_led">手機 LED</string>
+<string name="pref_facebook_notification_led_desc">有新的通知即亮手機的 LED</string>
+<string name="pref_facebook_notification_enable">通知</string>
+
+<string name="pref_facebook_notification_msg_enable">訊息</string>
+<string name="pref_facebook_notification_poke_enable">推</string>
+<string name="pref_facebook_notification_request_enable">來自好友的邀請</string>
+<string name="pref_facebook_notification_event_enable">活動邀請</string>
+<string name="pref_facebook_notification_group_enable">社團邀請</string>
+
+<string name="pref_facebook_category">Facebook 帳號</string>
+<string name="pref_twitter_category">Twitter 帳號</string>
+<string name="twitter_setting_screen">Twitter 設定</string>
+
+<string name="social_setting_screen">社交資料設定</string>
+<string name="contact_sync_hello">聯絡資料同步</string>
+<string name="twitter_tweet_screen">推特中</string>
+<string name="twitter_tweets_loading"> 推特文載入中</string>
+<string name="twitter_tweet_detail_screen">推特文資料</string>
+<string name="facebook_loing_ui">Facebook 登入</string>
+<string name="facebook_loing_ui_webview">登入畫面</string>
+
+<string name="twitter_user_detail_screen">使用者資料</string>
+<string name="twitter_trend_loading">載入熱門標籤</string>
+<string name="twitter_trend_search">標籤搜尋</string>
+<string name="menu_title_note_create">新記事</string>
+<string name="twitter_compose_screen">寄出</string>
+<string name="context_status_reply">回覆</string>
+<string name="context_status_forward">轉寄</string>
+<string name="context_status_retweet">重新推特</string>
+<string name="context_status_favorite">加入最愛</string>
+<string name="context_status_direct">寄出訊息</string>
+<string name="pref_twitter_specific_category">Twitter 設定</string>
+<string name="twitter_message_send_option">已寄出</string>
+<string name="twitter_message_inbox_option">收件匣</string>
+<string name="context_status_unfavorite">非我的最愛</string>
+<string name="twitter_favor_title">不加入我的最愛</string>
+<string name="twitter_favor_title_unfavor">刪除</string>
+<string name="context_select_all">選擇全部</string>
+<string name="context_unselect_all">全部不選</string>
+<string name="context_status_delete">刪除</string>
+<string name="sns_delete">刪除</string>
+<string name="sns_delete_all">刪除所有捷徑</string>
+<string name="context_follow_following">跟隨中</string>
+<string name="context_folloer_stop_following">停止跟隨</string>
+<string name="twitter_follower_loading">跟隨的用戶</string>
+<string name="twitter_following_loading">跟隨中</string>
+<string name="twitter_user_detail_from_following">跟隨中</string>
+<string name="recent_tweets">最近的推特文</string>
+<string name="context_following_followers">跟隨者</string>
+<string name="context_following_search">搜尋 @</string>
+<string name="following_detail_stop_button">停止跟隨</string>
+<string name="following_detail_stop_button_add">跟隨</string>
+<string name="context_follower_following">跟隨中</string>
+<string name="context_compose_message">發私人訊息</string>
+
+
+<string name="twitter_myaccount_activity">個人狀態</string>
+<string name="context_pre_page">前頁</string>
+<string name="context_next_page">下一頁</string>
+
+<string name="Tweets_Title_direct_message">發私人訊息</string>
+<string name="twitter_message_loading">訊息載入中</string>
+<string name="context_message_new">新訊息</string>
+<string name="context_message_delete">刪除訊息</string>
+<string name="facebook_wall_loading">載入塗鴉牆內容</string>
+<string name="facebook_event_loading">載入事件</string>
+<string name="facebook_wall_title">發送</string>
+<string name="facebook_walltowall_title">發送至 Facebook</string>
+<string name="facebook_status_update_title">分享</string>
+
+<string name="pref_facebook_perm_assign">提示進階的授權要求</string>
+<string name="pref_facebook_perm_assign_desc">如果 Facebook 用戶尚未授權, 會有輸入提示進階的授權要求.</string>
+<string name="pref_facebook_ext_permission_assign">進階設定</string>
+<string name="pref_facebook_ext_permission">進階的授權設定</string>
+<string name="pref_facebook_ext_permission_desc">設定進階的授權</string>
+
+<string name="facebook_account_tile_poke">推</string>
+<string name="facebook_WALL_POST_title">發表到塗鴉牆</string>
+<string name="facebook_group_detail">參加 </string>
+<string name="facebook_group_decline">拒絕</string>
+<string name="facebook_friends_loading">載入好友資料</string>
+<string name="facebook_pages_loading">載入專頁</string>
+<string name="facebook_upcomingbd_friends_loading">生日資料載入中</string>
+<string name="pref_facebook_view_category">檢視畫面的設定</string>
+<string name="pref_facebook_view_category_summary">設定同步的間隔時間</string>
+<string name="pref_facebook_other_setting">其他設定</string>
+
+<string name="facebook_mailbox_loading">載入訊息 </string>
+<string name="facebook_mailbox_inbox_loading">載入收件匣的資料 </string>
+<string name="facebook_mailbox_sent_loading">載入寄件匣的資料 </string>
+<string name="facebook_mailbox_update_loading">載入更新的資料 </string>
+<string name="facebook_mail_detail">Conversation</string>
+<string name="facebook_mail_one_detail">訊息</string>
+<string name="facebook_mail_detail_reply">回覆</string>
+<string name="facebook_phonebook_loading">載入電話簿</string>
+<string name="facebook_user_select">選擇好友</string>
+<string name="facebook_mail_send">發送</string>
+<string name="facebook_phonebook_nomore">無</string>
+<string name="facebook_status_loading">載入中...</string>
+<string name="facebook_main_stream_screen">消息更新</string>
+<string name="facebook_main_send">發送</string>
+<string name="facebook_stream_you_like">我喜歡這個.</string>
+
+<string name="facebook_contact_sync">Facebook 聯絡資料同步</string>
+<string name="facebook_event_sync">Facebook 活動資料同步</string>
+<string name="facebook_location_hint">現在你在哪裡?</string>
+<string name="facebook_location_stop">取消</string>
+<string name="facebook_location_start">要求所在位置</string>
+<string name="facebook_media_upload">夾帶</string>
+
+<string name="test_isFacebookUser">已經是 Facebook 用戶</string>
+<string name="test_gloabalcontactsync">聯絡資料同步</string>
+<string name="test_gloabaleventsync">活動資料同步</string>
+<string name="test_addEvent">增加活動</string>
+<string name="test_taskstatus_str">Monitor task</string>
+
+<string name="no_event_info">目前沒有活動資料</string>
+<string name="facebook_status_update_compose">你在想什麼呢?</string>
+<string name="facebook_wall_to_wall_compose">留個言吧...</string>
+<string name="facebook_location_update_title">分享你的位置資料</string>
+<string name="facebook_comments_update_title">發表意見</string>
+
+<string name="facebook_phonebook_title">電話簿</string>
+<string name="facebook_inbox_title">收件匣</string>
+<string name="facebook_messages_title">訊息</string>
+<string name="facebook_sent_title">已發送</string>
+<string name="facebook_update_title">更新</string>
+<string name="facebook_updates_title">更新內容</string>
+<string name="pref_adv_setting">進階設定</string>
+<string name="pref_extras_reset_default">重製</string>
+<string name="pref_extras_reset_default_dlg_title">恢復原來設定</string>
+<string name="pref_extras_reset_default_summary">清除所有資料並恢復到原始的設定值</string>
+<string name="pref_extras_reset_default_dlg">請注意: 所有資料都將會被清除並恢復到原始設定值</string>
+<string name="facebook_event_title">與行事曆同步</string>
+<string name="facebook_event_title_bar">活動</string>
+<string name="facebook_photo_upload">分享</string>
+<string name="facebook_wall_share">分享</string>
+<string name="facebook_photo_upload_compose">你在想什麼呢?</string>
+<string name="facebook_setting_sign_in">登入中</string>
+<string name="facebook_find_friends_loading">尋找我的好友</string>
+<string name="facebook_set_contact_email">Email</string>
+<string name="contact_cell_lable_text">手機號碼</string>
+<string name="contact_other_lable_text">其他電話號碼</string>
+<string name="facebook_contact_set">更新聯絡資料</string>
+<string name="facebook_set_contact_title">設定聯絡資料</string>
+
+<string name="to_button_lable">To:</string>
+<string name="twitter_main_title">推特文</string>
+<string name="twitter_tweets_title">推特中</string>
+<string name="twitter_search_title">畫面重新更新</string>
+<string name="twitter_message_fail_send_all">無法將訊息寄給所有收件人</string>
+<string name="twitter_message_fail_update_status">無法更新狀態</string>
+<string name="twitter_message_title_send">發送</string>
+<string name="twitter_message_title_reply">回覆</string>
+<string name="twitter_message_title_direct_message">發私人訊息</string>
+<string name="twitter_message_title_update">更新</string>
+<string name="twitter_message_title_forward">轉寄</string>
+<string name="twitter_message_title_retweet">重新推特</string>
+<string name="facebook_requests_loading">載入要求當中</string>
+<string name="facebook_find_friends">尋找我的好友</string>
+
+<string name="sns_task_management"/>
+<string name="sns_finished_task_title">所有要求工作完成</string>
+<string name="sns_running_task_title">所有要求工作進行中</string>
+<string name="sns_failed_task_title">所有要求工作執行失敗</string>
+<string name="sns_pendding_task_title">所有要求工作目前被擱置</string>
+<string name="task_cancel_all">取消所有要求工作</string>
+
+<string name="twitter_dlg_tweet_search">搜尋中...</string>
+<string name="twitter_dlg_send_msg">發送訊息...</string>
+<string name="twitter_dlg_update_status">更新狀態...</string>
+<string name="twitter_dlg_load_trend">載入熱門標籤...</string>
+<string name="twitter_dlg_load_tweets">推特文載入中...</string>
+<string name="twitter_dlg_add_favor">加到最愛...</string>
+<string name="twitter_dlg_destory_favor">由最愛中刪除...</string>
+<string name="twitter_dlg_add_following">增加到追隨...</string>
+<string name="twitter_dlg_destory_follow">由追隨中刪除...</string>
+<string name="twitter_dlg_retweet">重新推特...</string>
+<string name="widget_facebook_name">Facebook 新通知</string>
+<string name="widget_twitter_name">Twitter 熱門標籤</string>
+<string name="title_show_on_homescreen">在首頁上顯示</string>
+<string name="widget_twitter_status_update_name">Twitter status</string>
+<string name="pref_facebook_sync_setting">Facebook 同步設定</string>
+<string name="title_show_use_logo">分享顯示相片</string>
+<string name="title_show_use_email">分享郵件住址 </string>
+<string name="title_show_use_birthday">分享生日</string>
+<string name="title_show_use_phonenumber">分享我的電話號碼</string>
+<string name="summary_show_use_logo">同步顯示相片為電話簿相片</string>
+<string name="summary_show_use_email">同步 Facebook 電子郵件到電話簿資料</string>
+<string name="summary_show_use_birthday">同步 Facebook 生日到電話簿資料</string>
+<string name="summary_show_use_phonenumber">同步 Facebook 電話號碼到電話簿資料</string>
+
+<string name="facebook_phonebook_sync_to_contact">儲存 Facebook 電話簿到聯絡人資料…</string>
+<string name="context_open_link_in_browser">在瀏覽器裏頭開啟連結</string>
+<string name="title_copy_to_email">複製到電子郵件</string>
+<string name="title_copy_new_msg_to_sms">複製新郵件到訊息</string>
+<string name="twitter_pic_upload_title">Upload photo to TwitPic</string>
+<string name="context_menu_insert_img">選擇相片</string>
+<string name="context_menu_select_video">選擇影片</string>
+<string name="context_menu_select_link">選擇連結</string>
+<string name="context_menu_capture_photo">拍相片</string>
+<string name="menu_title_location_update">地點位置更新</string>
+<string name="menu_title_location">Location</string>
+<string name="menu_title_friend_birthday">好友\' 生日</string>
+<string name="menu_title_add_facebook_event">增加 Facebook 活動</string>
+<string name="menu_title_sync_event">同步到行事曆</string>
+<string name="menu_title_stop">停止</string>
+<string name="menu_title_task_view">工作事項</string>
+<string name="menu_title_login">登入</string>
+<string name="menu_title_settings">設定</string>
+<string name="menu_title_about">關於</string>
+<string name="menu_title_save_drafts">儲存至草稿</string>
+<string name="menu_title_page_info">專頁資料</string>
+<string name="menu_title_pre_page">前一頁</string>
+<string name="menu_title_next_page">下一頁</string>
+<string name="menu_title_ext_perm">進階權限說明</string>
+<string name="menu_title_lookup_contact">查聯絡人</string>
+<string name="menu_title_sync_to_contact">同步到聯絡人</string>
+<string name="menu_title_sync_addressbook">同步電話簿</string>
+
+<string name="menu_title_logout">登出</string>
+<string name="menu_title_request_location">請求地點位置</string>
+<string name="menu_title_refresh">重新更新</string>
+<string name="menu_title_my_status_update">狀態更新</string>
+<string name="menu_title_mailbox_inbox">訊息</string>
+<string name="menu_title_mailbox_sent">已寄出</string>
+<string name="menu_title_mailbox_update">更新</string>
+
+<string name="menu_title_pages">專頁</string>
+
+
+<string name="facebook_friends_home_title">Facebook 好友</string>
+<string name="facebook_search_friends">使用者名稱</string>
+<string name="facebook_search_page">專頁名稱</string>
+<string name="menu_title_my_friends">我的好友</string>
+<string name="menu_title_friends">好友</string>
+<string name="menu_title_my_account">資料</string>
+<string name="menu_title_page">專頁</string>
+<string name="menu_title_pokes">推</string>
+<string name="menu_title_new_mail">發送一個訊息</string>
+<string name="menu_title_friend_group">社團</string>
+<string name="menu_title_notifications">通知</string>
+<string name="menu_title_phonebook">電話簿</string>
+<string name="menu_title_status_update">更新狀態</string>
+<string name="menu_title_stream_publish">更新狀態</string>
+<string name="menu_title_set_contact">設定聯絡人</string>
+<string name="menu_title_find_friends">搜尋好友</string>
+<string name="menu_title_event">活動</string>
+<string name="menu_title_news_feed">消息更新</string>
+<string name="menu_title_tweets">Tweets</string>
+<string name="menu_twitter_title_messages">Messages</string>
+<string name="menu_twitter_title_my_account">My account</string>
+<string name="menu_twitter_title_favorites">Favorites</string>
+<string name="menu_twitter_title_search">Search</string>
+<string name="menu_twitter_title_search_me">Search me</string>
+<string name="menu_twitter_title_following">Following</string>
+<string name="menu_twitter_title_follower">Follower</string>
+<string name="menu_twitter_title_upload_photo">Upload photo</string>
+<string name="menu_title_open_in_browser">Open in browser</string>
+<string name="menu_twitter_title_add_to_favor">Add to favorites</string>
+<string name="menu_twitter_title_unfavorites">Unfavorite</string>
+<string name="menu_twitter_title_follow">Follow</string>
+<string name="menu_twitter_title_unfollow">Unfollow</string>
+<string name="menu_twitter_title_friend_line">Friend line</string>
+<string name="menu_twitter_title_user_line">User line</string>
+
+<string name="menu_title_select_all">選擇全部</string>
+<string name="menu_title_unselect_all">刪除全部</string>
+<string name="menu_facebook_title_reply">回覆</string>
+<string name="menu_facebook_title_forward">轉寄</string>
+<string name="menu_facebook_title_post_to_wall">發佈到塗鴉牆</string>
+<string name="menu_facebook_title_add_as_friend">加入成為好友</string>
+
+<string name="facebook_add_as_friend_successfully">成功地加入成為好友</string>
+<string name="facebook_add_as_friend_failed">無法加入成為好友</string>
+
+<string name="menu_facebook_title_email">電子郵件</string>
+<string name="menu_facebook_title_call">打電話</string>
+<string name="menu_facebook_title_phonebook">檢視電話簿的內容</string>
+<string name="menu_facebook_title_copy">複製</string>
+<string name="menu_facebook_title_phone">打電話</string>
+<string name="menu_facebook_title_sync_to_contact">同步到電話簿</string>
+<string name="menu_facebook_title_request_phone_number">請求要電話號碼</string>
+<string name="menu_title_send_notification">發送通知</string>
+<string name="facebook_send_notification_title">發送通知</string>
+
+<string name="twitter_wait_task_prompt">請稍候...</string>
+<string name="title_sync_birthday_event">同步生日活動</string>
+<string name="summary_sync_birthday_event">同步生日活動到行事曆</string>
+<string name="pref_sns_proxy_category">代理伺服器設定</string>
+<string name="facebook_not_login_prompt">請登入到 Facebook</string>
+<string name="facenook_perm_setting">Facebook 進階授權</string>
+<string name="facebook_login_fail">登入失敗</string>
+<string name="facebook_login_retry">你想要再登入一次嗎?</string>
+<string name="sns_ok">Ok</string>
+<string name="sns_cancel">取消</string>
+<string name="pref_proxy_setting">代理伺服器設定</string>
+<string name="pref_sns_proxy_title">代理伺服器設定資料</string>
+<string name="pref_sns_proxy_summary">設定代理伺服器來登入 Facebook 和 Twitter</string>
+<string name="title_use_https_connections">安全設定: use https</string>
+<string name="media_twitter_upload">TwitPic</string>
+<string name="context_status_copy">複製</string>
+<string name="title_upload_photo_size">照相機的相片尺寸</string>
+<string name="sns_about_info">\t社交活動設定會設定嵌入 Facebook 和 Twitter.\n\t為了分享更新, 連結, 相片, 等等, 請確保要將許可設定完成.</string>
+<string name="close_about">關閉</string>
+<string name="about_title">關於</string>
+<string name="notification_request">請求</string>
+<string name="menu_title_photos">相片</string>
+<string name="uncomplete_user_pwd">請填寫使用者名稱還有密碼</string>
+<string name="wrong_username_pwd">可能是此時網路狀況不佳, 或是使用者名稱跟密碼找不到.  請確定你的資料之後再試一次.</string>
+<string name="right_username_pwd">有效的使用者名稱還有密碼</string>
+<string name="twitter_password_title">密碼</string>
+<string name="twitter_userid_title">使用者名稱</string>
+<string name="twitter_view_count_title">Tweet view count (max 20)</string>
+<string name="twitter_follow_viewcount_title">Follow view count (max 20)</string>
+<string name="twitter_tweet_view_timeout_title">Tweet interval (min 60s)</string>
+<string name="twitter_trend_view_timeout_title">Trend interval (min 60s)</string>
+<string name="sns_allow_summary">啟動</string>
+<string name="sns_forbiden_summary">無效的</string>
+<string name="sns_active_summary">可使用的</string>
+<string name="sns_inactive_summary">不可使用的</string>
+<string name="sns_uploadphoto_original_summary">原始的</string>
+<string name="sns_uploadphoto_compressed_summary">壓縮的</string>
+<string name="twitter_verify_account_title">登入中...</string>
+<string name="twitter_verify_account_wait_msg">請稍候...</string>
+<string name="twitter_load_search_message">載入使用者資訊, 請稍候...</string>
+<string name="facebook_password_title">密碼</string>
+<string name="facebook_email_title">Email</string>
+<string name="facebook_allways_enable_title">啟用 Facebook 服務</string>
+<string name="facebook_allways_enable__desc">由其他應用程式啟動 Facebook 服務</string>
+<string name="facebook_permanent_session_enable_title">使用永久設定</string>
+
+<string name="facebook_stream_timeout_title">動態新聞 (min 120s)</string>
+<string name="facebook_contact_update_period_title">電話簿同步 (days)</string>
+<string name="facebook_friend_update_period_title">好友同步 (days)</string>
+<string name="facebook_mail_update_period_title">檢查郵件 (hours)</string>
+<string name="facebook_phonebook_sync_period_title">聯絡簿資料同步 (days)</string>
+<string name="facebook_pokes_loading">載入 推...</string>
+<string name="menu_facebook_title_poke_back">推回去</string>
+
+
+
+<string name="facebook_getting_contact">由網際網路來取得聯絡資料...</string>
+<string name="facebook_getting_contact_suc">取得聯絡資料</string>
+<string name="no_news_feed_hint">沒有其他的動態新聞.\n按 \"畫面更新\" 取得最新的動態新聞.</string>
+<string name="no_wall_hint">沒有其他塗鴉牆更新.\n按 \"畫面更新\" 取得最新的塗鴉牆更新.</string>
+<string name="no_trends_hint">無法取得熱門趨勢.\n按 \"畫面更新\" 取得最新的十個熱門趨勢.</string>
+
+<string name="event_cancel_no_privilege">你沒有權限取消這個活動</string>
+<string name="event_cancel_successfully">成功取消活動</string>
+<string name="event_cancel_failed">無法取消活動</string>
+<string name="menu_title_clear_cache">清除暫存</string>
+<string name="facebook_clear_cache_successfully">成功清除暫存資訊</string>
+<string name="facebook_clear_cache_failed">無法清除暫存資料</string>
+<string name="facebook_remove_comment_successfully">成功更新</string>
+<string name="facebook_remove_comment_failed">無法清除發文</string>
+<string name="facebook_remove_comment_title">正清除發文</string>
+<string name="facebook_add_comment_title">增加意見發佈</string>
+<string name="facebook_send_mail_title">傳送訊息</string>
+
+
+
+<string name="min">數分鐘之前</string>
+<string name="sec">數秒鐘之前</string>
+<string name="day">數天之前 在 %1$s</string>
+<string name="hour">數個鐘頭之前 在 %1$s</string>
+
+<string name="facebook_main_notes">網誌</string>
+<string name="facebook_main_notification_screen">通知</string>
+<string name="facebook_notes_title">新網誌</string>
+<string name="facebook_notes_new">新增網誌</string>
+<string name="facebook_notes_edit">儲存網誌</string>
+<string name="facebook_notes_loading">載入網誌</string>
+<string name="no_notes_hint">你目前沒有網誌內容</string>
+<string name="facebook_notification_loading">載入通知</string>
+<string name="fail_create_notes">無法新增網誌</string>
+<string name="menu_facebook_title_open_browser">自瀏覽器中開啟</string>
+<string name="facebook_menu_wall_title">塗鴉牆</string>
+
+<string name="facebook_album_spinner_prompt">選擇一個相簿</string>
+<string name="facebook_new_album">新</string>
+<string name="facebook_new_album_hint">新相簿名稱</string>
+
+
+
+
+
+
+
+<string name="facebook_menu_photo_title">相片</string>
+<string name="facebook_tab_photo">相片</string>
+<string name="facebook_tab_wall">塗鴉牆</string>
+<string name="facebook_tab_info">資料</string>
+
+
+
+
+<string name="facebook_status_title">狀態</string>
+<string name="facebook_update_status_title">更新狀態</string>
+<string name="facebook_add_photo_title">分享相片</string>
+<string name="facebook_login_ok">登入</string>
+<string name="facebook_login_cancel">取消</string>
+<string name="facebook_login_sign_up">登入</string>
+<string name="facebook_signup_url">http://m.facebook.com/r.php</string>
+
+<string name="facebook_no_facebook_account">還\'t 沒有帳戶?</string>
+<string name="facebook_login_pwd_label">密碼</string>
+<string name="facebook_login_email_label">Email</string>
+<string name="facebook_email_address">Email</string>
+<string name="facebook_password">密碼</string>
+<string name="facebook_hint_username">使用者名稱</string>
+<string name="facebook_hint_phone">電話號碼</string>
+
+<string name="sns_eventsync_toast_msg">在背景同步活動內容</string>
+<string name="sns_lookupall_toast_msg">在背景同步 Facebook 電話簿</string>
+<string name="facebook_accounticonsize_title">個人狀態圖示尺寸</string>
+<string name="facebook_accounticonsize_summary">僅供 Facebook 帳戶使用</string>
+<string name="facebook_accounticonsize_dialogtitle">Facebook 個人狀態相片尺寸</string>
+
+<string name="facebook_poke_success">推 成功</string>
+<string name="facebook_poke_failed">推 失敗</string>
+<string name="facebook_invalid_session">過程失敗. 請確定你的使用者名稱還有密碼, 重新登入一次.</string>
+<string name="twitter_delete_favorite_msg">刪除中...\n請稍後.</string>
+<string name="sns_finished_msg">完成</string>
+<string name="sns_share_failed">無法分享</string>
+<string name="sns_share_success">成功分享</string>
+<string name="sns_post_failed">無法發佈</string>
+<string name="facebook_save_wall_message">成功將塗鴉牆訊息儲存到草稿匣</string>
+<string name="sns_update_succeed">成功更新了</string>
+<string name="sns_update_failed"> 無法更新</string>
+<string name="sns_operate_succeed">成功更新了</string>
+<string name="sns_operate_failed">無法更新</string>
+<string name="facebook_phonebook_in_saving">儲存中, 請稍後.</string>
+<string name="sns_not_login_message">你目前尚未登入</string>
+<string name="facebook_no_valid_session">這不是一個有效的過程 </string>
+<string name="sns_send_message_failed">無法寄訊息</string>
+<string name="sns_login_succeed">成功登入了</string>
+<string name="facebook_get_permanent_session_failed">無法開通程序. \n請確定你的使用者名稱跟密碼都輸入正確.</string>
+<string name="facebook_get_accesstoken_failed">無法進入到 Facebook.\n請檢查你的網路連線.</string>
+<string name="sns_network_unavailable">網路無效</string>
+<string name="facebook_login_failed_message">無法登入,  按 \"登入\" 再試一次.</string>
+<string name="facebook_lookup_waitting">進行中...\n請稍等</string>
+<string name="facebook_add_comments_failed">無法新增發言</string>
+<string name="facebook_send_notification_failed">無法傳送通知</string>
+<string name="sns_finished_delete_message">刪除.</string>
+<string name="sns_page_more">更多...</string>
+<string name="sns_page_pre">前一頁...</string>
+<string name="sns_user_name">使用者名稱</string>
+<string name="sns_proxy_port">代理伺服器的連接埠</string>
+<string name="sns_proxy_host">代理伺服器的 host url</string>
+<string name="sns_enable_proxy">啟動代理伺服器</string>
+<string name="facebook_upload_img_title">上傳相片到 Facebook</string>
+<string name="facebook_upload_img_prompt_msg">你確定只要上傳相片不需要增加說明嗎?</string>
+<string name="sns_error_message">錯誤訊息</string>
+<string name="facebook_sync_contact_title">同步 Facebook 聯絡人</string>
+<string name="sns_revoke">撤銷中...</string>
+<string name="facebook_check_permission_title">確認 ...</string>
+<string name="facebook_exit_login_suc">離開登入程序</string>
+<string name="facebook_exit_login_msg">你確定要離開嗎?</string>
+<string name="facebook_request_accesstoken_title">讀取中...</string>
+<string name="facebook_getsession_title">開通程序...</string>
+<string name="facebook_getsession_wait_message">開通程序中, 請稍等...</string>
+<string name="facebook_getsession_successed">登入成功</string>
+<string name="facebook_request_token_title">讀取中...</string>
+<string name="sns_liking">讚...</string>
+<string name="sns_remove_like">清除 讚...</string>
+<string name="facebook_poking_title">推...</string>
+<string name="facebook_groups_title">社團</string>
+<string name="facebook_logout_title">登出 Facebook</string>
+<string name="facebook_logout_message">確定要登出嗎?</string>
+<string name="facebook_location_setting_title">目前沒有 location provider ...</string>
+<string name="facebook_permission_message">為了使用這個功能, 你需要啟動 %1$s 許可授權.\n\n 按 \"OK\" 來開始許可授權設定, 或按取消離開 .</string>
+
+<string name="facebook_setting_location_message">會需要目前地點位置的資料來使用這項功能.  \n\n 按 \"Ok\" 到 \"設定\" 來啟動這項功能.  或選擇 \"取消\" 離開 .\n\n 請在修改設定之後, 重新啟動這個應用程式.</string>
+<string name="facebook_request_location">要求地點資料...</string>
+<string name="facebook_location_link_map">連結地圖</string>
+<string name="facebook_location_stop_request">請求取消…</string>
+<string name="sns_sending">傳送中...</string>
+<string name="facebook_event_hosted_by">主持:</string>
+<string name="facebook_event_type">型態:</string>
+<string name="facebook_event_where">地點:</string>
+<string name="facebook_event_when">時間:</string>
+
+<string name="facebook_event_start">開始時間:</string>
+<string name="facebook_event_end">結束時間:</string>
+<string name="facebook_event_location">地點:</string>
+<string name="facebook_event_host">主持:</string>
+
+<string name="facebook_event_from">從</string>
+<string name="facebook_event_to">到</string>
+<string name="sns_message_text">訊息</string>
+<string name="sns_friends_request">好友邀請</string>
+<string name="sns_no_new_message">沒有新的訊息</string>
+<string name="sns_no_pending_friend_request">沒有未處理的好友邀請</string>
+<string name="sns_new_pokes">新的推</string>
+<string name="sns_no_pending_pokes">沒有其他未處理的推</string>
+<string name="sns_new_shares">新分享</string>
+<string name="sns_no_new_shares">沒有其他的新分享</string>
+<string name="sns_no_pending_group_invites">沒有未處理的社團邀請</string>
+<string name="sns_events_invites">活動邀請</string>
+<string name="sns_no_pending_event_invites">沒有未處理的活動邀請</string>
+<string name="sns_no_cell">無手機電話</string>
+<string name="sns_no_phone">無電話</string>
+<string name="sns_no_email">無電子郵件</string>
+<string name="sns_retrieving">正獲取資料...</string>
+<string name="sns_size">尺寸:</string>
+<string name="sns_like">讚</string>
+<string name="sns_unlike">不喜歡</string>
+<string name="sns_add_comment">意見發表</string>
+<string name="photo_your_comments">留個訊息吧...</string>
+
+<string name="facebook_fail_to_get_session">無法登入, 建議:\n1, 請確認你的電子郵件跟密碼都輸入正確.\n2, 請確定你有網際網路連線成功(含 WiFi).\n3, 是否你的手機已有正確的日期和時間的設定.</string>
+<string name="facebook_make_session_permanent">正在確定維持永久登入...</string>
+<string name="facebook_make_session_permanent_suc">成功地確定永久登入...</string>
+<string name="twitter_get_last_trends">獲得最新的十個趨勢</string>
+<string name="sns_ignore">放棄</string>
+<string name="sns_confirm">確認 </string>
+<string name="facebook_friends_request_model">你有新的 %1$s 好友邀請</string>
+<string name="facebook_friends_request_model_signal">你有新的 %1$s 好友邀請</string>
+<string name="facebook_friends_request_model_no">你沒有新的好友邀請</string>
+<string name="facebook_revoke_ext_permission_model">撤回許可</string>
+<string name="facebook_revoke_permission_conform_mes">你希望要撤回 %1$s 許可嗎?</string>
+<string name="sns_group_invites">社團邀請</string>
+<string name="menu_facebook_title_wall_to_wall">Wall-To-Wall 訊息</string>
+<string name="context_to_user_account_string">到 @user</string>
+<string name="context_to_search_string">搜尋 #關鍵字</string>
+<string name="update_contact_notes">由 %1$s Facebook更新</string>
+<string name="edit_text_hint">搜尋</string>
+<string name="sync_address_book">同步電話簿</string>
+<string name="assign_extend_permission">設定進階的授權</string>
+<string name="sync_address_book_desc">你的 Facebook 聯絡人資料會跟手機電話簿定期地同步.</string>
+
+<string name="is_allways_prompt_dialog">永遠顯示同步的視窗</string>
+<string name="is_allways_prompt_permission_dialog">永遠顯示對話</string>
+<string name="hint_no_permission">你沒有選定 %1$s 許可. 請設定許可授權.</string>
+
+<string name="prompt_user_sync_string"> Facebook 會同步你手機電話簿和 Facebook 的聯絡人資料.\n\n按 %1$s 繼續, 按 %2$s 取消.</string>
+<string name="prompt_user_sync_title">正在同步電話簿</string>
+<string name="allow_prompt_dialog">同步電話簿之前都要提示確定</string>
+<string name="donnot_prompt_dialog">同步電話簿之前不需要提示確定</string>
+<string name="facebook_lookupcontact_failed">查詢聯絡人失敗</string>
+<string name="menu_title_go_to_facebook">連接到 Facebook</string>
+<string name="twitter_find_people">Find people</string>
+<string name="pref_clear_facebook_image_cache_title">清除暫存圖檔</string>
+<string name="pref_clear_facebook_image_cache_summary">清除所有的暫存圖檔</string>
+<string name="pref_clear_facebook_image_cache_dlg">所有的 Facebook 暫存圖檔都會被清除</string>
+<string name="pref_clear_facebook_image_cache_dlg_title">清除暫存圖檔</string>
+<string name="stoping_string">取消中…</string>
+<string name="loading_string">載入中...</string>
+
+<string name="pref_news_feed_teimout_value">The value should be more than 120</string>
+<string name="pref_twitter_count_value">The value should be less than 20</string>
+<string name="pref_twitter_timeout_value">The value should be more than 60</string>
+<string name="load_older_msg">較早的發表...</string>
+<string name="load_more_msg">載入更多...</string>
+<string name="search_friends">好友</string>
+<string name="search_everyone">每個人</string>
+
+<string name="update_location_succeed">成功上傳到 Facebook</string>
+<string name="update_location_fail">成功上傳到 Facebook</string>
+<string name="notes_title">名稱</string>
+<string name="notes_content">新網誌...</string>
+<string name="my_albums">我的相簿</string>
+<string name="albums_format">%1$s\'s 的相簿</string>
+<string name="albums_format_nocache">你好友\'s 的相簿</string>
+<string name="album_number_format">%1$s 相簿</string>
+<string name="photo_number_format">%1$s 相片</string>
+<string name="sns_photo_comments">意見</string>
+<string name="facebook_upcoming_event">即將開始的新活動</string>
+<string name="facebook_past_event">過去的活動</string>
+<string name="facebook_event_this_week">這週</string>
+<string name="facebook_event_this_month">這個月</string>
+<string name="facebook_event_others">其他</string>
+<string name="facebook_event_rsvp_suc">回覆 %1$s 成功</string>
+<string name="facebook_event_rsvp_fail">回覆失敗 %1$s</string>
+
+
+
+<string name="facebook_friend_birthday">生日</string>
+<string name="facebook_guest_attending">參加 </string>
+<string name="facebook_guest_unsure">也許</string>
+<string name="facebook_guest_decline">拒絕</string>
+<string name="facebook_guest_not_reply">未回應</string>
+<string name="hint_album_name">相簿名稱</string>
+<string name="hint_album_location">地點</string>
+<string name="hint_album_desc">說明</string>
+<string name="hint_album_update">更新相簿</string>
+<string name="hint_album_cancel">取消</string>
+<string name="album_hint_privacy">隱私設定: 誰能夠看到這個?</string>
+<string name="album_edit_info">編輯相簿</string>
+<string name="album_edit_desc">編輯下列資訊</string>
+<string name="photo_hint_save">儲存改變</string>
+<string name="photo_hint_caption_comments">編寫說明...</string>
+<string name="photo_hint_comments">留個訊息吧...</string>
+<string name="album_context_menu_edit">編輯相簿</string>
+
+<string name="album_delete_desc">你確定你想要刪除你選擇的相簿嗎%1$s?</string>
+<string name="photo_delete_desc">你確定你想要刪除你選擇的相片嗎%1$s?</string>
+<string name="sns_add_short_cut">增加捷徑</string>
+
+<string name="mail_update_date_fromat">更新到 %1$s</string>
+<string name="hint_no_group">無效的社團, 或社團設定失敗.</string>
+<string name="no_subject">無標題</string>
+
+<string-array name="share_orientation_list">
+        <item>每個人</item>
+        <item>我的網絡還有好友</item>
+        <item>好友的好友</item>
+        <item>只有好友</item>
+</string-array>
+
+<string name="no_result_search_hint">你的搜尋-%1$s-並沒有吻合任何推特文.</string>
+<string name="fail_search_hint">搜尋失敗</string>
+<string name="notification_format">%1$s 新通知%2$s</string>
+<string name="facebook_notification_list_title">更新的間隔時間</string>
+<string name="facebook_notification_summary">更新的間隔時間</string>
+
+<string name="select_link_title">選擇連結</string>
+<string name="loading_notes">載入網誌...</string>
+<string name="loading_event">載入活動...</string>
+
+
+<string name="loading_attending_guest">載入回覆參加的資料...</string>
+<string name="loading_unsure_guest">載入回覆參加的資料...</string>
+<string name="loading_declined_guest">載入回覆參加的資料...</string>
+<string name="loading_not_replied_guest">載入回覆參加的資料...</string>
+<string name="album_go">回到相簿</string>
+<string name="album_list_go">回到相片</string>
+<string name="context_short_cut_delete">刪除捷徑</string>
+<string name="verify_account_hint">登入中...</string>
+<string name="verify_account_suc_hint">成功地開啟過程 ...</string>
+
+ <string name="wallpaper">設定背景圖片中, 請稍候\u2026</string>
+ <string name="wallpaper_title">設定背景圖片</string>
+ <string name="selected_album">此份相簿</string>
+ <string name="mail_receivers">界於 %1$s 和 %2$s</string>
+ <string name="mail_receivers_just_you">界於 %1$s</string>
+ <string name="fail_get_latest_phonebook">無法取得 Facebook 伺服器取得最新的電話簿資料</string>
+ <string name="getting_phonebook_from_server">正自 Facebook 伺服器取得資料, 請稍候...</string>
+ <string name="getting_friendship_from_server">正自 Facebook 伺服器取得資料, 請稍候...</string>
+ <string name="getting_page_from_server">正自 Facebook 伺服器取得資料, 請稍候...</string>
+ 
+ <string name="fail_get_latest_friendship">無法自 Facebook 伺服器取得資料</string>
+ <string name="fail_get_latest_page">無法自 Facebook 伺服器取得資料</string>
+ <string name="go_touch_website">連結到網站</string>
+ <string name="menu_title_stream_filter">過濾清單</string>
+ <string name="menu_title_poke">推</string>
+ <string name="facebook_post_wall">分享內容</string>
+ <string name="facebook_post_wall_waiting">請稍候...</string>
+ <string name="view_guest_list">檢視賓客名單</string>
+ <string name="pref_facebook_help_setting">小幫手</string> 
+ <string name="pref_facebook_help_tips_setting">小幫手訣竅</string> 
+ <string name="pref_facebook_help_tips_summary_setting">如何可以較快地進入 Facebook \? 如何把 Facebook 電話簿跟手機的電話簿同步\'s \? ...</string>
+ 
+ <string name="search_phonebook_hint">搜尋電話簿</string>
+ <string name="phonebook_call">電話:</string>
+ <string name="phonebook_mail">郵件:</string> 
+ <string name="phonebook_message">訊息:</string>
+ <string name="phone_action">電話號碼</string>
+ <string name="facebook_main_menu">選單</string>
+ <string name="retweet_success">成功重新推特</string>
+ <string name="retweet_failed">重新推特失敗</string>
+ 
+<string name="twitter_login_email_hint">Username or email</string>
+<string name="twitter_login_pwd_hint">Password</string>
+<string name="twitter_login_ok">Sign in</string>
+<string name="facebook_event_des_title_str">說明:</string>
+<string name="facebook_event_no_desc">無說明</string>
+<string name="twitter_sign_up_view_txt">建立一個新帳號</string>
+<string name="twitter_signup_url">http://twitter.com</string>
+<string name="twitter_logout_menu_title">Logout</string>
+<string name="twitter_logout_title">Logout of Twitter</string>
+<string name="twitter_compose_tweet_hint">What\'s happening?</string>
+<string name="twitter_default_count">140</string>
+<string name="twitter_option_reply">Reply</string>
+<string name="twitter_option_retweet">Retweet</string>
+<string name="twitter_option_send_dm">Send direct message</string>
+<string name="twitter_option_add_favorite">Add to Favorites</string>
+<string name="twitter_option_un_favorite">Unfavorite</string>
+<string name="twitter_option_title">Tweet Options</string>
+<string name="twitter_to_detail">Tweet Detail</string>
+<string name="group_update_title">更新:</string>
+<string name="group_type_title">型態:</string>
+<string name="group_sub_title">Sub Type:</string>
+<string name="group_des_title">說明:</string>
+<string name="facebook_album_title">相簿</string>
+<string name="sns_setting_numeric_checking">無效的值</string>
+<string name="pref_show_title_bar">顯示標題列</string>
+<string name="pref_show_title_bar_desc">不顯示標題列.</string>
+<string name="menu_title_select_done">選擇</string>
+<string name="menu_title_event_switch">修改顯示方式</string>
+<string name="hint_keyword_subject_body">關鍵字</string>
+<string name="facebook_detail_note_title">網誌</string>
+<string name="menu_note_edit">編輯網誌</string>
+<string name="menu_title_trends">趨勢</string>
+<string name="twitter_send_status">更新狀態</string>
+<string name="facebook_changing_caption">修改說明</string>
+<string name="facebook_save_change">儲存修改</string>
+<string name="getting_info_from_server">正載入資料到 Facebook 伺服器, 請稍後...</string>
+<string name="session_expired">Facebook 過程逾期, 請登入.</string>
+<string name="facebook_dlg_save_note">儲存網誌 </string>
+<string name="facebook_find_people_prompt">請輸入有效的搜尋字串 </string>
+<string name="facebook_set_contact_prompt">請輸入有效的聯絡資料 </string>
+<string name="facebook_dlg_set_contact">設定聯絡資訊</string>
+<string name="facebook_toast_event_rsvp">正在修改活動的回覆狀態, 請稍候</string>
+<string name="facebook_is_processing">正在處理中, 請稍候</string>
+<string name="facebook_dlg_find_people">正在找尋好友</string>
+<string name="facebook_dlg_uploading">上傳中</string>
+<string name="facebook_dlg_post">發佈內容</string>
+<string name="pref_clear_fbinfo_title">清除 Facebook 聯絡內容</string>
+<string name="pref_clear_fbinfo_summary">由電話簿清除 Facebook 聯絡內容</string>
+<string name="pref_clear_fbinfo_dlg">所有自 Facebook 上同步的聯絡資料, 都會在電話簿中被刪除?  </string>
+<string name="pref_clear_fbinfo_dlg_title">清除 Facebook 聯絡內容</string>
+
+<string name="sns_like_stream_sig">讚</string>
+<string name="sns_like_stream_multi">讚</string>
+<string name="sns_add_comment_stream_sig">發表意見</string>
+<string name="sns_add_comment_stream_multi">意見</string>
+<string name="facebook_comment_btn_txt">意見發表</string>
+<string name="facebook_time_tracte_min">約一分鐘之前</string>
+<string name="facebook_time_tracte_hour">約一小時之前</string>
+<string name="facebook_time_tracte_td">在今天 </string>
+<string name="facebook_time_tracte_yd">在昨天 </string>
+<string name="facebook_time_tracte_at">在</string>
+<string name="facebook_event_load_fail">無法載入活動訊息</string>
+<string name="facebook_recent_visit_page_title">近期參觀的用戶</string>
+<string name="facebook_poke_dialog_title">推 %1$s\?</string>
+<string name="facebook_poke_dialog_msg">妳即將要推 %1$s.</string>
+<string name="facebook_event_rsvp_prefix">RSVP:</string>
+<string name="facebook_event_rsvp_respond">回覆</string>
+<string name="facebook_event_rsvp_change">修改</string>
+<string name="facebook_event_host_item">Host creator: %1$s</string>
+<string name="facebook_event_guest_item">賓客</string>
+<string name="facebook_db_max_size">5</string>
+<string name="facebook_find_friend_no_result">未找到資料</string>
+<string name="tweets_notify_setting_title">Tweets notify setting</string>
+<string name="tweets_notify_setting_summary">Tweets notify setting</string>
+<string name="dell_logo"></string>
+</resources>

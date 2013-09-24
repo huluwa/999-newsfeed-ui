@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/facebook_backgroud">
+    <include layout="@layout/facebook_header">
+    </include>
+          
+    <LinearLayout
+        android:id="@+id/facebook_slider_span"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">    
+        <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity = "center"
+                android:background="#F7F7F7">
+                <TextView android:id="@+id/request_hint"
+                    android:singleLine="true"
+                    android:textSize = "18dip"
+                    android:layout_width="wrap_content"
+                    android:textColor="#3B5998"
+                    android:layout_height="wrap_content" /> 
+        </LinearLayout> 
+    </LinearLayout>
+    
+    <ListView android:id="@+id/facebook_request_list"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:layout_weight="1"
+        android:divider="@drawable/divider" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:listSelector="@drawable/list_selector_background"
+        android:cacheColorHint="#00000000"/>
+   
+</LinearLayout>

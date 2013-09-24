@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<categorys xmlns:launcher="http://schemas.android.com/apk/res/com.borqs.omshome25">
+
+<!-- 
+
+l  工具：G3随意行，备份，词典，待办事项，号簿管家，黑名单，计算器，记事本，Office，任务管理，日历，设备管理，设置，时钟，搜索，文件管理，
+
+l  娱乐：视频，手机电视，手机视频，手机阅读，图库，音乐随身听，快讯，相机，录音机
+
+l  通讯：139邮箱，电话，电子邮件，飞信，消息，通话记录，通讯录
+
+l  游戏：游戏大厅，百宝箱
+
+ -->
+    <!-- 
+    public final static int ID_Entertainment = 1;
+    public final static int ID_Information   = 2;//tongxun
+    public final static int ID_Tools         = 3;
+    public final static int ID_SHORT         = 4;
+    public final static int ID_Game          = 5;    
+     -->
+     
+    <!-- Information -->     
+    <!-- 139 -->       
+   <category
+        launcher:packageName="oms.mail"
+        launcher:className="oms.mail.ui.CMWelcomeActivity"
+        launcher:cateid="2"/> 
+           
+    <category
+        launcher:packageName="com.android.phone"
+        launcher:className="com.android.phone.LaunchCallInterface"
+        launcher:cateid="2"/>
+        
+   <!-- Google/OMS Email -->
+   <category
+        launcher:packageName="com.android.email"
+        launcher:className="com.android.email.activity.Welcome"
+        launcher:cateid="2"/>
+               
+   <!-- Gmail -->
+   <category
+        launcher:packageName="com.google.android.gm"
+        launcher:className="com.google.android.gm.ConversationListActivityGmail"
+        launcher:cateid="2"/>
+    
+    <!-- Fetion -->    
+    <category
+        launcher:packageName="oms.messaging"
+        launcher:className="oms.messaging.ui.activities.MainActivity"
+        launcher:cateid="2"/>
+    
+    <!-- Google mms -->    
+    <category
+        launcher:packageName="com.android.mms"
+        launcher:className="com.android.mms.ui.ConversationList"
+        launcher:cateid="2"/>
+        
+    <!-- OMS mms -->
+    <category
+        launcher:packageName="oms.mms"
+        launcher:className="oms.mms.ui.ConversationList"
+        launcher:cateid="2"/>
+            
+    <category
+        launcher:packageName="com.android.phone"
+        launcher:className="com.android.phone.RecentCallsListActivity"
+        launcher:cateid="2"/>
+        
+    <category
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.ContactsActivity"
+        launcher:cateid="2"/>
+        
+   <!-- tools -->
+   <category
+        launcher:packageName="com.aspire.g3wlan.client"
+        launcher:className="com.aspire.g3wlan.client.LoginActivity"
+        launcher:cateid="3"/>
+        
+    <category
+        launcher:packageName="oms.bru"
+        launcher:className="oms.bru.Bru"
+        launcher:cateid="3"/>
+        
+    <category
+        launcher:packageName="cn.motech.Dictionary"
+        launcher:className="cn.motech.Dictionary.Main"
+        launcher:cateid="3"/>
+    
+    <category
+        launcher:packageName="com.android.todo"
+        launcher:className="com.android.todo.TaskList"
+        launcher:cateid="3"/>
+    
+    <category
+        launcher:packageName="oms.android.syncml"
+        launcher:className="oms.android.syncml.activity.SyncMLClient"
+        launcher:cateid="3"/>
+        
+    <!-- Black list -->       
+    <category
+        launcher:packageName="oms.scimitar"
+        launcher:className="oms.scimitar.activity.BlockManagerActivity"
+        launcher:cateid="3"/>
+        
+    <category
+        launcher:packageName="com.android.calculator2"
+        launcher:className="com.android.calculator2.Calculator"
+        launcher:cateid="3"/>
+      
+    <category
+        launcher:packageName="com.android.notepad"
+        launcher:className="com.android.notepad.NotesList"
+        launcher:cateid="3"/>
+        
+    <!-- office -->
+    <category
+        launcher:packageName="com.hyfsoft"
+        launcher:className="com.hyfsoft.MainActivity"
+        launcher:cateid="3"/>
+    
+    <category
+        launcher:packageName="oms.taskmanager"
+        launcher:className="oms.taskmanager.TaskManagerActivity"
+        launcher:cateid="3"/>
+    
+    <category
+        launcher:packageName="com.android.calendar"
+        launcher:className="com.android.calendar.MonthActivity"
+        launcher:cateid="3"/>    
+        
+    <category
+        launcher:packageName="oms.dm"
+        launcher:className="oms.dm.DMMainActivity"
+        launcher:cateid="3"/>
+        
+    <category
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.Settings"
+        launcher:cateid="3"/>
+    
+    <category
+        launcher:packageName="oms.search"
+        launcher:className="oms.search.search.ui.SearchActivity"
+        launcher:cateid="3"/>
+    
+    <category
+        launcher:packageName="oms.filemanager"
+        launcher:className="oms.filemanager.FMMainListActivity"
+        launcher:cateid="3"/>
+        
+    <!-- not define by cmcc, for sharp -->
+    <category
+        launcher:packageName="com.android.stopwatch"
+        launcher:className="com.android.stopwatch.StopWatch"
+        launcher:cateid="3"/>
+    
+    <category
+        launcher:packageName="com.android.counterdown"
+        launcher:className="com.android.counterdown.CounterDownActivity"
+        launcher:cateid="3"/>
+    
+    <category
+        launcher:packageName="com.android.alarmclock"
+        launcher:className="com.android.alarmclock.ClockActivity"
+        launcher:cateid="3"/>
+    
+    <category
+        launcher:packageName="cn.sharp.android.ncr"
+        launcher:className="cn.sharp.android.ncr.NameCardRec"
+        launcher:cateid="3"/>
+    <!-- end not by CMCC -->
+     
+    <!-- Entertainment -->   
+     <category
+        launcher:packageName="oms.video"
+        launcher:className="oms.video.VideoList"
+        launcher:cateid="1"/>
+    
+     <!-- TV -->
+     <category
+        launcher:packageName="oms.mobiletv"
+        launcher:className="oms.mobiletv.app.MobileTVStartUpActivity"
+        launcher:cateid="1"/>  
+        
+     <!-- shiping -->
+     <category
+        launcher:packageName="com.cmcc.mv"
+        launcher:className="com.cmcc.mv.StartActivity"
+        launcher:cateid="1"/>
+         
+     <category
+        launcher:packageName="com.ophone.reader.ui"
+        launcher:className="com.ophone.reader.ui.OfflineMainScreen"
+        launcher:cateid="1"/>    
+    
+     <category
+        launcher:packageName="com.cooliris.media"
+        launcher:className="com.cooliris.media.Gallery"
+        launcher:cateid="1"/>
+     
+     <category
+        launcher:packageName="oms.mobilemusic3"
+        launcher:className="oms.mobilemusic3.ui.activity.MainActivity"
+        launcher:cateid="1"/>
+                   
+     <category
+        launcher:packageName="oms.dcd"
+        launcher:className="oms.dcd.ui.DcdMainActivity"
+        launcher:cateid="1"/>
+        
+     <!-- Google Camera -->
+     <category
+        launcher:packageName="com.android.camera"
+        launcher:className="com.android.camera.Camera"
+        launcher:cateid="1"/>
+        
+     <!-- Google Video camera -->
+     <category
+        launcher:packageName="com.android.camera"
+        launcher:className="com.android.camera.VideoCamera"
+        launcher:cateid="1"/>
+        
+     <!-- camera -->
+     <category
+        launcher:packageName="com.android.inccamera"
+        launcher:className="com.android.inccamera.Camera"
+        launcher:cateid="1"/>
+       
+     <!-- sharp --> 
+     <category
+        launcher:packageName="com.android.inccamera"
+        launcher:className="com.android.inccamera.VideoCamera"
+        launcher:cateid="1"/>
+        
+     <category
+        launcher:packageName="oms.soundrecorder"
+        launcher:className="oms.soundrecorder.SoundRecorder"
+        launcher:cateid="1"/>
+     
+     <category
+        launcher:packageName="com.google.android.youtube"
+        launcher:className="com.google.android.youtube.HomeActivity"
+        launcher:cateid="1"/>
+        
+     <!-- Game -->
+     <category
+        launcher:packageName="cn.emagsoftware.gamehall"
+        launcher:className="cn.emagsoftware.gamehall.GameHallShowcase"
+        launcher:cateid="5"/>
+     
+     <category
+        launcher:packageName="jp.aplix.midp"
+        launcher:className="jp.aplix.midp.MidletLister"
+        launcher:cateid="5"/>
+        
+     <category
+        launcher:packageName="oms.omeletbox"
+        launcher:className="oms.omeletbox.OMEletBoxActivity"
+        launcher:cateid="5"/>
+           
+    <!--  no items now, thanks --> 
+    <category
+        launcher:packageName="com.rovio.angrybirds"
+        launcher:className="com.rovio.ka3d.App"
+        launcher:cateid="4"/>
+        
+    <category
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.ContactsActivity"
+        launcher:cateid="4"/>
+        
+    <category
+        launcher:packageName="com.android.mms"
+        launcher:className="com.android.mms.ui.ConversationList"
+        launcher:cateid="4"/>
+    
+    <category
+        launcher:packageName="oms.mms"
+        launcher:className="oms.mms.ui.ConversationList"
+        launcher:cateid="4"/>
+        
+    <category
+        launcher:packageName="com.android.browser"
+        launcher:className="com.android.browser.BrowserActivity"
+        launcher:cateid="4"/>
+        
+    <category
+        launcher:packageName="com.facebook.katana"
+        launcher:className="com.facebook.katana.LoginActivity"
+        launcher:cateid="4"/>
+        
+      
+    <category
+        launcher:packageName="com.twitter.android"
+        launcher:className="com.twitter.android.LoginActivity"
+        launcher:cateid="4"/>
+        
+    <category
+        launcher:packageName="com.android.vending"
+        launcher:className="com.android.vending.AssetBrowserActivity"
+        launcher:cateid="4"/>
+        
+    <category
+        launcher:packageName="com.google.android.gm"
+        launcher:className="com.google.android.gm.ConversationListActivityGmail"
+        launcher:cateid="4"/>
+        
+    <category
+        launcher:packageName="com.google.android.talk"
+        launcher:className="com.google.android.talk.SigningInActivity"
+        launcher:cateid="4"/>
+    <!--  -->
+        
+</categorys>

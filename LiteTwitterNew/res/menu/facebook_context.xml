@@ -1,0 +1,108 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/facebook_menu_reply" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_reply">
+        </item>
+        
+        <item android:enabled="true" 
+            android:visible="false" android:id="@+id/facebook_menu_forward" android:title="@string/menu_facebook_title_forward">
+        </item>
+        <item android:id="@+id/facebook_menu_wall_post" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_post_to_wall">
+        </item>
+        <item android:id="@+id/facebook_menu_wall_to_wall" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_wall_to_wall">
+        </item>
+        <item android:id="@+id/facebook_menu_add_friend" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_add_as_friend">
+        </item>        
+        <item android:id="@+id/facebook_menu_view_phonebook" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_phonebook">
+        </item>
+        
+         <item android:id="@+id/facebook_menu_cell" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_call">
+        </item>
+        <item android:id="@+id/facebook_menu_copy" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_copy">
+        </item>
+        <item android:id="@+id/facebook_menu_open_browser" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_open_browser">
+        </item>
+        
+         <item android:id="@+id/facebook_menu_phone" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_phone">
+        </item>
+        
+        <item android:id="@+id/facebook_menu_email" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_email">
+        </item>
+        
+        <item android:id="@+id/facebook_event_cancel" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/sns_cancel">
+        </item>
+        
+        <item android:id="@+id/facebook_menu_sync_to_contact" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_sync_to_contact">
+        </item>
+        <item android:id="@+id/facebook_menu_request_phone_number" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_request_phone_number">
+        </item>
+        <item android:id="@+id/facebook_menu_request_add_friends" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_add_as_friend">
+        </item>
+        <item android:id="@+id/facebook_menu_poke_back" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_facebook_title_poke_back">
+        </item>
+         <item android:id="@+id/facebook_menu_delete" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/sns_delete">
+        </item>
+        <item android:id="@+id/facebook_menu_photo_comments" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/sns_photo_comments">
+        </item>
+        
+        <item android:id="@+id/facebook_con_menu_photo_delete" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/sns_delete">
+        </item>
+        <item android:id="@+id/facebook_con_menu_album_delete" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/sns_delete">
+        </item>
+        <item android:id="@+id/facebook_menu_add_as_shout_cut" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/sns_add_short_cut">
+        </item>
+        <item android:id="@+id/facebook_con_menu_new_message" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_title_new_mail">
+        </item>
+        <item android:id="@+id/facebook_con_menu_shortcut_delete" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/sns_delete">
+        </item>
+        <item android:id="@+id/facebook_con_menu_shortcut_delete_all" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/sns_delete_all">
+        </item>
+         <item android:id="@+id/facebook_menu_note_edit" 
+            android:enabled="true" 
+            android:visible="false" android:title="@string/menu_note_edit">
+        </item> 
+</menu>

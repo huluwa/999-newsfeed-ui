@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string-array name="entries_list_preference">
+    <item>Grande</item>
+    <item>Mediano</item>
+    <item>Pequeño</item>
+  </string-array>
+  <string-array name="entries_notification_list_preference">
+    <item>24 horas</item>
+    <item>12 horas</item>
+    <item>6 horas</item>
+    <item>1 hora</item>
+    <item>30 minutos</item>
+    <item>10 minutos</item>
+  </string-array>
+  <string-array name="entries_week">
+    <item>Dom a las</item>
+    <item>Lun a las</item>
+    <item>Mar a las</item>
+    <item>Mié a las</item>
+    <item>Jue a las</item>
+    <item>Vie a las</item>
+    <item>Sáb a las</item>
+  </string-array>  
+  <string-array name="entries_month">
+    <item>Ene.</item>
+    <item>Feb.</item>
+    <item>Mar.</item>
+    <item>Abr.</item>
+    <item>May.</item>
+    <item>Jun.</item>
+    <item>Jul.</item>
+    <item>Ago.</item>
+    <item>Sep.</item>
+    <item>Oct.</item>
+    <item>Nov.</item>
+    <item>Dic.</item>
+  </string-array>
+  <string-array name="entries_list_rsvp_status">
+    <item>Asistiendo</item>
+    <item>Talvez</item>
+    <item>Rechazando</item>
+  </string-array>
+  <string-array name="permission_desc_list">
+    <item>Permitir el acceso a la secuencia de un usuario y todos los puestos en la corriente de un usuario. Necesitas una sesión activa con el usuario para obtener estos datos.</item> 
+    <item>Este permiso es un superconjunto de los permisos extendidos, así que si no han llevado a los usuarios de los permisos, sin embargo, sólo tiene que obligarlos a compartir contenidos.</item>
+    <item>Permitir el envío de correo electrónico a sus usuarios. Cuando el usuario acepta, puede enviar correo electrónico directamente a la dirección del usuario de correo electrónico principal.</item>
+    <item>Permitir para actualizar el estado de un usuario de Facebook.</item>
+    <item>Deje que se carga de las fotos.</item>
+    <item>Permitir crear y modificar eventos para un usuario.</item>
+    <item>Permite proporcionar el mecanismo para que un usuario cargar videos a su perfil.</item>
+    <item>Pedir a los usuarios para el permiso compartir contenido, ya que incluye la posibilidad de permitir que un usuario de compartir enlaces.</item>
+    <item>Deje que se confirme su asistencia a un evento para el usuario.</item>
+    <item>Pedir a los usuarios para el permiso compartir contenido, ya que incluye la posibilidad de permitir que un usuario escribir notas.</item>
+    <item>Permitir el acceso a ban. de entrada, Enviados, actualización</item>
+  </string-array>
+  <string-array name="permission_name_list">
+    <item>Accesar un usuario corriente</item> 
+    <item>Compartir contenido</item>
+    <item>Enviar correo</item>
+    <item>Actualizar estatus</item>
+    <item>Cargar foto</item>
+    <item>Crear y modificar evento</item>
+    <item>Cargar vídeo</item>
+    <item>Compartir enlaces</item>
+    <item>RSVP</item>
+    <item>Crear nota</item>
+    <item>Accesar ban. de entrada, Enviados, actualización</item>
+  </string-array>
+</resources>
+

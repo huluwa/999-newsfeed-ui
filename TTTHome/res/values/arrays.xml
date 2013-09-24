@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (C) 2007 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>    
+  
+     <string-array name="hotseats" translatable="false">
+        <item>intent: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.phone/.LaunchCallInterface;end</item>
+        <item>*BROWSER*</item>
+    </string-array>
+    <array name="hotseat_icons" translatable="false">
+        <item>@drawable/hotseat_phone</item>
+        <item>@drawable/hotseat_browser</item>
+    </array>
+    
+     <string-array name="entries_page_list_preference">
+        <item>Screen 1</item>
+        <item>Screen 2</item>
+        <item>Screen 3</item>
+        <item>Screen 4</item>
+        <item>Screen 5</item>
+        <item>Screen 6</item>  
+    </string-array>
+    
+    
+    <string-array name="entries_value_page_list_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>  
+    </string-array>
+    
+    <string-array name="months">
+        <item>Jan.</item>
+        <item>Feb.</item>
+        <item>Mar.</item>
+        <item>Apr.</item>
+        <item>May.</item>
+        <item>Jun.</item>
+        <item>Jul.</item>
+        <item>Aug.</item>
+        <item>Sept.</item>
+        <item>Oct.</item>
+        <item>Nov.</item>
+        <item>Dec.</item>
+    </string-array>
+    
+    <string-array name="weeks">
+        <item>Sun.</item>
+        <item>Mon.</item>
+        <item>Tues.</item>
+        <item>Wed.</item>
+        <item>Thurs.</item>
+        <item>Fri.</item>
+        <item>Sat.</item> 
+    </string-array>
+    
+    <string-array name="entries_setting_home_dock_style">
+        <item>@string/setting_home_dock_style_1</item>
+        <item>@string/setting_home_dock_style_2</item>
+    </string-array>
+    
+    <string-array name="entries_value_setting_home_dock_style">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+    <string-array name="entries_setting_allapps_view_style">
+        <item>@string/setting_allapps_view_style_2d_land</item>
+        <item>@string/setting_allapps_view_style_2d_port</item>
+        <item>@string/setting_allapps_view_style_3d</item>
+    </string-array>
+    
+    <string-array name="entries_value_setting_allapps_view_style">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="entries_setting_pagemanager_view_style">
+        <item>@string/setting_pagemanager_view_style_2d</item>
+        <item>@string/setting_pagemanager_view_style_3d</item>
+    </string-array>
+    
+    <string-array name="entries_value_setting_pagemanager_view_style">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+</resources>

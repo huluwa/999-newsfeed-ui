@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"               
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:background="@color/facebook_backgroud">
+     
+     <include layout="@layout/facebook_header_fast">
+     </include>
+
+		<!-- for lookup -->
+		<LinearLayout
+	        android:id="@+id/facebook_search_span"
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_gravity="top"
+	        android:layout_height="wrap_content"
+	        android:visibility="gone">
+	                <Button
+	                android:id="@+id/search_do"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:paddingLeft="5dip"
+	                android:gravity="center_vertical"	                   
+	                android:layout_alignParentLeft="true"
+	                android:background="@drawable/cmcc_search_button_2_nor"
+	                android:layout_centerVertical="true"
+	                android:visibility="gone"/>
+	                 
+	               <EditText android:id="@+id/embedded_search_text_editor"
+	                 android:layout_width="fill_parent"
+	                 android:layout_height="wrap_content"
+	                 android:paddingLeft = "50px"
+	                 android:singleLine="true"
+                     android:maxLines="1"
+                     android:hint="@string/search_phonebook_hint"
+	                 android:background = "@drawable/searchbar"
+	                 android:drawableRight="@drawable/search"
+	                 android:drawablePadding="10px"/>
+	    </LinearLayout>
+	    
+	        
+        <RelativeLayout
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1.0">       
+                
+                <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"                
+                android:layout_weight="1.0">
+              		  <ViewFlipper android:layout_width="fill_parent"
+              				 android:layout_height="fill_parent"
+              				 android:id="@+id/facebook_start_ui_flipper">
+              				 <RelativeLayout
+					             android:layout_width="fill_parent"
+					             android:layout_height="wrap_content"
+					             android:layout_weight="1.0">     
+							        <GridView 
+									    android:id="@+id/myGrid"
+										android:scrollbars="none"
+									    android:persistentDrawingCache="animation|scrolling"
+									    android:alwaysDrawnWithCache="true"
+									    android:drawSelectorOnTop="true"   
+									    android:listSelector="@drawable/menuicon_hl"
+									    android:numColumns="auto_fit"
+									    android:columnWidth="100dip"
+									    android:stretchMode="spacingWidth"
+									    android:layout_width="fill_parent"
+									    android:layout_height="fill_parent"
+									    android:layout_weight="1"
+									    android:stackFromBottom="false"
+									    android:visibility="visible"/>  
+								    <LinearLayout
+						                android:layout_width="40px"
+						                android:layout_height="40px"
+						                android:layout_marginLeft= "196px"
+						                android:layout_marginTop= "147px"                
+						                android:layout_weight="1.0"
+						                android:id="@+id/inboxlayout"
+						                android:background="@drawable/notification_small"
+						                android:visibility="gone">
+							                 <TextView
+						                     android:id="@+id/facebook_inbox_unread_size_tv"
+						                     android:layout_width="fill_parent"
+						                     android:layout_height="fill_parent"                       
+						                     android:textSize="16sp"                      
+						                     android:textStyle="bold"
+						                     android:textColor="#FFFFFF"
+						                     android:paddingLeft="10px"
+						                     android:paddingTop="5px"/>
+					                </LinearLayout>
+					                <LinearLayout
+										android:layout_width="40px"
+										android:layout_height="40px"
+										android:layout_marginLeft= "67px"
+										android:layout_marginTop= "287px"                
+										android:layout_weight="1.0"
+										android:id="@+id/eventlayout"
+										android:background="@drawable/notification_small"
+										android:visibility="gone">
+						                <TextView
+							                 android:id="@+id/facebook_request_unread_size_event"
+							                 android:layout_width="fill_parent"
+							                 android:layout_height="fill_parent"                       
+							                 android:textSize="16sp"                      
+							                 android:textStyle="bold"
+							                 android:textColor="#FFFFFF"
+							                 android:paddingLeft="10px"
+							                 android:paddingTop="5px"/>
+					                </LinearLayout>
+					                
+					                <LinearLayout
+                                        android:layout_width="40px"
+                                        android:layout_height="40px"
+                                        android:layout_marginLeft= "315px"
+                                        android:layout_marginTop= "147px"                
+                                        android:layout_weight="1.0"
+                                        android:id="@+id/requestlayout"
+                                        android:background="@drawable/notification_small"
+                                        android:visibility="gone">
+                                        <TextView
+                                             android:id="@+id/facebook_request_unread_size_tv"
+                                             android:layout_width="fill_parent"
+                                             android:layout_height="fill_parent"                       
+                                             android:textSize="16sp"                      
+                                             android:textStyle="bold"
+                                             android:textColor="#FFFFFF"
+                                             android:paddingLeft="10px"
+                                             android:paddingTop="5px"/>
+                                    </LinearLayout>
+						    </RelativeLayout>
+						    <RelativeLayout
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:layout_weight="1.0">     
+							    <GridView 
+				                    android:id="@+id/myGrid_shotcut1"
+				                    android:scrollbars="vertical"                    
+				                    android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+				                    android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"                    
+				                    android:persistentDrawingCache="animation|scrolling"
+				                    android:alwaysDrawnWithCache="true"
+				                    android:drawSelectorOnTop="true"   
+				                    android:listSelector="@drawable/menuicon_hl"
+				                    android:numColumns="auto_fit"
+				                    android:columnWidth="100dip"
+				                    android:stretchMode="spacingWidth"
+				                    android:layout_width="fill_parent"
+				                    android:layout_height="fill_parent"
+				                    android:layout_weight="1"
+				                    android:stackFromBottom="false"
+				                    android:visibility="visible"/>  
+		                    </RelativeLayout>
+                    		<!-- RelativeLayout
+					             android:layout_width="fill_parent"
+					             android:layout_height="wrap_content"
+					             android:layout_weight="1.0"     
+					             android:visibility="gone">
+				                    <GridView  
+					                    android:id="@+id/myGrid_shotcut2"
+					                    android:scrollbars="none"
+					                    android:persistentDrawingCache="animation|scrolling"
+					                    android:alwaysDrawnWithCache="true"
+					                    android:drawSelectorOnTop="true"   
+					                    android:listSelector="@drawable/menuicon_hl"
+					                    android:numColumns="auto_fit"
+					                    android:columnWidth="120px"
+					                    android:stretchMode="spacingWidth"
+					                    android:layout_width="fill_parent"
+					                    android:layout_height="fill_parent"
+					                    android:layout_weight="1"
+					                    android:stackFromBottom="false"
+					                    android:visibility="gone"/>
+		                    </RelativeLayout-->
+                    </ViewFlipper>
+                </LinearLayout>
+	   </RelativeLayout>	   
+	   
+       <LinearLayout
+          android:id="@+id/facebook_bottom_span"               
+          android:layout_width="fill_parent"          
+          android:layout_height="40dip"
+          android:gravity="center_horizontal|center_vertical"
+          android:orientation="vertical"          
+          android:background="@color/facebook_light_grey">    
+                    <Button android:id="@+id/facebook_current_pos"
+                     android:focusable="false"
+                     android:layout_width="100px"
+                     android:layout_height="20px"                     
+                     android:layout_gravity="center_horizontal|center_vertical"
+                     android:background="@drawable/profile_on">
+                     </Button>                   
+      </LinearLayout>
+ 
+      <LinearLayout
+       android:id="@+id/facebook_bottom_span"
+       android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="55px"        
+       android:layout_gravity="bottom"                                                     
+       android:layout_alignParentBottom="true"
+       android:visibility="gone">                              
+           <RelativeLayout
+               android:layout_width="0px"
+               android:layout_height="fill_parent"                       
+               android:layout_weight="1.0"
+               android:layout_gravity="center_horizontal"
+               android:addStatesFromChildren="true">
+                     <Button
+                     android:id="@+id/facebook_bottom_region"
+                     android:layout_width="fill_parent"          
+                     android:drawablePadding="5px"
+                     android:layout_height="fill_parent"
+                     android:layout_gravity="center_horizontal"
+                     android:background="@drawable/blue_button_background"/>
+                     
+                     <TextView
+                      android:id="@+id/facebook_bottom_region_notification_size"
+                      android:layout_width="40px"
+                      android:layout_height="40px"                       
+                      android:textSize="16sp"                      
+                      android:textStyle="bold"
+                      android:textColor="#FFFFFF"
+                      android:layout_gravity="center_vertical"
+                      android:layout_alignParentLeft="true" />
+                       
+           </RelativeLayout>           
+   </LinearLayout>   
+ </LinearLayout>  
+    

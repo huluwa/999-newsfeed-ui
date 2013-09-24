@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/facebook_header_id"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"     
+     android:layout_height="46dp"
+     android:layout_alignParentTop="true"
+     android:background="#3B5998">     
+      <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="fill_parent"     
+     android:layout_height="wrap_content"
+     android:id="@+id/header_no_title_layout">    
+     
+     <RelativeLayout
+     android:orientation="vertical"
+     android:layout_width="fill_parent"     
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true">    
+     
+         <TextView android:id="@+id/header_title"
+         android:layout_width="wrap_content"
+         android:layout_height="46dp"         
+         android:layout_alignParentTop="true"
+         android:layout_alignParentLeft="true"
+         android:gravity="bottom"       
+         android:paddingLeft="8dp"
+         android:textAppearance="?android:attr/textAppearanceMediumInverse"
+         android:textSize="14.0dip"/>
+         
+         <!-- 
+         android:text="@string/dell_logo" -->
+          
+    </RelativeLayout>
+    
+     <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="fill_parent"     
+     android:layout_height="2dp"
+     android:layout_alignParentBottom="true"
+     android:background="@drawable/divider_dark"/>   
+    </LinearLayout>
+ </LinearLayout>

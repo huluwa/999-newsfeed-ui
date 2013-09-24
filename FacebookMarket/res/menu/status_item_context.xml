@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+       <item android:id="@+id/context_link_browser"
+            android:title="@string/context_open_link_in_browser"
+            android:visible="false"/>
+       <item android:id="@+id/context_reply"
+            android:title="@string/context_status_reply"/>
+                        
+       <item android:id="@+id/context_forward"
+            android:title="@string/context_status_forward"/>
+            
+       <item android:id="@+id/context_retweet"
+            android:title="@string/context_status_retweet"
+            android:visible="false"/>
+               
+       <item android:id="@+id/context_favorite"
+            android:title="@string/context_status_favorite"/>   
+            
+       <item android:id="@+id/context_unfavorite"
+            android:title="@string/context_status_unfavorite"
+            android:visible="false"/>
+       <item android:id="@+id/context_copy"
+            android:title="@string/context_status_copy"
+            android:visible="false"/>
+       <item android:id="@+id/context_direct"
+            android:title="@string/context_status_direct"/>
+             
+       <item android:id="@+id/context_delete"
+            android:title="@string/context_status_delete"
+            android:visible="false"/>
+            
+      <item android:id="@+id/context_stop_following"
+            android:title="@string/context_folloer_stop_following"
+            android:visible="false"/>
+      
+      <item android:id="@+id/context_following"
+            android:title="@string/context_follow_following"
+            android:visible="false"/>
+            
+      <item android:id="@+id/context_to_user_account"
+            android:title="@string/context_to_user_account_string"
+            android:visible="false"/>
+            
+      <item android:id="@+id/context_to_search"
+            android:title="@string/context_to_search_string"
+            android:visible="false"/>
+                    
+</menu>

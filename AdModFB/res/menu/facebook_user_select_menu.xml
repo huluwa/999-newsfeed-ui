@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:title="@string/menu_title_select_done" 
+            android:id="@+id/facebook_menu_select_done" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        
+        <item android:title="@string/menu_title_select_all" 
+            android:id="@+id/facebook_menu_selectall" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>     
+        <item android:title="@string/menu_title_unselect_all" 
+            android:id="@+id/facebook_menu_unselectall" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+</menu>

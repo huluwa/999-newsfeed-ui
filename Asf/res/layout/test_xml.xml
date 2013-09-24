@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"              
+    android:orientation="vertical"
+    android:id="@+id/facebook_more_info_span"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="3dip">
+                     <RelativeLayout android:id="@+id/right_button_span"
+                     android:focusable="false"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"                            
+                     android:layout_marginRight="5.0dip"
+                     android:paddingBottom = "60px"
+                     android:layout_centerInParent="true">
+                                    
+                    <Button android:id="@+id/zoom_small"
+                     android:focusable="false"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"                
+                     android:layout_marginRight="5.0dip"                 
+                     android:background="@drawable/btn_minus"
+                     android:layout_weight="0.5"
+                     android:layout_alignParentLeft="true"
+                     android:layout_alignParentBottom="true">
+                     </Button>
+                     <Button android:id="@+id/zoom_big"
+                     android:focusable="false"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"                
+                     android:layout_marginRight="5.0dip"                 
+                     android:background="@drawable/btn_plus"
+                     android:layout_weight="0.5"
+                     android:layout_toRightOf="@+id/zoom_small"
+                     android:layout_centerInParent="true"
+                     android:layout_alignParentBottom="true">
+                     </Button>
+                </RelativeLayout>     
+                
+         
+</LinearLayout>

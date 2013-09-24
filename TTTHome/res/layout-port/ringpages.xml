@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.tormas.home.RotateTexturesView
+        android:id="@+id/glrenderview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+    	android:id="@+id/buttons_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+		<TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="@dimen/button_bar_height"
+        	android:layout_alignParentTop="true"
+        	android:layout_centerHorizontal="true"
+        	android:textSize="18sp"
+        	android:textColor="#000000"
+        	android:gravity="center"/>
+
+
+		<TextView
+        	android:id="@+id/cur_page"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentTop="true"
+        	android:layout_centerHorizontal="true"
+        	android:textSize="18sp"
+        	android:textColor="#000000"
+        	android:gravity="center"
+        	android:background="@drawable/number_back"/>
+
+
+    	<ImageView
+        	android:id="@+id/add_page"
+        	android:layout_width="@dimen/button_bar_width"
+        	android:layout_height="@dimen/button_bar_height"
+        	android:layout_alignParentBottom="true"
+        	android:layout_alignParentLeft="true"        	
+        	android:src="@drawable/cmcc_switch_add"  
+        	android:background="@drawable/bottom_button_left_background_edit_pages"
+        	android:focusable="true"
+        	android:clickable="true"
+			android:onClick="addPage"  />
+
+        <ImageView
+        	android:id="@+id/remove_page"
+        	android:layout_width="@dimen/button_bar_width"
+        	android:layout_height="@dimen/button_bar_height"
+        	android:layout_alignParentBottom="true"
+        	android:layout_alignParentRight="true"  
+        	android:src="@drawable/cmcc_switch_delete"  
+        	android:background="@drawable/bottom_button_right_background"
+        	android:focusable="true"
+        	android:clickable="true" 
+			android:onClick="removePage"/>
+
+		<com.tormas.home.DefautPageTextView
+        	android:id="@+id/setDefaultPage"
+        	android:layout_width="@dimen/button_bar_width"
+        	android:layout_height="@dimen/button_bar_height"
+        	android:layout_alignParentBottom="true"
+        	android:layout_centerHorizontal="true"        	
+        	android:gravity="center"
+        	android:textSize="@dimen/defaultpage_textSize"
+        	android:background="@drawable/cmcc_home_bottom_call_background"
+		    android:onClick="CurPage"/>
+		    <!-- android:textSize="@dimen/default_page_text_size" -->
+    </RelativeLayout>
+</merge>

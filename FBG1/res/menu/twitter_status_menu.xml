@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_status_refresh"
+        android:title="@string/menu_title_refresh" 
+        android:icon="@drawable/ic_menu_refresh" 
+        android:visible="false" />
+    
+    <item android:id="@+id/menu_twitter_loading_stop"
+        android:title="@string/menu_title_stop"
+        android:visible="false" 
+        android:icon="@drawable/ic_menu_stop" />
+    <item android:id="@+id/menu_status_settings"
+        android:title="@string/menu_title_settings"
+        android:visible="false"
+        android:icon="@drawable/ic_menu_preferences" />
+    
+        
+    <item android:id="@+id/twitter_menu_selectall"
+           android:title="@string/context_select_all"
+           android:visible="false"/>
+                        
+    <item android:id="@+id/twitter_menu_unselectall"
+           android:title="@string/context_unselect_all"
+           android:visible="false"/>
+   
+    <item android:id="@+id/menu_following_followers"
+           android:title="@string/context_following_followers"
+           android:visible="false"/>
+    
+    <item android:id="@+id/menu_follower_following"
+           android:title="@string/context_follower_following"
+           android:visible="false"/>       
+    
+    <item android:id="@+id/menu_find_people"
+           android:title="@string/twitter_find_people"
+           android:visible="false"/>        
+           
+    <item android:id="@+id/menu_following_search"
+           android:title="@string/context_following_search"
+           android:visible="false"
+           android:icon="@drawable/ic_search_category_suggest"/>
+           
+    <item android:id="@+id/menu_twitter_messgae"
+           android:title="@string/context_compose_message"
+           android:visible="false"/>
+           
+    <item android:id="@+id/menu_next_page"
+           android:title="@string/context_next_page"
+           android:visible="false"
+           android:icon="@drawable/ic_menu_forward"/>
+               
+    <item android:id="@+id/menu_pre_page"
+           android:title="@string/context_pre_page"
+           android:visible="false"
+           android:icon="@drawable/ic_menu_back" />   
+           
+    <item android:id="@+id/menu_message_new"
+           android:title="@string/context_message_new"
+           android:visible="false"/>  
+           
+    <item android:id="@+id/menu_message_delete"
+           android:title="@string/context_message_delete"
+           android:visible="false"
+           />
+                
+    <item android:id="@+id/twitter_menu_insert_img"
+           android:title="@string/context_menu_insert_img"
+           android:visible="false"/>
+    <item android:id="@+id/twitter_menu_capture_photo"
+           android:title="@string/context_menu_capture_photo"
+           android:visible="false"
+           android:icon="@drawable/ic_camera_indicator_photo"/>      
+           
+                               
+</menu>
+ 

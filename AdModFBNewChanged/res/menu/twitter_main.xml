@@ -1,0 +1,90 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:title="@string/menu_title_stop" 
+            android:id="@+id/menu_trend_main_stop" 
+            android:enabled="true" 
+            android:icon="@drawable/ic_menu_stop" 
+            android:visible="false">
+        </item>
+        <item android:title="@string/menu_title_refresh" 
+            android:id="@+id/menu_trend_main_refresh" 
+            android:enabled="true" 
+            android:icon="@drawable/ic_menu_refresh"
+            android:visible="false">
+        </item>
+        <item android:title="@string/twitter_logout_menu_title" 
+            android:id="@+id/twitter_log_out" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_tweets" 
+            android:id="@+id/menu_tweets" 
+            android:enabled="true" 
+            android:icon="@drawable/twitter_tweets"
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_trends" 
+            android:id="@+id/menu_trends" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        <item android:title="@string/menu_twitter_title_messages" 
+            android:id="@+id/menu_compose_message" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        
+        <item android:title="@string/menu_twitter_title_my_account" 
+            android:id="@+id/menu_twitter_myaccount" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>
+        <item android:title="@string/menu_title_settings" 
+            android:id="@+id/menu_twitter_settings" 
+            android:enabled="true" 
+            android:visible="true"
+            android:icon="@drawable/ic_menu_preferences" >
+        </item>
+        
+        <item android:title="@string/menu_twitter_title_favorites" 
+            android:id="@+id/menu_favorites" 
+            android:enabled="true" 
+            android:icon="@drawable/ic_star"
+            android:visible="true" >
+        </item>
+        
+        <item android:title="@string/menu_twitter_title_search" 
+            android:id="@+id/menu_follow_search" 
+            android:enabled="true" 
+            android:icon="@drawable/ic_search_category_suggest"
+            android:visible="false" >
+        </item>   
+        <item android:title="@string/menu_twitter_title_following" 
+            android:id="@+id/menu_following" 
+            android:enabled="true"
+            android:visible="true" >
+        </item>     
+        <item android:title="@string/menu_twitter_title_follower" 
+            android:id="@+id/menu_follower" 
+            android:enabled="true" 
+            android:visible="true" >
+        </item>    
+        <item android:title="@string/menu_twitter_title_search" 
+            android:id="@+id/menu_search" 
+            android:enabled="true" 
+            android:icon="@drawable/ic_search_category_suggest"
+            android:visible="true" >
+        </item> 
+        <item android:title="@string/menu_twitter_title_upload_photo" 
+            android:id="@+id/menu_twitter_upload_photo" 
+            android:enabled="true" 
+            android:icon="@drawable/ic_menu_move_up"
+            android:visible="true" >
+        </item> 
+        <item android:title="@string/menu_title_about" 
+            android:id="@+id/menu_twitter_about" 
+            android:enabled="true" 
+            android:visible="true" 
+            android:icon="@drawable/twitter_title">
+        </item> 
+        
+</menu>

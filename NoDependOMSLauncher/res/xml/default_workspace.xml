@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.android.omshome">
+  <!-- screen 0 -->        
+  <appwidget
+        launcher:packageName="oms.appwidget"
+        launcher:className="oms.appwidget.mms_borqs.FavMmsProvider"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="4"/> 
+ 
+  <!-- screen 1 -->        
+  <appwidget
+        launcher:packageName="oms.dcd"
+        launcher:className="oms.dcd.appwidget.DCDWidget"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="1" />
+
+  <appwidget
+        launcher:packageName="oms.search"
+        launcher:className="oms.search.search.ui.SearchWidgetProvider"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:spanX="4"
+        launcher:spanY="1" />
+        
+    <favorite
+        launcher:packageName="oms.mmarket"
+        launcher:className="oms.mmarket.ui.ListIndex"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="2" />
+
+    <favorite
+        launcher:packageName="oms.messaging"
+        launcher:className="oms.messaging.ui.activities.MainActivity"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="2" />
+
+    <favorite
+        launcher:packageName="oms.mobilemusic3"
+        launcher:className="oms.mobilemusic3.ui.activity.MainActivity"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="2" />
+
+
+    <favorite
+        launcher:packageName="com.ophone.reader.ui"
+        launcher:className="com.ophone.reader.ui.OfflineMainScreen"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="2" />
+
+    <!-- favorite
+        launcher:packageName="oms.mmarket"
+        launcher:className="oms.mmarket.ui.ListIndex"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="2" /-->
+
+    <favorite
+        launcher:packageName="oms.mms"
+        launcher:className="oms.mms.ui.ConversationList"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="3" />
+
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.ContactsActivity"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="3" />
+
+    <!-- favorite
+        launcher:packageName="com.android.phone"
+        launcher:className="com.android.phone.LaunchRecentCallsActivity"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="3" /-->
+   
+    <favorite
+        launcher:packageName="oms.browser"
+        launcher:className="oms.browser.BrowserActivity"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="3" />
+
+    <favorite
+        launcher:packageName="com.android.camera"
+        launcher:className="com.android.camera.Camera"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="3" />
+     
+   <!-- screen 2 -->     
+   <appwidget
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.widget.SettingsAppWidgetProvider"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="1"/>
+   
+   <appwidget
+        launcher:packageName="com.android.protips"
+        launcher:className="com.android.protips.ProtipWidget"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="2"
+        launcher:spanX="4"
+        launcher:spanY="1" />
+        
+</favorites>

@@ -1,0 +1,1 @@
+java -jar out/host/linux-x86/framework/signapk.jar build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8 out/target/product/generic/system/app/NewsFeedG2.apk  NewsFeedSign_G2.apk

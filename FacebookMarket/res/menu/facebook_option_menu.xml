@@ -1,0 +1,389 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:id="@+id/facebook_groupd_nemu"
+            android:enabled="true" 
+            android:visible="true">
+            
+        <item android:title="@string/menu_title_refresh" 
+            android:id="@+id/facebook_menu_refresh" 
+            android:enabled="true"
+            android:visible="false">
+        </item> 
+        
+        <item android:title="@string/menu_title_my_status_update" 
+            android:id="@+id/facebook_menu_status_update" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>      
+          
+        <item android:title="@string/facebook_mail_detail_reply" 
+            android:id="@+id/facebook_menu_mail_reply" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item> 
+        
+        <item android:title="@string/menu_title_mailbox_inbox" 
+            android:id="@+id/facebook_menu_inbox" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>  
+             
+        <item android:title="@string/menu_title_mailbox_sent" 
+            android:id="@+id/facebook_menu_sent" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_mailbox_update" 
+            android:id="@+id/facebook_menu_update" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_note_create" 
+            android:id="@+id/facebook_menu_new_note" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>        
+        <item android:title="@string/menu_title_my_friends" 
+            android:id="@+id/facebook_menu_friends" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_my_account" 
+            android:id="@+id/facebook_menu_account" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/menu_title_new_mail" 
+            android:id="@+id/facebook_menu_new_mail" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>        
+               
+        <item android:title="@string/menu_title_location_update" 
+            android:id="@+id/facebook_menu_location_update" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/menu_title_send_notification" 
+            android:id="@+id/facebook_menu_send_notification" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+         <item android:title="@string/menu_title_friend_group" 
+            android:id="@+id/facebook_menu_friend_group" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_notifications" 
+            android:id="@+id/facebook_menu_notifications" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/menu_title_sync_addressbook" 
+            android:id="@+id/facebook_menu_sync_addressbook" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/menu_title_phonebook" 
+            android:id="@+id/facebook_menu_phonebook" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_status_update" 
+            android:id="@+id/facebook_menu_friend_status_update" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>        
+        <item android:title="@string/menu_title_news_feed" 
+            android:id="@+id/facebook_menu_news_feed" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>   
+        <item android:title="@string/menu_title_event" 
+            android:id="@+id/facebook_menu_event_sync" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_find_friends" 
+            android:id="@+id/facebook_menu_find_friends" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_lookup_contact" 
+            android:id="@+id/facebook_menu_lookup_contact" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/menu_title_set_contact" 
+            android:id="@+id/facebook_menu_set_contact" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/menu_title_stream_publish" 
+            android:id="@+id/facebook_menu_stream_publish" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+         <item android:title="@string/menu_title_stream_filter" 
+            android:id="@+id/facebook_menu_stream_filter" 
+            android:enabled="true" 
+            android:visible="false" >
+         </item>
+        
+        <item android:title="@string/menu_title_request_location" 
+            android:id="@+id/facebook_menu_request_location" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>      
+          
+        <item android:title="@string/go_touch_website" 
+            android:id="@+id/facebook_menu_go_mobile_facebook" 
+            android:enabled="true" 
+            android:visible="false">
+        </item>
+        <item android:title="@string/menu_title_logout" 
+            android:id="@+id/facebook_menu_logout" 
+            android:enabled="true" 
+            android:visible="false" 
+            >
+        </item>
+        
+         <item android:title="@string/menu_title_sync_to_contact" 
+            android:id="@+id/facebook_menu_contact_sync" 
+            android:enabled="true"
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_sync_to_contact" 
+            android:id="@+id/facebook_menu_add_phonebook_to_contact" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_lookup_contact" 
+            android:id="@+id/facebook_menu_lookupall_contact" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_ext_perm" 
+            android:id="@+id/facebook_menu_ext_permission" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_next_page" 
+            android:id="@+id/facebook_menu_next_page" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/menu_title_pre_page" 
+            android:id="@+id/facebook_menu_pre_page"
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/menu_title_page_info" 
+            android:id="@+id/facebook_menu_page_nav" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>        
+        
+       <item android:title="@string/menu_title_save_drafts" 
+            android:id="@+id/facebook_menu_save_to_draft" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+       <item android:title="@string/context_menu_insert_img" 
+            android:id="@+id/facebook_menu_insert_img" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/context_menu_capture_photo" 
+            android:id="@+id/facebook_menu_capture_photo" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/context_menu_select_video" 
+            android:id="@+id/facebook_menu_insert_video" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/context_menu_select_link" 
+            android:id="@+id/facebook_menu_insert_link" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_location_update" 
+            android:id="@+id/facebook_menu_location_update" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_event_switch" 
+            android:id="@+id/facebook_menu_event_switch" 
+            android:enabled="true"
+            android:visible="false">
+        </item> 
+        <item android:title="@string/menu_title_friend_birthday" 
+            android:id="@+id/facebook_menu_friend_birthday" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_add_facebook_event" 
+            android:id="@+id/facebook_menu_add_event" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_sync_event" 
+            android:id="@+id/facebook_menu_sync_event" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_stop" 
+            android:id="@+id/facebook_menu_stop" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_clear_cache" 
+            android:id="@+id/facebook_menu_clear_cache" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/menu_facebook_title_add_as_friend" 
+            android:id="@+id/facebook_menu_add_as_friend" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/facebook_WALL_POST_title" 
+            android:id="@+id/facebook_menu_post_to_wall" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/facebook_menu_wall_title" 
+            android:id="@+id/facebook_menu_wall" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/facebook_menu_photo_title" 
+            android:id="@+id/facebook_menu_photo" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/facebook_add_photo_title" 
+            android:id="@+id/facebook_menu_add_photo" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/album_edit_info" 
+            android:id="@+id/facebook_menu_edit_album" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_task_view" 
+            android:id="@+id/sns_task_management_menu" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_title_sync_to_contact" 
+            android:id="@+id/facebook_menu_sync_phonebook_to_addressbook" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/sns_delete" 
+            android:id="@+id/facebook_menu_photo_delete" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/sns_delete" 
+            android:id="@+id/facebook_menu_album_delete" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/album_edit_info" 
+            android:id="@+id/facebook_menu_album_edit" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/album_go" 
+            android:id="@+id/facebook_menu_goto_album" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/album_list_go" 
+            android:id="@+id/facebook_menu_goto_albumlist" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+        <item android:title="@string/menu_title_poke" 
+            android:id="@+id/facebook_menu_poke" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>  
+        <item android:title="@string/menu_note_edit" 
+            android:id="@+id/facebook_menu_note_edit" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        <item android:title="@string/menu_share_app" 
+            android:id="@+id/facebook_menu_share_app" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        
+      <!--  
+        <item android:title="Test" 
+            android:id="@+id/facebook_menu_test" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+        -->
+        
+    </group>
+    
+    <group android:id="@+id/facebook_groupd_login_nemu"
+            android:enabled="true" 
+            android:visible="false">
+            <item android:title="@string/menu_title_login" 
+            android:id="@+id/facebook_menu_login" 
+            android:enabled="true" 
+            android:visible="false" >
+        </item>
+    </group>
+
+    <group
+            android:enabled="true" 
+            android:visible="true">
+        <item android:title="@string/menu_title_settings" 
+            android:id="@+id/facebook_menu_settings" 
+            android:enabled="true" 
+            android:visible="false">
+        </item>
+    </group>
+    
+    <group android:id="@+id/facebook_group_about_nemu"
+           android:enabled="true" 
+           android:visible="true">
+           <item android:title="@string/menu_title_about" 
+            android:id="@+id/facebook_menu_about" 
+            android:enabled="true" 
+            android:visible="false" >
+            </item>
+    </group>  
+    
+        
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/facebook_backgroud">
+
+    <include layout="@layout/facebook_header">
+    </include>
+        
+   <LinearLayout
+        android:id="@+id/facebook_compose_span"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">    
+              <RelativeLayout 
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:addStatesFromChildren="true">                   
+                   <EditText
+                   android:id="@+id/facebook_status_message_editor"
+                   android:layout_width="fill_parent"       
+                   android:layout_height="wrap_content"     
+                   android:autoText="true"                 
+                   android:capitalize="sentences"
+                   android:maxLines="10"         
+                   android:textColor="#000000"             
+                   android:scrollHorizontally="true"/>
+                   
+                   <TextView
+                    android:id="@+id/facebook_status_text_counter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcounter"   
+                    android:textSize="9sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                     />
+              </RelativeLayout>
+   </LinearLayout>
+</LinearLayout>

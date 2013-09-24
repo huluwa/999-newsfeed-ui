@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name" msgid="8424725141379931883">"OPhone2.5 主屏"</string>
+    <string name="uid_name" msgid="3371120195364560632">"Android 核心应用程序"</string>
+    <string name="folder_name" msgid="4588446541914685904">"文件夹"</string>
+    <string name="chooser_wallpaper" msgid="5988031014201479733">"选择壁纸来源"</string>
+    <string name="wallpaper_instructions" msgid="4215640646180727542">"设置壁纸"</string>
+    <string name="pick_wallpaper" msgid="5630222540525626723">"壁纸库"</string>
+    <string name="activity_not_found" msgid="3571057450431950427">"您的手机上未安装应用程序。"</string>
+    <string name="configure_wallpaper" msgid="2820186271419674623">"配置"</string>
+    <string name="rename_folder_label" msgid="5646236631298452787">"文件夹名称"</string>
+    <string name="rename_folder_title" msgid="4544573104191526550">"重命名文件夹"</string>
+    <string name="rename_action" msgid="6016003384693240896">"确定"</string>
+    <string name="cancel_action" msgid="3811860427489435048">"取消"</string>
+    <string name="menu_item_add_item" msgid="6233177331075781114">"添加到主屏幕"</string>
+    <string name="group_applications" msgid="4118484163419674240">"应用程序"</string>
+    <string name="group_shortcuts" msgid="9133529424900391877">"快捷方式"</string>
+    <string name="group_search" msgid="5905328940867162196">"搜索"</string>
+    <string name="group_folder" msgid="5143593791798929193">"新建文件夹"</string>
+    <string name="group_live_folders" msgid="2664945399140647217">"文件夹"</string>
+    <string name="group_widgets" msgid="6704978494073105844">"小工具"</string>
+    <string name="group_wallpapers" msgid="1568191644272224858">"壁纸"</string>
+    <string name="add_folder" msgid="3521088587367839879">"文件夹"</string>
+    <string name="add_clock" msgid="2337943840175865746">"时钟"</string>
+    <string name="add_photo_frame" msgid="3154058437359487954">"相框"</string>
+    <string name="add_search" msgid="7104834713685095105">"搜索"</string>
+    <string name="out_of_space" msgid="8365249326091984698">"此屏幕空间已不足，无法添加。"</string>
+    <string name="shortcut_installed" msgid="7071557296331322355">"已创建“<xliff:g id="NAME">%s</xliff:g>”快捷方式。"</string>
+    <string name="shortcut_uninstalled" msgid="2129499669449749995">"已删除“<xliff:g id="NAME">%s</xliff:g>”快捷方式。"</string>
+    <string name="shortcut_duplicate" msgid="4757756326465060694">"“<xliff:g id="NAME">%s</xliff:g>”快捷方式已存在。"</string>
+    <string name="title_select_shortcut" msgid="2858897527672831763">"选择快捷方式"</string>
+    <string name="title_select_live_folder" msgid="3753447798805166749">"选择文件夹"</string>
+    <string name="all_apps_button_label" msgid="3953036962111614813">"所有应用程序"</string>
+    <string name="all_apps_home_button_label" msgid="1022222300329398558">"主屏幕"</string>
+    
+    <string name="menu_add" msgid="3065046628354640854">"添加"</string>
+    <string name="menu_wallpaper" msgid="5837429080911269832">"壁纸"</string>
+    <string name="menu_search" msgid="4826514464423239041">"搜索"</string>
+    <string name="menu_notifications" msgid="6424587053194766192">"通知"</string>
+    <string name="menu_gestures" msgid="514678675575912237">"手势"</string>
+    <string name="menu_settings" msgid="6233960148378443661">"设置"</string>
+    <string name="menu_home">切换主屏</string>
+    <string name="menu_choose_home">切换主屏</string>
+    <string name="menu_home_settings">首选项</string>
+    
+    <string name="setting_allapps_view_style">应用程序索引视图</string>
+    <string name="setting_allapps_view_style_summary">设置应用程序索引视图的风格</string>
+    <string name="setting_allapps_view_style_2d_land">2D水平</string>
+    <string name="setting_allapps_view_style_2d_port">2D竖直</string>
+    <string name="setting_allapps_view_style_3d">3D视图</string>
+    
+    <string name="setting_pagemanager_view_style">页面管理视图</string>
+    <string name="setting_pagemanager_view_style_summary">设置页面管理视图的风格</string>
+    <string name="setting_pagemanager_view_style_2d">2D视图</string>
+    <string name="setting_pagemanager_view_style_3d">3D视图</string>
+    
+    <string name="setting_home_screen">页面设置</string>
+    <string name="setting_home_dock_style">快捷按钮布局</string>
+    <string name="setting_home_dock_style_summary">设置底部按钮布局的风格</string>
+    <string name="setting_home_dock_style_1">OMS风格</string>
+    <string name="setting_home_dock_style_2">Google风格</string>
+    
+    <string name="permlab_install_shortcut" msgid="1201690825493376489">"安装快捷方式"</string>
+    <string name="permdesc_install_shortcut" msgid="7429365847558984148">"允许应用程序在没有用户介入的情况下添加快捷方式。"</string>
+    <string name="permlab_uninstall_shortcut" msgid="7696645932555926449">"卸载快捷方式"</string>
+    <string name="permdesc_uninstall_shortcut" msgid="959972195916090900">"允许应用程序在没有用户介入的情况下删除快捷方式。"</string>
+    <string name="permlab_read_settings" msgid="3452408290738106747">"读取主屏幕的设置和快捷方式"</string>
+    <string name="permdesc_read_settings" msgid="8377434937176025492">"允许应用程序读取主屏幕的设置和快捷方式。"</string>
+    <string name="permlab_write_settings" msgid="1360567537236705628">"写入主屏幕的设置和快捷方式"</string>
+    <string name="permdesc_write_settings" msgid="1098648778383349818">"允许应用程序更改主屏幕的设置和快捷方式。"</string>
+    <string name="search_hint" msgid="6974176141372467453">"Google 搜索"</string>
+    <string name="gadget_error_text" msgid="8359351016167075858">"正在载入窗口小部件..."</string>
+    
+
+   <!-- web widget strings -->
+    <string name="webwidget_username">"名称"</string>
+    <string name="webwidget_password">"密码"</string>
+    <string name="webwidget_action">"登录"</string>
+    <string name="webwidget_sign_in">"登录"</string>
+    <string name="webwidget_cancel">"取消"</string>
+    <string name="webwidget_ok">"确认"</string>
+    <string name="webwidget_js_dialog_title">"JavaScript脚本"</string>
+    <string name="acl_access_message">允许小工具访问消息/邮件吗?</string>
+    <string name="acl_access_pim">允许小工具访问电话簿/日历吗?</string>
+    <string name="acl_access_av_control">允许小工具访问多媒体吗?</string>
+    <string name="acl_access_telephony">允许小工具访问通话功能吗?</string>
+    <string name="acl_access_device">允许小工具访问手机设备吗?</string>
+    <string name="acl_access_account">允许小工具访问个人帐户吗?</string>
+    <string name="acl_access_filesystem">允许小工具访问文件系统吗?</string>
+    <string name="acl_access_network">允许小工具访问网络吗?</string>
+    <string name="acl_access_application">允许小工具访问其他应用吗?</string>
+    <string name="acl_access_wifi">允许小工具访问WiFi吗?</string>
+    <string name="acl_access_bt">允许小工具访问蓝牙吗?</string>
+    <string name="acl_title">访问确认</string>
+    <string name="acl_btn_allow">允许</string>
+    <string name="acl_btn_deny">拒绝</string>
+    <string name="acl_access_denied">禁止访问</string>
+    
+    <string name="activity_picker_label">选择进程</string>
+    
+    <string name="snap_screen_nomore">没有更多</string>
+    <string name="add_screen_max">达到最大屏幕数</string>
+    <string name="remove_screen_min">至少保留1屏</string>  
+    <string name="add_one_screen">添加一屏</string>      
+    <string name="remove_one_screen">删除屏幕:</string>      
+    <string name="page_format">第 %1$s 屏</string>    
+
+    <string name="remove_screen_title">删除屏幕？</string>
+    <string name="remove_screen_ok">确定</string>  
+    <string name="remove_screen_cancel">取消</string>
+    
+    <string name="setting_title">首选项</string>
+    <string name="setting_default_screen">默认页面</string>
+    <string name="setting_default_screen_summary">设置默认显示页面</string>    
+    <string name="set_default_screen">设为默认</string>     
+    <string name="set_default_screen_hint">设置当前页面为默认页面</string>     
+    <string name="pref_delete_default_page_enable">允许删除前三页</string>
+   
+    <string name="pref_2d_enable">是否使用2D浏览所有应用</string>
+    
+    <string name="application_shortcut_title_unknown">未知应用</string>
+    <string name="in_of_space">选中一个屏幕</string>
+    
+    <!-- category -->
+    <string name="category_all">全部</string>
+    <string name="category_system">系统应用</string>
+    <string name="category_carrier">中国移动</string>
+    <string name="category_oem">厂商应用</string>
+    <string name="category_3rd">用户安装</string>
+    <string name="category_recentuse">最近使用</string>    
+    <string name="cate_edit_done">完成</string>   
+    <string name="category_noapp">没有%1$s</string>   
+    <string name="category_shortcut">快速启动</string>
+    <string name="remove_application_shortcut">删除此快捷方式？</string>
+    <string name="remove_application_shortcut_ok">确定</string> 
+    <string name="remove_application_shortcut_cancel">取消</string> 
+    <string name="app_entertainment">娱乐*</string>
+    <string name="app_information">通讯*</string>
+    <string name="app_tools">工具*</string>
+    <string name="app_game">游戏*</string>
+    <string name="app_shortcut">快捷</string>
+    <string name="click_switch_category_hint">点击底部选择分类</string>
+
+    <string name="qa_page_manager">屏幕管理</string>
+    <string name="qa_set_shortcuts">设置快速启动</string>
+    <string name="select_category_title">应用程序</string>
+    
+    <string name="noapps">本类别暂无应用</string>
+    <string name="app_exist">\"%1$s\"已经存在。</string>
+</resources>

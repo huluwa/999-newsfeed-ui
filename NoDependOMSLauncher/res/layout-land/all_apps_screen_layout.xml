@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.omshome.AllAppsScreenLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/all_apps_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+          
+    <include android:id="@+id/top_bar"  layout="@layout/all_apps_top_categorybar" />
+
+    <com.android.omshome.AllAppsScreen android:id="@+id/all_apps_screen"
+        android:tag="all_apps_screen"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/top_bar"
+        android:nextFocusDown="@+id/all_apps_2d_home"
+        android:nextFocusUp="@null"
+        android:nextFocusLeft="@null" 
+        android:nextFocusRight="@null"> 
+          <include layout="@layout/all_apps_screen" /> 
+   </com.android.omshome.AllAppsScreen>
+        
+   <ProgressBar   
+         android:id="@+id/all_apps_load_bar"    
+         style="?android:attr/progressBarStyle" mce_style="?android:attr/progressBarStyle"  
+         android:layout_width="wrap_content"   
+         android:layout_height="wrap_content"  
+         android:layout_marginTop="@dimen/all_apps_load_bar_marginTop"
+         android:layout_marginLeft="@dimen/all_apps_load_bar_marginLeft"
+         android:visibility="gone"   
+         />  
+          
+     <include layout="@layout/allapps_bottom_style_oms25"  />
+     <!-- RelativeLayout 
+        android:id="@+id/all_apps_bottom_layout"
+        android:layout_width="51dp"
+        android:layout_height="fill_parent"
+		android:layout_alignParentRight="true">
+		    <com.android.omshome.PageIndicatorView
+		        android:id="@+id/all_apps_page_indicator"
+		        android:layout_width="fill_parent"
+		        android:layout_height="@dimen/bottom_right_btn_length"
+		        android:background="@drawable/bottom_right_btn_bg"
+		        android:src="@drawable/ic_shortcut_btn_normal"
+		        android:focusable="true"
+		        android:clickable="true" />
+		        
+		    <ImageView
+		        android:id="@+id/all_apps_call"
+		       android:layout_width="fill_parent"
+		        android:layout_height="@dimen/bottom_center_btn_length"
+		        android:src="@drawable/cmcc_home_bottom_icon_call"
+		        android:background="@drawable/bottom_center_btn_bg"
+				android:layout_below="@id/all_apps_page_indicator"
+		        android:focusable="true"
+		        android:clickable="true"/>
+
+		    <ImageView
+		        android:id="@+id/all_apps_screen_home"
+		        android:tag="all_apps_screen_home"
+		       android:layout_width="fill_parent"
+		        android:layout_height="@dimen/bottom_left_btn_length"
+		        android:background="@drawable/bottom_left_btn_bg"
+		        android:src="@drawable/home_button_normal" 
+				android:layout_below="@id/all_apps_call"
+		        android:focusable="true"
+		        android:clickable="true"/>
+		
+		   <com.android.omshome.IndicatorWithMissCallNumberView
+		        android:id="@+id/all_apps_misscall_count_iv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="@dimen/misscall_marginTop"
+		        android:visibility="gone"/>	
+		        
+	<com.android.omshome.PageIndicatorLineStyleView 
+		   android:id="@+id/all_apps_page_line_indicator"
+		   android:layout_width="6dp"
+		   android:layout_height="0dp"
+		   android:background="@drawable/page_indicator"/>
+    </RelativeLayout-->
+
+</com.android.omshome.AllAppsScreenLayout>
