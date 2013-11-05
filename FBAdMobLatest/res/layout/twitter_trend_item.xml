@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"                
+                android:minHeight="40px">
+
+    
+   <TextView android:id="@+id/trend_publish_text"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:paddingLeft="10dip"                      
+                      android:linksClickable="false"
+                      android:textAppearance="?android:attr/textAppearanceSmall"
+                      android:layout_weight="1"
+                      android:textStyle="bold"
+                      android:textColor="#4277bb"
+				      android:textSize="22dip"        
+				      android:maxLines="1"
+				      android:gravity="center_vertical|left"			            
+				      android:shadowDy="1.0"		
+                      />
+</RelativeLayout>
+                      

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <PreferenceCategory  android:title="@string/pref_facebook_notification_general_setting" >
+               <CheckBoxPreference
+                android:key="key_facebook_notification_enable"    
+                android:title="@string/pref_facebook_notification_enable"
+                android:singleLine="false" />
+                                
+                <ListPreference  android:key="key_facebook_notification_list"
+                            android:title="@string/facebook_notification_list_title"
+                            android:summary="@string/facebook_notification_summary"
+                            android:entries="@array/entries_notification_list_preference"
+                            android:defaultValue="60"
+                            android:entryValues="@array/entryvalues_notification_list_preference"
+                            android:dialogTitle="@string/facebook_notification_list_title" />
+                         
+               <CheckBoxPreference
+                android:key="key_facebook_notification_vibrate"    
+                android:title="@string/pref_facebook_notification_vibrate"            
+                android:summary="@string/pref_facebook_notification_vibrate_desc"
+                android:singleLine="false" />
+               
+               <!-- 
+                <CheckBoxPreference
+                android:key="key_facebook_notification_led"    
+                android:title="@string/pref_facebook_notification_led"            
+                android:summary="@string/pref_facebook_notification_led_desc"
+                android:singleLine="false" />
+                -->
+     </PreferenceCategory>
+     <PreferenceCategory  android:title="@string/pref_facebook_notification_setting">
+               <CheckBoxPreference
+                android:key="key_facebook_notification_message_enable"    
+                android:title="@string/pref_facebook_notification_msg_enable"
+                android:singleLine="false"/>
+                
+                 <CheckBoxPreference
+                android:key="key_facebook_notification_poke_enable"    
+                android:title="@string/pref_facebook_notification_poke_enable"
+                android:singleLine="false"/>
+                
+                 <CheckBoxPreference
+                android:key="key_facebook_notification_reqeust_enable"    
+                android:title="@string/pref_facebook_notification_request_enable"
+                android:singleLine="false"/>
+                
+                 <CheckBoxPreference
+                android:key="key_facebook_notification_event_enable"    
+                android:title="@string/pref_facebook_notification_event_enable"
+                android:singleLine="false"/>
+                
+                 <CheckBoxPreference
+                android:key="key_facebook_notification_group_enable"    
+                android:title="@string/pref_facebook_notification_group_enable"
+                android:singleLine="false"/>                
+                
+     </PreferenceCategory>
+    
+    <PreferenceCategory  android:title="@string/pref_adv_setting">      
+    
+       <CheckBoxPreference
+                android:key="reset_default_key"    
+                android:title="@string/pref_extras_reset_default"
+                android:summary="@string/pref_extras_reset_default_summary"
+                android:singleLine="false"/>
+     <CheckBoxPreference
+                android:key="clear_cached_facebook_image_key"    
+                android:title="@string/pref_clear_facebook_image_cache_title"
+                android:summary="@string/pref_clear_facebook_image_cache_summary"
+                android:singleLine="false"/>
+                 
+      <CheckBoxPreference
+                android:key="key_facebook_sync_address_book"    
+                android:title="@string/sync_address_book"            
+                android:singleLine="true" />
+                
+      <CheckBoxPreference
+                android:key="key_allways_prompt_dialog"    
+                android:title="@string/is_allways_prompt_dialog"            
+                android:singleLine="true" />   
+                
+      <CheckBoxPreference
+                android:key="clear_fbinfo_key"    
+                android:title="@string/pref_clear_fbinfo_title"
+                android:summary="@string/pref_clear_fbinfo_summary"
+                android:singleLine="false"/>
+      <!-- 
+               <CheckBoxPreference
+                android:key="key_facebook_copy_to_email"    
+                android:title="@string/title_copy_to_email"            
+                android:singleLine="true" />
+                
+	           <CheckBoxPreference
+	            android:key="key_facebook_copy_new_msg_to_sms"    
+	            android:title="@string/title_copy_new_msg_to_sms"/>
+	      -->   
+	   
+	            
+	           <PreferenceScreen
+	            android:title="@string/pref_facebook_ext_permission"
+	            android:summary="@string/pref_facebook_ext_permission_desc">
+	            <intent android:action="android.intent.action.MAIN"
+	                android:targetPackage="com.msocial.freefb"
+	                android:targetClass="com.msocial.freefb.ui.FacebookPermSettingPreference" />
+	           </PreferenceScreen>   
+	     
+	           <PreferenceScreen
+	            android:title="@string/pref_facebook_view_category"
+	            android:summary="@string/pref_facebook_view_category_summary">
+	            <intent android:action="android.intent.action.MAIN"
+	                android:targetPackage="com.msocial.freefb"
+	                android:targetClass="com.msocial.freefb.ui.FacebookViewSettingPreference" />
+	          </PreferenceScreen>     
+	            
+              <CheckBoxPreference
+                android:key="key_show_title_bar"    
+                android:title="@string/pref_show_title_bar"        
+                android:summary="@string/pref_show_title_bar_desc" 
+                android:singleLine="false" />  
+                
+    </PreferenceCategory>
+    
+    <PreferenceCategory  android:title="@string/pref_facebook_sync_setting">
+      <CheckBoxPreference
+                android:key="key_facebook_show_use_logo"    
+                android:title="@string/title_show_use_logo"            
+                android:singleLine="true" />
+      <CheckBoxPreference
+                android:key="key_facebook_show_use_email"    
+                android:title="@string/title_show_use_email"            
+                android:singleLine="true" />
+      <CheckBoxPreference
+                android:key="key_facebook_show_use_birthday"    
+                android:title="@string/title_show_use_birthday"            
+                android:singleLine="true" />
+      <CheckBoxPreference
+                android:key="key_facebook_show_use_phonenumber"    
+                android:title="@string/title_show_use_phonenumber"            
+                android:singleLine="true" />
+      <CheckBoxPreference
+                android:key="key_facebook_sync_birthday_event"    
+                android:title="@string/title_sync_birthday_event"            
+                android:singleLine="true" />
+                   
+    </PreferenceCategory>
+    <!--      
+    <PreferenceCategory android:title="@string/pref_facebook_category">
+        <EditTextPreference android:key="key_facebook_accout" android:singleLine="true" android:inputType="textEmailAddress" />                
+        <EditTextPreference android:key="key_facebook_pwd" android:singleLine="true" />            
+    </PreferenceCategory>
+     -->
+    <!-- 
+    <PreferenceCategory  android:title="@string/pref_proxy_setting">
+         <PreferenceScreen
+                android:title="@string/pref_sns_proxy_title"
+                android:summary="@string/pref_sns_proxy_summary">
+                <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.msocial.nofree"
+                    android:targetClass="com.msocial.nofree.ui.ProxySettingPreference" />
+         </PreferenceScreen>        
+    </PreferenceCategory> 
+    -->
+    
+     <PreferenceCategory  android:title="@string/pref_facebook_help_setting">
+                <PreferenceScreen                
+                    android:title="@string/pref_facebook_help_tips_setting"
+                    android:summary="@string/pref_facebook_help_tips_summary_setting">
+                    <intent android:action="android.intent.action.MAIN"
+                        android:targetPackage="com.msocial.nofree"                        
+                        android:targetClass="com.msocial.nofree.ui.AboutActivity"/>
+              </PreferenceScreen>   
+              
+      </PreferenceCategory>
+      
+     <PreferenceCategory  android:title="@string/pref_facebook_other_setting">
+          <!-- 
+          <CheckBoxPreference
+                android:key="key_facebook_show_on_homescreen"    
+                android:title="@string/title_show_on_homescreen"            
+                android:singleLine="true" />
+          -->      
+          <CheckBoxPreference
+                android:key="key_facebook_upload_photo_size"    
+                android:title="@string/title_upload_photo_size"            
+                android:singleLine="true" />
+	     <CheckBoxPreference android:key="key_facebook_use_https_connection"             
+	                android:singleLine="true" />      
+	                
+	     <CheckBoxPreference
+	            android:key="key_facebook_allways_enable"                
+	            android:singleLine="false"
+	            android:inputType="textPassword" />
+	     <CheckBoxPreference
+	         android:key="key_facebook_permanent_session_enable"                
+	         android:singleLine="true" />
+     </PreferenceCategory>    
+     
+
+</PreferenceScreen>

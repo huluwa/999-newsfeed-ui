@@ -1,0 +1,41 @@
+:wq!
+
+D/RestPostMethod(22739): <stream_get_response xmlns="http://api.facebook.com/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://api.facebook.com/1.0/ http://api.facebook.com/1.0/facebook.xsd">
+D/RestPostMethod(22739):   <posts list="true">
+D/RestPostMethod(22739):     <stream_post>
+
+
+   <comment_list list="true">
+D/RestPostMethod( 3739):           <comment>
+D/RestPostMethod( 3739):             <fromid>100001510724521</fromid>
+D/RestPostMethod( 3739):             <time>1336378926</time>
+D/RestPostMethod( 3739):             <text>How long will u stay in SY or DF?</text>
+D/RestPostMethod( 3739):             <text_tags list="true"/>
+D/RestPostMethod( 3739):             <id>1243563687_3228721277265_3267418</id>
+D/RestPostMethod( 3739):             <likes>0</likes>
+D/RestPostMethod( 3739):             <user_likes>0</user_likes>
+D/RestPostMethod( 3739):             <post_fbid>3228723877330</post_fbid>
+D/RestPostMethod( 3739):           </comment>
+D/RestPostMethod( 3739):           <comment>
+D/RestPostMethod( 3739):             <fromid>1243563687</fromid>
+D/RestPostMethod( 3739):             <time>1336379177</time>
+D/RestPostMethod( 3739):             <text>of course will be DF. I guess I will go to Haikou afterwards and finish my task assigned by my dad.</text>
+D/RestPostMethod( 3739):             <text_tags list="true"/>
+D/RestPostMethod( 3739):             <id>1243563687_3228721277265_3267422</id>
+D/RestPostMethod( 3739):             <likes>0</likes>
+D/RestPostMethod( 3739):             <user_likes>0</user_likes>
+D/RestPostMethod( 3739):             <post_fbid>3228730517496</post_fbid>
+D/RestPostMethod( 3739):           </comment>
+D/RestPostMethod( 3739):           <comment>
+D/RestPostMethod( 3739):             <fromid>100001510724521</fromid>
+D/RestPostMethod( 3739):             <time>1336379288</time>
+D/RestPostMethod( 3739):             <text>Oic~~ TTYL~ Bc now&gt;,&lt;</text>
+D/RestPostMethod( 3739):             <text_tags list="true"/>
+D/RestPostMethod( 3739):             <id>1243563687_3228721277265_3267426</id>
+D/RestPostMethod( 3739):             <likes>0</likes>
+D/RestPostMethod( 3739):             <user_likes>0</user_likes>
+D/RestPostMethod( 3739):             <post_fbid>3228734557597</post_fbid>
+D/RestPostMethod( 3739):           </comment>
+D/RestPostMethod( 3739):         </comment_list>
+D/RestPostMethod( 3739):       </comments>
+

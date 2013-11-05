@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/twitter_tweets_bg">       
+         <RelativeLayout
+            android:id="@+id/facebook_profile_span"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+             <ImageView android:id="@+id/twitter_img_ui"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"            
+                        android:layout_gravity="left"
+                        android:layout_alignParentLeft="true"                 
+                        android:background="#000000"/>
+                        
+             <TextView android:id="@+id/twitter_username"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"  
+                       android:layout_marginLeft="5dip"      
+                       android:layout_toRightOf="@+id/twitter_img_ui"            
+                       android:gravity="center_vertical"                               
+                       android:linksClickable="false"
+                       android:layout_weight="1"
+                       android:textAppearance="@style/sns_big_username"/>     
+                          
+   </RelativeLayout>  
+  
+   <ListView android:id="@+id/twitter_info_list"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:divider="@drawable/divider" 
+        android:paddingTop="10dip"
+        android:paddingLeft="5dip"    
+        android:layout_height="fill_parent" 
+        android:listSelector="@drawable/list_selector_background"
+        android:cacheColorHint="#00000000"
+        />
+              
+</LinearLayout>
